@@ -1,0 +1,105 @@
+\documentclass[8pt, landscape, fleqn]{scrartcl}
+\setlength{\parindent}{0pt}
+\usepackage[ngerman]{babel}
+\usepackage[applemac]{inputenc}
+\usepackage[dvips]{geometry}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{charter} %%% Schreibart
+%\renewcommand{\familydefault}{\sfdefault}
+
+
+
+%%%%%%%%%%Paket für Chemische Formeln
+\usepackage{chemformula} 
+\usepackage[version=3]{mhchem}
+%%%%%%%%%%%%%%%%% Farbe
+\usepackage{color}
+
+\pagestyle{plain}
+\typearea{20}
+\columnsep 30pt
+\columnseprule .4pt
+\setlength{\extrarowheight}{0.9em}
+
+\renewcommand{\arraystretch}{0.8}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth1.5pt
+width0.25\columnwidth\vspace*{1.2em}\Large\bfseries\rmfamily}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth0.75pt
+width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\vspace*{1.2em}\normalsize\bfseries\rmfamily}}
+\makeatother
+
+\newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\begin{document}
+\part*{\LARGE\textrm{Aeroelasticity $\hfill$ Xeno Meienberg}}
+\begin{multicols*}{3}
+
+\section*{Constants}
+\begin{itemize}
+\item Normdruck: $p_{ref} = 1 atm = 1.01325 \: bar$
+\item Normtemperatur: $T_{ref} = 298 \: K \approx 25^{\circ} \: C$
+\item Pferdest"arke:  $ 1 \: hp = 1 \: PS = 0.735 \: kW$
+\item Elementarladung:  $e=1.60219 \cdot 10^{-19} \:C$
+\item Faraday-Konstante: $F= N_A \cdot e = 96485.3 \frac{C}{mol} = \frac{A\cdot s}{mol}$
+\item ppm = parts per million: $1 \: ppm = 10^{-6}$
+\item Gaskonstante: $ \overline{R} = 8.314 \frac{J}{mol K}$, spez. -- $R = \frac{\overline{R}}{M} [\frac{J}{kg K}]$
+\end{itemize}
+
+
+\section*{Parameters}
+\begin{itemize}
+\item Aerodynamic Force $F_A$
+\item Aerodynamic Moment $M_A$
+\item Lift Coefficient $C_{l}=L/(1/2\rho V^2c)$
+\item Drag Coefficient $C_d = D/(1/2\rho V^2c)$
+\item Moment Coefficient $C_m = M_A/(1/2\rho V^2 c^2)$
+\item Angle of Attack $\alpha$ angle between connection leading and the trailing edge and reference line
+\item Lift curve slope $a = C_l / \alpha $
+\end{itemize}
+
+\section*{Steady Aerofoil and Wing Section Aerodynamics}
+
+\begin{itemize}
+    \item Aerofoil = 2-D wing section with goal to generate lift force perpendicular to the relative airspeed
+    \item Convention: Lift is up, Drag is in direction of windspeed and Aerodynamic moment in clockwise direction acting on the aerodynamic center. Aerodynamic center is normally at the quarter chord position $c_{m,c/4}$ for syymetric airfoils. $x_{ac} = -m_0/2\pi +0.25$ with $m_0$ as a shape constant 
+    \item Further assumptions: No viscosity, incompressible fluid, $Ma < 0.2,0.3$, no vortices, potential flow (Navier-Stokes)
+    \item Another centre is the shear center (elastic axis) from mechanics
+    \item $L = 1/2\rho V^2 c a \alpha$, with $a$ from tables (CFD and Wind Tunnel)
+    \item $M_a = 1/2\rho V^2c^2 c_{m \phi}$ with $c_{m \phi}$ also from tables
+\end{itemize}
+
+\subsection*{Lift curve $C_l(\alpha)$ and drag curve $C_d(\alpha)$}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+\end{multicols*}
+\end{document}
+
