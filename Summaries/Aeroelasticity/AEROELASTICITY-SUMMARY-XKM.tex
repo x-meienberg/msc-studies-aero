@@ -75,7 +75,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \begin{itemize}
 \item Aerodynamic Force $F_A$
 \item Aerodynamic Moment $M_A$
-\item Lift Coefficient $C_{l}=L/(1/2\rho V^2c)$
+\item Lift Coefficient $C_{l}=L/(1/2\rho V^2c) $
 \item Drag Coefficient $C_d = D/(1/2\rho V^2c)$
 \item Moment Coefficient $C_m = M_A/(1/2\rho V^2 c^2)$
 \item Angle of Attack $\alpha$ angle between connection leading and the trailing edge and reference line
@@ -115,9 +115,45 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \subsubsection*{Assessment of $C_l/\alpha$}
 
 \begin{itemize}
-    \item 
+    \item The linear part of the lift curve is characterised by the slope $a = C_l / \alpha(M) = \frac{C_l/\alpha_{M=0}}{\sqrt{1-M^2}}$
+    \item The Prandtl-Glauert factor is $1/\sqrt{1-M^2}$
+    \item The factor is depending on the Mach number. The slop increases with increasing $M$ (between $0$ and $1$)
+    \item The dependence on $Re$ is more subtle (p. 8)
 \end{itemize}    
 
+\subsection*{Extension to wing aerodynamics (p. 8)}
+
+Aerofoil dynamics (2D) refer to the previous topics, however the 3-D case can be also modeled by through a couple examples. A finite wing is less stable and efficient than the airfoil since the tips have vortices
+on at the wing tips. These ``induce'' a velocity, which locally reduces the angle of attack. An important parameter is the so called {\bf{Aspect Ratio} $AR = b^2/S$}. 
+If the wing is assumed to be of surface $S = b\cdot c$, it follows $AR = b/c$.
+
+\begin{itemize}
+    \item The lift curve can become a function of $AR$ if due to the different tips. Approximately, the lift slope $a_0$ is adjusted via 
+    following formula: 
+    \item $a = a_0 \frac{AR}{AR+4}$
+\end{itemize}
+
+\subsubsection*{Strip Theory (p.9)}
+
+\begin{itemize}
+    \item If $AS$ is very small (delta wings), the integral of multiple airfoils
+    \item Example, the wing is an elliptical $f(y) = \sqrt{1-(\frac{y}{b/2})^2} \cdot \overline{f}_{\phi}$
+    \item $f(y) = a \alpha c = C_l c$ with $c = $ chord length. 
+\end{itemize}
+
+\section*{Steady-state (static) Aeroelasticity}
+\subsection*{Typical Section}
+2-D problem with a rigid wing and 2 degrees of freedom (free rotation / pitch and plunge). We can have multiple typical sections. The pitch is modeled via a torsional string and the plunge via a longitudinal one.
+The idea is later on to model the torsional spring to be a torsional stiffness of a beam (since a real wing is actually a beam with a certain stiffness).
+
+\begin{itemize}
+    \item The torsion acts in a beam section on the shear centre, however in aeroelasticity on the elastic axis
+    \item The goal of engineering is alwayt to move the shear center to the front (comes with risk to thin out
+    the rear longeron and thicken the front longeron)
+    \item In equilibrium, we know that the aerodynamic forces are equal to the spring forces
+    \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$
+    \item 
+\end{itemize}
 
 
 \end{multicols*}
