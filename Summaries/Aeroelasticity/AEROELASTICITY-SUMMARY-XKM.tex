@@ -74,6 +74,8 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \section*{Parameters}
 \begin{itemize}
 \item Aerodynamic Force $F_A$
+\item Lift Force $L$
+\item Drag Force $D$
 \item Aerodynamic Moment $M_A$
 \item Lift Coefficient $C_{l}=L/(1/2\rho V^2c) $
 \item Drag Coefficient $C_d = D/(1/2\rho V^2c)$
@@ -152,8 +154,18 @@ The idea is later on to model the torsional spring to be a torsional stiffness o
     the rear longeron and thicken the front longeron)
     \item In equilibrium, we know that the aerodynamic forces are equal to the spring forces
     \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$
-    \item 
+    \item $L = $
 \end{itemize}
+
+\subsubsection*{How to solve typical sections}
+
+\begin{enumerate}
+    \item Check the number of DOF ($=$ size of problem and unknowns), which defines the matrices later
+    \item Define angles $\alpha$ (true angle of attack) and $\theta$ (elastic twist)
+    \item Define the measures $h$ (plunge) and $e$ (distance aerodynamic centre and elastic axis)
+    \item The pitching moment $M_t$ and the lift $L$ can be described on one hand as the response from the springs ($\alpha$ )
+    \item And on the other hand via the 
+\end{enumerate}
 
 
 \end{multicols*}
