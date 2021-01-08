@@ -59,30 +59,36 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \part*{\LARGE\textrm{Aeroelasticity $\hfill$ Xeno Meienberg}}
 \begin{multicols*}{3}
 
-\section*{Constants}
-\begin{itemize}
-\item Normdruck: $p_{ref} = 1 atm = 1.01325 \: bar$
-\item Normtemperatur: $T_{ref} = 298 \: K \approx 25^{\circ} \: C$
-\item Pferdest"arke:  $ 1 \: hp = 1 \: PS = 0.735 \: kW$
-\item Elementarladung:  $e=1.60219 \cdot 10^{-19} \:C$
-\item Faraday-Konstante: $F= N_A \cdot e = 96485.3 \frac{C}{mol} = \frac{A\cdot s}{mol}$
-\item ppm = parts per million: $1 \: ppm = 10^{-6}$
-\item Gaskonstante: $ \overline{R} = 8.314 \frac{J}{mol K}$, spez. -- $R = \frac{\overline{R}}{M} [\frac{J}{kg K}]$
-\end{itemize}
-
-
 \section*{Parameters}
 \begin{itemize}
-\item Aerodynamic Force $F_A$
-\item Lift Force $L$
-\item Drag Force $D$
-\item Aerodynamic Moment $M_A$
-\item Lift Coefficient $C_{l}=L/(1/2\rho V^2c) $
-\item Drag Coefficient $C_d = D/(1/2\rho V^2c)$
-\item Moment Coefficient $C_m = M_A/(1/2\rho V^2 c^2)$
-\item Angle of Attack $\alpha$ angle between connection leading and the trailing edge and reference line
+\item Aerodynamic Force $\overline{F_A} = \overline{L}+\overline{D}$
+\item Lift Force $L$ $[N]$
+\item Drag Force $D$ $[N]$
+\item Aerodynamic Moment $M_A$ $[Nm]$
+\item Dynamic Pressure $q = 1/2 \rho V^2$ (Bernoulli) $[Pa]$
+\item Chord Length $c$ $[m]$
+\item Surface Area $S = b\cdot c$ $[m^2]$ (Rectangular)
+\item Wing Span $b$ $[m]$ 
+\item Lift Coefficient $C_{l}=L/(1/2\rho V^2\cdot S) $
+\item Drag Coefficient $C_d = D/(1/2\rho V^2 \cdot S)$
+\item Moment Coefficient $C_m = M_A/(1/2\rho V^2 \cdot c \cdot S)$
+\item Angle of Attack $\alpha$ $[rad]$ (positive in clockwise direction)
 \item Lift curve slope $a = C_l / \alpha $
 \end{itemize}
+
+\section*{Sign Convention throughout Course}
+
+\section*{Mathematical Basics}
+
+\begin{itemize}
+    \item A = $\begin{pmatrix} a & b \\ c & d
+    \end{pmatrix}$
+    \item Inverse of Matrix (2D): $A^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a
+    \end{pmatrix}$
+    \item The solutions of $A x = 0$ for a matrix $A$, $x$ cannot be just the trivial solution if A is not invertible
+\end{itemize}
+
+
 
 \section*{Steady Aerofoil and Wing Section Aerodynamics}
 
@@ -114,7 +120,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \end{itemize}
 
 
-\subsubsection*{Assessment of $C_l/\alpha$}
+\subsubsection*{Assessment of $C_l/\alpha$ (Correction of value through Mach Number)}
 
 \begin{itemize}
     \item The linear part of the lift curve is characterised by the slope $a = C_l / \alpha(M) = \frac{C_l/\alpha_{M=0}}{\sqrt{1-M^2}}$
