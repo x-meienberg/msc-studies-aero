@@ -73,10 +73,19 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \item Drag Coefficient $C_d = D/(1/2\rho V^2 \cdot S)$
 \item Moment Coefficient $C_m = M_A/(1/2\rho V^2 \cdot c \cdot S)$
 \item Angle of Attack $\alpha$ $[rad]$ (positive in clockwise direction)
-\item Lift curve slope $a = C_l / \alpha $
+\item Lift curve slope $a = C_l / \alpha \approx tan(angle\,x-axis\,to\,curve)$
 \end{itemize}
 
-\section*{Sign Convention throughout Course}
+\section*{Conventions throughout Course}
+
+\begin{itemize}
+    \item If L and D absolute $\rightarrow$ use calculations above
+    \item If L and D per span unit $\rightarrow$ correct via dividing by $b$
+    \item Sign conventions: Lift positive, Drag positive in x and y direction
+    \item Moments and angles positive in clockwise direction
+    \item Our system coordinate system is defined by the wing. The angle of attack is defined relative to it
+    \item The variables which describe the airfoil motion are the pitch $\theta$ and the plunge $h$ which act at the shear centre of the wing
+\end{itemize}
 
 \section*{Mathematical Basics}
 
@@ -86,6 +95,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
     \item Inverse of Matrix (2D): $A^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a
     \end{pmatrix}$
     \item The solutions of $A x = 0$ for a matrix $A$, $x$ cannot be just the trivial solution if A is not invertible
+    \item $[rad] = \frac{\pi}{180} [deg]$
 \end{itemize}
 
 
@@ -97,8 +107,8 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
     \item Convention: Lift is up, Drag is in direction of windspeed and Aerodynamic moment in clockwise direction acting on the aerodynamic center. Aerodynamic center is normally at the quarter chord position $c_{m,c/4}$ for syymetric airfoils. $x_{ac} = -m_0/2\pi +0.25$ with $m_0$ as a shape constant 
     \item Further assumptions: No viscosity, incompressible fluid, $Ma < 0.2,0.3$, no vortices, potential flow (Navier-Stokes)
     \item Another centre is the shear center (elastic axis) from mechanics
-    \item $L = 1/2\rho V^2 c a \alpha$, with $a$ from tables (CFD and Wind Tunnel)
-    \item $M_a = 1/2\rho V^2c^2 c_{m \phi}$ with $c_{m \phi}$ also from tables
+    \item $L = 1/2\rho V^2 c a \alpha$, with $a$ from tables (CFD and Wind Tunnel) $[N/m]$
+    \item $M_A = 1/2\rho V^2c^2 c_{m0}$ with $c_{m0}$ also from tables $[N]$
 \end{itemize}
 
 \subsubsection*{Lift curve $C_l(\alpha)$ and drag curve $C_d(\alpha)$}
@@ -112,7 +122,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 
 \begin{itemize}
     \item The aerodynamic moment is much more important than drag $C_d$
-    \item $M_A$ varies with $\alpha$ in the small ranges of the angle of attack 
+    \item $M_A$ varies with $\alpha$ in the small ranges of the angle of attack (very small, p. 7)
     \item {\bf Important to note:} There exist a point at which the aerodynamic moment does not depend on $\alpha$. This is the the aerodynamic centre
     \item The aerodynamic centre is not the same as the centre of pressure, which is defined as the point where the aerodynamic moment is zero given a certain angle of attack $\alpha$
     \item Symmetric airfoils at $\alpha=0$ have no aerodynamic moment at all times ($M_A = 0 = const$). At the aerodynamic centre for symmetric foils results into no moment
@@ -139,18 +149,20 @@ If the wing is assumed to be of surface $S = b\cdot c$, it follows $AR = b/c$.
     \item The lift curve can become a function of $AR$ if due to the different tips. Approximately, the lift slope $a_0$ is adjusted via 
     following formula: 
     \item $a = a_0 \frac{AR}{AR+4}$
+    \item The values $a$ and $c_{m0}$ will hence be corrected with a $a^*$ and $c_{m0}^*$
 \end{itemize}
 
 \subsubsection*{Strip Theory (p.9)}
 
 \begin{itemize}
     \item If $AS$ is very small (delta wings), the integral of multiple airfoils
+    \item Define multiple airfoils stacked next to each other along the span $b$
     \item Example, the wing is an elliptical $f(y) = \sqrt{1-(\frac{y}{b/2})^2} \cdot \overline{f}_{\phi}$
     \item $f(y) = a \alpha c = C_l c$ with $c = $ chord length. 
 \end{itemize}
 
 \section*{Steady-state (static) Aeroelasticity}
-\subsection*{Typical Section}
+\subsection*{Typical Section = 1DOF model}
 2-D problem with a rigid wing and 2 degrees of freedom (free rotation / pitch and plunge). We can have multiple typical sections. The pitch is modeled via a torsional string and the plunge via a longitudinal one.
 The idea is later on to model the torsional spring to be a torsional stiffness of a beam (since a real wing is actually a beam with a certain stiffness).
 
@@ -161,6 +173,12 @@ The idea is later on to model the torsional spring to be a torsional stiffness o
     \item In equilibrium, we know that the aerodynamic forces are equal to the spring forces
     \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$
     \item $L = $
+\end{itemize}
+
+\subsection*{Static Instability or Divergence}
+
+\begin{itemize}
+    \item If the elastic twist would become 
 \end{itemize}
 
 \subsubsection*{How to solve typical sections}
