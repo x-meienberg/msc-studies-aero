@@ -73,7 +73,9 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \item Drag Coefficient $C_d = D/(1/2\rho V^2 \cdot S)$
 \item Moment Coefficient $C_m = M_A/(1/2\rho V^2 \cdot c \cdot S)$
 \item Angle of Attack $\alpha$ $[rad]$ (positive in clockwise direction)
-\item Lift curve slope $a = C_l / \alpha \approx tan(angle\,x-axis\,to\,curve)$
+\item Lift curve slope $a = C_{l/\alpha} \approx tan(angle\,x-axis\,to\,curve)$
+\item Pitch angle $\theta$ (Rotation w.r.t elastic axis)
+\item Lunge $h$ (Deflection of elastic axis parallel to lift)
 \end{itemize}
 
 \section*{Conventions throughout Course}
@@ -179,7 +181,8 @@ The idea is later on to model the torsional spring to be a torsional stiffness o
     \item In equilibrium, we know that the aerodynamic forces are equal to the spring forces
     \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$ (moment equations)
     \item Pitching moment $M_t$ acting on section with $k_\theta$ stiffness
-    \item $k_\theta \theta = qc (C_{l/a} e (\theta + \alpha_0)+c C_{m0})$ 
+    \item $k_\theta \theta = qc (C_{l/\alpha} e (\theta + \alpha_0)+c C_{m0})$ (Momentum Equation)
+    \item $k_h h = L = qcC_{l/\alpha } (\theta + \alpha_0)$ (Lift Equation)
 \end{itemize}
 
 \subsection*{Static Instability or Divergence}
@@ -263,7 +266,7 @@ According to the Hamilton's principle and Lagrange equations, we can define a se
 \end{itemize}
 
 
-\subsubsection*{Derivation for a beam section}
+\subsubsection*{Derivation for a beam section (mechanical part, torsion)}
 
 \begin{itemize}
     \item Torsional Strain Energy: $U = \frac{1}{2}\int_0^l GJ (\frac{\partial \theta}{\partial x})^2 dx$
@@ -280,10 +283,12 @@ According to the Hamilton's principle and Lagrange equations, we can define a se
     \item $\phi_i(x)$ are shape functions and $a_i$ are coefficients and the linear combination of those make up $\theta(x)$
     \item Finally, the overall equations result in $[K] \{a\} = \{f\}$ 
     \item $K_{i,j} = \int_0^l GJ \phi_{i_x} \phi_{j_x} dx = GJ \frac{\partial^2 U}{\partial a_i \partial a_j}$ (Stiffness matrix entries, partial derivatives w.r.t. to $x$ and $a$)
-    \item $[K] = GJ \int_0^l [\Phi_x]^T[\Phi_x] dx $
+    \item $[K] = GJ \int_0^l [\Phi_x]^T[\Phi_x] dx$
     \item $f_i = \int_0^l m(x) [\Phi]_i(x) dx$ (index $i$ for each element)
     \item $\{f\} = \int_0^l m(x) [\Phi]^T dx$ (in matrix form)
 \end{itemize}
+
+\subsubsection*{Derivation for a beam section (aerodynamic part, torsion)} 
 
 Following assumptions are drawn:
 
@@ -293,9 +298,33 @@ Following assumptions are drawn:
     \item External moments as before by aerodynamic forces: $m(x) = qcea(\theta(x)+\alpha_0)$
 \end{itemize}
 
-Replace all $\theta(x)$ with the above solutions
+Replace all $\theta(x)$ with the above solutions and insert insert $m(x)$ into generalised forces vector
 
-\subsubsection*{One single shape function (1-DOF)}
+\begin{itemize}
+    \item $\{f\} = q \int_0^l cea\alpha_0 [\Phi]^T dx + q \int_0^l cea [\Phi]^T [\Phi] dx \{a\}$
+    \item $\{f\} = \{f_0\} + q [K_A] $
+    \item $[K_A] = \int_0^l cea [\Phi]^T [\Phi] dx$
+    \item $\{a\} = ([K]-q[K_A])^{-1}\{f_0\}$ solves for all $a$
+    \item $a$ gives us the beam gives us the response of the system (pitch $\theta$ at all points along $x$)
+    \item Stability: $det([K]-q[K_A]) = 0$
+    \item Hence the basis of the solution of the eigenvalue problem
+    \item Eigenvalues $q$: Dynamic pressure where zero stability 
+    \item Eigenvectors: Corresponding divergence modes
+    \item Attention: $a \neq \{a\}$! (lift slope vs. coefficients)
+\end{itemize}
+
+\subsubsection*{One single shape function (1-DOF) and $[\Phi] = \phi(x)$}
+
+\begin{itemize}
+    \item $\theta(x) = a \cdot \phi(x)$ is one dimensional, we assume $a=1$ because we can define it within $\phi$
+    \item $U = \frac{1}{2} \int_0^l GJ \phi_x^2 dx$
+    \item $K = \int_0^l GJ \phi_x^2 dx = [K]_{torsion}$
+    \item $K_a = \int_0^l ce C_{l\alpha} \phi^2 dx$ ($C_{l\alpha} = a$ lift curve slope)
+    \item $f_0 = q \int_0^l c e C_{l\alpha} \alpha_0 \phi dx$
+    \item $(K-qK_a)a= f_0$
+    \item $a = f_0 / (K-qK_a)$ gives us the response by which $\theta$ is multiplied
+    \item $q_d = K/K_a$ gives us the divergence
+\end{itemize}
 
 
 
@@ -303,7 +332,60 @@ Replace all $\theta(x)$ with the above solutions
 
 \begin{itemize}
     \item For bending, the potential energy is: $U = \frac{1}{2}\int_0^l EI \psi^2_{xx} dx$
-    \item $\psi = $
+    \item $K = \int_0^l EI \psi_{xx}^2 dx = [K]_{bending} $
+    \item If we assume bending takes place and torsion as well, we assume both to be decoupled
+    \item The stiffness matrix reads
+    \item $ K = \begin{bmatrix}
+        [K]_{bending} & 0 \\
+        0 & [K]_{torsion}
+    \end{bmatrix}$ 
+    \item The aerodynamic stiffness matrix is of shape (always for bending and twisting):
+    \item $ K_a = \begin{bmatrix}
+        0 & \int_0^l c C_{l\alpha} \phi \psi dx \\
+        0 & \int_0^l ec C_{l\alpha} \psi^2 dx
+    \end{bmatrix}$
+    \item The vector $x$ includes the coefficients for the shape functions $\psi$ and $\phi$:
+    \item $x = (K-qK_a)^{-1} f$
+    \item $f = \begin{Bmatrix}
+        q \int_0^l c C_{l\alpha} \phi\psi dx \\
+        q \int_0^l c C_{l\alpha} \psi^2 dx
+    \end{Bmatrix}$
+    \item $det(K-qK_a) = 0 \Leftrightarrow$ then $q = q_{div}$
+\end{itemize}
+
+\subsubsection*{Shape functions}
+
+Shape functions have to be chosen. In FEA, shape functions are local for each finite element. 
+
+\begin{itemize}
+    \item Orthonormal modes: $\int \psi_i \psi_j dx = 0$ for different shape functions in $i$ and $j$
+    \item Simple polynomials are great shape functions $x/l$, $(x/l)^n$
+    \item Natural vibration modes or normal modes (eigenvectors of the problem): $K-\lambda M$ with $K$ the stiffness and $M$ the mass matrix (Important for dynamic systems later)
+\end{itemize}
+
+\subsubsection*{Bending / twisting coupling}
+
+In class multiple examples have been shown whereas following are the key takeaways:
+
+\begin{itemize}
+    \item Out of plane bending can exist if for example the shear centre and the principle axes (centre of gravity) are apart from each other significantly
+    \item The conventions for positive and negative $e$ eccentricities: positive if aerodynamic centre in front of shear centre and hence negative if the other way around
+    \item Positive e is detrimental for aeroelastic stability, negative is beneficial
+    \item Helicopter blades have D-spars to shift the elastic axis forward
+    \item Gurney flaps at the end of the wing with length $1\%$ of $c$ make the wing virtually longer 
+\end{itemize}
+
+\subsubsection*{Control effectiveness, typical section}
+
+Control effectiveness is described by following term:
+
+\begin{itemize}
+    \item $\frac{L_{elastic}}{L_{rigid}} = \frac{1-\frac{q}{q_r}}{1-\frac{q}{q_{div}}} = $ Control Effectiveness
+    \item $q_r = -q_{div}\frac{e}{c}\frac{C_{l\delta}}{C_{m\delta}}$ ($C_{m\delta}$ is negative!)
+    \item If the control effectiveness is zero, the aileron deflection does not contribute to more lift
+    \item If the control effectiveness is is negative, this means that $0 \leq q_r< q < q_{div}$
+    \item Possible goal: As close to $q_{div}$ and below $q_r$
+    \item Another solution: Outboard ailerons (less stiff due to smaller torsional stiffness) and inboard ailerons ($GJ/l$)
 \end{itemize}
 
 
