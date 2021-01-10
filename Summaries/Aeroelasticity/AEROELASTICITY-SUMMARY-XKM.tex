@@ -94,6 +94,12 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
     \end{pmatrix}$
     \item Inverse of Matrix (2D): $A^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a
     \end{pmatrix}$
+    \item Inverse of Matrix (3D): 
+        \subitem 1. det (A), then transpose A
+        \subitem 2. Find the ajunct matrix (minors) of
+        \subitem (cover row and column of element) of $A^T$ 
+        \subitem and multiply with +- matrix
+        \subitem $A^{-1} = 1/det(A)\cdot Adj(A^T)$
     \item The solutions of $A x = 0$ for a matrix $A$, $x$ cannot be just the trivial solution if A is not invertible
     \item $[rad] = \frac{\pi}{180} [deg]$
 \end{itemize}
@@ -163,38 +169,144 @@ If the wing is assumed to be of surface $S = b\cdot c$, it follows $AR = b/c$.
 
 \section*{Steady-state (static) Aeroelasticity}
 \subsection*{Typical Section = 1DOF model}
-2-D problem with a rigid wing and 2 degrees of freedom (free rotation / pitch and plunge). We can have multiple typical sections. The pitch is modeled via a torsional string and the plunge via a longitudinal one.
+2-D problem with a rigid wing. We can have multiple typical sections stacked onto each other, which would be later adding dimensionality to the variable $\theta$.
 The idea is later on to model the torsional spring to be a torsional stiffness of a beam (since a real wing is actually a beam with a certain stiffness).
 
 \begin{itemize}
     \item The torsion acts in a beam section on the shear centre, however in aeroelasticity on the elastic axis
-    \item The goal of engineering is alwayt to move the shear center to the front (comes with risk to thin out
+    \item The goal of engineering is always to move the shear center to the front (comes with risk to thin out
     the rear longeron and thicken the front longeron)
     \item In equilibrium, we know that the aerodynamic forces are equal to the spring forces
-    \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$
-    \item $L = $
+    \item $M_t + L \cdot e = \theta k_\theta = (q c^2 c_{m0}+ qca\theta e)\cdot b$ (moment equations)
+    \item Pitching moment $M_t$ acting on section with $k_\theta$ stiffness
+    \item $k_\theta \theta = qc (C_{l/a} e (\theta + \alpha_0)+c C_{m0})$ 
 \end{itemize}
 
 \subsection*{Static Instability or Divergence}
 
 \begin{itemize}
-    \item If the elastic twist would become 
+    \item If the elastic twist $\theta$ would become infinity for a given stiffness if the denominator of equation
+    \item $\theta = qc \frac{C_{l,a} e \alpha_0 + c C_{m,0}}{k_\theta - cqC_{l,a}e}$, $\theta = \infty \Leftrightarrow$ denominator = 0
+    \item If the dynamic pressure $q = \frac{k_\theta}{c C_{l,a}e} = q_{div} \rightarrow$ instable (divergence)
+    \item Divergence = Static Instability
+    \item $M_{tot} = (k_{\theta} -q Sae) \theta - qSa (e\alpha_0 + C_mc)$ (In equilibrium $M_{tot} = 0$) ($M_{tot} > 0$ if in anti-clockwise direction)
+    \item Different interpretation: $\frac{\partial M_{tot}}{\partial \theta} \geq 0 \Leftrightarrow $ increasing total moment in section for increasing $\theta$ $ \Leftrightarrow \Delta \theta > 0$
+    \item $\frac{\partial M_{tot}}{\partial \theta} \geq 0 \Leftrightarrow$ overall moment brings blade section back to original position
+    \item The divergent dynamic pressure can be found by differentiating w.r.t. $\theta$ 
 \end{itemize}
 
-\subsubsection*{How to solve typical sections}
+\subsubsection*{Lagrange Equation (Energy interpretation)}
+
+\begin{itemize}
+    \item $L = T-U$ (Kinetic and potential energy)
+    \item $\frac{d}{dt}\frac{\partial L }{\partial \dot{x}_i} - \frac{\partial L}{\partial x_i} = 0$
+    \item In statics: $\frac{\partial U}{\partial x_i} = 0$ (Potential energy conservative)
+    \item Here: $\frac{\partial U}{\partial x_i} = \frac{\partial}{\partial x}\frac{\delta W}{\delta x}$ (Virtual work), hence for $\theta$
+    \item $\frac{\partial U}{\partial \theta}= \frac{\partial}{\partial \theta}\frac{\delta W}{\delta \theta} = 0$ (Check for q)
+    \item Resulting $q$ provides the divergence
+    \item $U = 1/2\cdot k_\theta \theta^2 = \int F(\theta) d\theta$ (For system with only one spring)
+\end{itemize}
+
+\subsubsection*{Section with more than 1 DOF}
 
 \begin{enumerate}
-    \item Check the number of DOF ($=$ size of problem and unknowns), which defines the matrices later
-    \item Define angles $\alpha$ (true angle of attack) and $\theta$ (elastic twist)
-    \item Define the measures $h$ (plunge) and $e$ (distance aerodynamic centre and elastic axis)
-    \item The pitching moment $M_t$ and the lift $L$ can be described on one hand as the response from the springs ($\alpha$ )
-    \item And on the other hand via the 
+    \item Number of DOF = Dimensions of Stiffness Matrix and number of equations needed (full rank) $K$
+    \item Define a potential energy matrix for mechanical system $K_{i,j} = \frac{\partial U}{\partial x_i \partial x_j} = K_{j,i}$
+    \item Define aerodynamic matrix $K_a$ based on aerodynamic forces (independent on $e$ for example)
+    \item If a matrix is not symmetric = Non-conservative forces
+    \item Similar to before, instead of asking if the system is stable if the denominator is zero, we must know if the determinant of the transfer function is zero
+    \item Transfer Function: $[K-qK_a] = K_{ael} $ is `Aeroelastic K'
+    \item Find a q for which the transfer function determinant becomes zero, which is divergence dynamic pressure. The solution (forces acting) is the so called divergence mode
+    \item If all eigenvalues are $>0 \Leftrightarrow$ stable, if one is at least $<0 \Leftrightarrow$ unstable (for sections)
 \end{enumerate}
 
-\subsection*{Ritz Method (p. 18)}
+\subsubsection*{System (more than 1 section) with multiple DOF}
+
+\begin{itemize}
+    \item Define a system with multiple $\theta_i$, whereas the calculations become similar to when when calculating one section with multiple DOF
+    \item Make an Ansatz with the lagrange equations and define stiffness matrix K
+    \item The aerodynamic matrix becomes the identity matrix (if we only speak about $\theta$)
+    \item This implies that the solutions for $q$ are the eigenvalues of $K$
+\end{itemize}
+
+\subsubsection*{Comment on eigenvalues}
+
+\begin{itemize}
+    \item The eigenvalues of the Aeorelastic K $K_{ael}$ cannot guarantee that $q$ are always the eigenvalues, since $K_a$ is sometimes
+    non-symmetric (most of the times, only if rotational degrees of freedom present)
+    \item In general, following statement holds true: \newline $det(K - qK_a) = 0$
+    \item $det(K_a^{-1} K -qI) = det(A-\lambda I) = 0$ 
+    \item If A is not symmetric, we can say: There are less eigenvectors and values than the order (n), can be complex and come in complex conjugate pairs
+\end{itemize}
+
+\subsection*{Active conrol on sections}
+
+\begin{itemize}
+    \item With active control, the behaviour of the elastic twist $\theta$ can be controlled with for example a trailing edge flap
+    \item As described in the script, a trailing edge flap can influence the lift and the moment as follows:
+    \item $l = qc C_{l/\delta} \delta$, $m = qcC_{m/\delta} \delta$ ($C_{m/\delta} < 0$)
+    \item Both forces contribute to the overall moment, hence will be added to the calculations we did previously
+    \item With a so called `Gain' $G$, the controller controls $\delta$ proportional to $\theta$, hence a new linear equation system is formed
+    \item Assuming the nose-down motion of controlling the the edge flap, we have to simplify terms, the end result is 
+    \item $q_{div,flap}= \frac{k_\theta}{cae - Gca^*}$, with $a^* = -(cC_{m/\delta}+eC_{l/\delta})/(c\delta)$
+\end{itemize}
+
+\subsection*{Ritz Method}
 
 ... is a energy variational method whereas an equilibrium occurs in correspondence of an extreme of potential energy. A general application is the virtual work.
-According to the Hamilton's principle and Lagrange equations, we can define a set of equations
+According to the Hamilton's principle and Lagrange equations, we can define a set of equations.
+
+\begin{itemize}
+    \item $\frac{\partial V}{\partial x_i} = 0$ for all $i$ ($x_i$ degrees of freedom)
+    \item From mechanics, we need the bending stiffness ($I$) and the torsional stiffness ($J$)
+    \item $I = 1/12*b*h^3$ (w.r.t $x$) and $J = \frac{4 A^2}{\int ds/t}$ (Integral is perimeter (Umfang) divided by thickness)
+\end{itemize}
+
+
+\subsubsection*{Derivation for a beam section}
+
+\begin{itemize}
+    \item Torsional Strain Energy: $U = \frac{1}{2}\int_0^l GJ (\frac{\partial \theta}{\partial x})^2 dx$
+    \item Given aerodynamic forces are non-conservative, we use the concept of virtual work
+    \item $\delta U = \delta W$ (Virtual work due to non-conservative forces)
+    \item $\sum_{i=1}^n \frac{\partial U}{\partial x_i} \delta x_i = \sum_{i=1}^n \delta W_i$ (reformulated for small variations of one DOF)
+    \item $\frac{\partial U}{\partial x_i} - \frac{\delta W}{\delta x_i} = 0$ (reformulated)
+    \item The work done by the external forces (aerodynamic) can be rewritten:
+    \item $\delta W = \int_0^l m(x) \delta \theta(x) dx$ 
+    \item $m(x)$ generated by aerodynamic forces
+    \item Without going into further detail, there are 2 distinct cases from which one has to go on in the calculation, either the functions are given in a generalised form or in matrix form
+    \item $\theta(x) = \sum_{i=1}^N \phi_i(x)a_i = [\Phi] \{a\}$
+    \item $[\Phi]$ is a row vector with elements $\phi_i$!
+    \item $\phi_i(x)$ are shape functions and $a_i$ are coefficients and the linear combination of those make up $\theta(x)$
+    \item Finally, the overall equations result in $[K] \{a\} = \{f\}$ 
+    \item $K_{i,j} = \int_0^l GJ \phi_{i_x} \phi_{j_x} dx = GJ \frac{\partial^2 U}{\partial a_i \partial a_j}$ (Stiffness matrix entries, partial derivatives w.r.t. to $x$ and $a$)
+    \item $[K] = GJ \int_0^l [\Phi_x]^T[\Phi_x] dx $
+    \item $f_i = \int_0^l m(x) [\Phi]_i(x) dx$ (index $i$ for each element)
+    \item $\{f\} = \int_0^l m(x) [\Phi]^T dx$ (in matrix form)
+\end{itemize}
+
+Following assumptions are drawn:
+
+\begin{itemize}
+    \item Elastic axis is perfectly straight
+    \item Aerodynamic center of all sections on a straight line
+    \item External moments as before by aerodynamic forces: $m(x) = qcea(\theta(x)+\alpha_0)$
+\end{itemize}
+
+Replace all $\theta(x)$ with the above solutions
+
+\subsubsection*{One single shape function (1-DOF)}
+
+
+
+\subsubsection*{One single shape function, Bending and Twisting}
+
+\begin{itemize}
+    \item For bending, the potential energy is: $U = \frac{1}{2}\int_0^l EI \psi^2_{xx} dx$
+    \item $\psi = $
+\end{itemize}
+
+
 \end{multicols*}
 \end{document}
 
