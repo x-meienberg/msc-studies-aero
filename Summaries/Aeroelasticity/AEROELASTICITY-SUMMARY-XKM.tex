@@ -143,8 +143,9 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \begin{itemize}
     \item The linear part of the lift curve is characterised by the slope $a = C_l / \alpha(M) = \frac{C_l/\alpha_{M=0}}{\sqrt{1-M^2}}$
     \item The Prandtl-Glauert factor is $1/\sqrt{1-M^2}$
-    \item The factor is depending on the Mach number. The slop increases with increasing $M$ (between $0$ and $1$)
+    \item The factor is depending on the Mach number. The slope increases with increasing $M$ (between $0$ and $1$)
     \item The dependence on $Re$ is more subtle (p. 8)
+    \item In supersonic regimes, the aerodynamic centre is shifted towards the back (more stability) however $C_{l/\alpha}$ decreases
 \end{itemize}    
 
 \subsection*{Extension to wing aerodynamics (p. 8)}
@@ -235,7 +236,7 @@ The idea is later on to model the torsional spring to be a torsional stiffness o
 \subsubsection*{Comment on eigenvalues}
 
 \begin{itemize}
-    \item The eigenvalues of the Aeorelastic K $K_{ael}$ cannot guarantee that $q$ are always the eigenvalues, since $K_a$ is sometimes
+    \item The eigenvalues of the Aeorelastic $K_{ael}$ cannot guarantee that $q$ are always the eigenvalues, since $K_a$ is sometimes
     non-symmetric (most of the times, only if rotational degrees of freedom present)
     \item In general, following statement holds true: \newline $det(K - qK_a) = 0$
     \item $det(K_a^{-1} K -qI) = det(A-\lambda I) = 0$ 
@@ -384,7 +385,8 @@ Control effectiveness is described by following term:
     \item $\frac{L_{elastic}}{L_{rigid}} = \frac{1-\frac{q}{q_r}}{1-\frac{q}{q_{div}}} = $ Control Effectiveness
     \item $q_r = -q_{div}\frac{e}{c}\frac{C_{l\delta}}{C_{m\delta}}$ ($C_{m\delta}$ is negative!)
     \item If the control effectiveness is zero, the aileron deflection does not contribute to more lift
-    \item If the control effectiveness is is negative, this means that $0 \leq q_r< q < q_{div}$
+    \item If the control effectiveness is is negative, this means that $0 \leq q_r< q < q_{div}$, the control system pushes the system
+    into the contrary direction of intended use
     \item Possible goal: As close to $q_{div}$ and below $q_r$
     \item Another solution: Outboard ailerons (less stiff due to smaller torsional stiffness) and inboard ailerons ($GJ/l$)
     \item The overall equations for future equations will be for equilibria:
@@ -461,18 +463,17 @@ Control effectiveness is described by following term:
     \item $y = Cx + Du$
     \item $x$ are state variables, $u$ are input variables and $y$ are output
     \item Aeroelastic System:
-    \item $m \ddot{z} + k_z z = $ some aerodynamic forces 
-    \item $I \ddot{\theta} + k\theta = $ some aerodynamic forces
+    \item $m \ddot{z} + k_z z = $ Mechanical force in lunge direction 
+    \item $I \ddot{\theta} + k\theta = $ Mechanical force in pitch direction
     \item In compact form:
-    \item $M \ddot{x} + C \dot{x} + K x = $ Forces/Moments
+    \item $M \ddot{x} + C \dot{x} + K x = $ Mechanical Forces $ = f = $Input
     \item Canonical Form:
-    \item $\dot{r} = A r + B u$ with $A = \begin{bmatrix}
-        0 & I \\-M^{-1} K & -M^{-1} C
-    \end{bmatrix}$
-    \item $y = C r + D u$ 
+    \item $A \dot{r} = g$
     \item $r = \begin{Bmatrix}
         x \\ \dot{x}
-    \end{Bmatrix}$
+    \end{Bmatrix}$  and $g = \begin{Bmatrix}
+        0 \\ M^{-1}f
+    \end{Bmatrix}$ 
     \item $r$ is of dimension $2n$ (twice the No. of DOF) and ordered such that the definition of $A$ is valid
     \item The roots of the characteristic polynomial of $A$ tell us if the system is stable 
     \item The eigenvectors are the modes of the system and the response of the system is a linear combination of these nodes
@@ -481,14 +482,222 @@ Control effectiveness is described by following term:
         m & m x_{cg} \\ mx_{cg} & I + mx_{xg}^2
     \end{bmatrix}$ 
     \item $C = \begin{bmatrix}
-        c_z & 0 \\ 0 & c_\theta
+        c_z & 0 \\ 
+        0 & c_\theta
     \end{bmatrix}$
     \item $K = \begin{bmatrix}
-        k_z & 0  \\ 0 & k_{\theta} 
+        k_z & 0  \\ 
+        0 & k_{\theta} 
     \end{bmatrix}$
 \end{itemize}
 
-\subsubsection*{Quasi steady approach}
+\subsubsection*{Quasi-steady approach}
+
+Quasi-steady approaches take into account that the angle of attack changes due to the velocity component normal to the free stream direction
+
+\begin{itemize}
+    \item The aerodynamic equations for 2-DOF systems is in general:
+    \item $l(\theta,\dot{\theta},\dot{z}) = q c C_{l/\alpha} \left( \theta - \frac{\dot{z}}{V}+(c/2-e)\frac{\dot{\theta}}{V}\right)$
+    \item $m(\theta,\dot{\theta},\dot{z}) = l(\theta,\dot{\theta},\dot{z})\cdot e$
+    \item This aerodynamic forces hence modify the damping and stiffness matrices of the overall equations of motion:
+    \item $[C_a] = \frac{1}{V}c b C_{l/\alpha}\begin{bmatrix}
+        -1 & c/2-e\\
+        -e & e(c/2-e)
+    \end{bmatrix}$ 
+    \item $[K_a] = c C_{l/\alpha} \begin{bmatrix}
+        0 & 1   \\
+        0 & e
+    \end{bmatrix}$
+    \item For state vector $x = \begin{Bmatrix}
+        z           \\ 
+        \theta 
+    \end{Bmatrix}$
+    \item  The mechanical forces do not change, hence:
+    \item $[M_{ael}] = [M]$, $[C_{ael}] = [C] - q [C_a]$, and $[K_{ael}] = [K]-q [K_a]$
+    \item To check stability: Check eigenvalues of A from created from the matrices (dynamical)
+    \item $det(A-I\lambda) = det(-M^{-1} K - I\lambda) \overset{!}{=} 0$ From linear algebra
+    \end{itemize}
+
+\subsubsection*{Comment on Stability}
+    
+    \begin{itemize}
+        \item If a system is \emph{statically unstable}, it is also \emph{dynamically unstable}
+        \item If a system is \emph{dynamically unstable}, it must not be necessarily \emph{statically unstable}
+    \end{itemize} 
+
+Check first if following conditions hold true:
+
+    \begin{enumerate}
+        \item Static stability via determinant of $[K_{ael}]$ (if unstable, also dynamically unstable)
+        \item If statically stable, check if dynamically unstable (eigenvalues of A)
+        \item If both are stable, then overall stable at all times
+    \end{enumerate}
+
+ 
+\subsubsection*{Approach for different models than airfoil in quasi-steady approach}  
+
+\begin{itemize}
+    \item For a flapping wing with 1-DOF $\rightarrow$ model a high stiffness $k_z \rightarrow \infty$ and check response
+    \item For a helicopter, we have contributions from a 2-DOF model (pitching $\theta$ and flapping $\beta$)
+    \item Additionally, the velocity V is a function of the blade's radius ($V(r) = \Omega r$, sometimes $\omega$)
+    \item The angle of attack is hence $\alpha = \theta - \dot{\beta} / \Omega $
+    \item Derivation: $\frac{\dot{\beta}r}{V} = \frac{\dot{\beta} r}{\Omega r}$ and $q(r) = \frac{1}{2}\rho V^2 = \frac{1}{2} \rho \Omega^2 r^2$
+    \item The aerodynamic forces can be calculated first as a function of $r$
+    \item $l(r) = q(r) c C_{l/\alpha} \left( \theta - \dot{\beta}/\Omega \right)$ with $l = [N/m]$
+    \item $m(r) = l(r) \cdot e $
+    \item The overall moments have to be integrated over the whole radius (span) for the momentum contributions from flapping and pitching
+    \item Eqution of motion:
+    \item $I_\beta \ddot{\beta} + I_\beta \Omega^2 \beta = M_{\beta}^{aero}$ with centrifugal force (par. axis)
+    \item $I_\theta \ddot{\theta} + k_\theta \theta = M_{\theta}^{aero}$ as usual
+    \item $M_{\beta}^{aero} = \int_0^R l(r) \cdot \emph{r} dr = \frac{1}{8} c C_{l/\alpha} \Omega^2 R^4 \left( \theta - \frac{\dot{\beta}}{\Omega} \right)$
+    \item $M_{\theta}^{aero} = \int_0^R m(r) \cdot dr = \frac{1}{6} ec C_{l/\alpha} \Omega^2 R^3 \left( \theta - \frac{\dot{\beta}}{\Omega} \right)$ 
+    \item Natural frequency is $\omega = \sqrt{K/M} = \sqrt{I_\beta\Omega^2/I_\beta} = \Omega$
+    \item Reduced frequency is $ k = \frac{\omega c}{2 V} = \frac{c}{2r}$ in this case
+    \item The reduced frequency checks corrects the natural frequency by the ratio between the half-chord and the velocity, making it dimensionless
+\end{itemize}
+
+\section*{Unsteady Aerodynamics}
+
+\subsubsection*{Important Parameters for Unsteady Aerodynamics}   
+
+\begin{itemize}
+    \item The natural frequency $\omega$ is the the \emph{highest eigenfrequency} of the system which can be excited in a given situation
+    \item The reduced frequency $k$ is a dimenionless frequency and used in the frequency domain
+    \item If $k<0.05 \rightarrow$ quasi-steady approach
+    \item If $k>0.05 \rightarrow$ unsteady approach
+    \item The reduced time $\tau = t \frac{2V}{c}$ is a dimensionless time used to describe transient phenomena in the time domain
+    \item Critical damping $\overline{c} = 2 \sqrt{M K}$
+    \item Damping ratio $\zeta = C / \overline{c}$
+    \item Unsteady aerodynamics: The reduced frequency measures the unsteadiness of aerodynamics: Air is not able to adjust instantly to a change in $\alpha$
+\end{itemize}
+
+\subsubsection*{Dynamic Systems in the Frequency Domain}
+
+    \begin{itemize}
+        \item In Fourier space $F(\omega)$:
+        \item $x = X e^{i\omega t}$,  $y = Y e^{i \omega t}$ and $u = U e^{i \omega t}$
+        \item $X = (i\omega I - A)^{-1} B U$
+        \item $Y = C((i\omega I -A)^{-1}B + D ) U = H(\omega) U$
+        \item We can define Transfer Functions = Operators for the structure and for the aerodynamics:
+        \item $H_S(\omega) = -\omega^2 m + k_z = -\omega^2 [M] + [K]$
+        \item $H_A(\omega) = i\omega q c_a + q k_a = i\omega q [C_a] + q [K_a]$
+        \item $Z = (H_S - H_A)^{-1} F_z(\omega)$ 
+        \item mapping the input $F_z$ (aero forces, disturbances) to the output $Z$ (state variable) from before. 
+    \end{itemize}
+
+ \subsubsection*{Example for frequency domain "Flying Door"}
+ 
+    \begin{itemize}
+        \item Assuming only flapping $\beta$ DOF:
+        \item The angle of attack $\alpha_G (t) = v_G(t)/V$ 
+        \item The angle of attack directly depends on the gust velocity normal to the free stream velocity
+        \item Same calculation as before in the example in quasi-steady approach where $\beta$ becomes the only variable
+    \end{itemize}
+
+ \subsubsection*{Modal Decomposition}   
+
+\begin{itemize}
+    \item Free vibrations of the system are solutions of the simple system:
+    \item $M \ddot{x} + K x = 0$
+    \item whereas the eigenvalues $\omega$ and eigenvectors $\Phi$ can be obtained
+    \item According to linear algebra, we can define new coordinates:
+    \item $r = \Phi x$ hence a coordinate transform gives us following equation:
+    \item $\Phi^T M \Phi \ddot{r} + \Phi^T M \Phi r = \Phi^T f = $ GAF
+    \item GAF are the Generalized Aerodynamic Forces (if only aero forces present in $f$)
+    \item The behavious of the system is given by a linear combination of its modes. For wings, we will consider
+    mainly two modes (torsion and bending), which we deem most important and hence the entire calculations are simplified
+    \item However, the main criteria of deciding which to keep and which not to keep are based on:
+    \item Frequency: Will certain oscillations be reached? Consider also multiple higher frequencies (for example during buffeting)
+    This is when shockwaves hit our system or we experience airflow separation
+    \item Modeshape: Certain modes must be within the system to represent something physical (Fuselage must be able to move) 
+    \item For problems of this type, we have to calculate the new matrices such that it has the same shape as in the beginning:
+    \item $\overline{M} = \Phi^T M \Phi$,  $\overline{K} = \Phi^T K \Phi$,  $\overline{f} = \Phi^T f$
+\end{itemize}
+
+\subsubsection*{Ritz Method for dynamic Systems}
+
+Since we have non-conservative forces, we have to write:
+
+    \begin{itemize}
+        \item $\frac{d}{dt} \frac{\partial L}{\partial \dot{x}} - \frac{\partial L}{\partial x} = \frac{\delta W}{\delta x}$
+        \item $\delta W = \int_0^b (l(y) \delta w + m(y) \delta \theta) dy$
+        \item The trial/shape functions are linear combinations with time depending weights
+        \item $w(y,t) = \sum \psi_i(y) a_i(t)$, $\theta(y,t) = \sum \phi_i(y) b_i(t)$
+        \item We can use static solutions, polynomials, normal modes or a combination
+    \end{itemize}
+
+\subsubsection*{Theodorsen (Unsteady Aerodynamics in frequency domain)}
+Unsteady aerodynamics stems from the fact that a delay is found for $C_{l/\alpha}$ if we change the angle of attack $\alpha$ very quick. The reason behind this is that the distribution of the airfield 
+has to adjust since the angle changes quickly in time (instationary airflow)
+\newline \newline We want to quantify \emph{aerodynamic lag and reduction of magnitude} by introducing some functions depending on reduced frequency $k$:
+
+    \begin{itemize}
+        \item $C(k) = \frac{H_1^{(2)}}{H_1^{(2)}(k) + i H_0^{(2)}(k)}$
+        \item Hankel functions of second kind are denoted as $H$ (on basis of Bessel functions)
+        \item We can use Theodorsen only for harmonic motions
+        \item $H_n^{(2)} = J_n(k)-i Y_n(k)$
+        \item We will use following simplification/approximation (Theodorsen Function):
+        \item $C(k) = 1 - \sum_{j=1}^2 \frac{A_j}{1-B_j/(ki)}$  
+        \item Where we use them for the reduced frequency ($i$ imaginary)
+        \item Theodorsen follows from thin airflow theory and exploits ideal non-rotational aerodynamics (no viscosity and vortices)
+        \item The matrices are corrected via (in the frequency domain):
+        \item $[C_a] \rightarrow C(k) [C_a]$, $[K_a] \rightarrow C(k)[K_a]$
+        \item A system with following characteristic equation (2-DOF):
+        \item $\begin{Bmatrix}
+            L \\ M
+        \end{Bmatrix} = q [K_a] \begin{Bmatrix}
+            \alpha \\ h
+        \end{Bmatrix} + q [C_a] \begin{Bmatrix}
+            \dot{\alpha} \\ \dot{h}
+        \end{Bmatrix} + q [M_a] \begin{Bmatrix}
+            \ddot{\alpha} \\ \ddot{h}
+        \end{Bmatrix}$
+        \item $K_a = \overline{C_{l/\alpha}} S \begin{bmatrix}
+            C(k) & 0 \\ C(k)c(1/4-\gamma) & 0
+        \end{bmatrix}$
+        \item $C_a = \frac{\overline{C_{l/\alpha}} S}{V}  \begin{bmatrix}
+            c(\frac{1}{4}+ C(k)(\frac{1}{4}+\gamma)) & C(k) \\ -\frac{c}{4}(\frac{1}{4}+\gamma)+C(k)(\frac{1}{16}-\gamma^2) & C(k)c(\frac{1}{4}-\gamma)
+        \end{bmatrix}$
+        \item $M_a = \frac{\overline{C_{l/\alpha}} S c}{V^2} \begin{bmatrix}
+            c \gamma/4 & 1/4 \\ -c(1/32+\gamma^2) & -c\gamma/4
+        \end{bmatrix}$
+        \item $\gamma = 1/4-e/c$ 
+        \item $\gamma$ is the distance of the shear centre from the mid-chord point
+        \item $\overline{C_{l/\alpha}} = $ steady-state lift curve slope 
+        \item The aerodynamic damping and stiffness matrices are closely related to the steady-state case 
+        \item The aerodynamic mass matrix is the so-called ``\emph{added mass}'' which stem from the fluid's inertia 
+        \item Theodorsen function is mainly used for the frequency domain, not time domain (hence the interpretation of them being a correction of time domain system is misleading)
+    \end{itemize}
+
+ \subsubsection*{Analysis of unsteady aeroelastic systems}   
+
+ A system is unsteady: We excite the system by unsteady forces (forced oscillations) or we model the system as unsteady in order to assess the dynamic stability
+
+ \begin{itemize}
+     \item In time domain: We check the response to a given excitation, through dynamic stability, ABCD Matrices, Numerical (Direct time integration) with response in unsteady excitation or canocial inputs 
+     \item In frequency domain: Same as time domain, however later through transfer function from ABCD, poles form the transfer function and excitation response in frequency domain
+ \end{itemize}
+
+ Unsteady aerodynamics: We correct the quasi steady formulation with Theodorsen, in time domain there is another formulation, the so called Wagner function
+
+ \subsubsection*{Wagner function}
+
+ In practice, the response depends on the Aspect Ratio $AR$, the $Ma$ Mach number. We assume the behaviour as follows:
+
+ \begin{itemize}
+     \item $C_l \approx C_{l/\alpha} \Delta \alpha (1- A_1 e^{-B_1 \tau} - A_2 e^{-B_2 \tau})$
+     \item $A_1 = 0.165$ and $A_2 = 0.335$ 
+     \item $B_1 = 0.0455$ and $B_2 = 0.3$
+     \item The solution of a differential equation:
+     \item $\dot{y} = -B y$ with initial condition $y(0) = A$
+     \item The corresponding system:
+     \item $\frac{dy_1}{dt} = -2V/c B_1 y_1+\alpha(t)$ with b.c. $y_1(0) = A_1$
+     \item $\frac{dy_2}{dt} = -2V/c B_2 y_2+\alpha(t)$ with b.c. $y_2(0) = A_2$
+     \item $C_l(t) = \overline{C_{l/\alpha}} (2V/c)(A_1B_1y_1 + A_2B_2y_2)$ \\ with steady-state lift curve slope $\overline{C_{l/\alpha}}$
+     \item Transfer Function in Laplace Domain:
+     \item $H(s) = \frac{(A_1B_1+A_2B_2)s + B_1B_2}{s^2+(B_1+B_2)s + B_1B_2}$
+     \item To derive $A_i$ and $B_i$, one does wind tunnel or numerical experiments und derive ``best values'' (= ROM or Reduced Order Model)
+ \end{itemize}
 
 
 \end{multicols*}
