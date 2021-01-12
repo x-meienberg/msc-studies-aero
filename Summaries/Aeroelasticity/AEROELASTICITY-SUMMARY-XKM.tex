@@ -646,11 +646,11 @@ has to adjust since the angle changes quickly in time (instationary airflow)
         \item $\begin{Bmatrix}
             L \\ M
         \end{Bmatrix} = q [K_a] \begin{Bmatrix}
-            \alpha \\ h
+            h \\ \alpha
         \end{Bmatrix} + q [C_a] \begin{Bmatrix}
-            \dot{\alpha} \\ \dot{h}
+            \dot{h} \\  \dot{\alpha}
         \end{Bmatrix} + q [M_a] \begin{Bmatrix}
-            \ddot{\alpha} \\ \ddot{h}
+            \ddot{h}  \\ \ddot{\alpha} 
         \end{Bmatrix}$
         \item $K_a = \overline{C_{l/\alpha}} S \begin{bmatrix}
             C(k) & 0 \\ C(k)c(1/4-\gamma) & 0
@@ -674,13 +674,13 @@ has to adjust since the angle changes quickly in time (instationary airflow)
  A system is unsteady: We excite the system by unsteady forces (forced oscillations) or we model the system as unsteady in order to assess the dynamic stability
 
  \begin{itemize}
-     \item In time domain: We check the response to a given excitation, through dynamic stability, ABCD Matrices, Numerical (Direct time integration) with response in unsteady excitation or canocial inputs 
+     \item In time domain: We check the response to a given excitation, through dynamic stability, ABCD Matrices, Numerical (Direct time integration) with response in unsteady excitation or canocial inputs and lastly the the flutter stabiltiy is given where the first value of q where the system diverges
      \item In frequency domain: Same as time domain, however later through transfer function from ABCD, poles form the transfer function and excitation response in frequency domain
  \end{itemize}
 
  Unsteady aerodynamics: We correct the quasi steady formulation with Theodorsen, in time domain there is another formulation, the so called Wagner function
 
- \subsubsection*{Wagner function}
+ \subsubsection*{Wagner function (Unsteady Aerodynamics in time Domain)}
 
  In practice, the response depends on the Aspect Ratio $AR$, the $Ma$ Mach number. We assume the behaviour as follows:
 
@@ -693,12 +693,30 @@ has to adjust since the angle changes quickly in time (instationary airflow)
      \item The corresponding system:
      \item $\frac{dy_1}{dt} = -2V/c B_1 y_1+\alpha(t)$ with b.c. $y_1(0) = A_1$
      \item $\frac{dy_2}{dt} = -2V/c B_2 y_2+\alpha(t)$ with b.c. $y_2(0) = A_2$
+     \item The states are artificial ``lag states'' which we introduce (like degrees of freedom )
+     \item We use as many as needed to approximate the response in the time domain (training data)
      \item $C_l(t) = \overline{C_{l/\alpha}} (2V/c)(A_1B_1y_1 + A_2B_2y_2)$ \\ with steady-state lift curve slope $\overline{C_{l/\alpha}}$
      \item Transfer Function in Laplace Domain:
      \item $H(s) = \frac{(A_1B_1+A_2B_2)s + B_1B_2}{s^2+(B_1+B_2)s + B_1B_2}$
      \item To derive $A_i$ and $B_i$, one does wind tunnel or numerical experiments und derive ``best values'' (= ROM or Reduced Order Model)
+     \item Wagner function and Theodorsen are 100\% consistent with each other (different domains)
  \end{itemize}
 
+ \subsubsection*{Flutter Tracking}
+    We search for the ``flutter dynamic pressure'' $q_f$, which is where the stability of the system is not given anymore. At first one has to find the eigenvalues and vectors as a function of $q$ and the frequencies in the system's modes
+    \begin{itemize}
+        \item To begin with
+    \end{itemize}
+ \subsection*{Windtunnel Testing}
+
+ \subsubsection*{Mathematical Appendix}
+
+    \begin{itemize}
+        \item $e^{[A]t} = T^{-1} e^{[D]t} T$ for the Matrix Exponential
+        \item $T$ is the basis of eigenvectors in the diagonal matrix $D$
+        \item $y(t) = C e^{At}x_0+ \int_0^t C e^{A(t-\tau)}Bu(\tau)d\tau + D u(t)$ (time-domain)
+        \item $Y(s) = \sum(s)U(s) = (C(sI-A)^{-1}B+D)U(s)$ (frequency domain)
+    \end{itemize}
 
 \end{multicols*}
 \end{document}
