@@ -513,7 +513,7 @@ Quasi-steady approaches take into account that the angle of attack changes due t
         \theta 
     \end{Bmatrix}$
     \item  The mechanical forces do not change, hence:
-    \item $[M_{ael}] = [M]$, $[C_{ael}] = [C] - q [C_a]$, and $[K_{ael}] = [K]-q [K_a]$
+    \item $[M_{ael}] = [M]$, $[C_{ael}] = - q [C_a]$, and $[K_{ael}] = [K]-q [K_a]$
     \item To check stability: Check eigenvalues of A from created from the matrices (dynamical)
     \item $det(A-I\lambda) = det(-M^{-1} K - I\lambda) \overset{!}{=} 0$ From linear algebra
     \end{itemize}
@@ -667,6 +667,7 @@ has to adjust since the angle changes quickly in time (instationary airflow)
         \item The aerodynamic damping and stiffness matrices are closely related to the steady-state case 
         \item The aerodynamic mass matrix is the so-called ``\emph{added mass}'' which stem from the fluid's inertia 
         \item Theodorsen function is mainly used for the frequency domain, not time domain (hence the interpretation of them being a correction of time domain system is misleading)
+        \item The matrices are now depending on $k$, hence the response can be different for different $k$'s
     \end{itemize}
 
  \subsubsection*{Analysis of unsteady aeroelastic systems}   
@@ -705,7 +706,20 @@ has to adjust since the angle changes quickly in time (instationary airflow)
  \subsubsection*{Flutter Tracking}
     We search for the ``flutter dynamic pressure'' $q_f$, which is where the stability of the system is not given anymore. At first one has to find the eigenvalues and vectors as a function of $q$ and the frequencies in the system's modes
     \begin{itemize}
-        \item To begin with
+        \item To begin with let's define the system matrix $A$:
+        \item $A = \begin{bmatrix}
+            0 & I \\ -M^{-1}(K-qK_a) & -M^{-1}(-qC_a)
+        \end{bmatrix} = A(q)$
+        \item The eigenvalues of $A$ and the modes (eigenvectors) are hence also depending on $q$ (or one could also vary $V$)
+        \item Two plots are created, where the eigenvalues (frequencies) are plotted against $V$ or $q$
+        \item For the real and imaginary part of the eigenvalues $Re(\lambda)$ and $Im(\lambda)$
+        \item If the real part of the eigenvalues become positive, the system reaches its flutter speed for a given $q_{f}$
+        \item On the imaginary axis, one can see that the eigenvalue associated to the diverging one is converging to another one (coalescence)
+        \item The other mode's real part becomes more negative
+        \item Both modes (associdated to the eigenvalues) are coupled (or start to interacti with each other). One becomes heavily damped, the other one becomes unstable
+        \item Stable modes dissipate energy into the flow
+        \item Unstable modes absorbs energy from the flow 
+        \item The overall energy of the system increases with $q$ due to the non-conservative aerodynamic forces
     \end{itemize}
  \subsection*{Windtunnel Testing}
 
