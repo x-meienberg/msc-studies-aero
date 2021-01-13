@@ -727,8 +727,29 @@ has to adjust since the angle changes quickly in time (instationary airflow)
 By introducing the centre of gravity, one can see that the kinetic energy of the system changes: 
 
 \begin{itemize}
-    \item 
+    \item $T= 1/2 \cdot m \dot{z}^2 + 1/2 \cdot I \dot{\theta}^2$ ($x_{cg} = $ shear centre)
+    \item $T = 1/2 \cdot m (\dot{z}+\dot{\theta} x_{cg})^2 + 1/2 \cdot I \dot{\theta}^2$ ($x_{cg} \neq $ shear centre)
+    \item The mass matrix will be therefore modified (when we differentiate w.r.t. to $\theta$ and $z$)
+    \item It follows that the bigger the changes in $z$ and $\theta$, the larger the effect of $M$ becomes on the entire system
+    \item Also from a heuristic point of view, if the centre of gravity is further in front to the wing, perturbations will cause the system to react and create moments such that the system becomes unstable
 \end{itemize}
+
+\subsubsection*{Effect of Spring Positions}
+
+When placing the springs at to different positions with the longitudinal spring being placed by $e_1$ in front of the shear centre (where the torsional spring lies), then we can say that:
+
+    \begin{itemize}
+        \item The potential energy is effected, which is different to the case of before with the centre of gravity
+        \item $U = 1/2 k_z z^2 + 1/2 k_\theta \theta^2$
+        \item with shear centre and longitudinal spring on top of each other
+        \item $U = 1/2 k_z (z+e_1 \theta)^2 + 1/2 k_\theta \theta^2$
+        \item while the long. spring is in front shifted by $e_1$
+        \item $K = \begin{bmatrix}
+            k_z & e_1\cdot k_z \\ e_1 \cdot k_z & k_\theta
+        \end{bmatrix}$
+        \item There will be an off-diagonal term, which indicates that for a positive change in $z$ located at the shear axis, that the AoA $\alpha$ becomes negative
+        \item This is favourable, since a positive bending is coupled to negative twisting (same case for the centre of gravity being shifted to the front)
+    \end{itemize}
 
 
  \subsection*{Windtunnel Testing}
