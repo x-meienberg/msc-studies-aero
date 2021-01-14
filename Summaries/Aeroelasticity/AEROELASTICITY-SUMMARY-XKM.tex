@@ -59,7 +59,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \part*{\LARGE\textrm{Aeroelasticity $\hfill$ Xeno Meienberg}}
 \begin{multicols*}{3}
 
-\section*{Parameters}
+\subsection*{Parameters}
 \begin{itemize}
 \item Aerodynamic Force $\overline{F_A} = \overline{L}+\overline{D}$
 \item Lift Force $L$ $[N]$
@@ -78,7 +78,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \item Lunge $h$ (Deflection of elastic axis parallel to lift)
 \end{itemize}
 
-\section*{Conventions throughout Course}
+\subsection*{Conventions throughout Course}
 
 \begin{itemize}
     \item If L and D absolute $\rightarrow$ use calculations above
@@ -87,9 +87,10 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
     \item Moments and angles positive in clockwise direction
     \item Our system coordinate system is defined by the wing. The angle of attack is defined relative to it
     \item The variables which describe the airfoil motion are the pitch $\theta$ and the plunge $h$ which act at the shear centre of the wing
+    \item bending = flapping, in-plane bending = lead-lagging (helicopter vocabulary)
 \end{itemize}
 
-\section*{Mathematical Basics}
+\subsection*{Mathematical Basics}
 
 \begin{itemize}
     \item A = $\begin{pmatrix} a & b \\ c & d
@@ -681,6 +682,12 @@ has to adjust since the angle changes quickly in time (instationary airflow)
 
  Unsteady aerodynamics: We correct the quasi steady formulation with Theodorsen, in time domain there is another formulation, the so called Wagner function
 
+ \begin{itemize}
+     \item We mostly add a time dependency into our system for the equations of motion by adding a non-conservative, signal input depending on time $t$:
+     \item $\alpha = \alpha_0 + \theta + \dot{\theta}/V + ... + w(t)/V$
+     \item $w(t)/V$ could be for example a gust of a magnitude $m$ at time $t$
+ \end{itemize}
+
  \subsubsection*{Wagner function (Unsteady Aerodynamics in time Domain)}
 
  In practice, the response depends on the Aspect Ratio $AR$, the $Ma$ Mach number. We assume the behaviour as follows:
@@ -753,6 +760,31 @@ When placing the springs at to different positions with the longitudinal spring 
 
 
  \subsection*{Windtunnel Testing}
+
+ \subsubsection*{Limit Cycles}
+
+    \begin{itemize}
+        \item Even though we can model systems with degrees of freedom as linear combinations of eigenvectors 
+        \item If the eigenvalues have positive real part, the eigenvectors diverge to infinity and are unstable
+        \item In the windtunnel however, this simple formulation cannot always be observed
+        \item Ther is a certain limit, from which on the oscillations become constant 
+        \item The reason for this stems from the following:
+        \begin{enumerate}
+            \item The system is no longer linear
+            \item Either the structural or aerodynamic non-linearity appear
+            \item For example, the torsional moment tends to vary proportionally to the first and third power of twist (instead of only first):
+            \item $M_t = k\theta + k_3 \theta^3$
+            \item At low $Re$ numbers, the aerodynamics becomes non-linear (the lift curve slope as well) and even can lower lift 
+            \item Also boundary layer separation can occur
+        \end{enumerate}
+        \item For so called $LCO$-curves, one can now say that at flutter speed (read on flight speed axis), instead of the LCO Amplitude going to infinity, the amplitude grows non-linearly
+        \item For strong nonlinearity, the LCO amplitude can converge to a certain value
+        \item \emph{In conclusion,} flutter is only the case where we describe the velocity or dynamic pressure when the stability is not given anymore
+        \item In the linear system, the amplitude of the mode diverges (flutter)
+        \item In the nonlinear system, the amplitude reaches a certain limit cycle (oscillating)
+        \item In dynamic systems with time delay, the system jumps after reaching flutter speed (unsteady systems), in steady or quasi-steady systems, they follow the nonlinear curve after reaching flutter speed instantaniously
+        \item When we throttle the system avoce flutter speed, it follows a similar curve to the instantanious one 
+    \end{itemize}
 
  \subsubsection*{Mathematical Appendix}
 
