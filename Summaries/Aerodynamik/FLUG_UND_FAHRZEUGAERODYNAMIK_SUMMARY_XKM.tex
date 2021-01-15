@@ -1,0 +1,86 @@
+\documentclass[8pt, landscape, fleqn]{scrartcl}
+\setlength{\parindent}{0pt}
+\usepackage[ngerman]{babel}
+%\usepackage[applemac]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{geometry}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{charter} %%% Schreibart
+%\renewcommand{\familydefault}{\sfdefault}
+
+
+
+%%%%%%%%%%Paket für Chemische Formeln
+\usepackage{chemformula} 
+\usepackage[version=3]{mhchem}
+%%%%%%%%%%%%%%%%% Farbe
+\usepackage{color}
+
+\pagestyle{plain}
+\typearea{20}
+\columnsep 30pt
+\columnseprule .4pt
+\setlength{\extrarowheight}{0.9em}
+
+\renewcommand{\arraystretch}{0.8}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth1.5pt
+width0.25\columnwidth\vspace*{1.2em}\Large\bfseries\rmfamily}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth0.75pt
+width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\vspace*{1.2em}\normalsize\bfseries\rmfamily}}
+\makeatother
+
+\newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\begin{document}
+\part*{\LARGE\textrm{Einführung in die Flug und Fahrzeugaerodynamik $\hfill$ Xeno Meienberg}}
+\begin{multicols*}{3}
+
+\subsection*{Parameters}
+\begin{itemize}
+\item Aerodynamic Force $\overline{F_A} = \overline{L}+\overline{D}$
+\item Lift Force $L$ $[N]$
+\item Drag Force $D$ $[N]$
+\item Aerodynamic Moment $M_A$ $[Nm]$
+\item Dynamic Pressure $q = 1/2 \rho V^2$ (Bernoulli) $[Pa]$
+\item Chord Length $c$ $[m]$
+\item Surface Area $S = b\cdot c$ $[m^2]$ (Rectangular)
+\item Wing Span $b$ $[m]$ 
+\item Lift Coefficient $C_{l}=L/(1/2\rho V^2\cdot S) $
+\item Drag Coefficient $C_d = D/(1/2\rho V^2 \cdot S)$
+\item Moment Coefficient $C_m = M_A/(1/2\rho V^2 \cdot c \cdot S)$
+\item Angle of Attack $\alpha$ $[rad]$ (positive in clockwise direction)
+\item Lift curve slope $a = C_{l/\alpha} = C_{l} / \alpha \approx tan(angle\,x-axis\,to\,curve)$
+\item Pitch angle $\theta$ (Rotation w.r.t elastic axis)
+\item Lunge $h$ (Deflection of elastic axis parallel to lift)
+\end{itemize}
+
+über
+
+\end{multicols*}
+\end{document}
+
