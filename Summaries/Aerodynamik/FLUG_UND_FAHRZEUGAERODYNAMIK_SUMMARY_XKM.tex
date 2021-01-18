@@ -57,7 +57,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 
 \newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
 \begin{document}
-\part*{\LARGE\textrm{Einführung in die Flug und Fahrzeugaerodynamik $\hfill$ Xeno Meienberg}}
+\part*{\LARGE\textrm{Einführung in die Flug- und Fahrzeugaerodynamik $\hfill$ Xeno Meienberg}}
 \begin{multicols*}{3}
 
 \section{Flugtechnik}
@@ -408,12 +408,106 @@ Bester Gleitwinkel $(c_A/c_W)_{max}$
     \item $k_s = 6\cdot 10^{-3} mm$ - Farboberfläche, glänzend
     \item $k_s = 0.01-0.03 mm$ - Tarnfarbe, unpoliert
     \item $k_s = 0.15 mm$ - Metalloberfläche, galvanisierend
+\end{itemize}
+Rauhigkeitsbereiche:
+\begin{itemize}
+    \item $\frac{u_\tau k_s}{\nu} < 5$ hydraulisch glatt
+    \item $5 <\frac{u_\tau k_s}{\nu} < 70$ Übergangsbereich
+    \item $\frac{u_\tau k_s}{\nu} > 70$ rauh 
+\end{itemize}
+Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
+\begin{itemize}
+    \item laminare GS: $k_{s,zul} \leq 15 \frac{u_\tau}{\nu} = k_{s,krit} = 26.03 \frac{\nu \sqrt[4]{Re_x}}{V}$
+    \item turbulente GS: $k_{s,zul} < 100 \frac{\nu}{V} = 100 \frac{l}{Re}$
     \item $c_f = (1.89 + 1.62 \log(\frac{1}{k_s}))^{-2.5}$ für $10^2 < \frac{1}{k_s} < 10^6$
 \end{itemize}
 
+\textbf{Plattenförmige Körper ohne grosse Ablösungssgebiete}
+
+\begin{itemize}
+    \item $c_W^* = c_f \frac{F_W}{F_F}$
+    \item Benetzte Oberfläche $F_W$, Frontfläche $F_F$
+\end{itemize}
+
+\textbf{Reibungswiderstand für profilierte Flächen (empirische Beziehung)}
+
+\begin{itemize}
+    \item $c_{W_0} = c_f \frac{F_F}{F}\left[1 + L\left(\frac{d}{c}\right)+100\left(\frac{d}{c}\right)^4\right]$
+    \item mit $L = 1.2$: Falls Profil max. Dicke $x/c > 0.3$
+    \item mit $L = 2.0$: Falls Profil max. Dicke $x/c < 0.3$
+    \item $F$: Referenzfläche, $F_W$: Benetzte Oberfläche
+    \item $c$: Profiltiefe, $d$: Profildicke
+\end{itemize}
+
+\textbf{Formwiderstand}
+
+\begin{itemize}
+    \item $c_{W,Ru}(\alpha) = c_{W_{0,Ru}}+c_{W_{\alpha,Ru}}+c_{W_{H,Ru}}$
+    \item $c_{W,Ru} = 0.05-0.15$ \newline $0.15$ für kleine, gedrungene Flugzeuge
+    \item $c_{W,Ru} = \left( 1 + \frac{D}{2l}\right)c_{f,pl}\frac{F_W}{F}$ \newline $c_{f,pl}$ Reibungsbeiwert Platte
+    \item $c_{\alpha,Ru} \approx k_R \left(\frac{\alpha}{10}\right)^3 c_{W_{0,Ru}}$ \newline $k_R \approx 0.3$ (gedrungen), $k_R \approx 0.9$ (schlank)
+    \item $c_{W_{H,Ru}} = 0.029 \left(\frac{D_H}{D}\right)^3 \frac{1}{\sqrt{c_{W_{0,Ru}}}}\frac{\pi D^2}{4}\frac{1}{F}$ \newline $D$: max. Rumpfdurchmesser, $D_H$: Heckdurchmesser
+\end{itemize}
+
+\textbf{Interferenzwiderstand}
+
+\begin{itemize}
+    \item $\approx 5\%$ des Rumpfwiderstands bei kleinen Anstellwinkeln, durch Messungen zu bestimmen
+\end{itemize}
+
+\textbf{Trimmwiderstand}
+
+\begin{itemize}
+    \item $\approx max. 1-2 \%$ des Gesamtwiderstands im stationären Reiseflug
+\end{itemize}
+
+\textbf{Abschätzung des Restwiderstands}
+
+\begin{enumerate}
+    \item Einzelteile auflisten
+    \item Geometrie der Einzelteile bestimmen
+    \item Referenzfläche $F_N$ bestimmen und Widerstandsbeiwert $c_{W_n}$ abschätzen
+    \item Widerstandsfläche der Einzelteile berechnen: $f_n = c_{W_n}F_n$
+    \item Widerstandsfläche des Flugzeugs bestimmen: $f = \sum_{i=1}^n f_i$
+    \item Abschätzen von allfälligen Zusatzwiderständen (Interferenzen, Kühlung)
+    \item Gesamtwiderstand: $W_{Rest} = \frac{1}{2}\rho V^2 f +W_{zusatz}$
+\end{enumerate}
+
 \subsubsection{Gesamtwiderstand des Flugzeugs}
 
+\begin{itemize}
+    \item $W = \frac{1}{2}\rho V^2 \left(f + F \frac{c_A^2}{\pi \Lambda e}\right)$
+    \item Im stationären Horizontalflug: $A = mg$
+    \item $W = \frac{1}{2}\rho V^2 f + \frac{2}{\rho \pi e}\left(\frac{mg}{b}\right)^2\frac{1}{V^2}$
+\end{itemize}
+
+\textbf{Minimaler Widerstand}
+
+\begin{itemize}
+    \item $W_{min} = \frac{2mg}{b}\sqrt{\frac{f}{\pi e}}$
+    \item $V(W_{min}) = \left[\frac{4}{\pi e f}\left(\frac{mg}{\rho b}\right)^2\right]^{0.25}$
+\end{itemize}
+
 \subsubsection{Widerstandsverminderung}
+
+\textbf{Reduktion des induzierten Widerstands}
+
+\begin{itemize}
+    \item $c_{W_i} = \frac{c_A^2}{\pi \Lambda e} \rightarrow$ möglichst grosse Streckung $\Lambda$
+    \item Möglichst elliptischer Auftrieb $e = 1$
+    \item Durch Beeinflussung der Ausgleichsströmung (Flügelend-Tanks, Winglets etc.)
+\end{itemize}
+
+\textbf{Reduktion des Restwiderstand (p. 4.36)}
+
+\begin{itemize}
+    \item Reduktion der Oberflächenreibung durch Laminarhaltung der Strömung
+    \item Reduktion der Oberflächenreibung durch Reduktion der Rauheit 
+    \item Grenzschichtbeeinflussung durch passive oder aktive Mittel (Grenzschichtabsaugung, Zusatzinstallation etc.)
+    \item Beeinflussung der Grenzschicht durch Riblets
+    \item Verringerung des Kleinteilewiderstands (Drag clean up), Beschränkung von störenden Teilen auf der Oberfläche auf ein Minimum
+\end{itemize}
+
 
 
 \section{Einführung in die Fahrzeugaerodynamik}
@@ -421,11 +515,38 @@ Bester Gleitwinkel $(c_A/c_W)_{max}$
 
 \subsection{Grundlagen}
 
+\subsubsection{Kräfte am Fahrzeug}
+
+\subsubsection{Fahrleistungen}
+
+\subsubsection{Treibstoffverbrauch}
+
+
 \subsection{Personenwagen}
+
+\subsubsection{Aerodynamik der Grundform}
+
+\subsubsection{Komponentengestaltung}
+
+\subsubsection{Verschmutzung und Benetzung}
+
+\subsubsection{Windgeräusche}
 
 \subsection{Nutzfahrzeuge}
 
+\subsubsection{Lastkraftwagen}
+
+\subsubsection{Busse}
+
 \subsection{Rennfahrzeuge}
+
+\subsubsection{Grundlagen}
+
+\subsubsection{Tourenwagen}
+
+\subsubsection{Rennfahrzeuge mit abgedeckten Rädern}
+
+\subsubsection{Rennfahrzeuge mit offenen Rädern}
 
 
 \end{multicols*}
