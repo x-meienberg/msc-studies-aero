@@ -208,21 +208,35 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
 
 \subsubsection{Tragflügel endlicher Spannweite}
 
+\textbf{Aerodynamische Kraft auf Flügel}
+
 \begin{itemize}
-    \item \textbf{Aerodynamische Kraft auf Flügel}
     \item $A = \int_{-b/2}^{b/2} \rho V \Gamma(y) dy$
-    \item \textbf{Induzierter Widerstand}
+\end{itemize}
+
+\textbf{Induzierter Widerstand}
+
+
+
+
+\begin{itemize} 
     \item $W_i = \frac{A^2}{2\rho V^2F^*} = \frac{2}{\rho V^2 \pi}\left(\frac{A}{b}\right)^2$
     \item mit Prandtl'schem Ansatz $F^* = \frac{\pi}{4}b^2$
     \item $c_{w_i} = \frac{c_a^2}{\pi \Lambda}$ und $\alpha_i = \frac{c_a}{\pi \Lambda}$
-    \item \textbf{Einfaches Wirbelmodell (Hufeisenwirbel)}
+\end{itemize}
+
+\textbf{Einfaches Wirbelmodell (Hufeisenwirbel)}
+
+\begin{itemize}
     \item Abwind im Hufeisenwirbel mit $-x \gg y$
     \item $w = w_{re}+ w_{li} = \frac{\Gamma}{2\pi}\left(\frac{1}{b/2-y}+\frac{1}{b/2+y}\right)$
     \item Abwind im Hufeinsenwirbel auf Flügellinie
     \item $w = w_{re}+ w_{li} = \frac{\Gamma}{4\pi}\left(\frac{1}{b/2-y}+\frac{1}{b/2+y}\right)$
     \item Auftrieb über ganze Spannweite
     \item $A = \rho V \Gamma b$
-    \item \textbf{Allgemeine induzierte Geschwindigkeit}
+\end{itemize}
+\textbf{Allgemeine induzierte Geschwindigkeit}
+\begin{itemize}
     \item Halbunendlicher Wirbelfaden: $w_i = \frac{\Gamma}{4\pi a}$
     \item Unendlicher Wirbelfaden: $w_i = \frac{\Gamma}{2\pi a}$
 \end{itemize}
@@ -233,9 +247,8 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
 
 
 \subsubsection{Prandtl'sche Traglinientheorie}
-
+Zirkulationsverteilung für \textbf{elliptische Auftriebsverteilung}
 \begin{itemize}
-    \item Zirkulationsverteilung für \textbf{elliptische Auftriebsverteilung}
     \item $\Gamma(y) = \Gamma_0 \sqrt{1-\left(\frac{2y}{b}\right)^2}$, ind. Anstellwinkel: $\alpha_i = \frac{\Gamma_0}{2bV}$
     \item Elliptische Flügel erzeugen ... eine elliptische Auftriebsverteilung 
     \item ... einen in Spannweitenrichtung kontanten Abwind
@@ -245,7 +258,9 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
     \item $\frac{d c_A}{d \alpha} = c_{a_\alpha}\left[\frac{1}{1+\frac{c_{a_\alpha}}{\pi \Lambda}}\right]$ Auftriebsderivativ des Ellipsenflügels
     \item $\frac{d c_A}{d \alpha} = c_{a_\alpha}\frac{\Lambda}{\Lambda+2}$ Auftriebsderivativ des Ellipsenflügels (potentialtheoretisch)
     \item $c_{W_i}=\frac{c_A^2}{\pi \Lambda}$ Induzierter Widerstand des Ellipsenflügels
-    \item \textbf{Beliebige Auftriebsverteilung}
+\end{itemize}
+\textbf{Beliebige Auftriebsverteilung}
+\begin{itemize}
     \item \emph{Methode von Schrenk}: Aufteilung von Auftriebsverteilung auf Basisauftrieb und Zusatzauftrieb (A/2 elliptische Form, A/2 proportional zu Flügelgrundriss)
     \item $\frac{dc_A}{d\alpha} = c_{a_\alpha}\left[\frac{\Lambda}{\Lambda+\frac{2(\Lambda+4)}{\Lambda+1}}\right]$ (McCormick Näherung)
     \item $\frac{dc_A}{d\alpha} = c_{a_\alpha}\left[\frac{\Lambda}{\frac{c_{a_\alpha}}{\pi}+\sqrt{\left(\frac{c_{a_\alpha}}{\pi}\right)^2+\Lambda^2}}\right]$, falls $c_{a_\alpha} = 2 \pi $:
@@ -257,8 +272,9 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
     \includegraphics[width=5.5cm]{Prandtl_Wirbelmodell.png}
 \end{center}
 
+\textbf{Prandtl-Glauert Faktoren}
+
 \begin{itemize}
-    \item \textbf{Prandtl-Glauert Faktoren}
     \item Prandtl-Glauert Faktoren $\tau$ und $\delta$ geben Abweichungen zum idealen Ellipsenflügel an 
     \item $\alpha_i = \frac{c_A}{\pi A}(1+\tau)$
     \item $c_{W_i} = \frac{c_A^2}{\pi A}(1+\delta)$
@@ -300,19 +316,104 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
 
 \subsubsection{Widerstandsarten}
 
+\begin{center}
+    \includegraphics[width=6cm]{Widerstandsarten.png}    
+\end{center} 
+
+\textbf{Gesamtwiderstand = Induzierter Widerstand + Restwiderstand} \newline \newline
+\textbf{Restwiderstand}
+\begin{itemize}
+    \item Reibungswiderstand: Reibungswiderstand auf benetzter Oberfläche
+    \item Formwiderstand: Druckwiderstand auf Oberfläche parallel zur Strömung
+    \item Interferenzwiderstand: Widerstand durch zwei Körper nahe beieinander
+    \item Trimmwiderstand: Zusatzwiderstand durch Komponenten welche zum Momentengleichgewicht benötigt sind
+    \item Profilwiderstand: Reibungs- und Formwiderstand eines 2-D Profils
+    \item Kühlungswiderstand: Widerstand durch Impulsverlust beim Durchströmen von Kühleinrichtungen
+    \item Heckwiderstand: Druckwiderstand eines stumpfen Hecks 
+    \item Wellenwiderstand: Bei Überschallströmungen, durch Schockwellen
+\end{itemize}
+
+\textbf{Induzierter Widerstand}
+\begin{itemize}
+    \item $c_W = c_{W_0} + c_{W_i}$ wobei $c_{W_i} = kc_A^2$ (elliptisch: $k = \frac{1}{\pi \Lambda}$)
+    \item $W = \frac{\rho}{2} V^2 F c_{W_0} + \frac{\rho}{2}V^2Fkc_A^2$ (dimensionsbehafte Form)
+    \item Stationärer Horizontalflug ($A = mg$ und $c_A = \frac{2mg}{\rho V^2 F}$ )
+    \item $W = \frac{\rho}{2} V^2 F c_{W_0} + + \frac{k(mg)^2}{\frac{\rho}{2}V^2F}$
+\end{itemize}
+
 \subsubsection{Restwiderstand des Flügels}
+\textbf{Profilwiderstand}(Widerstand des Flügels) - p. 4.47 ff 
+
+
+\begin{itemize}
+    \item $W_{Fl"ugel} = W_{Rest,Fl} + W_{induziert}$
+    \item $W_{Rest,Fl} = 2 \frac{\rho}{2}V^2 \int_{b_R/2}^{b/2} c_{W_\infty}(y)c(y)dy$  
+    \item $c_{W_\infty}$ Profilwiderstand 2D
+\end{itemize}
+
+Unverwundener Ellipsenflügel:
+
+\begin{itemize}
+    \item $W_{Fl"ugel} = c_{W_\infty} \frac{F^*}{F}+c_{W_i}$ 
+    \item $F^*$ benetzter Anteil Flügelfläche
+\end{itemize}
+
+Oswald-Faktor
+
+\begin{itemize}
+    \item $c_W = c_{W_0}+ \frac{c_A^2}{\pi \Lambda e}$ mit 
+    \item $e = \frac{1}{1+\delta+\pi\Lambda k}$ Oswald-Wirkungsfaktor
+    \item Gilt nur im Linearbereich der Auftriebspolaren!
+    \item Flügel mit elliptischer Auftriebsverteilung: $e=1$
+    \item Flügel $0.85<e<0.95$
+    \item Flugzeug $0.6<e<0.9$
+\end{itemize}
+
+Bester Gleitwinkel $(c_A/c_W)_{max}$
+
+\begin{itemize}
+    \item $c_W = 2c_{W_0}$, $c_A = \sqrt{\pi \Lambda e c_{W_0}}$, $c_{W_0} = c_W(c_A = 0)$
+\end{itemize}
 
 \subsubsection{Restwiderstand des Flugzeugs}
+
+\textbf{\emph{Reibungswiderstand} $W_R$}
+
+\begin{itemize}
+    \item $c_f = \frac{W_R}{\frac{\rho}{2}V^2F_W}$ mit $F_W$: benetzte (überstr.) Oberfläche
+    \item Lokale Reynoldszahl: $Re_x = \frac{V x}{\nu}$
+\end{itemize}
+
+\textbf{Umschlag von laminar-turbulent}
+
+\begin{itemize}
+    \item $Re_{krit} = (V x / \nu)_{krit} \approx 3\cdot 10^5-3\cdot 10^6$
+    \item laminar $Re < Re_{krit}$
+    \item turbulent $Re > Re_{krit}$
+\end{itemize}
+
+\textbf{Ebene Platte mit glatter Oberfläche}
+
+\begin{itemize}
+    \item $Re = (V l /\nu) $ mit $l$ Plattenlänge
+    \item laminar: $c_f = 1.328 \frac{1}{\sqrt{Re}}$
+    \item turbulent: $c_f = 0.074 Re^{-1/5}$
+\end{itemize}
+
+\textbf{Ebene Platte mit rauher Oberfläche}
+\newline Rauhigkeit $k_s$
+\begin{itemize}
+    \item $k_s = 0 mm$ - Aerodynamisch/hydraulisch glatt
+    \item $k_s = 0.5\cdot10^{-3} - 2 \cdot 10^{-3} mm $ - Metall/Holz poliert 
+    \item $k_s = 6\cdot 10^{-3} mm$ - Farboberfläche, glänzend
+    \item $k_s = 0.01-0.03 mm$ - Tarnfarbe, unpoliert
+    \item $k_s = 0.15 mm$ - Metalloberfläche, galvanisierend
+    \item $c_f = (1.89 + 1.62 \log(\frac{1}{k_s}))^{-2.5}$ für $10^2 < \frac{1}{k_s} < 10^6$
+\end{itemize}
 
 \subsubsection{Gesamtwiderstand des Flugzeugs}
 
 \subsubsection{Widerstandsverminderung}
-
-\subsection{Statische Längsstabilität und Steuerbarkeit}
-
-\subsubsection{Statische Längsstabilität}
-
-\subsubsection{Längssteuerung}
 
 
 \section{Einführung in die Fahrzeugaerodynamik}

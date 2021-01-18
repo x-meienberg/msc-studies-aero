@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  18 JAN 2021 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  18 JAN 2021 23:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1622,41 +1622,51 @@ Overfull \hbox (8.19206pt too wide) in paragraph at lines 184--185
 <Druckverteilung_am_Profil.png, id=26, 568.1225pt x 877.2775pt>
 File: Druckverteilung_am_Profil.png Graphic file (type png)
  <use Druckverteilung_am_Profil.png>
-Package pdftex.def Info: Druckverteilung_am_Profil.png used on input line 231.
+Package pdftex.def Info: Druckverteilung_am_Profil.png used on input line 245.
 (pdftex.def)             Requested size: 156.49014pt x 241.64694pt.
  [2 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Aufstiegspolaren.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_am_Profil.png>] <Wirbelsystem_einfaches_Hufeisenmodell.png, id=32, 911.405pt x 673.51625pt>
 File: Wirbelsystem_einfaches_Hufeisenmodell.png Graphic file (type png)
  <use Wirbelsystem_einfaches_Hufeisenmodell.png>
-Package pdftex.def Info: Wirbelsystem_einfaches_Hufeisenmodell.png used on input line 256.
+Package pdftex.def Info: Wirbelsystem_einfaches_Hufeisenmodell.png used on input line 271.
 (pdftex.def)             Requested size: 156.49014pt x 115.637pt.
  <Prandtl_Wirbelmodell.png, id=33, 911.405pt x 465.74pt>
 File: Prandtl_Wirbelmodell.png Graphic file (type png)
  <use Prandtl_Wirbelmodell.png>
-Package pdftex.def Info: Prandtl_Wirbelmodell.png used on input line 257.
+Package pdftex.def Info: Prandtl_Wirbelmodell.png used on input line 272.
 (pdftex.def)             Requested size: 156.49014pt x 79.96358pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 []\OT1/bch/m/n/8 Bei ge-pfeil-ter Fl[]ugelform: Zus[]atzlich kan ein
  []
 
-[3 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png>] [4] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
+<Widerstandsarten.png, id=34, 1020.81375pt x 771.88374pt>
+File: Widerstandsarten.png Graphic file (type png)
+ <use Widerstandsarten.png>
+Package pdftex.def Info: Widerstandsarten.png used on input line 320.
+(pdftex.def)             Requested size: 170.71652pt x 129.08669pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
+[3 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Widerstandsarten.png>] [4] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25520 strings out of 493089
- 518437 string characters out of 6134841
- 627168 words of memory out of 5000000
- 28567 multiletter control sequences out of 15000+600000
+ 25525 strings out of 493089
+ 518556 string characters out of 6134841
+ 628168 words of memory out of 5000000
+ 28571 multiletter control sequences out of 15000+600000
  21227 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,84p,10557b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,84p,10557b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" (4 pages, 925059 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" (4 pages, 1152623 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
