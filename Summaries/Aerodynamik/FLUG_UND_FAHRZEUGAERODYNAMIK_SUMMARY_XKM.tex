@@ -109,10 +109,69 @@ Pole (7km): $T = 221 K$
     \item $\mu_0 = 17.894 \cdot 10^{-6} Ns/m^2$
 \end{itemize}
 
+\includegraphics[width=8cm]{meteorologie-wetter-atmosphaere-102}
+
 \subsection{Auftrieb}
 \subsubsection{Flügelgeometrie}
 
+\begin{itemize}
+    \item Zuspitzung: $\lambda = \frac{c_t}{c_0}$
+    \item Flügelfläche: $F = \int_{-b/2}^{b/2} c(y) dy$ 
+    \item Streckung: $\Lambda = b^2 /F$
+    \item Mittl. geome. Flügeltiefe: $\overline{c} = \frac{1}{b} \int_{-b/2}^{b/2} c(y) dy = F/b$ 
+    \item Mittl. aero. Flügeltiefe: $l_\mu = \frac{1}{F} \int_{-b/2}^{b/2} c^2(y) dy $
+    \item Geometrischer Neutralpunkt = Ort wo die Änderung des Anstellwinkels keine Auswirkung auf Kraft und Moment hat
+    \item $x_{N25} = \frac{1}{F} \int_{-b/2}^{b/2} c^2(y) x_{25}(y) dy \approx x_{c_0/4}$, $y_{N25} = 0$
+\end{itemize}
+
+Achtung: $b_{ges} = 2\cdot b_{flugel}$!
+
+\begin{center}
+    \includegraphics[width = 6cm]{Fluegelgeometrie-1.png}
+\end{center}
+\begin{tabular}{ l | l l l l}
+    & Recht & Trapez & Dreieck & Ellipse \\ 
+    \hline
+    F & $bc$ & $\frac{c_0+c_t}{2}b$ & $\frac{c_0}{2}b$ & $\frac{\pi}{4}b c_0$ \\ 
+    \hline 
+    $\Lambda$ & $b/c$ & $2b/(c_0+c_t)$ & $2b/c_0$ & $4b/(\pi c_0)$ \\
+    \hline
+    $\lambda$ & $1$ & $c_t/c_0$ & 0 & - \\
+    \hline
+    $\overline{c}$ & c & $(c_0+c_t)/2$ & $c_0/2$ & $\pi/4$ \\
+    \hline
+    $l_\mu$ & c & $\frac{2}{3}\frac{c_0^2+c_0c_t+c_t^2}{c_0+c_t}$ & $2c_0/3$ & $\frac{8}{3\pi}c_0$ \\
+    \hline
+    $x_{25}$ & $c/4$ & $\frac{c_0}{4}+\frac{c_0 b}{6(c_0+c_t)}(1+\frac{2c_t}{c_0})tg(\phi_{25})$ & $\frac{c_0}{4}\frac{b}{6}tg(\phi_{25})$ & $\frac{c_0}{4}\frac{b}{6}tg(\phi_{25})$ \\
+    \hline
+\end{tabular}
+
 \subsubsection{Flügelprofile}
+
+\begin{tabular}{l | l l }
+    & Flügel (3D) & Profil (2D) \\ 
+    \hline
+    Auftrieb & $c_A = \frac{A}{\frac{1}{2}\rho V^2 F}$& $c_a = \frac{A'}{\frac{1}{2}\rho V^2 c}$  \\
+    \hline
+    Widerstand & $c_W = \frac{W}{\frac{1}{2}\rho V^2 F}$ & $c_w = \frac{W'}{\frac{1}{2}\rho V^2 c}$ \\
+    \hline
+    Nickmoment & $c_M = \frac{M}{\frac{1}{2}\rho V^2 F l_\mu}$ & $c_m = \frac{M'}{\frac{1}{2}\rho V^2 c^2}$\\
+    \hline
+\end{tabular}
+\newline \newline
+Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro $b$)
+
+\begin{itemize}
+    \item \textbf{Auftriebspolaren:} Nullauftriebswinkel $\alpha_0$ (Winkel wo aerodyn. Auftrieb verschwindet)
+    \item $\alpha_0 = 0$ für symmetrische Profile
+    \item $\alpha_0 < 0$ für gewölbte Profile
+    \item \textbf{Linearbereich}
+    \item $c_a = \frac{dc_a}{d\alpha}(\alpha-\alpha_0)$ mit Auftriebsgradient 
+    \item $\frac{dc_a}{d\alpha}$: Konstant im Linearbereich
+    \item \textbf{Maximaler Auftriebsbeiwert:} $c_{a,max}$ bestimmt die Abrissgeschwindigkeit
+    \item \textbf{Minimaler Auftriebsbeiwert:} $c_{a,min}$ analog wie $c_{a,max}$ im Rückenflug
+\end{itemize}
+
 
 \subsection{Widerstand}
 

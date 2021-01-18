@@ -302,7 +302,13 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
 OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -319,6 +325,7 @@ INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/S
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

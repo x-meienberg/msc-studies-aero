@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1610928414 "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM" 1610928415
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux" 1610928415 1302 41fd33c4160af229f68158d54a0108bb ""
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" 1610928412 4272 8b574d928e2235f2d8f1336d933eeb1a ""
+["pdflatex"] 1610933578 "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM" 1610933579
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux" 1610933579 1302 8b874fb9e1c85995a11962de267d36cb ""
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" 1610933577 6914 48cc05b9e388db50ac7c66cae787e571 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -45,6 +45,7 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1248133631 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb" 1248133631 30273 87a352d78b6810ae5cfdc68d2fb827b2 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf" 1136768653 1372 e6cfde23c168b1d1864ce6aa6dffa18b ""
   "/usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf" 1136768653 1372 955cf021d0094e95829436b7bdab6458 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf" 1136768653 3492 1012f7b53b5692e6d6f11a0fab90a971 ""
@@ -199,11 +200,13 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1445766340 3849860 7dfd5735ef440baebed6267662aa6d5d ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux" 1610928415 1302 41fd33c4160af229f68158d54a0108bb ""
-  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" 1610928412 4272 8b574d928e2235f2d8f1336d933eeb1a ""
+  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux" 1610933579 1302 8b874fb9e1c85995a11962de267d36cb ""
+  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex" 1610933577 6914 48cc05b9e388db50ac7c66cae787e571 ""
+  "Fluegelgeometrie-1.png" 1610930620 127050 688ede943e8f06354e61b2d38505c6ce ""
+  "meteorologie-wetter-atmosphaere-102.png" 1610929609 139396 82816baad57b5b3400c297de76af281c ""
   (generated)
-  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf"
-  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.log"
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.log"
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf"
   "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux"
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.log"
+  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.log"
+  "FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf"
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf"
