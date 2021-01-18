@@ -170,8 +170,69 @@ Hierbei sind Grössen mit Apostroph pro Spannbreite berechnet (Kraft/Moment pro 
     \item $\frac{dc_a}{d\alpha}$: Konstant im Linearbereich
     \item \textbf{Maximaler Auftriebsbeiwert:} $c_{a,max}$ bestimmt die Abrissgeschwindigkeit
     \item \textbf{Minimaler Auftriebsbeiwert:} $c_{a,min}$ analog wie $c_{a,max}$ im Rückenflug
+    \item \textbf{Minimaler Widerstandsbeiwert:} $c_{w,min}$ 
+    \item $c_{w,min} = 0$ für symmetrische Profile
+    \item $c_{w,min} > 0$ für gewölbte Profile ungefähr beim stossfreien Eintritt (tangentialle Umströmung)
+    \item \textbf{Sturzflug-Momentenbeiwert} $c_{m_0} = c_m(c_a = 0)$
+    \item \textbf{Bester Gleitwinkel}: $\tan(p) = \frac{1}{(\frac{c_a}{c_w})_{max}}$
+    \item \textbf{Grössmögliche Reichweite:} $(\frac{c_a}{c_w})_{max}$
+    \item \textbf{Beste Steigzahl / Profilsinkzahl:}
+    \item $(\frac{c_a^3}{c_w^2})_{max}$ resp. $\sqrt{\frac{c_a^3}{c_w^2}}$ längste Flugdauer 
 \end{itemize}
 
+\begin{center}
+    \includegraphics[width = 8cm]{Aufstiegspolaren.png}
+\end{center}
+
+\begin{itemize}
+    \item \emph{Druckpunkt / Neutralpunkt}
+    \item Druckbeiwert: $c_p = \frac{p-p_\infty}{1/2 \rho V^2}$
+    \item Moment um beliebigen Punkt am Profil:
+    \item $c_{m_x}= \frac{x-x_{DP}}{c}(c_a \cos\alpha + c_w \sin\alpha) \approx \frac{x-x_{DP}}{c}c_a$
+    \item $x_{DP}$: Lage des Druckpunktes
+    \item Am \textbf{Druckpunkt}: $c_{m,DP} = 0$
+    \item \textbf{Neutralpunkt}: $\frac{dc_{m_x}}{d\alpha}\vert_{NP} = 0$ und $\frac{dc_{m_x}}{dc_a}\vert_{NP} = 0$
+    \item $\frac{x_{NP}-x_R}{c} = -\frac{c_{mR}-c_{m0}}{c_a}$ mit $R$ als Referenzpunkt
+\end{itemize}
+
+\subsubsection{Profileigenschaften}
+
+\begin{itemize}
+    \item Auftrieb [N/m]: $A= \rho V\Gamma$ mit Zirkulation des Profils \newline
+    $\Gamma = \int_0^c \gamma dx$
+    \item \textbf{Einwirbel-Modell}
+    \item $A = \rho V^2 \pi c \alpha$, $\frac{c_\alpha}{d\alpha} = 2\pi$ 
+\end{itemize}
+
+\subsubsection{Profilsystematik}
+
+\subsubsection{Tragflügel endlicher Spannweite}
+
+\begin{itemize}
+    \item \textbf{Aerodynamische Kraft auf Flügel}
+    \item $A = \int_{-b/2}^{b/2} \rho V \Gamma(y) dy$
+    \item \textbf{Induzierter Widerstand}
+    \item $W_i = \frac{A^2}{2\rho V^2F^*} = \frac{2}{\rho V^2 \pi}\left(\frac{A}{b}\right)^2$
+    \item mit Prandt'lschem Ansatz $F^* = \frac{\pi}{4}b^2$
+    \item $c_{w_i} = \frac{c_a^2}{\pi \Lambda}$ und $\alpha_i = \frac{c_a}{\pi \Lambda}$
+    \item \textbf{Einfaches Wirbelmodell (Hufeisenwirbel)}
+    \item Abwind im Hufeisenwirbel mit $-x \gg y$
+    \item $w = w_{re}+ w_{li} = \frac{\Gamma}{2\pi}\left(\frac{1}{b/2-y}+\frac{1}{b/2+y}\right)$
+    \item Abwind im Hufeinsenwirbel auf Flügellinie
+    \item $w = w_{re}+ w_{li} = \frac{\Gamma}{4\pi}\left(\frac{1}{b/2-y}+\frac{1}{b/2+y}\right)$
+    \item Auftrieb über ganze Spannweite
+    \item $A = \rho V \Gamma b$
+    \item \textbf{Allgemeine induzierte Geschwindigkeit}
+    \item Halbunendlicher Wirbelfaden: $w_i = \frac{\Gamma}{4\pi a}$
+    \item Unendlicher Wirbelfaden: $w_i = \frac{\Gamma}{2\pi a}$
+\end{itemize}
+
+\subsubsection{Prandtl'sche Traglinientheorie}
+
+\begin{itemize}
+    \item Zirkulationsverteilung für \textbf{elliptische Auftriebsverteilung}
+    \item $\Gamma(y) = \Gamma_0 \sqrt{1-\left(\frac{2y}{b}\right)^2}$, ind. Anstellwinkel: $\alpha_i = \frac{\Gamma_0}{2bV}$
+\end{itemize}
 
 \subsection{Widerstand}
 
