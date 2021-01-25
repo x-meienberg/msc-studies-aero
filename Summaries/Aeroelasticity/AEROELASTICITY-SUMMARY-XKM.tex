@@ -62,9 +62,9 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \subsection*{Parameters}
 \begin{itemize}
 \item Aerodynamic Force $\overline{F_A} = \overline{L}+\overline{D}$
-\item Lift Force $L$ $[N]$
+\item Lift Force $L = \frac{1}{2}\rho V^2 c a \alpha = qca\alpha$ $[N/m]$
 \item Drag Force $D$ $[N]$
-\item Aerodynamic Moment $M_A$ $[Nm]$
+\item Aerodynamic Moment $M_A = \frac{1}{2}\rho V^2 c^2 c_{m0} = qc^2c_{m0}$ $[N]$
 \item Dynamic Pressure $q = 1/2 \rho V^2$ (Bernoulli) $[Pa]$
 \item Chord Length $c$ $[m]$
 \item Surface Area $S = b\cdot c$ $[m^2]$ (Rectangular)
@@ -76,6 +76,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \item Lift curve slope $a = C_{l/\alpha} = C_{l} / \alpha \approx tan(angle\,x-axis\,to\,curve)$
 \item Pitch angle $\theta$ (Rotation w.r.t elastic axis)
 \item Lunge $h$ (Deflection of elastic axis parallel to lift)
+\item Initial (from geometry given) $\alpha_0$ and $c_{m0}$
 \end{itemize}
 
 \subsection*{Conventions throughout Course}
@@ -418,7 +419,7 @@ Control effectiveness is described by following term:
         b/2 \\ e
     \end{Bmatrix}$
     \item $[K]_{ael} = [K]-Q[K_a]$
-    \item Condigtion for divergence:
+    \item Condition for divergence:
     \item $det (K_{ael}) = \Delta = 0 \Leftrightarrow Q_D = \frac{k_\phi k_\theta}{k_\phi e - k\theta bt /2}$ 
     \item $\Leftrightarrow q_D = \frac{k_\theta / (Se C_{l/\alpha})}{\cos^2(\Lambda) [1-(b/e)(k_\theta/k_\phi)(\tan(\Lambda)/2)]}$
     \item This gives us a uniqe solution for two degrees of freedom. If we try to push $q_D \rightarrow \infty$, we can do so by setting the denominator of $q_D = 0$
@@ -783,7 +784,7 @@ When placing the springs at to different positions with the longitudinal spring 
         \item In the linear system, the amplitude of the mode diverges (flutter)
         \item In the nonlinear system, the amplitude reaches a certain limit cycle (oscillating)
         \item In dynamic systems with time delay, the system jumps after reaching flutter speed (unsteady systems), in steady or quasi-steady systems, they follow the nonlinear curve after reaching flutter speed instantaniously
-        \item When we throttle the system avoce flutter speed, it follows a similar curve to the instantanious one 
+        \item When we throttle the syst4em above flutter speed, it follows a similar curve to the instantanious one 
     \end{itemize}
 
  \subsubsection*{Mathematical Appendix}
