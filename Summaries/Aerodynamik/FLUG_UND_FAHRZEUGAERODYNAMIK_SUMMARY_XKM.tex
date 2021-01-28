@@ -511,40 +511,216 @@ Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
 
 
 \section{Einführung in die Fahrzeugaerodynamik}
-
-
 \subsection{Grundlagen}
 
 \subsubsection{Kräfte am Fahrzeug}
 
+    \begin{itemize}
+        \item Widerstandskraft: $W= -(F_{xa}\cos{\beta}- F_{ya}\sin{\beta})$
+        \item $F_i = c_{Fi}\frac{1}{2}\rho V^2 A $
+        \item Seitenkraft: $F_y = (F_{xa} \sin{\beta}+ F_{ya}cos{\beta})$ 
+        \item Auftrieb: $A = A_y + A_H$
+        \item Rollwiderstand: $W_R = W_{RV} + W_{RH}$
+        \item $F_R = \mu_R F_Z$ mit $\mu_R = \mu_{R, Basis} / \mu(V=0)$
+        \item Beschleunigungswiderstand: $W_B = \dot{V}m(1+\varepsilon_i)$
+        \item $\varepsilon_i =$ rotierende Massen (Gänge), $\varepsilon_1 = 0.25$, $\varepsilon_2 = 0.15$, $\varepsilon_3 = 0.1$, $\varepsilon_4 = 0.075$
+        \item Steigungslasten $W_S = mg \sin\theta$
+        \item Anhängelasten $F_{zx}$ und $F_{zz}$ horizontal und vertikal
+    \end{itemize}
+
 \subsubsection{Fahrleistungen}
+\textbf{Kräftegleichgewicht am beschleunigten Fahrzeug}
+\begin{itemize}
+    \item $m a_x = F_T - \mu_r (mg - \frac{1}{2}\rho V^2 c_A A- mg \sin\theta)$
+\end{itemize}
+\textbf{Traktionskraft}
+\begin{itemize}
+    \item $F_T = \mu_{tan} (m_i g \cos\theta -1/2 \rho V^2 c_{A,i}A)$
+    \item Index $i$ für Vorder- und Hinterachse
+\end{itemize}
+
+\textbf{Traktionsleistung}
+
+\begin{itemize}
+    \item $P_T = F_T V$
+\end{itemize}
+
+\textbf{Kurvenfahrleistung}
+
+\begin{itemize}
+    \item Max vom Fahrreifen übertragbare Seitenkraft: \newline $F_{lat} = \mu_{lat}(mg - 1/2 \rho V^2A c_A)$
+\end{itemize}
+
+\textbf{Kräftegleichgewicht im beschleunigten Fahrzeug}
+
+\begin{itemize}
+    \item $mV^2 / R = F_{lat,max} = \mu_{lat,max}(mg- 1/2 \rho V^2 A c_A)$
+\end{itemize}
+
+\textbf{Maximale fahrbare Geschwindigkeit (Kurve mit Radius $r$)}
+
+\begin{itemize}
+    \item $V_{max} = \sqrt{\mu_{lat,max} R(g-\rho V^2Ac_A/(2m)} =$ \newline $= \sqrt{\mu_{lat,max} R(1-F_A/(mg))}$
+\end{itemize}
+
+\textbf{Fahrstabilität}
+\newline \newline
+Anzustreben ist eine ausgeglichene Auftriebsverteilung an Vorder- und Hinterachse. Bei deutlich grösserem Auftrieb auf der Hinterachse
+kann es zu Übersteuern kommen. Auftriebsminderung an der Hinterachse ist deutlicher schwieriger als an der Vorderachse.
+\newline \newline
+\textbf{Bremsverhalten}
+
+\begin{itemize}
+    \item Bremskraft: \newline $F_{b,tot} = ma_x = F_{b,mech} - W_R - W - mg \sin{\theta}$
+    \item Sinnvolle Vorzeichen, $F_{b,mech}$ meist negativ da in $-x$-Richtung
+    \item Abbremsung: $Z = F_{b,tot} / (mg)$
+\end{itemize}
 
 \subsubsection{Treibstoffverbrauch}
 
+\textbf{Treibstoffverbrauch} in unbeschleunigter Fahrt auf ebener Strasse
+
+\begin{itemize}
+    \item $B = (P_{aero} + P_{roll} + \Delta P_{mech})(SFC)(1000/\rho_{fuel})(100/V) [l/100km]$
+    \item $P_{aero} = W\cdot V$, $P_{roll} = W_{roll}\cdot V$, $\Delta P_{mech}$: mech. Verluste
+    \item $SFC$: Spezifischer Treibstoffverbrauch (Euromix: 44\% Luft, 44\% Roll, 12\% Beschleunig.) 
+\end{itemize}
 
 \subsection{Personenwagen}
 
+\textbf{Hauptziele der Aerodynamik}:
+
+\begin{itemize}
+    \item Reduzierung Kraftstoffverbrauch, Emissionen
+    \item Reduzierung Seitenwindempfindlichkeit
+    \item Sicherstellung der Motorkühlung, Limitierung der Bauteiltemperaturen
+    \item Verminderung von Schmutzablagerungen im Durchsichtbereich
+    \item Fahrgastraumkonditionierung (A/C) und Geräuschminderung
+\end{itemize}
+
 \subsubsection{Aerodynamik der Grundform}
 
+Die widerstandsgünstigste Form bei kleinem Bodenabstand ein Halbkörper. Anfügen von unverschalten Rädern verdoppelt ca. den Widerstand \newline \newline
+\textbf{Fahrzeugformen}
+
+\begin{itemize}
+    \item Stufenheck: siehe 3.9
+    \item Schrägheck: Erzeugt einen grossen Auftrieb, Giermoment wächst grösserer Seitenanströmung nicht mehr an, grosses negatives Längsmoment
+    \item Vollheck: Reagiert etwas empfindlicher bezüglich Widerstandsanstieg durch Schräganströmung, wesentlich kleinerer Auftrieb, grösster Anstieg der Seitenkraft mit Schräganströmung, kleinster Hinterachsauftrieb
+\end{itemize}
+
+%%%%%% Pic of Car %%%%%
+
+\textbf{Druckverteilung}
+
+
 \subsubsection{Komponentengestaltung}
+\textbf{Farzeugsfront}: Annäherung - Quader / Tiefliegender Staupunkt = weniger Widerstand \newline \newline
+\textbf{Frontscheibe}: Je flacher desto günstiger für Widerstand und Auftrieb. Grenzen durch Aufheizung des Innenraums und Sonnereflexionen \newline \newline
+\textbf{Dach}: Übergang Front-Heck, mit leichter Verwölbung sinkt der Widerstand, bei starker Verwölbung steigt Anströmfläche \newline \newline
+\textbf{Fahrzeugheck}: Geprägt von Ablösung, verschiedene Hecktypen: Stufenheck, Schrägheck, Vollheck \newline \newline
+%%%%% Pic %%%%%%%%
+\textbf{Unterboden}: Durch glatte Unterbodengestaltung kann eine Widerstandsreduktion von bis zu $\Delta c_W \approx -0.05$ erreicht werden. Mit einem Heckdiffusor kann der Hinterachsauftrieb gesenkt werden \newline \newline
+\textbf{Frontspoiler}: Widerstandsverkleinerung, Vorderachsauftriebsverkleinerung, Verbesserung der Kühlluftströmung \newline \newline
+\textbf{Heckspoiler}: Widerstandverringerung, Hinterachsauftrieb, Reduzierung der Heckverschmutzung \newline \newline
+\textbf{Durchströmung}: Versorgt Motor und Fahrgastraum mit Luft, erzeugt Widerstand und Auftrieb (p. 3.22 ff) \newline \newline
+\textbf{Dachaufbauten}: Verursachen immer einen Zusatzwiderstand. Sekundäreffekte können grosse Wirkung haben (Beeinflussung der Umströmung). Dachlasten können Widerstände im Bereich um ein Drittel des Gesamtwiderstands erhöhen. Meist tritt durch Dachlasten eine Verringerung des Auftriebs durch gestörte Umströmung ein.
 
 \subsubsection{Verschmutzung und Benetzung}
 
+Können Fahrkomfort (Ästhetik und Verschmutzung beim Be- und Entladen) und Sicherheit (Sicht, Scheinwerfer) beeinträchtigen, werden durch aerodynamisch günstige Gestaltung vermieden
+
 \subsubsection{Windgeräusche}
+
+Werden erzeugt durch schnelle Druckschwankungen, die Intensität hängt vom quadratischen Wert der Schwankung auf (RMS-Wert/ root-mean square): $RMS = \sqrt{\frac{1}{n}\sum x_i^2}$ \newline \newline
+
+\textbf{Schalldruckpegel}: $L_p = 10 \log(p/p_0)^2 = 20 \log(p/p_0) [dB]$ \newline $p_0 = 2\cdot 10^{-4}$
+
+\begin{itemize}
+    \item Hörbarer Bereich: $0$ bis ca. $140 dB$ 
+    \item Addition: Zwei gleiche Lärmquellen - Erhöhung um $3 dB$ 
+    \item Verdopplung der Distanz: $-6 dB$
+\end{itemize}
+
+\textbf{Strouhal-Zahl}: $S = f\cdot D/V_{\infty}$ ($f$: Frequenz, $D$: Dimension) \newline
+Im Bereich $1000 \leq Re \leq 10^5$ gilt $S \approx 0.2$ \newline \newline
+
+\emph{A-Säulen-Strömungslärm}: Stärker auf der Wind abgewandten Seite \newline \newline 
+
+\emph{Kavitätslärm}: Entsteht an Kavitäten wie Türübergängen oder Schiebedächern \newline \newline
+
+\emph{Wirbellärm}: Durch Heckwirbel oder Anbauten, Lärm ungefähr linear in Anströmgeschwindigkeit. Grössenordnung von $0.002$ bis $0.03 m$
 
 \subsection{Nutzfahrzeuge}
 
+
 \subsubsection{Lastkraftwagen}
 
+
+\textbf{Symmetrische Antrömung}: Starke Wechselwirkung zwischen Fahrerhaus und Nutzlastaufbau. Druckverlauf siehe $Fig.~4.8, p.~4.6$ \newline \newline
+\textbf{Schräganströmung}: Grosser Widerstand und Seitenkraft durch Durchströmung zwischen Fahrerhaus und Nutzlastaufbau. Reduktion um $~10\%$ Widerstand un $~30\%$ Seiten- oder Trennwänden erreicht werden. Widerstandsanteil siehe $Fig.~4.12, p.~4.9$. \newline \newline
+\textbf{Formgestaltung}: 
+\begin{itemize}
+    \item Geringe Raddurchmesser: Verminderung Widerstand
+    \item Verrundung der Frontscheibe: Verminderung Widerstand (Verrundung der Kanten $> 150 mm$)
+    \item Im Bereich der Strömungsumlenkung keine Störquellen wie Türfugen. 
+    \item Seitenspiegel aerodynamisch ausgelegt oder durch Kameras ersetzt 
+    \item Oberflächenwiderstand bis zu $20\%$, deshalb benetzte Oberfläche glatt halten
+    \item Gute Gestaltung von Stossstangen, Frontspoiler und Lufteinöffnungen
+    \item Aerod. Optimierung des Fahrerhauses nicht isoliert betrachen 
+\end{itemize}
+
+\textbf{Widerstandsreduzierte Anbauteile}: Auswirkungen auf den $c_W$ siehe $Fig.~4.16$, $p.~4.12$
+
 \subsubsection{Busse}
+
+\textbf{Typische Strömungs- und Druckverhältnisse}: Meist quaderähnliche Formgebung aus Platzanspruchsgründen, trotzdem kleinere Optimierungen können $c_W$ im Bereich der Personenwagen ($c_W \approx 0.3$) erreicht werden, siehe $p.~4.15~ff$ \newline \newline
+
+%%%% Pic %%%%%
+
+\textbf{Strömung und Formgebung des Fahrzeugbugs}: Abrundung der Stirnradien um $150mm$ genügen um selbst mit vollständig stromlinienförmiger Optimierung kein wesentlicher Gewinn mehr zu erzielen \newline \newline
+
+%%%% Pic %%%%%
+
+\textbf{Strömung und Formgebung des Fahrzeughecks}: Geprägt durch grossflächige Vollheckablösung. Verminderung durch seitliche und vertikale Formeinzüge. Diese Massnahme ist nur bei sauberer Seiten- und Dachströmung wirksam. Die Frontgestaltung beeinflusst diese Umströmung wesentlich!
 
 \subsection{Rennfahrzeuge}
 
 \subsubsection{Grundlagen}
 
+\textbf{Aerodynamische Relevanz}: 
+
+\begin{itemize}
+    \item Hohe aerodynamische Abtriebskräfte vergrössern Adhäsion auf der Strasse
+    \item Verbessertes Fahrverhalten durch bewusst gesteuerte Abtriebtskräfte auf Vorder- und Hinterachsen 
+    \item Kleinerer Widerstand für erhöhte Spitzengeschwindigkeit
+    \item Ausreichend Kühlluftzufuhr für Motor, Antriebskomp., Bremsen udn Fahrer 
+\end{itemize}
+
+\textbf{Maximal fahrbare Geschwindigkeit} in einer Kurve mit Radius r:
+$V_{max} = \sqrt{\mu_{lat,max}R(g-\rho V^2 A c_A / (2m))} = \sqrt{\mu_{lat,max} R (1- F_A/(mg))}$
+
 \subsubsection{Tourenwagen}
 
+Tourenwagen sind von Serien-Personenwagen abgeleitete Rennfahrzeuge. \newline \newline
+
+\textbf{Optimierung}: $(c_A / c_W)_{max}$, analog zur Gleitzahl \newline \newline
+
+\textbf{Typische Werte}: $c_W \approx 0.35 - 0.45$, $c_A \approx -0.5$ bis $-1.0$, $-c_A/c_W \approx 2-3$ \newline \newline
+
+\textbf{Skirts}: Unterdruck im Unterboden bewirkt Suagkraft, kann verstärkt werden durch Abdichtung zum Boden (Skirts) \newline \newline
+
+\textbf{Fahrzeugfront}: Möglichst saubere Umströmung (ablösefrei). Gezielte Ablösung durch Spoiler im unteren Bugbereich. Bugform bestimmt weitgehend die Grösse des Vorderachsenantriebs udn die Eintrittsbedingungen für die Unterbodenströmung.  \newline \newline
+
+\textbf{Unterboden}: Geprägt durch Bugform, seitliche Abdeckung im Heckdruck. Möglichst nahe am Boden oder gut abgedichtet zum Boden, möglichst glatt. Mit Optimierung kann eine Abtriebserhöhung (Hinterachse) bis zu $5\%$ bei gleichzeitig gerigerem Widerstand erzeugt werden \newline \newline
+
+\textbf{Heckflügel}: Umströmter Körper in Bodennähe erzeugt im hinteren Bereich Auftrieb. Heckabtrieb ist daher wesentlich schwieriger als Frontabtrieb. Ein Heckflügel
+erzeugt Abtrieb (bei möglichst geringem Widerstand) und kann auch die Unterbodenströmung positiv beeinflussen (kleineres Druckniveau am Heck). Oft sehr komplexe Umströmung durch Störungen! \newline \newline
+
 \subsubsection{Rennfahrzeuge mit abgedeckten Rädern}
+
+\textbf{Typische Werte}: $c_W \approx 0.3 - 0.8$, $c_A \approx -1.0$ bis $-3.0$, $-c_A/c_W \approx 2 - 4$ \newline \newline
+
 
 \subsubsection{Rennfahrzeuge mit offenen Rädern}
 
