@@ -1,9 +1,9 @@
-PWD /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik
+PWD /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.log
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex
+OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.log
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -236,9 +236,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux
+OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -292,83 +292,13 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png
+OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Aufstiegspolaren.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Aufstiegspolaren.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Aufstiegspolaren.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_am_Profil.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_am_Profil.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_am_Profil.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Widerstandsarten.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Widerstandsarten.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Widerstandsarten.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Koordinaten_Schraegstroemung.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Koordinaten_Schraegstroemung.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Koordinaten_Schraegstroemung.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fahrzeugheck_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fahrzeugheck_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fahrzeugheck_Personenwagen.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/LKW_Druck.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/LKW_Druck.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/LKW_Druck.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Ohne_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Ohne_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Ohne_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Mit_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Mit_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Mit_Aerodyn.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/F_1_Wirbel.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/F_1_Wirbel.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/F_1_Wirbel.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

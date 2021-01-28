@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  28 JAN 2021 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  28 JAN 2021 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex"
-(/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.tex
+**"/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex"
+(/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1409,8 +1409,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \footskip       = 33.25pt
 (typearea)              \baselineskip   = 9.5pt
 (typearea)              on input line 30.
-(/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
-\openout1 = `FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux'.
+(/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
+\openout1 = `Econ_Summary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -1531,457 +1531,29 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 60.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
-
- []
-
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 89.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
-File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-) <meteorologie-wetter-atmosphaere-102.png, id=4, 857.2025pt x 857.2025pt>
-File: meteorologie-wetter-atmosphaere-102.png Graphic file (type png)
- <use meteorologie-wetter-atmosphaere-102.png>
-Package pdftex.def Info: meteorologie-wetter-atmosphaere-102.png used on input line 112.
-(pdftex.def)             Requested size: 227.62204pt x 227.61537pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 112--113
-[][] 
- []
-
-<Fluegelgeometrie-1.png, id=5, 875.27pt x 620.3175pt>
-File: Fluegelgeometrie-1.png Graphic file (type png)
- <use Fluegelgeometrie-1.png>
-Package pdftex.def Info: Fluegelgeometrie-1.png used on input line 130.
-(pdftex.def)             Requested size: 170.71652pt x 120.98509pt.
-
-Overfull \hbox (70.708pt too wide) in paragraph at lines 132--148
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--163
-
- []
-
-[1
+) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/meteorologie-wetter-atmosphaere-102.png (PNG copy)> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fluegelgeometrie-1.png>] <Aufstiegspolaren.png, id=25, 1262.7175pt x 455.7025pt>
-File: Aufstiegspolaren.png Graphic file (type png)
- <use Aufstiegspolaren.png>
-Package pdftex.def Info: Aufstiegspolaren.png used on input line 184.
-(pdftex.def)             Requested size: 227.62204pt x 82.14111pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 184--185
- [] 
- []
-
-<Druckverteilung_am_Profil.png, id=26, 568.1225pt x 877.2775pt>
-File: Druckverteilung_am_Profil.png Graphic file (type png)
- <use Druckverteilung_am_Profil.png>
-Package pdftex.def Info: Druckverteilung_am_Profil.png used on input line 245.
-(pdftex.def)             Requested size: 156.49014pt x 241.64694pt.
- [2 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Aufstiegspolaren.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_am_Profil.png>] <Wirbelsystem_einfaches_Hufeisenmodell.png, id=32, 911.405pt x 673.51625pt>
-File: Wirbelsystem_einfaches_Hufeisenmodell.png Graphic file (type png)
- <use Wirbelsystem_einfaches_Hufeisenmodell.png>
-Package pdftex.def Info: Wirbelsystem_einfaches_Hufeisenmodell.png used on input line 271.
-(pdftex.def)             Requested size: 156.49014pt x 115.637pt.
- <Prandtl_Wirbelmodell.png, id=33, 911.405pt x 465.74pt>
-File: Prandtl_Wirbelmodell.png Graphic file (type png)
- <use Prandtl_Wirbelmodell.png>
-Package pdftex.def Info: Prandtl_Wirbelmodell.png used on input line 272.
-(pdftex.def)             Requested size: 156.49014pt x 79.96358pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-[]\OT1/bch/m/n/8 Bei ge-pfeil-ter Fl[]ugelform: Zus[]atzlich kan ein
- []
-
-<Widerstandsarten.png, id=34, 1020.81375pt x 771.88374pt>
-File: Widerstandsarten.png Graphic file (type png)
- <use Widerstandsarten.png>
-Package pdftex.def Info: Widerstandsarten.png used on input line 320.
-(pdftex.def)             Requested size: 170.71652pt x 129.08669pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
-
- []
-
-[3 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Wirbelsystem_einfaches_Hufeisenmodell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Prandtl_Wirbelmodell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Widerstandsarten.png>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
-[]\OT1/bch/m/n/8 Durch Be-ein-flus-sung der Aus-gleichss-tr[]omung
- []
-
-<Koordinaten_Schraegstroemung.png, id=45, 368.37625pt x 631.35875pt>
-File: Koordinaten_Schraegstroemung.png Graphic file (type png)
- <use Koordinaten_Schraegstroemung.png>
-Package pdftex.def Info: Koordinaten_Schraegstroemung.png used on input line 533.
-(pdftex.def)             Requested size: 113.81102pt x 195.05446pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--578
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--578
-
- []
-
-
-Overfull \hbox (49.1958pt too wide) in paragraph at lines 590--591
-[]$\OML/cmm/m/it/8 B \OT1/cmr/m/n/8 = (\OML/cmm/m/it/8 P[] \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 P[] \OT1/cmr/m/n/8 + ^^A\OML/cmm/m/it/8 P[]\OT1/cmr/m/n/8 )(\OML/cmm/m/it/8 SFC\OT1/cmr/m/n/8 )(1000\OML/cmm/m/it/8 =^^Z[]\OT1/cmr/m/n/8 )(100\OML/cmm/m/it/8 =V\OT1/cmr/m/n/8 )[\OML/cmm/m/it/8 l=\OT1/cmr/m/n/8 100\OML/cmm/m/it/8 km\OT1/cmr/m/n/8 ]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
-[]\OT1/bch/m/n/8 Fahrgastraumkonditionierung (A/C) und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 609--611
-
- []
-
-[5 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Koordinaten_Schraegstroemung.png>] <Druckverteilung_Personenwagen.png, id=50, 372.39125pt x 230.8625pt>
-File: Druckverteilung_Personenwagen.png Graphic file (type png)
- <use Druckverteilung_Personenwagen.png>
-Package pdftex.def Info: Druckverteilung_Personenwagen.png used on input line 622.
-(pdftex.def)             Requested size: 128.0374pt x 79.37639pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
-
- []
-
-<Fahrzeugheck_Personenwagen.png, id=51, 722.7pt x 186.6975pt>
-File: Fahrzeugheck_Personenwagen.png Graphic file (type png)
- <use Fahrzeugheck_Personenwagen.png>
-Package pdftex.def Info: Fahrzeugheck_Personenwagen.png used on input line 633.
-(pdftex.def)             Requested size: 227.62204pt x 58.80147pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 633--634
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
-\OT1/bch/b/n/8 Heckspoiler\OT1/bch/m/n/8 : Wi-der-stand-ver-rin-ge-rung, Hin-ter-achs-auf-trieb,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 658--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 658--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
-
- []
-
-<LKW_Druck.png, id=52, 610.28pt x 213.79875pt>
-File: LKW_Druck.png Graphic file (type png)
- <use LKW_Druck.png>
-Package pdftex.def Info: LKW_Druck.png used on input line 676.
-(pdftex.def)             Requested size: 227.62204pt x 79.7437pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 676--677
- [] 
- []
-
-
-Underfull \hbox (badness 5022) in paragraph at lines 679--681
-[]\OT1/bch/b/n/8 Schr[]aganstr[]omung\OT1/bch/m/n/8 : Gros-ser Wi-der-stand und Sei-ten-kraft
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--681
-
- []
-
-[6 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_Personenwagen.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fahrzeugheck_Personenwagen.png>] <Druck_Bus_Ohne_Aerodyn.png, id=58, 616.3025pt x 224.84pt>
-File: Druck_Bus_Ohne_Aerodyn.png Graphic file (type png)
- <use Druck_Bus_Ohne_Aerodyn.png>
-Package pdftex.def Info: Druck_Bus_Ohne_Aerodyn.png used on input line 698.
-(pdftex.def)             Requested size: 227.62204pt x 83.03853pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 698--699
- [] 
- []
-
-<Druck_Bus_Mit_Aerodyn.png, id=59, 712.6625pt x 365.365pt>
-File: Druck_Bus_Mit_Aerodyn.png Graphic file (type png)
- <use Druck_Bus_Mit_Aerodyn.png>
-Package pdftex.def Info: Druck_Bus_Mit_Aerodyn.png used on input line 704.
-(pdftex.def)             Requested size: 227.62204pt x 116.69618pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 704--705
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-[]\OT1/bch/m/n/8 Hohe ae-ro-dy-na-mi-sche Ab-triebs-kr[]afte ver-gr[]ossern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 727--728
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 727--728
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 737--738
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--748
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--748
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--761
-
- []
-
-[7 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/LKW_Druck.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Ohne_Aerodyn.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Mit_Aerodyn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 762--764
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--764
-
- []
-
-<F_1_Wirbel.png, id=67, 712.6625pt x 613.29124pt>
-File: F_1_Wirbel.png Graphic file (type png)
- <use F_1_Wirbel.png>
-Package pdftex.def Info: F_1_Wirbel.png used on input line 769.
-(pdftex.def)             Requested size: 227.62204pt x 195.88287pt.
-
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 769--770
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
-
- []
-
-[8 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/F_1_Wirbel.png>] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25564 strings out of 493089
- 519606 string characters out of 6134841
- 632168 words of memory out of 5000000
- 28603 multiletter control sequences out of 15000+600000
- 21227 words of font info for 55 fonts, out of 8000000 for 9000
+ 25446 strings out of 493089
+ 516606 string characters out of 6134841
+ 609140 words of memory out of 5000000
+ 28510 multiletter control sequences out of 15000+600000
+ 14431 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,84p,10557b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" (8 pages, 1719220 bytes).
+ 73i,7n,84p,10527b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb>
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" (1 page, 14282 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
