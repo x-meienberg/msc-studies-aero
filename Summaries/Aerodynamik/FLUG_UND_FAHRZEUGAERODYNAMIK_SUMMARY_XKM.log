@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  28 JAN 2021 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  28 JAN 2021 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1679,229 +1679,304 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--605
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+<Druckverteilung_Personenwagen.png, id=45, 372.39125pt x 230.8625pt>
+File: Druckverteilung_Personenwagen.png Graphic file (type png)
+ <use Druckverteilung_Personenwagen.png>
+Package pdftex.def Info: Druckverteilung_Personenwagen.png used on input line 616.
+(pdftex.def)             Requested size: 128.0374pt x 79.37639pt.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+Underfull \hbox (badness 10000) in paragraph at lines 621--625
+
+ []
+
+<Fahrzeugheck_Personenwagen.png, id=49, 722.7pt x 186.6975pt>
+File: Fahrzeugheck_Personenwagen.png Graphic file (type png)
+ <use Fahrzeugheck_Personenwagen.png>
+Package pdftex.def Info: Fahrzeugheck_Personenwagen.png used on input line 627.
+(pdftex.def)             Requested size: 227.62204pt x 58.80147pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 627--628
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
 \OT1/bch/b/n/8 Heckspoiler\OT1/bch/m/n/8 : Wi-der-stand-ver-rin-ge-rung, Hin-ter-achs-auf-trieb,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--628
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--647
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--647
+Underfull \hbox (badness 10000) in paragraph at lines 652--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
+Underfull \hbox (badness 10000) in paragraph at lines 652--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--663
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
+<LKW_Druck.png, id=50, 610.28pt x 213.79875pt>
+File: LKW_Druck.png Graphic file (type png)
+ <use LKW_Druck.png>
+Package pdftex.def Info: LKW_Druck.png used on input line 670.
+(pdftex.def)             Requested size: 227.62204pt x 79.7437pt.
 
-Underfull \hbox (badness 5022) in paragraph at lines 660--663
-\OT1/bch/b/n/8 Schr[]aganstr[]omung\OT1/bch/m/n/8 : Gros-ser Wi-der-stand und Sei-ten-kraft
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 670--671
+ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--663
-
+Underfull \hbox (badness 5022) in paragraph at lines 673--675
+[]\OT1/bch/b/n/8 Schr[]aganstr[]omung\OT1/bch/m/n/8 : Gros-ser Wi-der-stand und Sei-ten-kraft
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
 
  []
 
+[6 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druckverteilung_Personenwagen.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Fahrzeugheck_Personenwagen.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/LKW_Druck.png>] <Druck_Bus_Ohne_Aerodyn.png, id=57, 616.3025pt x 224.84pt>
+File: Druck_Bus_Ohne_Aerodyn.png Graphic file (type png)
+ <use Druck_Bus_Ohne_Aerodyn.png>
+Package pdftex.def Info: Druck_Bus_Ohne_Aerodyn.png used on input line 692.
+(pdftex.def)             Requested size: 227.62204pt x 83.03853pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 692--693
+ [] 
+ []
 
+<Druck_Bus_Mit_Aerodyn.png, id=58, 712.6625pt x 365.365pt>
+File: Druck_Bus_Mit_Aerodyn.png Graphic file (type png)
+ <use Druck_Bus_Mit_Aerodyn.png>
+Package pdftex.def Info: Druck_Bus_Mit_Aerodyn.png used on input line 698.
+(pdftex.def)             Requested size: 227.62204pt x 116.69618pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 698--699
+ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--682
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 681--682
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 []\OT1/bch/m/n/8 Hohe ae-ro-dy-na-mi-sche Ab-triebs-kr[]afte ver-gr[]ossern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--706
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--706
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--710
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--710
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
-[7] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--758
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--758
+
+ []
+
+<F_1_Wirbel.png, id=59, 712.6625pt x 613.29124pt>
+File: F_1_Wirbel.png Graphic file (type png)
+ <use F_1_Wirbel.png>
+Package pdftex.def Info: F_1_Wirbel.png used on input line 763.
+(pdftex.def)             Requested size: 227.62204pt x 195.88287pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 763--764
+ [] 
+ []
+
+[7 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Ohne_Aerodyn.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/Druck_Bus_Mit_Aerodyn.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
+
+ []
+
+[8 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/F_1_Wirbel.png>] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25529 strings out of 493089
- 518608 string characters out of 6134841
+ 25559 strings out of 493089
+ 519427 string characters out of 6134841
  632168 words of memory out of 5000000
- 28575 multiletter control sequences out of 15000+600000
+ 28599 multiletter control sequences out of 15000+600000
  21227 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,9n,84p,10557b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,84p,10557b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" (7 pages, 1176568 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Aerodynamik/FLUG_UND_FAHRZEUGAERODYNAMIK_SUMMARY_XKM.pdf" (8 pages, 1635785 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
