@@ -69,7 +69,7 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \item Chord Length $c$ $[m]$
 \item Surface Area $S = b\cdot c$ $[m^2]$ (Rectangular)
 \item Wing Span $b$ $[m]$ 
-\item Lift Coefficient $C_{l}=L/(1/2\rho V^2\cdot S) $
+\item Lift Coefficient $C_{l}=L/(1/2\rho V^2\cdot S) $0.......2
 \item Drag Coefficient $C_d = D/(1/2\rho V^2 \cdot S)$
 \item Moment Coefficient $C_m = M_A/(1/2\rho V^2 \cdot c \cdot S)$
 \item Angle of Attack $\alpha$ $[rad]$ (positive in clockwise direction)
@@ -205,7 +205,7 @@ The idea is later on to model the torsional spring to be a torsional stiffness o
 
 \begin{itemize}
     \item $L = T-U$ (Kinetic and potential energy)
-    \item $\frac{d}{dt}\frac{\partial L }{\partial \dot{x}_i} - \frac{\partial L}{\partial x_i} = 0$
+    \item $\frac{d}{dt}\frac{\partial L }{\partial \dot{x}_i} - \frac{\partial L}{\partial x_i} = 0$ (Conservative)
     \item In statics: $\frac{\partial U}{\partial x_i} = 0$ (Potential energy conservative)
     \item Here: $\frac{\partial U}{\partial x_i} = \frac{\partial}{\partial x}\frac{\delta W}{\delta x}$ (Virtual work), hence for $\theta$
     \item $\frac{\partial U}{\partial \theta}= \frac{\partial}{\partial \theta}\frac{\delta W}{\delta \theta} = 0$ (Check for q)
@@ -457,6 +457,8 @@ Control effectiveness is described by following term:
 \end{itemize}
 
 \section*{Unsteady Aeroelasticity}
+
+Compared to steady aeroelasticity, changes in angle of attack can influence the system significantly
 
 \subsubsection*{Dynamic Systems (Repetition from Bachelor Level)}
 
@@ -784,7 +786,7 @@ When placing the springs at to different positions with the longitudinal spring 
         \item In the linear system, the amplitude of the mode diverges (flutter)
         \item In the nonlinear system, the amplitude reaches a certain limit cycle (oscillating)
         \item In dynamic systems with time delay, the system jumps after reaching flutter speed (unsteady systems), in steady or quasi-steady systems, they follow the nonlinear curve after reaching flutter speed instantaniously
-        \item When we throttle the syst4em above flutter speed, it follows a similar curve to the instantanious one 
+        \item When we throttle the system above flutter speed, it follows a similar curve to the instantanious one 
     \end{itemize}
 
  \subsubsection*{Mathematical Appendix}
