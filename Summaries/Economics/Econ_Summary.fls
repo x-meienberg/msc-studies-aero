@@ -297,11 +297,11 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
