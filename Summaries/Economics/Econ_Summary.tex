@@ -233,7 +233,7 @@ des Preises dieses Gutes:
 Im Grenzübergang $\Delta \rightarrow \partial$ beziehungsweise $\Delta p \rightarrow 0$:
 
 \begin{equation}
-    \varepsilon_x N_p = \frac{\partial x}{\partial p}\frac{p}{x^N}
+    \varepsilon_x N_p = \frac{\partial x^N}{\partial p}\frac{p}{x^N}
 \end{equation}
 
 Die Preiselastizität hängt also von der Steigung der Nachfragekurve ($\frac{\partial x}{\partial p}$) und vom Preis/Mengenverhältnis ab. Entlang der Nachfragekurve variiert also die Elastizität. Da Nachfragekurven meist konvex sind, ist die die Preiselastizität negativ und nur der Betrag wird angegeben,
@@ -299,11 +299,23 @@ Die Grenzkostenkurve ist positiv steigend aufgrund der steigenden Kosten bei erh
     \includegraphics[width=6.5cm]{Gueterangebotsfunktion_Unternehmen.png}
 \end{center}
 
-\textbf{Kostenfunktion}: Abhängig von Fixkosten (von produzierten Menge unabhängig) und variable Kosten (von prod. Menge abhängig/steigen mit Produktionsmenge an).
+\textbf{Kostenfunktion}: Abhängig von Fixkosten (von produzierten Menge unabhängig) und variable Kosten (von prod. Menge abhängig/steigen mit Produktionsmenge an). Die Grenzkosten sind unabhängig von den Fixkosten. Die Fixkosten bestimmen die Achsenverschiebung der Kostenfunktion. Die Kostenfunktion stellt den Zusammenhang zwischen Produktionsmenge und den jeweils minimalsten Kosten für $x$ dar.
 
 \begin{equation}
-    K(x) = K_{fix}(x) + K_{var}(x)
+    K(x) = K_{fix} + K_{var}(x)
 \end{equation}
+
+Die \textbf{Durchschnittkosten} $k$ beschreiben die Kosten pro Einheit:
+
+\begin{equation}
+    k(x) = K(x)/x
+\end{equation}
+
+Der \textbf{s-förmige Kostenverlauf}: Die Angebotskurve nimmt mit zunhemender Produktionsmenge nachdem die Grenzkosten erreicht worden sind zu. Bei Punkt $x_1$ sind die Kosten für jede weitere Produktion eines Gutes minimal. Die Steigung $\tan\alpha$ vom Ursprung aus ist dasselbe wie $k(x) = K(x)/x$ aus der Darstellung ersichtlich. Wenn man nun den Winkel in Abhängigkeit von $x$ plottet erhält man das Minimum der Durchschnittskostenkurve
+
+\begin{center}
+    \includegraphics[width=8cm]{S-Foermiger-Kostenverlauf.png}
+\end{center}
 
 Die Produktionsfunktion bestimmt den s-förmigen Verlauf der Kostenfunktion. Mathematisch wird der Kostenverlauf folgendermassen definiert: 
 
@@ -353,13 +365,44 @@ Die \textbf{Preiselastizität des Angebots} gibt an, um wieviel Prozent sich die
     \varepsilon_xA_p = \frac{\partial x^A}{\partial p}\frac{p}{x^A}
 \end{equation}
 
-Die Preiselastizität variiert in der Regel entlang der Kurve. 
+Die Preiselastizität variiert in der Regel entlang der Kurve. Wir referenzieren $p$ und $x$ immer auf den Nominalwert (alten Wert)
 
 \subsubsection{Verschiedene Elastizitätswerte}
 
+Die Preiselastizität des Angebots ist meistens positiv aufgrund der Annahme, dass das Angebot mit steigendem Preis steigt. Falls:
+
+\begin{itemize}
+    \item $\epsilon_x A_p = 1$, dann geht die Angebotskurve durch den Ursprung
+    \item $ \epsilon_x A_p > 1$, genau dann, wenn die Angebotskurve die Preisachse schneidet und ist undendlich bei $x^A = 0$ und konvergiert nach 1 für $x^A \rightarrow \infty$
+\end{itemize}
 
 
 \section{Kosten-Nutzen Analyse}
+
+\subsection{Gegenstand}
+Grundidee: Systematische Gegenüberstellung von Kosten und Nutzen. Individuum wird eine Aktivität/Handlungsalternative x nur dann ausführen, wenn deren Kosten (costs) kleiner sind als deren Nutzen (benefits). Hierbei muss ebenfalls beachtet werden, dass es intagible 
+Kosten gibt (nicht messbar) sowie mögliche Opportunitätskosten nicht berücksichtigt werden beim Assessment solcher Kosten. In der Volkswirtschaft wird dann diejenige Alternative berücksichtigt, welche der
+Gesellschaft netto am Grössten Nutzen bringt. 
+
+\begin{equation}
+    \text{Max} \sum_{t=1}^T \delta^t(B_t - C_t),~ B_t = \sum_{i=1}^I B_{it}~\text{und}~ C_t = \sum_{i=1}^T C_{it}
+\end{equation}
+
+$B_i$ kann man interpretieren als die Zahlungsbereitschaft eines Individuums (max. bereit zu bezahlender Betrag), und $C_i$ für die Aktivität erforderlichen Aufwendungen.
+
+\subsection{Bestimmung von Kosten und Nutzen}
+
+\subsubsection{Indirekte Methoden (Revealed Preference)}
+
+\subsubsection{Direkte Methoden (Stated Preference)}
+
+\subsection{Umgang mit Zeikomponente}
+
+\subsection{Unsicherheit}
+
+\section{Verteilungsproblematik}
+
+\section{Fazit}
 
 \section{Analyse von Märkten}
 
