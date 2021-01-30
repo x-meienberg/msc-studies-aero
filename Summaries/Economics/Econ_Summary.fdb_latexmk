@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1612010446 "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex" "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" "Econ_Summary" 1612010447
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux" 1612010447 3555 e349323bcc1d4caa28c5a15083658c2b ""
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex" 1612010445 20177 d282d37c40e027a0c7f4b9b7636e8ebc ""
+["pdflatex"] 1612038365 "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex" "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" "Econ_Summary" 1612038367
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux" 1612038367 4861 3684126be3cca65420c89473b244ed6b ""
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.tex" 1612038363 26134 16d63fce696874ba6e905cbf78a5f5ac ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -199,16 +199,17 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1445766340 3849860 7dfd5735ef440baebed6267662aa6d5d ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "Angebotskurve_Aggregiert.png" 1612036699 124553 de3378b20443072d0ecfa513b4189048 ""
   "Betriebsminima.png" 1612000475 79416 74b986cd7217cc8ba402baac733f67ca ""
-  "Econ_Summary.aux" 1612010447 3555 e349323bcc1d4caa28c5a15083658c2b ""
-  "Econ_Summary.tex" 1612010445 20177 d282d37c40e027a0c7f4b9b7636e8ebc ""
+  "Econ_Summary.aux" 1612038367 4861 3684126be3cca65420c89473b244ed6b ""
+  "Econ_Summary.tex" 1612038363 26134 16d63fce696874ba6e905cbf78a5f5ac ""
   "Gueterangebotsfunktion_Unternehmen.png" 1611995712 80540 089fd08fbf561e988a67c4af4fbb32eb ""
   "Nachfragefunktion.png" 1611968771 100941 2129d063456de41c7c3e98c7ab490e4b ""
   "S-Foermiger-Kostenverlauf.png" 1612007541 79300 08239a5113a67f57dee54e04672d657b ""
   "Typische_Nachfragefunktion.png" 1611968567 38676 06125ef12845d1f56ae3072967b975d8 ""
   (generated)
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.log"
-  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf"
   "Econ_Summary.pdf"
-  "Econ_Summary.aux"
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.log"
   "Econ_Summary.log"
+  "Econ_Summary.aux"
+  "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf"

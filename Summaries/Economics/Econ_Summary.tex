@@ -379,6 +379,15 @@ Die Preiselastizität des Angebots ist meistens positiv aufgrund der Annahme, da
 
 \section{Kosten-Nutzen Analyse}
 
+Grundlegendes Vorgehen: 
+
+\begin{enumerate}
+    \item Auflisten von Kosten und Nutzen über eine Laufzeit eines Projektes 
+    \item Bestimmung des Nettonutzen pro Periode ($N_t-K_t$)
+    \item Gewichtung der Nettonutzen nach zeitlichem Anfall (NPV)
+    \item Auswahl: Handlungsalternative mit positiven NPV zu wählen oder andere Entscheidungskriterien
+\end{enumerate}
+
 \subsection{Gegenstand}
 Grundidee: Systematische Gegenüberstellung von Kosten und Nutzen. Individuum wird eine Aktivität/Handlungsalternative x nur dann ausführen, wenn deren Kosten (costs) kleiner sind als deren Nutzen (benefits). Hierbei muss ebenfalls beachtet werden, dass es intagible 
 Kosten gibt (nicht messbar) sowie mögliche Opportunitätskosten nicht berücksichtigt werden beim Assessment solcher Kosten. In der Volkswirtschaft wird dann diejenige Alternative berücksichtigt, welche der
@@ -395,21 +404,102 @@ Werden Güter auf (vollständigen) Märkten gehandelt, so entsprechen deren Prei
 \subsubsection{Indirekte Methoden (Revealed Preference)}
 
 \begin{itemize}
-    \item Reisekostenbereitschaft
-    \item Hedonische Preise 
+    \item Kompensationsmethode bei Schäden: Welcher Wert an Gütern muss eingesetzt werden, um Schäden zu ersetzen. Z.B. geringer Fischfang wegen Wasserverschmutzung. Reparaturkosten in Marktwerten ausdrücken. Anwendbarkeit nur bei reversiblen Schäden.
+    \item Aufwandmethode/Reisekostenmethode: Die Kosten, die einem Individuum aus dem Besuch eines Ortes entstammen. Man fragt nach, wieviel eine Person aufgewandt hat um von seinem Herkunftsort an eine Destination zu gelangen. Alle Individuen können so zusammengefasst werden und die Daten sind vergleichbar 
+    \item Hedonische Preise: Zahlungsbereitschaft für Güter mit ähnlichen Charakteristika (z.B. Immobilien an Ort X vs. Y). Wie ändert sich der Preis eines Hauses, wenn die Luftverschmutzung um 1\% zunimmt? Vorgehen: $Preis = f(Eigenschaften)$, erste Ableitung ist der hedonische Preis 
 \end{itemize}
 
 \subsubsection{Direkte Methoden (Stated Preference)}
 
-\subsection{Umgang mit Zeikomponente}
+\begin{itemize}
+    \item Contingent Valuation: Hier werden Individuen mit einem Szenario konfrontiert und direkt über ihre Zahlungsbereitschaft (Willingness to Pay) befragt. Auf der anderen Seite werden Individuen gefragt, für wieviel Geld sie auf dasselbe Gut verzichten würden, der sogenannten Aktzeptantbereitschaft (Willingness to Accept). Oft gilt $WTP < WTA$
+    \item Discrete Choice Experiment: Es werden Eigenschaften eines Guts definiert. Daraus lassen sich die Eigenschaften als Vektor definieren mit mehreren Dimensionen. Mehrere Alternativen an Gütern werden Individuen gezeigt und so kann statischtisch bestimmt werden, was die Zahlungsbereitschaft eines Guts ist.
+\end{itemize}
+
+\textbf{Zeitpräferenz}: Geld, dass man in der Zukunft erhält, und nicht jetzt, hat für ein Individuum weniger wert. Aus diesem Grund wir der sogenannte Diskontierungsfaktor $0 \leq \delta \leq 1$ definiert (siehe Gl. 21). \newline \newline
+
+\textbf{Diskontrate vs. Marktzinssatz}: Die Diskontrate wird oft bestimmt via des Marktzinssatz $r$ bestimmt. Wir nehmen an, es gibt einen Zins auf den Betrag den man heute besitzt. Nach einem Jahr ist der Betrag $(1+r)$ wert. Also ist der aktuelle Diskontfaktor $\delta = 1/(1+r)$ .
+Zusätzlich können andere, theoretische Überlegungen gemacht werden und die Diskontrate abhängig von der Gesellschaft modellieren: $\delta = z + ng$, wobei
+
+\begin{itemize}
+    \item $z$: Die pure Zeitpräferenz ist
+    \item $n$: Der abnehmende Grenznutzen des Konsums, ausgedrückt durch die Einkommenselastizität des Konsums $n$
+    \item $g$: Die Wachstumsrate des Pro-Kopf Konsums 
+\end{itemize}
+
+
+
+\subsection{Umgang mit Zeitkomponente}
+\textbf{Barwertmethode und Net Present Value (NPV)}: 
+
+\begin{equation}
+    NPV = \sum_{t=0}^T \delta^t \left( N_t - K_t\right),~ N_0 = 0
+\end{equation}
+
+\textbf{Nutzen für zukünftige Generationen}: Hierbei ist zu beachten, dass es sich lohnt, zukünftige Einnahmen weniger abzudiskontieren. Der Nutzen ist langfristig angedacht und für zukünftige Generationen. Beispiel dafür sind Umwelthematiken. Hier kann man solche Projekte folgendermassen interpretieren: 
+
+\begin{enumerate}
+    \item Normale Diskontrate: Es handelt sich um ein Investitionsprojekt
+    \item Tiefe Diskontrate: Weil sonst der Nutzen weggerechnet wird 
+\end{enumerate}
 
 \subsection{Unsicherheit}
 
-\section{Verteilungsproblematik}
+\begin{itemize}
+    \item Unsicherheit: Wir wissen nicht, mit welcher Wahrscheinlichkeit ein Ereignis auftritt
+    \item Risiko: Es gibt Ereignisse oder Umweltzustände, über deren Eintreten wir nicht sicher sind aber wir kennen die Wahrscheinlichkeit (positives oder auch negatives Ereignis). Man kennt die objektive Wahrscheinlichkeit
+    \item Ambiguität: Zwischenform von Unischerheit und Risiko. Der Entscheidungsträger entscheidet basierend auf subjektiver Wahrscheinlichkeit. 
+    \item Erwartungswert: Werden für Risiken gemäss Statistik für Kosten wie auch Nutzen bestimmt $E(C) = \sum C_k p(C_k)$
+    \item Risikoaversion: Viele Menschen würden anstatt auf den Erwartungswert immer eine sichere Alternative wählen. 
+\end{itemize}
 
-\section{Fazit}
 
+\subsection{Verteilungsproblematik}
+
+\begin{itemize}
+    \item Pareto-Effizienz: Grösstes Problem der Kosten-Nutzen-Analyse: Es sind keine Aussagen möglich, wie die Kosten und Nutzen innerhalb der Gesellschaft alloziert sind. Die Pareto-Effizienz ist ein Kriterium für die Einordnung der Verteilung
+    \item Eine Güterverteilung gilt dann als effizient, wenn keine andere Güterverteilung möglich ist, welche mindestens ein Individuum besser, gleichzeitig aber kein anderes Individuum schlechter stellt 
+    \item Gemäss K-N Analysen wird dann immer eine Massnahme empfohlen, wenn die Summe der Benefits die Summer der Kosten übersteigen, unabhängig von we die Kosten getragen werden. Diese Effizienz wird \emph{potentielle Pareto-Effizienz} genannt
+\end{itemize}
+
+Es ist wichtig anzumerken, dass die Kosten-Nutzen Analyse gute Resultate bringen kann, jedoch müssen die Parameter offengelegt sein.
 \section{Analyse von Märkten}
+
+\subsection{Aggregierte Angebots- und Nachfragekurven}
+
+Die Aggregation findet horizontal statt. Je mehr Akteure,umso glatter wird die Angebotskurve/Nachfragekurve
+
+\begin{center}
+    \includegraphics[width=8cm]{Angebotskurve_Aggregiert.png}
+\end{center}
+
+\subsection{Preisbildung auf Märkten}
+
+\subsubsection{Preisbildung bei vollkommener Konkurrenz}
+
+Annahme: Markt besteht aus vielen, kleinen Unternehmen und wird von vielen kleinen Haushalten in Anspruch genommen
+
+\subsubsection{Preisbildung beim Monopol}
+
+\subsubsection{Natürliches Monopol}
+
+\subsection{Ökonomische Renten}
+
+\subsubsection{Renten bei vollkommener Konkurrenz}
+
+\subsubsection{Renten beim Monopol}
+
+\subsubsection{Vergleich der Renten bei Konkurrenz und Monopol}
+
+\subsection{Höchst- und Mindestpreise}
+
+\subsubsection{Mindestpreise}
+
+\subsubsection{Höchstpreise}
+
+\subsection{Verbrauchssteuern}
+
+\subsection{Subventionen}
 
 \section{Öffentliche Güter und externe Effekte}
 
