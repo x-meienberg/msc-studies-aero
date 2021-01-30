@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  30 JAN 2021 02:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  30 JAN 2021 08:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1586,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--241
  []
 
 [2 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Typische_Nachfragefunktion.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Nachfragefunktion.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []\OT1/bch/b/n/10.95 Leistungskraft und Wohl-fahrt von
  []
 
@@ -1598,7 +1598,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  25498 strings out of 493089
  517447 string characters out of 6134841
- 621139 words of memory out of 5000000
+ 621140 words of memory out of 5000000
  28549 multiletter control sequences out of 15000+600000
  22415 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
