@@ -1,4 +1,4 @@
-\documentclass[8pt, landscape, fleqn]{scrartcl}
+\documentclass[9pt, landscape, fleqn]{scrartcl}
 \setlength{\parindent}{0pt}
 \usepackage[ngerman]{babel}
 %\usepackage[applemac]{inputenc}
@@ -460,7 +460,12 @@ Zusätzlich können andere, theoretische Überlegungen gemacht werden und die Di
     \item Pareto-Effizienz: Grösstes Problem der Kosten-Nutzen-Analyse: Es sind keine Aussagen möglich, wie die Kosten und Nutzen innerhalb der Gesellschaft alloziert sind. Die Pareto-Effizienz ist ein Kriterium für die Einordnung der Verteilung
     \item Eine Güterverteilung gilt dann als effizient, wenn keine andere Güterverteilung möglich ist, welche mindestens ein Individuum besser, gleichzeitig aber kein anderes Individuum schlechter stellt 
     \item Gemäss K-N Analysen wird dann immer eine Massnahme empfohlen, wenn die Summe der Benefits die Summer der Kosten übersteigen, unabhängig von we die Kosten getragen werden. Diese Effizienz wird \emph{potentielle Pareto-Effizienz} genannt
+    \item Die notwendige Bedingung für ein soziales Optimum (Pareto-Optimum) ist bei vollständigem Wettbewerb gegeben (Usage-Costs/Wohlfahrt-Kosten). Im Marktleichgewicht gilt Grenznutzen (Nachfrage) = Grenzkosten (Angebot)
 \end{itemize}
+
+\begin{equation}
+    \max\limits_x\left\{U(x)-K(x)\right\} \Leftrightarrow U'(x) = K'(x)
+\end{equation}
 
 Es ist wichtig anzumerken, dass die Kosten-Nutzen Analyse gute Resultate bringen kann, jedoch müssen die Parameter offengelegt sein.
 \section{Analyse von Märkten}
@@ -473,35 +478,188 @@ Die Aggregation findet horizontal statt. Je mehr Akteure,umso glatter wird die A
     \includegraphics[width=8cm]{Angebotskurve_Aggregiert.png}
 \end{center}
 
+Hierbei ist zu beachten, dass die Mengen $x$ bei konstantem $p$ aufaddiert werden! Dies bedeutet, dass man zuerst die Gleichungen $x(p)$ aufstellen muss und dann aufaddiert.
+
 \subsection{Preisbildung auf Märkten}
 
 \subsubsection{Preisbildung bei vollkommener Konkurrenz}
 
-Annahme: Markt besteht aus vielen, kleinen Unternehmen und wird von vielen kleinen Haushalten in Anspruch genommen
+Annahme: Markt besteht aus vielen, kleinen Unternehmen und wird von vielen kleinen Haushalten in Anspruch genommen. Die Unternehmen wie auch die Haushalte haben keinen Einfluss auf den Preis. Weitere Annahme: Die Funktionen für Nachfrage und Angebot sind bekannt.
+Die angebotene Menge und nachgefragte Menge werden über den Marktpreis bestimmt. Der Marktpreis is so hoch, dass Marktpreis und Angebotspreis gleich hoch sind. 
+
+\begin{center}
+    \includegraphics[width=5cm]{Marktgleichgewicht_1.png}
+\end{center}
+
+Bei $p_1$: \textbf{Angebotsüberhang} besteht nur kurzfristig. Das Marktangebot ist höher als die nachgefragte Menge. Andere Anbieter bieten allenfalls keine Produkte mehr an, da die Kosten unterhalb der Durchschnittskosten liegen\newline 
+
+Bei $p_2$: \textbf{Nachfrageüberhang} besteht nur kurzfristig. Die Marktnachfrage ist höher als die angebotene Menge. Nachfrager ziehen sich aus dem Markt zurück oder verringern die nachgefragte Menge \newline 
+
+Das \textbf{Marktgleichgewicht} liegt da, wo der Markt geräumt ist, d.h. der Preis gerade so hoch ist, dass Marktnachfrage und Angebot gleich hoch sind. Marktgleichgewichte bestehen nur kurzfristig, gegeben alle Informationen sind vorhanden und der Staat greift nich ein.
+Die Anpassungen zum Preis zu gleich grossen Mengen finden sehr schnell statt. 
+
 
 \subsubsection{Preisbildung beim Monopol}
 
+Punkt $A$ ist der Cournot-Punkt. Er liegt auf der Nachfragekurve und bestimmt diejenige Preis-Mengen-Kombination (pMonopol,xMonopol), die für den Monopolisten gewinnmaximal ist. Im Punkt $B$ gilt, dass der Grenzerlös (aus der Nachfragekurve abgeleitet) den Grenzkosten (aus der Kostenkurve des Monopolisten abgeleitet) entspricht. Punkt $C$ ist derjenige Punkt, der bei vollkommener Konkurrenz dem Marktgleichgewicht entsprechen würde. Der Monopolpreis $p_{Monopol}$ ist höher als der Konkurrenzpreis $p^*$ und die Menge $x_{Monopol}$ ist geringer als die Konkurrenzmenge $x^*$. Es werden also in dieser Marktform einige Nachfrager ausgeschlossen bzw. einige Nachfrager können nicht soviel konsumieren wie es bei der Marktform der vollkommenen Konkurrenz der Fall wäre.
+
+\begin{center}
+    \includegraphics[width=7cm]{Preisbildung_Monopol.png}
+\end{center}
+
+Der Preis beim Monopol ist höher als bei der völligen Konkurrenz. Ebenso verringert sich die angebotene Menge. Argumente zugunsten Monopole sind:
+
+\begin{itemize}
+    \item Die Aussicht auf Gewinne/Monopole entwickeln Unternehmen neue Technologien, zur Senkung der Prodsuktionskosten und zur Verbesserung der Leistungen 
+    \item Gewinne während einer gewissen Übergangsphase sind gut (benefit of monopoly)
+    \item Forschungs- oder Entwicklungskosten können mittels Monopolgewinne amortisiert werden 
+    \item Hierzu nötig sind jedoch geeignete Rahmenbedingungen: Klare Bedingungen zu den Verfügungsrechten und möglichst kleine Eingriffe in den Marktmechanismus selbst 
+\end{itemize}
+
 \subsubsection{Natürliches Monopol}
+
+\textbf{Natürliche Monopole} sind gekennzeichnet durch: 
+
+\begin{itemize}
+    \item Sehr hohe Fixkosten (Hohe Investitionen nötig)
+    \item Niedrige Grenzkosten 
+    \item Durchschnittkosten, die wegen hohen Fixkosten über den Grenzkosten liegen 
+\end{itemize}
+
+Der Verkäufer würde somit einen Verlust schreiben mit jedem verkauften Stück. Bei der Kostenstruktur des natürlichen Monopols kommt es nicht zu einem Angebot konkurrierender Anbieter. 
+Im Falle des Monopols ist es nämlich möglich, dass der Preis höher als die Durchschnittskosten und Grenzkosten ist. Ein derartiger hoher Monopolpreis ermöglicht dann zwar die Erstellung des jeweiligen Gutes mit steigenden Skalenerträgen, ist jedoch verbunden mit einer tiefen Verbrauchsmenge; eine solche Konstellation bringt Wohlfahrtsverluste mit sich.
+Folgende Massnahmen bieten sich an: 
+
+\begin{itemize}
+    \item Staat produziert das Gut selbst 
+    \item Staat legt einen Höchstpreis fest für den Monopolisten (mit vorbestimmten Erlös)
+    \item ``Unbundling'': Netwerke (Gas-/Wasserleitungen) werden getrennt in Bereitstellung und Betrieb. Die Bereitstellung ist monopolistisch, während der Betrieb und die Ressourcen (Wasser, Öl) zu offiziellen Konditionen angeboten werden 
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=5.5cm]{Natuerliches_Monopol_Preise.png}
+\end{center}
+
+Beim natürlichen Monopol kann sich die einfache Regel/Grenzkostenregel nicht angewandt werden. Der optimale Preis ist der Punkt, wo die Durchschnittskosten ($DK$) und Nachfragefunktion ($x^N$) sich schneiden
 
 \subsection{Ökonomische Renten}
 
 \subsubsection{Renten bei vollkommener Konkurrenz}
 
+\textbf{Konsumentenrente}: Ist die nicht-ausgeschöpfte Zahlungsbereitschaft des Kunden. Geometrisch ist dies die Fläche unterhalb der Nachfragekurve, welche oberhalb des Marktpreises liegt. \newline
+
+\textbf{Produzentenrente}: Erlöse - (variable) Kosten. Die Produzentenrente besteht aus den Erlösen ($p\cdot x$) ohne die Kosten für die Produktion ($\int K' dx$). \newline
+
+Das Konzept der Produzentenrente impliziert dass Unternehmen in der Lage sind Gewinne zu machen. Dies ist in einem Modell der vollständigen Konkur- renz nur kurzfristig möglich. Langfristig führen Gewinnaussichten in einer Branche dazu, dass immer mehr Anbieter auf den Markt drängen. Dies führt zu einer Reduktion der Gewinne. Am Ende dieses Prozesses gehen (in einer solchen statischen Analyse) die Gewinne gegen null.
+
+\begin{center}
+    \includegraphics[width=6cm]{Rentenkonzept.png}
+\end{center}
+
 \subsubsection{Renten beim Monopol}
 
-\subsubsection{Vergleich der Renten bei Konkurrenz und Monopol}
+\textbf{Konsumentenrente}: Entspricht nun derjenigen Fläche, welche vom Cournotpunkt aus und der Nachfragefunktion eingeschlossen ist \newline \newline
+\textbf{Produzentenrente}: Entspricht derjenigen Rente, welche zwischen Cournotpunkt und Angebotskurve/ Grenzkostenkurve liegt. \newline \newline
+Im Vergleich zum vollkommenen Markt führt es einerseits zu einer Konvertierung der Konsumentenrente in Produzentenrente. Andererseits führt es auch zu einem sogenannten \textbf{Wohlfahrtsverlust}. Dieser ist beschränkt durch die verminderte Menge, die Verkauft werden kann. Die Konsumentenrente (D) sowie die Produzentenrente (I) nehmen genau um die Fläche ab, welche durch die verminderte Menge entsteht.
+
+\begin{center}
+    \includegraphics[width=6cm]{Wohlfahrtsverlust.png}
+\end{center}
 
 \subsection{Höchst- und Mindestpreise}
-
 \subsubsection{Mindestpreise}
+
+\begin{itemize}
+    \item Motivation: Begünstigung von Produzenten (Versuch mittels höherer Preise Einkommen der Produzenten zu erhöhen) durch den Staat 
+    \item Beispiele: Produkte der Landwirtschaft, Mindestlöhne
+    \item Konsequenz: Angebotsüberhang
+    \item Staatliche Reaktionsmöglichkeiten: Ankauf + Verwendung durch Staat oder Subventionierung der Nachfrager 
+    \item Alternative: Kontingentierung (Maximum Output definieren)
+\end{itemize}
 
 \subsubsection{Höchstpreise}
 
+\begin{itemize}
+    \item Motivation: Begünstigung von Konsumenten (Versuch mittels tieferer Preise zur Verringerung der Ausgaben für ein bestimmtes Gut)
+    \item Beispiele: Wohnungsmieten, Energiepreise für Entwicklungsländer
+    \item Konsequenz: Nachfrageüberhang 
+    \item Staatliche Reaktionsmöglichkeiten: Zuteilungsmechanismen (Ähnlich zu Kontingentierung), Subventionierung der Anbieter (Förderung von Wohnungsbau/Objektförderung)
+    \item Alternative: Zweckgebunde Transfers an Nachfragegruppen (Subjektförderung)
+\end{itemize}
+
 \subsection{Verbrauchssteuern}
+
+Ver- brauchssteuern werden erhoben, wenn bzw. weil der Staat Einnahmen erzie- len will (fiskalische Funktion) und wenn bzw. weil der Verbrauch eines besteu- erten Gutes gesenkt werden soll, wie z.B. aus ökologischen oder gesundheit- lichen Gründen (Lenkungsfunktion).
+Eine Verbrauchssteuer ist ein Aufschlag auf den Marktpreis, der entweder pro Mengeneinheit (Mengensteuer) oder pro Werteinheit (Wertsteuer) berechnet werden kann. Bei der Mengensteuer wird ein fixer Geldbetrag pro Einheit auf den Preis aufgeschlagen. Bei der Wertsteuer wird ein bestimmter Prozentsatz auf den Preis des Gutes aufgeschlagen.
+
+\begin{itemize}
+    \item Die Verbrauchsteuern verschieben die Angebotskurve nach oben. Der Preis erhöht sich direkt um den Wert der Steuer $t$
+    \item Die nachgefragte Menge geht zurück
+    \item Der Umsatz nimmt ab. Der Produzent kann nur mit der neuen nachgefragten Menge und den gleichbleiben Grenzkosten rechnen. Die Produktion geht zurück.
+\end{itemize}
+
+Die Steuerlast wird folgendermassen aufgeteilt (Konsument = D, Produzent = E):
+
+\begin{center}
+    \includegraphics[width=5cm]{Steuerlast.png}
+\end{center}
 
 \subsection{Subventionen}
 
+Subventionen haben zwei Hauptziele:
+
+\begin{itemize}
+    \item Umsätze von Produzenten sollen steigen oder auf hohem Niveau (Sicherung von Arbeitsplätzen)
+    \item Preise, zu denen der Nachfrager kaufen kann, sollen sinken, sodass die Nachfrage steigt (ÖV)
+    \item Die Kosten trägt der Staat
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=7cm]{Subventionen.png}
+\end{center}
+
+Die Angebotskurve verschiebt sich nach unten um den Preis $s$. Die Menge steigt an. Dies führt zu einem neuen Gleichgewichtspreis bei $B$. Beachte, dass die Produzentenrente $b$ nun oberhalb der Konsumentenrente $a$ sich befindet.
+
 \section{Öffentliche Güter und externe Effekte}
+
+\subsection{Öffentliche Güter}
+
+\begin{itemize}
+    \item Öffentliche Güter sind durch Nicht-Ausschliessbarkeit und Nicht-Rivalität im Konsum gekennzeichnet 
+    \item \textbf{Nicht-Ausschliessbarkeit} vom Konsum bedeutet, dass niemand vom Konsum eines Guts ausgeschlossen werden kann
+    \item \textbf{Nicht-Rivalität} im Konsum bedeutet, dass der Konsum eines Guts durch ein Individuum keine Konsequenzen auf den Konsum des Guts durch andere In- dividuen hat.
+    \item Wegen Nicht-Ausschliessbarkeit im Konsum kann es zum Trittbrettfahrerproblem kommen (ähnlich zu Prisoner's Dilemma), wobei es zu einer Unterversorgung der öffentlichen Güter kommen kann
+    \item Trittbrettfahrerproblem sind Probleme, wobei eine Person den Mitnutzer wird eines Gutes, ohne dafür bezahlen zu müssen. Lösung: Staatliches Angebot oder staatliche Vorschriften, falls private kein Angebot machen können
+    \item Ein anderes Problem wäre auch, dass es zu einer Übernutzung von Gütern und Ressourcen kommen könnte. Lösung hierzu: Vergabe von Nutzungsrechten oder Einführung von Preisen
+    \item Das Soziale Optimum kann nicht erreicht werden, wenn das Indiviuum den Eigennutz maximieren möchte 
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=7cm]{Oeffentliche_Gueter_Auszahlungsmatrix.png}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=7cm]{Typen_von_Guetern.png}
+\end{center}
+
+
+
+\subsection{Externe Effekte}
+
+Effekte welche ausserhalb des Preissystems einer Volkswirtschaft anfallen, werden als Externalitäten oder externe Effekte bezeichnet. Diese können einen positiven wie auch negativen Einfluss auf die Produzenten wie auch Konsumenten haben.
+
+\begin{itemize}
+    \item Negativer externer Effekt auf die Produktionsmöglichkeiten Dritter: Schadstoffe von Firma A beinflussen die Produktion von Firma B
+    \item Negativer externer Effekt auf die Konsummöglichkeiten Dritter: Schadstoffe von Firma A beeinflussen die Umwelt von Konsumenten C
+    \item Positiver externer Effekt auf die Produktionsmöglichkeiten Dritter : Symbiose - Firma A produziert Produkt a, und Firma B produziert Produkt b. a und b werden bessser.
+    \item Positiver externer Effekt auf die Konsummöglichkeiten Dritter: Konsument A konsumiert etwas, wovon Konsument B profitiert
+\end{itemize}
+
+Negative und positive externe Effekte beeinträchtigen die Allokations-Effizienz einer Gesellschaft. Die Preise für die verschiedenen Güter sind falsch in dem Sinn, dass sie nicht die wahren Knappheitsverhältnisse widerspiegeln.
+
+\subsection{Internalisierung externer Effekte}
+
+
 
 \section{Verhaltensökonomie}
 
