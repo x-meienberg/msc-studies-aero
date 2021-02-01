@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  31 JAN 2021 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  1 FEB 2021 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1839,89 +1839,244 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+<Negative_Effekte.png, id=75, 539.01375pt x 431.6125pt>
+File: Negative_Effekte.png Graphic file (type png)
+ <use Negative_Effekte.png>
+Package pdftex.def Info: Negative_Effekte.png used on input line 673.
+(pdftex.def)             Requested size: 199.16928pt x 159.48337pt.
+ <Positive_Effekte.png, id=76, 571.13374pt x 431.6125pt>
+File: Positive_Effekte.png Graphic file (type png)
+ <use Positive_Effekte.png>
+Package pdftex.def Info: Positive_Effekte.png used on input line 677.
+(pdftex.def)             Requested size: 199.16928pt x 150.51341pt.
+ [10 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Oeffentliche_Gueter_Auszahlungsmatrix.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Typen_von_Guetern.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Negative_Effekte.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
+Underfull \hbox (badness 10000) in paragraph at lines 691--692
 []\OT1/bch/m/n/9 Verursacherprinizip: Ei-gen-tums-rech-te bei
  []
 
-[10 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Oeffentliche_Gueter_Auszahlungsmatrix.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Typen_von_Guetern.png>] <Coarse_Modell.png, id=80, 965.6075pt x 717.68124pt>
+<Coarse_Modell.png, id=83, 965.6075pt x 717.68124pt>
 File: Coarse_Modell.png Graphic file (type png)
  <use Coarse_Modell.png>
-Package pdftex.def Info: Coarse_Modell.png used on input line 690.
+Package pdftex.def Info: Coarse_Modell.png used on input line 698.
 (pdftex.def)             Requested size: 199.16928pt x 148.02357pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 []\OT1/bch/m/n/9 Verhandlungsmacht: Im Mo-dell nicht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--706
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
-
- []
-
-<Mengenregulierung.png, id=81, 785.93625pt x 525.965pt>
+<Preis-Standard-Ansatz.png, id=84, 589.20125pt x 357.335pt>
+File: Preis-Standard-Ansatz.png Graphic file (type png)
+ <use Preis-Standard-Ansatz.png>
+Package pdftex.def Info: Preis-Standard-Ansatz.png used on input line 718.
+(pdftex.def)             Requested size: 199.16928pt x 120.78891pt.
+ <Mengenregulierung.png, id=85, 785.93625pt x 525.965pt>
 File: Mengenregulierung.png Graphic file (type png)
  <use Mengenregulierung.png>
-Package pdftex.def Info: Mengenregulierung.png used on input line 712.
+Package pdftex.def Info: Mengenregulierung.png used on input line 724.
 (pdftex.def)             Requested size: 199.16928pt x 133.28865pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 []\OT1/bch/m/n/9 Die Kos-ten f[]ur die Einf[]uhrung von Steu-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--739
+[11 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Positive_Effekte.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Coarse_Modell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Preis-Standard-Ansatz.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Mengenregulierung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 753--753
 []\OT1/bch/b/n/10 Homo Oe-co-no-mi-cus und Ver-hal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--755
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+[]\OT1/bch/m/n/9 ...diejenige Al-ter-na-ti-ve w[]ahlt, die sei-nen
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 769--770
+\OT1/bch/m/n/9 Menschen ent-schei-den sich h[]aufig an-hand ein-fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 785--787
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
+
+ []
+
+<Bewertung_von_Gewinn_u_Verlust.png, id=93, 427.5975pt x 471.7625pt>
+File: Bewertung_von_Gewinn_u_Verlust.png Graphic file (type png)
+ <use Bewertung_von_Gewinn_u_Verlust.png>
+Package pdftex.def Info: Bewertung_von_Gewinn_u_Verlust.png used on input line 815.
+(pdftex.def)             Requested size: 156.49014pt x 172.64897pt.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
+[]\OT1/bch/b/n/9 Energy Ef-fi-cien-cy Gap\OT1/bch/m/n/9 : Ener-gie-ef-fi-zen-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+[]\OT1/bch/m/n/9 Nudges/Schubser und so-zia-le Net-wer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+\OT1/bch/m/n/9 Die Ver-hal-tens[]okonomie hilft, wirt-schafts-po-li-ti-sche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--855
 []\OT1/bch/b/n/10.95 Leistungskraft und Wohl-fahrt von
  []
 
-[11 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Coarse_Modell.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Mengenregulierung.png>] [12] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
+[]\OT1/bch/m/n/9 Staat-Unternehmen: Steu-ern, Sub-ven-tio-nen,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
+
+ []
+
+
+Overfull \hbox (48.98553pt too wide) in paragraph at lines 875--887
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--887
+
+ []
+
+
+Overfull \hbox (0.84612pt too wide) in alignment at lines 890--910
+[][] 
+ []
+
+
+Overfull \hbox (11.0375pt too wide) in paragraph at lines 890--911
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--911
+
+ []
+
+[13 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Bewertung_von_Gewinn_u_Verlust.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+[]\OT1/bch/b/n/9 Vorleistungen\OT1/bch/m/n/9 : Vor-leis-tun-gen wer-den vor je-dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
+[]\OT1/bch/m/n/9 Entstehungsrechnung/Produktionsansatz: Wert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
+[]\OT1/bch/m/n/9 Nicht-Ber[]ucksichtigung von aus-ser-markt-li-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
+[]\OT1/bch/m/n/9 Qualitative/Immaterielle Askpek-te nicht
+ []
+
+[14] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25605 strings out of 493089
- 520325 string characters out of 6134841
+ 25625 strings out of 493089
+ 520896 string characters out of 6134841
  622195 words of memory out of 5000000
- 28633 multiletter control sequences out of 15000+600000
+ 28649 multiletter control sequences out of 15000+600000
  24072 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,84p,10527b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,9n,84p,10527b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" (12 pages, 1097782 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" (14 pages, 1237888 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

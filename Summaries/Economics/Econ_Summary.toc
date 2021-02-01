@@ -42,17 +42,25 @@
 \contentsline {section}{\numberline {6}\IeC {\"O}ffentliche G\IeC {\"u}ter und externe Effekte}{10}
 \contentsline {subsection}{\numberline {6.1}\IeC {\"O}ffentliche G\IeC {\"u}ter}{10}
 \contentsline {subsection}{\numberline {6.2}Externe Effekte}{10}
-\contentsline {subsection}{\numberline {6.3}Internalisierung externer Effekte}{10}
+\contentsline {subsection}{\numberline {6.3}Internalisierung externer Effekte}{11}
 \contentsline {section}{\numberline {7}Verhaltens\IeC {\"o}konomie}{12}
 \contentsline {subsection}{\numberline {7.1}Homo Oeconomicus und Verhaltens\IeC {\"o}konomie}{12}
 \contentsline {subsection}{\numberline {7.2}Heuristiken}{12}
 \contentsline {subsection}{\numberline {7.3}Framing-Effekte}{12}
 \contentsline {subsection}{\numberline {7.4}Die Rolle anderer Individuen}{12}
 \contentsline {subsection}{\numberline {7.5}Ber\IeC {\"u}cksichtigung der Zeitperspektive}{12}
-\contentsline {subsection}{\numberline {7.6}Paradoxa}{12}
-\contentsline {subsection}{\numberline {7.7}Anwendungsbeispiele}{12}
-\contentsline {subsection}{\numberline {7.8}Fazit}{12}
-\contentsline {section}{\numberline {8}Leistungskraft und Wohlfahrt von \IeC {\"O}konomien}{12}
-\contentsline {section}{\numberline {9}Arbeitslosigkeit}{12}
-\contentsline {section}{\numberline {10}Aussenwirtschaft}{12}
-\contentsline {section}{\numberline {11}Geld}{12}
+\contentsline {subsection}{\numberline {7.6}Paradoxa}{13}
+\contentsline {subsection}{\numberline {7.7}Anwendungsbeispiel: Energienachfrage}{13}
+\contentsline {subsection}{\numberline {7.8}Fazit}{13}
+\contentsline {section}{\numberline {8}Leistungskraft und Wohlfahrt von \IeC {\"O}konomien}{13}
+\contentsline {subsection}{\numberline {8.1}Nationale Buchhaltung und Bruttoinlandprodukt}{13}
+\contentsline {subsubsection}{\numberline {8.1.1}Erfassungsarten des BIP}{14}
+\contentsline {subsection}{\numberline {8.2}Wohlfahrtmessung durch das Pro-Kopf Einkommen}{14}
+\contentsline {subsection}{\numberline {8.3}Determinanten des Pro-Kopf Einkommen}{14}
+\contentsline {subsubsection}{\numberline {8.3.1}Wachstumsdeterminanten}{14}
+\contentsline {subsubsection}{\numberline {8.3.2}Konjunkturdeterminanten}{14}
+\contentsline {subsection}{\numberline {8.4}Multiplikatoranalyse}{14}
+\contentsline {subsection}{\numberline {8.5}Fiskalpolitik}{14}
+\contentsline {section}{\numberline {9}Arbeitslosigkeit}{14}
+\contentsline {section}{\numberline {10}Aussenwirtschaft}{14}
+\contentsline {section}{\numberline {11}Geld}{14}
