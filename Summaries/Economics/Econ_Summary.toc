@@ -60,7 +60,14 @@
 \contentsline {subsubsection}{\numberline {8.3.1}Wachstumsdeterminanten}{15}
 \contentsline {subsubsection}{\numberline {8.3.2}Konjunkturdeterminanten}{15}
 \contentsline {subsection}{\numberline {8.4}Multiplikatoranalyse}{15}
-\contentsline {subsection}{\numberline {8.5}Fiskalpolitik}{15}
-\contentsline {section}{\numberline {9}Arbeitslosigkeit}{15}
-\contentsline {section}{\numberline {10}Aussenwirtschaft}{15}
-\contentsline {section}{\numberline {11}Geld}{15}
+\contentsline {subsection}{\numberline {8.5}Fiskalpolitik}{16}
+\contentsline {section}{\numberline {9}Arbeitslosigkeit}{16}
+\contentsline {subsection}{\numberline {9.1}Definition und Messung}{16}
+\contentsline {subsection}{\numberline {9.2}Ursachen und Bek\IeC {\"a}mpfung}{16}
+\contentsline {subsubsection}{\numberline {9.2.1}Arbeitsangebot}{17}
+\contentsline {subsubsection}{\numberline {9.2.2}Arbeitsnachfrage}{17}
+\contentsline {subsubsection}{\numberline {9.2.3}Typen von Arbeitslosigkeit}{17}
+\contentsline {subsubsection}{\numberline {9.2.4}Erkl\IeC {\"a}rung und Bek\IeC {\"a}mpfung von unfreiwilliger Arbeitslosigkeit}{17}
+\contentsline {subsection}{\numberline {9.3}Arbeitsmarktpolitik}{17}
+\contentsline {section}{\numberline {10}Aussenwirtschaft}{17}
+\contentsline {section}{\numberline {11}Geld}{17}
