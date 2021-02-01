@@ -72,10 +72,10 @@
 \contentsline {section}{\numberline {10}Aussenwirtschaft}{19}
 \contentsline {subsection}{\numberline {10.1}Zahlungsbilanz}{19}
 \contentsline {subsection}{\numberline {10.2}Handel und Handelshemmnisse}{19}
-\contentsline {subsection}{\numberline {10.3}Bestimmung von Wechselkursen}{19}
-\contentsline {section}{\numberline {11}Geld}{19}
-\contentsline {subsection}{\numberline {11.1}Funktionen des Geldes}{19}
-\contentsline {subsection}{\numberline {11.2}Geldsch\IeC {\"o}pfung}{19}
-\contentsline {subsection}{\numberline {11.3}Geldpolitik und Geldpolitische Instrumente}{19}
-\contentsline {subsection}{\numberline {11.4}Definition, Messung und Bedeutung von Inflation}{19}
-\contentsline {subsection}{\numberline {11.5}Ursachen und Bek\IeC {\"a}mpfung von Inflation}{19}
+\contentsline {subsection}{\numberline {10.3}Bestimmung von Wechselkursen}{20}
+\contentsline {section}{\numberline {11}Geld}{20}
+\contentsline {subsection}{\numberline {11.1}Funktionen des Geldes}{20}
+\contentsline {subsection}{\numberline {11.2}Geldsch\IeC {\"o}pfung}{21}
+\contentsline {subsection}{\numberline {11.3}Geldpolitik und Geldpolitische Instrumente}{21}
+\contentsline {subsection}{\numberline {11.4}Definition, Messung und Bedeutung von Inflation}{21}
+\contentsline {subsection}{\numberline {11.5}Ursachen und Bek\IeC {\"a}mpfung von Inflation}{21}
