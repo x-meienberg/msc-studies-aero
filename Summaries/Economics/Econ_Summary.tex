@@ -1359,7 +1359,12 @@ Der nominale Wechselkurs wird durch dias Devisenangebot und die Devisennachfrage
 
 Der reale Wechselkurs ist dimensionslos und bringt Kaufkraftunterschiede zwischen je zwei Ländern zum Ausdruck. \newline 
 
-Der reale Wechselkurs ist dimensionslos und bringt Kaufkraftunterschiede zwischen je zwei Ländern zum Ausdruck.
+Der reale Wechselkurs ist dimensionslos und bringt Kaufkraftunterschiede zwischen je zwei Ländern zum Ausdruck. \newline
+
+\textbf{Flexibles Wechselkurssystem}: Zentralbank und Regierung können einer Auf-/Abwertung mit
+expansiver/restriktiver Geldpolitik entgegenwirken \newline 
+
+\textbf{Fixes Wechselkurssystem}: Zentralbank muss bei Auf-/Abwertungen mit entsprechender Geldpolitik eingreifen, um den Wechselkurs aufrecht zu erhalten; die Geldpolitik ist damit nicht mehr autonom
 
 \section{Geld}
 
@@ -1380,11 +1385,105 @@ Arten von Geld:
     \item Buchgeld/Giralgeld: Einlagen auf Bankkonten oder Girokonten, die sofort liquidierbar sind (Geschäftsbankengeld) 
 \end{enumerate}
 
+\begin{center}
+    \includegraphics[width=8cm]{Geldmengenaggregate.png}
+\end{center}
+
+\begin{itemize}
+    \item $M_1$: Tägliche Einlagen udn Bargeldumlauf (Bürger und Banken)
+    \item $M_2$: Einlagen mit vereinbarten Kündigungsfrist + Einlagen mit einer vereinbarten Laufzeit bis zu zwei Jahren 
+    \item $M_3$: Repogeschäfte + Geldmarktfondsgeschäfte + Geldmarktpapiere + Schuldverschreibungen mit einer Laufzeit von bis zu zwei Jahren 
+\end{itemize}
+
 \subsection{Geldschöpfung}
+
+Ein grosser Teil des im Umlauf befindlichen Geldes entsteht durch einen anderen, durch die Notenbank nicht direkt zu kontrollierenden Prozess, den so genannten Geldschöpfungsprozess.
+
+\begin{equation}
+   \text{Geldschöpfungspotential}~ M_r = \underbrace{\frac{1}{r}}_{m_r}\cdot \text {Zentralbankgeld}
+\end{equation}
+\begin{equation}
+    \text{Geldschöpfungspotential}:= \underbrace{\frac{1}{c+r(1-c)}}_{m_k}\cdot \text {Zentralbankgeld}
+\end{equation}   
+
+\begin{align}
+    r := \text{Mindestreservesatz} \\
+    c := \text{Kassenhaltungskoeffizient / KK} \\
+    m_k := \text{Einfacher Geldschöpfungsmultipl.} \\
+    m_r := \text{Geldschöpfungsmultiplikator mit KK} 
+\end{align}
+
+Der Mindestreservesatz ist der Anteil der Bankeinlagen, welcher von den Geschäftsbanken bei der Zentralbank hinterlegt werden muss. Je höher der Mindestreservesatz ist, desto geringer ist das Geldschöpfungspotential der Geschäftsbanken. \newline 
+
+Die Geldschöpfung durch die Geschäftsbanken wird im Normalfall durch einen weiteren Faktor limitiert. In der Regel bringen die Kunden der Geschäftsbanken nämlich nicht die gesamte von ihnen gehaltene Geldmenge auf die Bank, sondern behalten einen bestimmten Anteil als Bargeld in der eigenen Kasse. Der durchschnittliche Anteil an gehaltenem Bargeld wird durch den sogenannten Kassenhaltungskoeffizienten (c) ausgedrückt.
 
 \subsection{Geldpolitik und Geldpolitische Instrumente}
 
+Hauptziele der meisten Nationalbanken:
+
+\begin{enumerate}
+    \item Preisstabilität = konstante, kontrollierte, eher tiefe Inflation (konstantes, moderates Preiswachstum)
+    \item Stabilisierung der Konjunkturentwicklung: Stimulieren und Bremesen um BIP anzuheben (Rezession) oder zu bremsen (Boom)
+\end{enumerate}
+
+In gewissen Situationen kann es zu Konflikten kommen, zum Beispiel: 
+
+\begin{itemize}
+    \item Hohe Preise und niedrige wirtschaftliche Aktivität
+    \item Man kann nur eines auf's mal angehen (Zinsen senken $\rightarrow$ wirtschaftliche Aktiviät erhöhen)
+    \item Preise bleiben jedoch gleich. Man muss Prioritäten setzen 
+\end{itemize}
+
+\subsubsection{Geldpolitische Instrumente}
+
+\begin{itemize}
+    \item Geldmenge steuern 
+    \item Zinsen steuern 
+\end{itemize}
+
+Die \textbf{Geldmenge} lässt sich durch M1, M2 und M3 zusammensetzen und lässt sich über die \emph{Offenmarktpolitik} steuern. Basis dieser Strategie ist die Festlegung der Zentralbankmenge. Somit kann direkt das Gelschöpfungspotential gesteuert werden. \newline 
+
+Die \textbf{Zinsen} werden über den Mindestreservesatz, also den Prozentsatz der Einlagen bei den Geschäftsbanken $c$ oder den Reposatz. \newline 
+
+Beim \textbf{Repogeschäft} verkauft die Geschäftsbank der Zentralbank Wertpapiere und Devisen gegen Notenbankgeld und bezahlt einen Zins. Die Geschäftsbank kauft sich nach einer vorbestimmten Zeit die Positionen zurück. Wenn die Geldmenge erhöht werden soll, wird der Reposatz verringert (die Banken werden als Reaktion mehr Postiionen verkaufen). \newline 
+
+\emph{Da das Repogeschäft täglich lauft}, ist es einfacher über jenes das Notenbankgeld zu steuern als über den Mindestreservesatz. \newline
+
+Die \textbf{Geldpolitik} lässt sich in zwei Typen einteilen:
+
+\begin{itemize}
+    \item Expansive Geldpolitik: Geldmenge bei Geschäftsbanken erhöhen 
+    \begin{enumerate}
+        \item Wirkungskette: Geschäftsbanken geben Kredite $\rightarrow$ Geldmenge in Volkswirtschaft steigt $\rightarrow$ mehr Transaktionen 
+        \item Wirkungskette: Tiefe Zinsen $\rightarrow$ höhere Investitionen $\rightarrow$ gesamtwirtschaftliche Nachfrage steigt $\rightarrow$ Inflation möglich
+    \end{enumerate}
+    \item Restriktive/kontraktive Geldpolitik: Verkleinerung der Geldmenge bei Geschäftsbanken 
+    \begin{enumerate}
+        \item Weniger Kredite $\rightarrow$ weniger Geld im Kreislauf 
+        \item Höhere Zinsen $\rightarrow$ weniger Investitionen 
+    \end{enumerate}
+\end{itemize}
+
 \subsection{Definition, Messung und Bedeutung von Inflation}
+
+\textbf{Inflation} ist die Bezeichnung für das Ansteigen des gesamtwirtschaftlichen allgemeinen Preisniveaus einer Volkswirtschaft über die Zeit
+
+\begin{align}
+    \text{Inflationsrate} := \frac{P_t - P_{t-1}}{P_{t-1}}\cdot 100\% \\
+    P_t: \text{Preisniveau im laufenden Jahr t} \\
+    P_{t-1}: \text{Preisniveau im Vorjahr}
+\end{align}
+
+Das Preisniveau wird durch einen Verbrauchskorb (Durchschnittspreise und Verbrauchmengen) eines Durchschnittshaushalts bestimmt für eine Referenzperiode (0) und später für eine andere Periode mit dem gleichen Warenkorb: 
+
+\begin{align}
+    P_0 = \frac{\sum_{i=1}^N p_{0i}\cdot q_{0i}}{\sum_{i=1}^N q_{0i}} \\
+    \frac{P_t}{P_0} = \frac{\sum_i^N p_{ti}\cdot q_{0i}}{\sum_i^N p_{0i}\cdot q_{0i}} = \text{Laspeyres Index}\\
+    \frac{P_t-P_{t-1}}{P_{t-1}} = \frac{\frac{P_t}{P_0}-\frac{P_{t-1}}{P_0}}{\frac{P_{t-1}}{P_0}} = \frac{\sum(p_{ti}-p_{ti-1})q_{0i}}{\sum p_{ti-1}\cdot q_{0i}}
+\end{align}
+
+\textbf{Unerwünschte Effekte von Inflation}:
+
 
 \subsection{Ursachen und Bekämpfung von Inflation}
 
