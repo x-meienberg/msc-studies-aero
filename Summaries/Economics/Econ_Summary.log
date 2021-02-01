@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  1 FEB 2021 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  1 FEB 2021 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2144,24 +2144,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 1047--1048
 
  []
 
-[16] [17] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 1115--1116
+
+ []
+
+[16] <Arbeitsangebot.png, id=117, 1016.79875pt x 564.1075pt>
+File: Arbeitsangebot.png Graphic file (type png)
+ <use Arbeitsangebot.png>
+Package pdftex.def Info: Arbeitsangebot.png used on input line 1131.
+(pdftex.def)             Requested size: 227.62204pt x 126.28174pt.
+ <Arbeitsangebot_2.png, id=118, 1249.66875pt x 848.16875pt>
+File: Arbeitsangebot_2.png Graphic file (type png)
+ <use Arbeitsangebot_2.png>
+Package pdftex.def Info: Arbeitsangebot_2.png used on input line 1132.
+(pdftex.def)             Requested size: 227.62204pt x 154.4886pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 1131--1133
+ [] 
+ []
+
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 1131--1133
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
+
+ []
+
+<Grenzprodukt.png, id=119, 705.63625pt x 514.92375pt>
+File: Grenzprodukt.png Graphic file (type png)
+ <use Grenzprodukt.png>
+Package pdftex.def Info: Grenzprodukt.png used on input line 1178.
+(pdftex.def)             Requested size: 227.62204pt x 166.09895pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 1178--1179
+ [] 
+ []
+
+[17 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Arbeitsangebot.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Arbeitsangebot_2.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Grenzprodukt.png>] <Freiwillige_Arbeitslosigkeit.png, id=126, 903.375pt x 741.77126pt>
+File: Freiwillige_Arbeitslosigkeit.png Graphic file (type png)
+ <use Freiwillige_Arbeitslosigkeit.png>
+Package pdftex.def Info: Freiwillige_Arbeitslosigkeit.png used on input line 1202.
+(pdftex.def)             Requested size: 227.62204pt x 186.90245pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 1202--1203
+ [] 
+ []
+
+<Unfreiwillige_Arbeitslosigkeit.png, id=127, 903.375pt x 741.77126pt>
+File: Unfreiwillige_Arbeitslosigkeit.png Graphic file (type png)
+ <use Unfreiwillige_Arbeitslosigkeit.png>
+Package pdftex.def Info: Unfreiwillige_Arbeitslosigkeit.png used on input line 1213.
+(pdftex.def)             Requested size: 227.62204pt x 186.90245pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 1213--1214
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1232
+[]\OT1/bch/m/n/9 Es feh-len al-so $\OML/cmm/m/it/9 a \OMS/cmsy/m/n/9 ^^@ \OML/cmm/m/it/9 a[]$ \OT1/bch/m/n/9 Ar-bei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
+\OT1/bch/m/n/9 Die Mass-nah-me ge-gen ei-ne sin-ken-de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
+
+ []
+
+[18 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Freiwillige_Arbeitslosigkeit.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Unfreiwillige_Arbeitslosigkeit.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+[]|   []   |   []\OT1/bch/m/n/9 : Ge-rin-ge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
+
+ []
+
+[19] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25647 strings out of 493089
- 521427 string characters out of 6134841
- 623195 words of memory out of 5000000
- 28667 multiletter control sequences out of 15000+600000
+ 25672 strings out of 493089
+ 522122 string characters out of 6134841
+ 625195 words of memory out of 5000000
+ 28687 multiletter control sequences out of 15000+600000
  25209 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,84p,10527b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,11n,84p,10527b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" (17 pages, 1410815 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Econ_Summary.pdf" (19 pages, 1811154 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 177 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

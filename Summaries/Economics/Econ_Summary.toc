@@ -66,8 +66,16 @@
 \contentsline {subsection}{\numberline {9.2}Ursachen und Bek\IeC {\"a}mpfung}{16}
 \contentsline {subsubsection}{\numberline {9.2.1}Arbeitsangebot}{17}
 \contentsline {subsubsection}{\numberline {9.2.2}Arbeitsnachfrage}{17}
-\contentsline {subsubsection}{\numberline {9.2.3}Typen von Arbeitslosigkeit}{17}
-\contentsline {subsubsection}{\numberline {9.2.4}Erkl\IeC {\"a}rung und Bek\IeC {\"a}mpfung von unfreiwilliger Arbeitslosigkeit}{17}
-\contentsline {subsection}{\numberline {9.3}Arbeitsmarktpolitik}{17}
-\contentsline {section}{\numberline {10}Aussenwirtschaft}{17}
-\contentsline {section}{\numberline {11}Geld}{17}
+\contentsline {subsubsection}{\numberline {9.2.3}Typen von Arbeitslosigkeit}{18}
+\contentsline {subsubsection}{\numberline {9.2.4}Erkl\IeC {\"a}rung und Bek\IeC {\"a}mpfung von unfreiwilliger Arbeitslosigkeit}{18}
+\contentsline {subsection}{\numberline {9.3}Arbeitsmarktpolitik}{18}
+\contentsline {section}{\numberline {10}Aussenwirtschaft}{19}
+\contentsline {subsection}{\numberline {10.1}Zahlungsbilanz}{19}
+\contentsline {subsection}{\numberline {10.2}Handel und Handelshemmnisse}{19}
+\contentsline {subsection}{\numberline {10.3}Bestimmung von Wechselkursen}{19}
+\contentsline {section}{\numberline {11}Geld}{19}
+\contentsline {subsection}{\numberline {11.1}Funktionen des Geldes}{19}
+\contentsline {subsection}{\numberline {11.2}Geldsch\IeC {\"o}pfung}{19}
+\contentsline {subsection}{\numberline {11.3}Geldpolitik und Geldpolitische Instrumente}{19}
+\contentsline {subsection}{\numberline {11.4}Definition, Messung und Bedeutung von Inflation}{19}
+\contentsline {subsection}{\numberline {11.5}Ursachen und Bek\IeC {\"a}mpfung von Inflation}{19}
