@@ -80,4 +80,4 @@
 \contentsline {subsubsection}{\numberline {11.3.1}Geldpolitische Instrumente}{21}{subsubsection.11.3.1}
 \contentsline {subsection}{\numberline {11.4}Definition, Messung und Bedeutung von Inflation}{22}{subsection.11.4}
 \contentsline {subsection}{\numberline {11.5}Ursachen und Bek\IeC {\"a}mpfung von Inflation}{22}{subsection.11.5}
-\contentsline {section}{\numberline {12}Gastvortrag 2020}{22}{section.12}
+\contentsline {section}{\numberline {12}Gastvortrag 2020 - Zur wirtschaftlichen Lage der Schweiz}{22}{section.12}
