@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  4 FEB 2021 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  7 FEB 2021 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2935,7 +2935,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1391.
 [20 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Importzoll.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Economics/Bestimmung_nomineller_Wechselkurs.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
-[]$\OML/cmm/m/it/9 M[]$\OT1/bch/m/n/9 : T[]agliche Ein-la-gen udn Bar-geld-um-lauf
+[]$\OML/cmm/m/it/9 M[]$\OT1/bch/m/n/9 : T[]agliche Ein-la-gen und Bar-geld-um-lauf
  []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -3133,7 +3133,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1664.
 Here is how much of TeX's memory you used:
  29414 strings out of 493089
  580314 string characters out of 6134841
- 704767 words of memory out of 5000000
+ 704768 words of memory out of 5000000
  32171 multiletter control sequences out of 15000+600000
  25209 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
