@@ -108,6 +108,7 @@ Pole (7km): $T = 221 K$
     \item Dynamische Zähigkeit der Luft:
     \item $\mu = (1.458\cdot 10^{-6}\cdot T^{1.5})/(T+110.4) Ns/m^2$
     \item $\mu_0 = 17.894 \cdot 10^{-6} Ns/m^2$
+    \item Kinematische Viskosität: $\nu = \mu / \rho~ [m^2/s]$ 
 \end{itemize}
 
 \includegraphics[width=8cm]{meteorologie-wetter-atmosphaere-102}
@@ -523,6 +524,7 @@ Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
         \item Auftrieb: $A = A_y + A_H$
         \item Rollwiderstand: $W_R = W_{RV} + W_{RH}$
         \item $F_R = \mu_R F_Z$ mit $\mu_R = \mu_{R, Basis} / \mu(V=0)$
+        \item $F_Z = F_G - F_A = mg - 1/2\rho V^2 c_A A$
         \item Beschleunigungswiderstand: $W_B = \dot{V}m(1+\varepsilon_i)$
         \item $\varepsilon_i =$ rotierende Massen (Gänge), $\varepsilon_1 = 0.25$, $\varepsilon_2 = 0.15$, $\varepsilon_3 = 0.1$, $\varepsilon_4 = 0.075$
         \item Steigungslasten $W_S = mg \sin\theta$
@@ -535,10 +537,10 @@ Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
     \end{center}
 
 
-\subsubsection{Fahrleistungen}
-\textbf{Kräftegleichgewicht am beschleunigten Fahrzeug}
+\subsubsection{Fahrleistungen (2.5)}
+\textbf{Kräftegleichgewicht am beschleunigten Fahrzeug (längs)} 
 \begin{itemize}
-    \item $m a_x = F_T - \mu_r (mg - \frac{1}{2}\rho V^2 c_A A- mg \sin\theta)$
+    \item $m a_x = F_T - \mu_r (mg - \frac{1}{2}\rho V^2 c_A A) - \frac{\rho}{2} V^2 c_W A- mg \sin\theta$
 \end{itemize}
 \textbf{Traktionskraft}
 \begin{itemize}
@@ -558,7 +560,7 @@ Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
     \item Max vom Fahrreifen übertragbare Seitenkraft: \newline $F_{lat} = \mu_{lat}(mg - 1/2 \rho V^2A c_A)$
 \end{itemize}
 
-\textbf{Kräftegleichgewicht im beschleunigten Fahrzeug}
+\textbf{Kräftegleichgewicht im beschleunigten Fahrzeug (quer)} 
 
 \begin{itemize}
     \item $mV^2 / R = F_{lat,max} = \mu_{lat,max}(mg- 1/2 \rho V^2 A c_A)$
