@@ -521,11 +521,11 @@ Zulässige Rauhigkeitshöhe $k_{s,zul}$ für Grenzschichten
         \item Widerstandskraft: $W= -(F_{xa}\cos{\beta}- F_{ya}\sin{\beta})$
         \item $F_i = c_{Fi}\frac{1}{2}\rho V^2 A $
         \item Seitenkraft: $F_y = (F_{xa} \sin{\beta}+ F_{ya}cos{\beta})$ 
-        \item Auftrieb: $A = A_y + A_H$
+        \item Auftrieb: $A = A_y + A_H$ (Rechnung: $F_A$, $A =$ Q. Fläche)
         \item Rollwiderstand: $W_R = W_{RV} + W_{RH}$
         \item $F_R = \mu_R F_Z$ mit $\mu_R = \mu_{R, Basis} / \mu(V=0)$
         \item $F_Z = F_G - F_A = mg - 1/2\rho V^2 c_A A$
-        \item Beschleunigungswiderstand: $W_B = \dot{V}m(1+\varepsilon_i)$
+        \item Beschleunigungswiderstand: $W_B = \dot{V}m(1+\varepsilon_i) = a_x m (1+\varepsilon_i)$
         \item $\varepsilon_i =$ rotierende Massen (Gänge), $\varepsilon_1 = 0.25$, $\varepsilon_2 = 0.15$, $\varepsilon_3 = 0.1$, $\varepsilon_4 = 0.075$
         \item Steigungslasten $W_S = mg \sin\theta$
         \item Anhängelasten $F_{zx}$ und $F_{zz}$ horizontal und vertikal
@@ -591,10 +591,14 @@ kann es zu Übersteuern kommen. Auftriebsminderung an der Hinterachse ist deutli
 
 \begin{itemize}
     \item $B = (P_{aero} + P_{roll} + \Delta P_{mech})(SFC)(1000/\rho_{fuel})(100/V)$
-    \item $V = [km/h]$, $SFC = [kg/kWh]$, $P = [kW]$, $B = [l/100km]$
+    \item $V = [km/h]$, $SFC = [kg/kWh]$, $P = [kW]$, $B = [l/100km]$    
     \item $P_{aero} = W\cdot V$, $P_{roll} = W_{roll}\cdot V$, $\Delta P_{mech}$: mech. Verluste
     \item $SFC$: Spezifischer Treibstoffverbrauch (Euromix: 44\% Luft, 44\% Roll, 12\% Beschleunig.) 
 \end{itemize}
+
+\begin{center}
+    \includegraphics[width=7cm]{Kraefte_Fahrzeug_2.png}
+\end{center}
 
 \subsection{Personenwagen}
 
