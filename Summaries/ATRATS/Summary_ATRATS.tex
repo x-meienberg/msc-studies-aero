@@ -80,11 +80,38 @@ Definitions:
     \item Event $E$
 \end{itemize}
 
-An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varepsilon$ yields a set of possible outcoms ($= E$) of the experiment
+An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varepsilon$ yields a set of possible outcoms ($= E$) of the experiment  \newline \newline \emph{Certain Events} follow \emph{Boolean Logic}, an event $E$ can occur or not occur, meaning an \emph{Indicator Variable} $X_E$ is 0 when $E$ does not occur and 1 if $E$ occurs \newline \newline
+\emph{Uncertain Events} follow can either be true or false, with each a probability associated to it. Event $E$ in sample space $\Omega$ is triggered with a probability that the outcome has happened or not 
 
-\subsubsection*{Certain Events}
+\subsubsection*{Classical Probability}
 
-\subsubsection*{Uncertain Events}
+\begin{itemize}
+    \item The experiment $\epsilon$ has $N$ possible, elementary, mutually exclusive and equally probable outcomes $A_1, A_2,..., A_N \in \Omega$
+    \item The event $E = A_1 \cup A_2 \cup ... \cup A_M$,  $M\leq N$
+    \item The probability of event $E$ is defined as $p(E) = M / N$
+\end{itemize}
+
+\subsubsection*{Kolmogorov Axioms}
+
+\begin{enumerate}
+    \item $0 \leq P(E) \leq 1$
+    \item $P(\Omega) = 1$, $P(\emptyset) = 0$
+    \item Mutually exclusive events: $P(\cup_i E_i) = \sum p(E_i)$
+    \item Non-mutually exlusive events: \newline $P(A\cup B) = P_A + P_B - P(A \cap B)$
+    \item Conditional probability: $P(A|B) = P(A\cap B) / P(B)$
+    \item Theorem of total probability: Given an event $A$ in $\Omega$ where the space is consisting of exclusive and exhaustive events $\cup_j E_j = \Omega$: $P(A) = \Sigma_i(P(A | E_i)P(E_i))$
+\end{enumerate}
+
+\subsection*{Random Variables}
+
+\subsubsection*{CDF}
+
+\subsubsection*{pdf}
+
+\subsubsection*{pmf}
+
+
+
 
 \end{multicols*}
 \end{document}
