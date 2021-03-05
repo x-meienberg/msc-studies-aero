@@ -102,14 +102,38 @@ An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varep
     \item Theorem of total probability: Given an event $A$ in $\Omega$ where the space is consisting of exclusive and exhaustive events $\cup_j E_j = \Omega$: $P(A) = \Sigma_i(P(A | E_i)P(E_i))$
 \end{enumerate}
 
-\subsection*{Random Variables}
+\subsubsection*{Random Variables}
 
-\subsubsection*{CDF}
+\begin{itemize}
+    \item \textbf{CDF}: Is a non-decreasing function and returns the probabilty (state) from random variable $X$ from $0$ to a given point $A$: $F_X(X = A) = P(0 < X \leq A)$ 
+    \item \textbf{pdf}: Probability of per unit $x$ (continuous)
+    \item \textbf{pmf}: Histogram, it assignes the probability to discrete values $x$
+\end{itemize}
 
-\subsubsection*{pdf}
+\subsubsection*{Summary}
 
-\subsubsection*{pmf}
+\begin{itemize}
+    \item Distribution Percentile $x_\alpha$:
+    \begin{itemize}
+        \item $F_X(x_\alpha) = \alpha / 100 = \int_{-\infty}^{x_\alpha} f_X(x)dx$
+    \end{itemize}
+    \item Median:
+    \begin{itemize}
+        \item $F_X(x_50) = 0.5$
+    \end{itemize}
+    \item Mean:
+    \begin{itemize}
+        \item $\mu_X = E[X] = <X> = \sum_i x_i p_i$ (discrete)
+        \item $= \int_{-\infty}^{\infty} x f_X(x) dx$ (continuous)
+    \end{itemize}
+    \item Variance:
+    \begin{itemize}
+        \item $\sigma_X^2 = \sum(x_i - \mu_X)^2 p_i$ (discrete)
+        \item $ = \int_{-\infty}^\infty (x-\mu_X)^2 f_X(x) dx$ (continuous)
+    \end{itemize}
+\end{itemize}
 
+\subsubsection*{Hazard Function}
 
 
 
