@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  4 MAR 2021 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  5 MAR 2021 22:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1546,15 +1546,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25480 strings out of 493089
- 517062 string characters out of 6134841
- 610140 words of memory out of 5000000
- 28536 multiletter control sequences out of 15000+600000
- 16771 words of font info for 50 fonts, out of 8000000 for 9000
+ 25482 strings out of 493089
+ 517081 string characters out of 6134841
+ 611142 words of memory out of 5000000
+ 28537 multiletter control sequences out of 15000+600000
+ 18702 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,7n,84p,10526b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf" (1 page, 40354 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf" (1 page, 43275 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
