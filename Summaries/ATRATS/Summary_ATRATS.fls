@@ -292,6 +292,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
@@ -299,24 +300,23 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
 INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
 OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf
 INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
 INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb

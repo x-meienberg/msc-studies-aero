@@ -62,13 +62,18 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 
 \section{Introduction, Definitions \& Overview}
 
-Reliability 
+\textbf{Reliability}
 
 \begin{itemize}
     \item ... is a characteristic of an item, expressed by the probability that the item performs its required function under given conditions \emph{during} a stated time interval, i.e. $(0,t]$
     \item Item = entity for investigation, i.e. component, assembly, equipment, subsystem, system 
-    \item 
+    \item from a \textbf{qualitative} point of view, reliability is defined as the ability of an item to \textbf{remain functional}
+    \item from a \textbf{quantitative} point of view, reliability is defined as the probability that \textbf{no operational interruptions} will occur during a stated time interval $R(t)$
 \end{itemize}
+
+In comparison to Availability, the Reliability analysis includes the fact that no item is allowed to fail. This means, the function performed cannot be interrupted (redundant system however can be repaired). Availability incurs that failures can happen on the item level. \newline \newline
+
+\textbf{Risk}
 
 \section{Probability Theory and Reliability Analysis}
 
@@ -183,6 +188,17 @@ An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varep
      E[T] = \frac{1}{\lambda} = MTTF \\
      Var[T] = \frac{1}{\lambda^2}
  \end{align}
+
+ The failure process is memoryless. Given a component has survived at least until time $t_1$, the probability of it failing between time $t_1$ and $t_2$ is only depending on the time inbetween and not prior to time $t_1$
+
+ \begin{align}
+     P(t_1 < T < t_2) = \frac{P(t_1 < T < t_2)}{P(T > t_1)} = \frac{F_T(t_2)-F_T(t_1)}{1-F_T(t_1)} = \\
+     \frac{e^{-\lambda t_1}-e^{-\lambda t_2}}{e^{-\lambda t_1}} = 1-e^{-\lambda(t_2-t_1)}
+ \end{align}
+
+The influence of an ageing process of the components failure rate shows that is not constant through time and hence can be described through the Weibull distribution. 
+
+
 
 \end{multicols*}
 \end{document}
