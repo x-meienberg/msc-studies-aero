@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  6 MAR 2021 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  6 MAR 2021 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1536,66 +1536,66 @@ LaTeX Font Info:    Try loading font information for TS1+bch on input line 68.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 \OT1/bch/m/n/8 tual-ly ex-clu-si-ve and equal-ly pro-ba-ble out-co-mes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Overfull \hbox (38.78807pt too wide) detected at line 155
+Overfull \hbox (38.78807pt too wide) detected at line 166
  $\OML/cmm/m/it/8 h[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 t\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 dt \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 P\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 t < T \OMS/cmsy/m/n/8 ^^T \OML/cmm/m/it/8 t \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 dt\OMS/cmsy/m/n/8 j\OML/cmm/m/it/8 T > t\OT1/cmr/m/n/8 ) = [] = []$  
  []
 
 <Images/Hazard_Function.png, id=4, 819.06pt x 295.1025pt>
 File: Images/Hazard_Function.png Graphic file (type png)
  <use Images/Hazard_Function.png>
-Package pdftex.def Info: Images/Hazard_Function.png used on input line 160.
+Package pdftex.def Info: Images/Hazard_Function.png used on input line 171.
 (pdftex.def)             Requested size: 170.71652pt x 61.50504pt.
  [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png>] <Images/Exponential_Distribution.png, id=22, 1290.8225pt x 344.28625pt>
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <Images/Exponential_Distribution.png, id=21, 1290.8225pt x 344.28625pt>
 File: Images/Exponential_Distribution.png Graphic file (type png)
  <use Images/Exponential_Distribution.png>
-Package pdftex.def Info: Images/Exponential_Distribution.png used on input line 182.
+Package pdftex.def Info: Images/Exponential_Distribution.png used on input line 193.
 (pdftex.def)             Requested size: 227.62204pt x 60.70804pt.
 
-Overfull \hbox (8.19206pt too wide) in paragraph at lines 182--183
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 193--194
  [] 
  []
 
 
-Overfull \hbox (11.71806pt too wide) in paragraph at lines 197--197
+Overfull \hbox (11.71806pt too wide) in paragraph at lines 208--208
 [] 
  []
 
-[2 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png>] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux)
+[2 </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png> </Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png>] (/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1603,13 +1603,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  25494 strings out of 493089
  517421 string characters out of 6134841
- 625142 words of memory out of 5000000
+ 623142 words of memory out of 5000000
  28545 multiletter control sequences out of 15000+600000
  18702 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,15n,84p,10526b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,15n,84p,10526b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf" (2 pages, 266227 bytes).
+Output written on "/Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf" (2 pages, 266684 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
