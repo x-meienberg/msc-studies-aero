@@ -135,8 +135,21 @@ An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varep
 
 \subsubsection*{Hazard Function (Failure Rate)}
 
+ For risk and reliability analyses, we can use models whereas the time to failure of a component T can be expressed through a CDF $F_T(t)$ and a pdf $f_T(t)$. The complementary, cumulative function is 
+ 
+ \begin{equation}
+    R(t) = 1-F_T(t) = P(T\geq t)
+ \end{equation}   
 
+ which is decribed as the \textbf{Reliability or Survival Function} of the component T at time t and gives the probability of it surviving up to time t without failures. \newline 
 
+ In order to monitor the failure evolution, given the component has survived up to time $t$ in a time interval $dt$, one can define a so called \textbf{Hazard Function or Failure Rate} $h_T(t)$. 
+
+ \begin{equation}
+     h_T(t) dt = P(t< T \leq t + dt | T>t) = \frac{P(t<T \leq t+t+dt)}{P(T>t)} = \frac{f_T(t)dt}{R(t)}
+ \end{equation}
+
+ The hazard function is depending on time, and is often discribed through the bathtub curve.
 
 \end{multicols*}
 \end{document}
