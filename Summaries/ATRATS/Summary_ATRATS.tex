@@ -84,6 +84,35 @@ In comparison to Availability, the Reliability analysis includes the fact that n
 
 \textbf{Risk}
 
+\begin{itemize}
+    \item RISK = POTENTIAL DAMAGE x UNCERTAINTY
+    \item Dictionary: RISK = probability of damage to a person or an object
+    \item We define RISK as a function of an...
+    \begin{itemize}
+        \item Accident Scenario, $S$
+        \item Probability, $p$
+        \item Consequence, $x$
+    \end{itemize}
+    \item We can quantify RISK on the so-called ``Farmer's Curve'
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=8cm]{Images/Farmer_I.png}
+    \includegraphics[width=8cm]{Images/Farmer_II.png}
+\end{center}
+
+The total Risk can be calculated as follows:
+
+\begin{align}
+    \text{Total Risk} = \sum p_i x_i^k, k\geq 1
+\end{align}
+
+It is entirely possible that the risk of different events can be dominated by either it's probability or its consequence. 
+
+\begin{itemize}
+    \item A large probability $p$ is \emph{prevented} of (minimisation based on high probability)
+    \item A large consequence $x$ is \emph{mitigated, protected} (minimisation given its large impact)
+\end{itemize}
 
 
 \section{Probability Theory and Reliability Analysis}
