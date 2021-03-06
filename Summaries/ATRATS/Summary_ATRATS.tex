@@ -149,7 +149,40 @@ An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varep
      h_T(t) dt = P(t< T \leq t + dt | T>t) = \frac{P(t<T \leq t+t+dt)}{P(T>t)} = \frac{f_T(t)dt}{R(t)}
  \end{equation}
 
- The hazard function is depending on time, and is often discribed through the bathtub curve.
+ The hazard function is depending on time, and is often discribed through the bathtub curve. The failure rate at the beginning is higher (infant mortality, burn in) and decreses after a certain time. The failure rate becomes constant $\lambda$ and increases at the end through ageing. 
+
+ \begin{center}
+     \includegraphics[width=6cm]{Images/Hazard_Function.png}
+ \end{center}
+
+ Through the definition of $R(t)$ and integrating the hazard function, we receive:
+
+ \begin{align}
+     F_T(t) = 1-e^{-\int_0^t h_T(\tilde{t}) d\tilde{t}} \\
+     R(t) = e^{-\int_0^t h_T(\tilde{t}) d\tilde{t}}
+ \end{align}
+
+ If our hazard function is in its constant phase (constant hazard rate), the failure evolution follows the \textbf{Exponential Distribution}:
+
+ \begin{align}
+    h_T(t) \lambda, t>0 \\
+     F_T(t) = P(T \leq t) = 1-e^{-\lambda t} \\
+     R(t) = \begin{dcases}
+         f_T(t) = \lambda e^{-\lambda t} & t \geq 0 \\
+        0 & t < 0
+     \end{dcases}
+ \end{align}
+
+ \begin{center}
+     \includegraphics[width = 8cm]{Images/Exponential_Distribution.png}
+ \end{center}
+
+ The mean time to failure (MTTF) can be found through the expectation value
+
+ \begin{align}
+     E[T] = \frac{1}{\lambda} = MTTF \\
+     Var[T] = \frac{1}{\lambda^2}
+ \end{align}
 
 \end{multicols*}
 \end{document}
