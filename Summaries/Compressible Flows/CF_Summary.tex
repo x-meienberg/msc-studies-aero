@@ -93,9 +93,31 @@ Compressible flows can still be described through the continuum model and conser
     \item The energy $e(\underline{x},t)$
 \end{itemize}
 
+The required equations are the conservation laws for mass, momentum and energy together with suitable thermodynamic equations of state. With corresponding initial and boundary conditions, the evolution can then be computed.
+
 \section{Thermodynamic Relations}
 
-\subsection{State Variables}
+\subsubsection*{State Variables}
+
+\begin{itemize}
+    \item Density: $\rho = \rho(p,T)$
+    \item Pressure: $p = p(\rho,T)$
+    \item Temperature: $T = T(\rho, p)$
+    \item Internal energy: $e = e(\rho, T)$ $[e] = J/kg$
+    \item Enthalpy: $h = h(p,T)$
+    \item Entropy: $s = s(\rho, T)$
+\end{itemize}
+
+\subsubsection*{Van der Waals Gas}
+
+\begin{equation}
+    (p+a\rho^2)\left(\frac{1}{\rho}-b\right) = RT
+\end{equation}
+
+
+\subsubsection*{Incompressible Fluid}
+
+
 
 \section{Conservation Laws for Continuum Flows}
 
