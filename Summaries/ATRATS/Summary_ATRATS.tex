@@ -262,6 +262,11 @@ The top event is connected by an OR-gate, hence if one of each events is true, t
     \item Probability of event $E_\cap$ for the intersection of n events: \begin{equation}
         P(E_\cap ) = E[X_\cap] = \Pi P(E_j) (\text{if events are independant})
     \end{equation}
+    \item Union of event $E_\cup$ for the union of n events: \begin{align}
+        X_\cup = 1 - \Pi(1-X_j) = X_A + X_B + X_C \\ - X_A X_B - X_A X_C - X_B X_C - X_A X_B X_C \end{align}
+    \item Probability of even $E_\cup$ for the union of n events: \begin{align}
+        P(E_\cup) = E[X_\cup] = \sum P(E_j) - \\ \sum \sum P(E_j \cap E_i ) + (-1)^{n+1}P(\cap E_j)
+    \end{align}
 \end{itemize}
 
 \subsubsection*{Structure Function and Minimal Cut Sets}
