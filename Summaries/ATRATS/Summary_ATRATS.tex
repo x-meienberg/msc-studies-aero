@@ -378,7 +378,22 @@ The occurence probability of $X_2$ will only be appearing once in the calculatio
 \begin{itemize}
     \item \textbf{In general stochastic processes:} The probability of a future state depends on its entire life history
     \item \textbf{In Markov processes:} The probability of a future state only depends on the present state. The process has no memory 
+    \item The transition probability that the system in state $i$ at time $t_m$ moves to state $j$ at time $t_n$ \begin{align}
+        p_{ij}(m,n) = P\left[X(n) = j | X(m) = i\right], n> m \geq 0 \\
+        i = 0,1,2,...,N, j= 0,1,2,...,N
+    \end{align}
 \end{itemize}
+
+\textbf{Properties of Transition Probabilities}
+
+\begin{itemize}
+    \item Transition probabilities are greater or equal to $0$
+    \item Transitions must sum up to $1$
+    \item $p_{ij}(m,n) = p[X(n)=j,X(m)=i] \\ = \sum_k p_{ik}(m,r)p_{kj}(r,n), \\ i=0,1,2,...,N, j=0,1,2,...,N$
+    \item 
+\end{itemize}
+
+
 
 \end{multicols*}
 \end{document}
