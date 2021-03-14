@@ -237,7 +237,7 @@ An event $E$ is a subset of the sample space $\Omega$ and the experiment $\varep
      \frac{e^{-\lambda t_1}-e^{-\lambda t_2}}{e^{-\lambda t_1}} = 1-e^{-\lambda(t_2-t_1)}
  \end{align}
 
-The influence of an ageing process of the components failure rate shows that is not constant through time and hence can be described through the Weibull distribution. 
+The influence of an ageing process of the components failure rate shows that is not constant through time and hence can be described through the \textbf{Weibull distribution}. 
 
 \subsubsection*{Boolean Logic - Fault Tree Analysis}
 
@@ -287,6 +287,70 @@ an AND-gate intersecting all elements comprising the given minimal cut set
     \item First event approximation: $\sum P(M_j)$
     \item Second event approximation: \\ $\sum P(M_j)-\sum_i^{mcs-1} \sum_j^{mcs} P(M_i M_j)$
 \end{itemize}
+
+Important fact: Idemponent law follows for Boolean values - $X * X = X$ 
+
+\begin{align}
+    P(M_1 M_2) = P(M_1 \cap M_2) = E[M_1 \cap M_2] = \\ E[X_1 X_2 \cap X_2 X_3 X_4] = E[X_1 X_2 X_2 X_3 X_4] \\ = E[X_1 X_2 X_3 X_4]
+\end{align}
+
+if both events M are independent, then
+
+\begin{equation}
+    P(M_1 M_2) = P(X_1)P(X_2)P(X_3)P(X_4) = p_k(T_m)^4
+\end{equation}
+
+The occurence probability of $X_2$ will only be appearing once in the calculation of the intersection of $M_1$ and $M_2$ and hence the Unreliability (Failure Rate) calculations become more exact through subtraction of the intersection (second event approximation) and will be bounded by both approximations:
+
+\begin{equation}
+    \sum P(M_j) - \sum \sum P{M_i M_j} < U_{mcs}(T_m) < \sum P(M_j)
+\end{equation}
+
+\subsubsection*{Reliability Analysis}
+
+\textbf{Series System} 
+
+\begin{itemize}
+    \item All components must function in order of a functioning system 
+    \begin{equation}
+        R(t) = \Pi R_i(t) \end{equation}
+    \item For $N$ exponential components:
+    \begin{align}
+        R(t) = e^{-\lambda t} \\
+        \lambda = \sum \lambda_i (\text{System Failure Rate})\\
+        E[T] = 1 / \lambda (\text{MTTF})
+    \end{align}
+
+\end{itemize}
+
+\textbf{Parallel System}
+
+\begin{itemize}
+    \item All components must fail in order the system to fail
+    \begin{equation}
+        R(t) = 1 - \Pi \left[1- R_i(t)\right]
+    \end{equation}
+    \item For $N$ exponential components:
+    \begin{align}
+        R(t) = 1- \Pi \left[1 - e^{\lambda_i t}\right] \\
+        MTTF = \sum 1/\lambda_i \sum \sum 1/(\lambda_i +\lambda_j) + ... \\
+        ...+\sum \sum \sum 1/(\lambda_i +\lambda_j +\lambda_k) + ... \\ 
+        ...+ (-1)^{N-1} 1/\sum\lambda_i
+    \end{align}
+    \item Example with two exponential units of failure rates $\lambda_1$ and $\lambda_2$:
+    \begin{equation}
+        MTTF = \frac{1}{\lambda_1} + \frac{1}{\lambda_2} - \frac{1}{[\lambda_1 + \lambda_2]}
+    \end{equation}
+    \item For N identical elements, compare series and parallel:
+    \begin{align}
+        \text{parallel}:~ MTTF = \sum_n^N \frac{1}{n\lambda} \\
+        \text{series}: ~ MTTF = \frac{1}{N\lambda} \\ 
+        MTTF_{parallel} < MTTF_{series}
+    \end{align}
+\end{itemize}
+
+
+\subsection*{Markov Processes: Basic Elements}
 
 \end{multicols*}
 \end{document}
