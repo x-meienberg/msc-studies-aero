@@ -390,7 +390,37 @@ The occurence probability of $X_2$ will only be appearing once in the calculatio
     \item Transition probabilities are greater or equal to $0$
     \item Transitions must sum up to $1$
     \item $p_{ij}(m,n) = p[X(n)=j,X(m)=i] \\ = \sum_k p_{ik}(m,r)p_{kj}(r,n), \\ i=0,1,2,...,N, j=0,1,2,...,N$
-    \item 
+\end{itemize}
+
+\textbf{Stationary Transition Probabilities}
+
+\begin{itemize}
+    \item If the transition probability $p_{ij}(m,n)$ depends on the time interval ($t_n-t_m$) and not on the individual times $t_m$ and $t_n$, then
+    \begin{itemize}
+        \item The transition probabilities are stationary 
+        \item The Markov Process is homogeneous in time 
+    \end{itemize} \begin{equation}
+        p_{ij}(m,n) = p_{ij}(k), k\geq 0, i,j=0,1,2,...,N
+    \end{equation}
+    \item We only need to know the \textbf{stationary one-step transition probabilities} $p_{ij}(1) = p_{ij}$
+\end{itemize}
+
+\textbf{The Transition Probability Matrix}:
+
+\begin{equation}
+    \uuline{A}_{ij} = \begin{pmatrix}
+        p_{00} & p_{01} & ... & p_{0N} \\
+        p_{10} & p_{11} & ... & p_{1N} \\
+        \dots   & \dots & \dots & \dots \\
+        p_{N0} & p_{N1} & ... & p_{NN}
+    \end{pmatrix}
+\end{equation}
+
+\begin{itemize}
+    \item $dim(A) = (N+1) x (N+1)$
+    \item $0 \leq p_{ij} \leq 1, \forall i, j \in \{0,1,...,N\}$
+    \item $\sum_j p_{ij} = 1$, hence only $(N+1)xN$ elements must be known 
+    \item $\uuline{A}$ is a stochastic Matrix 
 \end{itemize}
 
 
