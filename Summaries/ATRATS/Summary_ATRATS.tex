@@ -352,6 +352,34 @@ The occurence probability of $X_2$ will only be appearing once in the calculatio
 
 \subsection*{Markov Processes: Basic Elements}
 
+\textbf{System}
+
+\begin{itemize}
+    \item The system can occupy a finite/countable number of states N
+    \item The states are mutually exclusive, i.e. the system is in one state at each time 
+    \item The states are exhaustive, i.e. the system must be in one state at all times 
+\end{itemize}
+
+\textbf{Transitions} between States occur \textbf{stochastically}, i.e. randomly in time \\ \\
+\textbf{Mathematical Representation}
+
+\begin{itemize}
+    \item The random process of the state transition can be described by an integer random variable, e.g. $X(t) = 5$, the system occupies state $5$ at time $t$
+    \item The stochastic process can be observed at discrete times, and we assume that time intervals between states is such small that only one transition occurs between two states
+\end{itemize}
+
+\textbf{The conceptual Model: Discrete States}
+
+\begin{itemize}
+    \item The state transition will be described by an integer random variable $X(n)$ is the system state at time $t_n$, $X(3) = 5$ means that the system occupies state $5$ at time $t_3$
+    \item The objective is: Compute the probability that the system is in a given state at given time $t$, for all possible states and times
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{In general stochastic processes:} The probability of a future state depends on its entire life history
+    \item \textbf{In Markov processes:} The probability of a future state only depends on the present state. The process has no memory 
+\end{itemize}
+
 \end{multicols*}
 \end{document}
 
