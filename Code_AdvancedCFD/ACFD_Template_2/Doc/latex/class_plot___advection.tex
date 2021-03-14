@@ -1,0 +1,105 @@
+\hypertarget{class_plot___advection}{}\section{Plot\+\_\+\+Advection Class Reference}
+\label{class_plot___advection}\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+
+
+Plotting class for the linear advection-\/diffusion equation.  
+
+
+
+
+{\ttfamily \#include $<$plot\+\_\+advection.\+h$>$}
+
+Inheritance diagram for Plot\+\_\+\+Advection\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_plot___advection}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_plot___advection_a5d506920ee2b9b7f54382208ca31db28}{Plot\+\_\+\+Advection} (\hyperlink{class_control}{Control} $\ast$c)
+\item 
+\hyperlink{class_plot___advection_aa4836efc4922b4ba4f7788315d4e4994}{$\sim$\+Plot\+\_\+\+Advection} ()
+\item 
+void \hyperlink{class_plot___advection_aa8f4020a38efe82391d6ec2c30cb2846}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_plot___advection_a1d5fb2abcc9dedfcc81dd287fd5ba011}{plot\+\_\+1d} (bool init, \hyperlink{class_grid}{Grid} $\ast$g=0)
+\item 
+void \hyperlink{class_plot___advection_aaf3bbdc51c7f960782bab06e2efa7643}{plot\+\_\+2d} (bool init, \hyperlink{class_grid}{Grid} $\ast$g=0)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_gnuplot}{Gnuplot} $\ast$ \hyperlink{class_plot___advection_a0b54d9554bf27a2ed3bbf5f4d163d4bd}{\+\_\+gp}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Plotting class for the linear advection-\/diffusion equation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{Plot\+\_\+\+Advection(\+Control $\ast$c)}{Plot_Advection(Control *c)}}]{\setlength{\rightskip}{0pt plus 5cm}Plot\+\_\+\+Advection\+::\+Plot\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+\item[{{\bf Control} $\ast$}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_plot___advection_a5d506920ee2b9b7f54382208ca31db28}{}\label{class_plot___advection_a5d506920ee2b9b7f54382208ca31db28}
+Constructor that initializes the \hyperlink{class_gnuplot}{Gnuplot} object used for the plots. Uses the key \char`\"{}\+Case\+\_\+\+Plot\char`\"{} in the control file.
+\begin{DoxyItemize}
+\item 1\+: 1D plot
+\item 2\+: 2D plot 
+\end{DoxyItemize}\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!````~Plot\+\_\+\+Advection@{$\sim$\+Plot\+\_\+\+Advection}}
+\index{````~Plot\+\_\+\+Advection@{$\sim$\+Plot\+\_\+\+Advection}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{$\sim$\+Plot\+\_\+\+Advection()}{~Plot_Advection()}}]{\setlength{\rightskip}{0pt plus 5cm}Plot\+\_\+\+Advection\+::$\sim$\+Plot\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_plot___advection_aa4836efc4922b4ba4f7788315d4e4994}{}\label{class_plot___advection_aa4836efc4922b4ba4f7788315d4e4994}
+
+
+\subsection{Member Function Documentation}
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!operator()@{operator()}}
+\index{operator()@{operator()}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g)}{operator()(Grid *g)}}]{\setlength{\rightskip}{0pt plus 5cm}void Plot\+\_\+\+Advection\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_plot___advection_aa8f4020a38efe82391d6ec2c30cb2846}{}\label{class_plot___advection_aa8f4020a38efe82391d6ec2c30cb2846}
+\hyperlink{class_plot}{Plot} the field defined on the grid. Uses the key \char`\"{}\+Case\+\_\+\+Plot\char`\"{} as in the constructor. 
+
+Implements \hyperlink{class_plot_a0c81ddc39ad4695024eb5ed493cba26e}{Plot}.
+
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!plot\+\_\+1d@{plot\+\_\+1d}}
+\index{plot\+\_\+1d@{plot\+\_\+1d}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{plot\+\_\+1d(bool init, Grid $\ast$g=0)}{plot_1d(bool init, Grid *g=0)}}]{\setlength{\rightskip}{0pt plus 5cm}void Plot\+\_\+\+Advection\+::plot\+\_\+1d (
+\begin{DoxyParamCaption}
+\item[{bool}]{init, }
+\item[{{\bf Grid} $\ast$}]{g = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_plot___advection_a1d5fb2abcc9dedfcc81dd287fd5ba011}{}\label{class_plot___advection_a1d5fb2abcc9dedfcc81dd287fd5ba011}
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!plot\+\_\+2d@{plot\+\_\+2d}}
+\index{plot\+\_\+2d@{plot\+\_\+2d}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{plot\+\_\+2d(bool init, Grid $\ast$g=0)}{plot_2d(bool init, Grid *g=0)}}]{\setlength{\rightskip}{0pt plus 5cm}void Plot\+\_\+\+Advection\+::plot\+\_\+2d (
+\begin{DoxyParamCaption}
+\item[{bool}]{init, }
+\item[{{\bf Grid} $\ast$}]{g = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_plot___advection_aaf3bbdc51c7f960782bab06e2efa7643}{}\label{class_plot___advection_aaf3bbdc51c7f960782bab06e2efa7643}
+
+
+\subsection{Member Data Documentation}
+\index{Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}!\+\_\+gp@{\+\_\+gp}}
+\index{\+\_\+gp@{\+\_\+gp}!Plot\+\_\+\+Advection@{Plot\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{\+\_\+gp}{_gp}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Gnuplot}$\ast$ Plot\+\_\+\+Advection\+::\+\_\+gp\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_plot___advection_a0b54d9554bf27a2ed3bbf5f4d163d4bd}{}\label{class_plot___advection_a0b54d9554bf27a2ed3bbf5f4d163d4bd}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{plot__advection_8h}{plot\+\_\+advection.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{plot__advection_8cpp}{plot\+\_\+advection.\+cpp}\end{DoxyCompactItemize}

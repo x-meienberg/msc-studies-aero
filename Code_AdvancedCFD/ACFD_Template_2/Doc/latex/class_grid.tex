@@ -1,0 +1,278 @@
+\hypertarget{class_grid}{}\section{Grid Class Reference}
+\label{class_grid}\index{Grid@{Grid}}
+
+
+Class for a 3D Cartesian grid with associated fields and coefficients.  
+
+
+
+
+{\ttfamily \#include $<$grid.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_grid_aebc7528645c82055a45734458768be3c}{Grid} (int \hyperlink{class_grid_aee3a9d9ee92ea0ae23cb9b6e4da87e71}{nv}, int \hyperlink{class_grid_a7c02ca12ca63111a78236bf0b3ea88d8}{nc}, int nx, int ny, int nz, double lx, double ly, double lz)
+\item 
+\hyperlink{class_grid_a3661d0a7f998caaaf8627d7a67072116}{$\sim$\+Grid} ()
+\item 
+int \hyperlink{class_grid_a2fa46effcf9fbe97342b52850b72ac4c}{n} (int ind) const 
+\item 
+int \hyperlink{class_grid_aee3a9d9ee92ea0ae23cb9b6e4da87e71}{nv} () const 
+\item 
+int \hyperlink{class_grid_a7c02ca12ca63111a78236bf0b3ea88d8}{nc} () const 
+\item 
+double $\ast$\& \hyperlink{class_grid_a0f9d59290314e420e7adecfd6e55769c}{c} (int i, int j, int k)
+\item 
+double $\ast$\& \hyperlink{class_grid_ae0242e4a6d23d49e6f0382024c8f09f3}{q} (int i, int j, int k)
+\item 
+double $\ast$\& \hyperlink{class_grid_a68bb38f78d5f58d3dd04aa8346e8af80}{rhs} (int i, int j, int k)
+\item 
+double $\ast$\& \hyperlink{class_grid_af0e0caeaf47e389ea9ec154c84143ee2}{diag} (int i, int j, int k)
+\item 
+double $\ast$\& \hyperlink{class_grid_a8f28cebc79e45a246b2292573c988fb2}{u} (int i, int j, int k)
+\item 
+double $\ast$\& \hyperlink{class_grid_a91e327bd3db5b3bc85b20ad1173440d1}{f} (int dir, int i, int j, int k)
+\item 
+double \& \hyperlink{class_grid_ae74093daa7e9bafe77591f9336eaa409}{x} (int dir, int i, int j, int k)
+\item 
+double \hyperlink{class_grid_a25a0af18201fb7b20335fe745f931b1e}{dx} (int dir) const 
+\item 
+double \hyperlink{class_grid_ac29ca7c86c12fd0e6f1e9e5cf14c56c5}{length} (int dir) const 
+\item 
+int \hyperlink{class_grid_a42714a91c55d99a126b06243ecb2a673}{periodic\+\_\+index} (int i, int offset, int dir) const 
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_grid_a41b2d78ec79a5e02aca5ae5d7211015f}{\+\_\+n} \mbox{[}3\mbox{]}
+\item 
+int \hyperlink{class_grid_a544a46153d54c24eb7b1a54a5e49ef04}{\+\_\+nv}
+\item 
+int \hyperlink{class_grid_a479b4a8777c7f8715345b1c60cf55786}{\+\_\+nc}
+\item 
+double $\ast$ \hyperlink{class_grid_ad1c8bee84202faab01651a41ff338368}{\+\_\+x}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_a2c97df8d4d7dff67919203615bcf4cdf}{\+\_\+u}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_aa4c430971c64d8181e721b9d9a495ae5}{\+\_\+c}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_a5a7d695ace939b99ed0a3490ce6d80b1}{\+\_\+f}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_af72acfe0e5317f83511031b9087cf2d7}{\+\_\+q}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_ad94a4098427b717c50108c49d4caa048}{\+\_\+rhs}
+\item 
+double $\ast$$\ast$ \hyperlink{class_grid_a8476f98ceb01a28eed949abfc1123478}{\+\_\+diag}
+\item 
+double \hyperlink{class_grid_a34b81976f4c80eb2641224886bb6a339}{\+\_\+dx} \mbox{[}3\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for a 3D Cartesian grid with associated fields and coefficients. 
+
+
+\begin{DoxyItemize}
+\item dimensions nx x ny x nz
+\item nv dependent variables
+\item nc coefficients
+\item domain size of lx x ly x lz 
+\end{DoxyItemize}
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Grid@{Grid}!Grid@{Grid}}
+\index{Grid@{Grid}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{Grid(int nv, int nc, int nx, int ny, int nz, double lx, double ly, double lz)}{Grid(int nv, int nc, int nx, int ny, int nz, double lx, double ly, double lz)}}]{\setlength{\rightskip}{0pt plus 5cm}Grid\+::\+Grid (
+\begin{DoxyParamCaption}
+\item[{int}]{nv, }
+\item[{int}]{nc, }
+\item[{int}]{nx, }
+\item[{int}]{ny, }
+\item[{int}]{nz, }
+\item[{double}]{lx, }
+\item[{double}]{ly, }
+\item[{double}]{lz}
+\end{DoxyParamCaption}
+)}\hypertarget{class_grid_aebc7528645c82055a45734458768be3c}{}\label{class_grid_aebc7528645c82055a45734458768be3c}
+\hyperlink{class_grid}{Grid} constructor 
+\begin{DoxyParams}{Parameters}
+{\em nv} & Number of dependent variables \\
+\hline
+{\em nc} & Number of coefficients \\
+\hline
+{\em nx,ny,nz} & Dimensions\+: nx x ny x nz \\
+\hline
+{\em lx,ly,lz} & Domain size\+: lx x ly x lz \\
+\hline
+\end{DoxyParams}
+\index{Grid@{Grid}!````~Grid@{$\sim$\+Grid}}
+\index{````~Grid@{$\sim$\+Grid}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{$\sim$\+Grid()}{~Grid()}}]{\setlength{\rightskip}{0pt plus 5cm}Grid\+::$\sim$\+Grid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_grid_a3661d0a7f998caaaf8627d7a67072116}{}\label{class_grid_a3661d0a7f998caaaf8627d7a67072116}
+\hyperlink{class_grid}{Grid} destructor 
+
+\subsection{Member Function Documentation}
+\index{Grid@{Grid}!c@{c}}
+\index{c@{c}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{c(int i, int j, int k)}{c(int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::c (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a0f9d59290314e420e7adecfd6e55769c}{}\label{class_grid_a0f9d59290314e420e7adecfd6e55769c}
+Read/write access to fields using index triplets \index{Grid@{Grid}!diag@{diag}}
+\index{diag@{diag}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{diag(int i, int j, int k)}{diag(int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::diag (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_af0e0caeaf47e389ea9ec154c84143ee2}{}\label{class_grid_af0e0caeaf47e389ea9ec154c84143ee2}
+\index{Grid@{Grid}!dx@{dx}}
+\index{dx@{dx}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{dx(int dir) const }{dx(int dir) const }}]{\setlength{\rightskip}{0pt plus 5cm}double Grid\+::dx (
+\begin{DoxyParamCaption}
+\item[{int}]{dir}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a25a0af18201fb7b20335fe745f931b1e}{}\label{class_grid_a25a0af18201fb7b20335fe745f931b1e}
+Uniform grid spacings dx(0), dx(1) and dx(2) in x-\/, y-\/ and z-\/directions, respectively \index{Grid@{Grid}!f@{f}}
+\index{f@{f}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{f(int dir, int i, int j, int k)}{f(int dir, int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::f (
+\begin{DoxyParamCaption}
+\item[{int}]{dir, }
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a91e327bd3db5b3bc85b20ad1173440d1}{}\label{class_grid_a91e327bd3db5b3bc85b20ad1173440d1}
+\index{Grid@{Grid}!length@{length}}
+\index{length@{length}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{length(int dir) const }{length(int dir) const }}]{\setlength{\rightskip}{0pt plus 5cm}double Grid\+::length (
+\begin{DoxyParamCaption}
+\item[{int}]{dir}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_ac29ca7c86c12fd0e6f1e9e5cf14c56c5}{}\label{class_grid_ac29ca7c86c12fd0e6f1e9e5cf14c56c5}
+Domain length in x-\/, y-\/ and z-\/directions, respectively \index{Grid@{Grid}!n@{n}}
+\index{n@{n}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{n(int ind) const }{n(int ind) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::n (
+\begin{DoxyParamCaption}
+\item[{int}]{ind}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a2fa46effcf9fbe97342b52850b72ac4c}{}\label{class_grid_a2fa46effcf9fbe97342b52850b72ac4c}
+Dimensions\+: n(0) x n(1) x n(2) \index{Grid@{Grid}!nc@{nc}}
+\index{nc@{nc}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{nc() const }{nc() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::nc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a7c02ca12ca63111a78236bf0b3ea88d8}{}\label{class_grid_a7c02ca12ca63111a78236bf0b3ea88d8}
+Number of coefficients \index{Grid@{Grid}!nv@{nv}}
+\index{nv@{nv}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{nv() const }{nv() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::nv (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_aee3a9d9ee92ea0ae23cb9b6e4da87e71}{}\label{class_grid_aee3a9d9ee92ea0ae23cb9b6e4da87e71}
+Number of dependent variable \index{Grid@{Grid}!periodic\+\_\+index@{periodic\+\_\+index}}
+\index{periodic\+\_\+index@{periodic\+\_\+index}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{periodic\+\_\+index(int i, int offset, int dir) const }{periodic_index(int i, int offset, int dir) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::periodic\+\_\+index (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{offset, }
+\item[{int}]{dir}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a42714a91c55d99a126b06243ecb2a673}{}\label{class_grid_a42714a91c55d99a126b06243ecb2a673}
+Computation of index with an offset, using domain periodicity if (i + offset) is smaller than 0 or great than n(dir)-\/1. 
+\begin{DoxyParams}{Parameters}
+{\em i} & Index \\
+\hline
+{\em offset} & Offset with respect to i \\
+\hline
+{\em dir} & Coordinate axis \\
+\hline
+\end{DoxyParams}
+\index{Grid@{Grid}!q@{q}}
+\index{q@{q}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{q(int i, int j, int k)}{q(int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::q (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_ae0242e4a6d23d49e6f0382024c8f09f3}{}\label{class_grid_ae0242e4a6d23d49e6f0382024c8f09f3}
+\index{Grid@{Grid}!rhs@{rhs}}
+\index{rhs@{rhs}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{rhs(int i, int j, int k)}{rhs(int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::rhs (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a68bb38f78d5f58d3dd04aa8346e8af80}{}\label{class_grid_a68bb38f78d5f58d3dd04aa8346e8af80}
+\index{Grid@{Grid}!u@{u}}
+\index{u@{u}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{u(int i, int j, int k)}{u(int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$\& Grid\+::u (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_a8f28cebc79e45a246b2292573c988fb2}{}\label{class_grid_a8f28cebc79e45a246b2292573c988fb2}
+\index{Grid@{Grid}!x@{x}}
+\index{x@{x}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{x(int dir, int i, int j, int k)}{x(int dir, int i, int j, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double\& Grid\+::x (
+\begin{DoxyParamCaption}
+\item[{int}]{dir, }
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_grid_ae74093daa7e9bafe77591f9336eaa409}{}\label{class_grid_ae74093daa7e9bafe77591f9336eaa409}
+Coordinates (x,y,z) = (x(0,i,j,k),x(1,i,j,k),x(2,i,j,k) for each grid node (i,j,k) 
+
+\subsection{Member Data Documentation}
+\index{Grid@{Grid}!\+\_\+c@{\+\_\+c}}
+\index{\+\_\+c@{\+\_\+c}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+c}{_c}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+c\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_aa4c430971c64d8181e721b9d9a495ae5}{}\label{class_grid_aa4c430971c64d8181e721b9d9a495ae5}
+\index{Grid@{Grid}!\+\_\+diag@{\+\_\+diag}}
+\index{\+\_\+diag@{\+\_\+diag}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+diag}{_diag}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+diag\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a8476f98ceb01a28eed949abfc1123478}{}\label{class_grid_a8476f98ceb01a28eed949abfc1123478}
+\index{Grid@{Grid}!\+\_\+dx@{\+\_\+dx}}
+\index{\+\_\+dx@{\+\_\+dx}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+dx}{_dx}}]{\setlength{\rightskip}{0pt plus 5cm}double Grid\+::\+\_\+dx\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a34b81976f4c80eb2641224886bb6a339}{}\label{class_grid_a34b81976f4c80eb2641224886bb6a339}
+\index{Grid@{Grid}!\+\_\+f@{\+\_\+f}}
+\index{\+\_\+f@{\+\_\+f}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+f}{_f}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+f\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a5a7d695ace939b99ed0a3490ce6d80b1}{}\label{class_grid_a5a7d695ace939b99ed0a3490ce6d80b1}
+\index{Grid@{Grid}!\+\_\+n@{\+\_\+n}}
+\index{\+\_\+n@{\+\_\+n}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+n}{_n}}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::\+\_\+n\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a41b2d78ec79a5e02aca5ae5d7211015f}{}\label{class_grid_a41b2d78ec79a5e02aca5ae5d7211015f}
+\index{Grid@{Grid}!\+\_\+nc@{\+\_\+nc}}
+\index{\+\_\+nc@{\+\_\+nc}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+nc}{_nc}}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::\+\_\+nc\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a479b4a8777c7f8715345b1c60cf55786}{}\label{class_grid_a479b4a8777c7f8715345b1c60cf55786}
+\index{Grid@{Grid}!\+\_\+nv@{\+\_\+nv}}
+\index{\+\_\+nv@{\+\_\+nv}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+nv}{_nv}}]{\setlength{\rightskip}{0pt plus 5cm}int Grid\+::\+\_\+nv\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a544a46153d54c24eb7b1a54a5e49ef04}{}\label{class_grid_a544a46153d54c24eb7b1a54a5e49ef04}
+\index{Grid@{Grid}!\+\_\+q@{\+\_\+q}}
+\index{\+\_\+q@{\+\_\+q}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+q}{_q}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+q\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_af72acfe0e5317f83511031b9087cf2d7}{}\label{class_grid_af72acfe0e5317f83511031b9087cf2d7}
+\index{Grid@{Grid}!\+\_\+rhs@{\+\_\+rhs}}
+\index{\+\_\+rhs@{\+\_\+rhs}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+rhs}{_rhs}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+rhs\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_ad94a4098427b717c50108c49d4caa048}{}\label{class_grid_ad94a4098427b717c50108c49d4caa048}
+\index{Grid@{Grid}!\+\_\+u@{\+\_\+u}}
+\index{\+\_\+u@{\+\_\+u}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+u}{_u}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$$\ast$ Grid\+::\+\_\+u\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_a2c97df8d4d7dff67919203615bcf4cdf}{}\label{class_grid_a2c97df8d4d7dff67919203615bcf4cdf}
+\index{Grid@{Grid}!\+\_\+x@{\+\_\+x}}
+\index{\+\_\+x@{\+\_\+x}!Grid@{Grid}}
+\subsubsection[{\texorpdfstring{\+\_\+x}{_x}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ Grid\+::\+\_\+x\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_grid_ad1c8bee84202faab01651a41ff338368}{}\label{class_grid_ad1c8bee84202faab01651a41ff338368}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{grid_8h}{grid.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{grid_8cpp}{grid.\+cpp}\end{DoxyCompactItemize}

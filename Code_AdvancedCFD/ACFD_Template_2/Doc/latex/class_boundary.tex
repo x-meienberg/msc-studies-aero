@@ -1,0 +1,61 @@
+\hypertarget{class_boundary}{}\section{Boundary Class Reference}
+\label{class_boundary}\index{Boundary@{Boundary}}
+
+
+Abstract class for the computation of boundary fluxes.  
+
+
+
+
+{\ttfamily \#include $<$boundary.\+h$>$}
+
+Inheritance diagram for Boundary\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_boundary}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_boundary_a5fe110e6abd74ac429d5318d30c4acaa}{$\sim$\+Boundary} ()
+\item 
+virtual void \hyperlink{class_boundary_acbf1dee42af06301b014e50dbb76aa0c}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g) const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract class for the computation of boundary fluxes. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Boundary@{Boundary}!````~Boundary@{$\sim$\+Boundary}}
+\index{````~Boundary@{$\sim$\+Boundary}!Boundary@{Boundary}}
+\subsubsection[{\texorpdfstring{$\sim$\+Boundary()}{~Boundary()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Boundary\+::$\sim$\+Boundary (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_boundary_a5fe110e6abd74ac429d5318d30c4acaa}{}\label{class_boundary_a5fe110e6abd74ac429d5318d30c4acaa}
+
+
+\subsection{Member Function Documentation}
+\index{Boundary@{Boundary}!operator()@{operator()}}
+\index{operator()@{operator()}!Boundary@{Boundary}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g) const =0}{operator()(Grid *g) const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Boundary\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_boundary_acbf1dee42af06301b014e50dbb76aa0c}{}\label{class_boundary_acbf1dee42af06301b014e50dbb76aa0c}
+Operator that computes the boundary fluxes 
+\begin{DoxyParams}{Parameters}
+{\em g} & Pointer to grid object \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_boundary___periodic_a72f5a45c04233e1c572098769f12fe82}{Boundary\+\_\+\+Periodic}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{boundary_8h}{boundary.\+h}\end{DoxyCompactItemize}

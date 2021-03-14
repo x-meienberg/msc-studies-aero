@@ -1,0 +1,112 @@
+\hypertarget{class_init___advection}{}\section{Init\+\_\+\+Advection Class Reference}
+\label{class_init___advection}\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+
+
+Initial condition for the linear advection-\/diffusion equation.  
+
+
+
+
+{\ttfamily \#include $<$init\+\_\+advection.\+h$>$}
+
+Inheritance diagram for Init\+\_\+\+Advection\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_init___advection}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_init___advection_a7d15ce87d291abaddcd0dad556cb9469}{Init\+\_\+\+Advection} (\hyperlink{class_control}{Control} $\ast$c)
+\item 
+\hyperlink{class_init___advection_a4defc25e1485a0f8f8172ba2c45e8950}{$\sim$\+Init\+\_\+\+Advection} ()
+\item 
+void \hyperlink{class_init___advection_a336eaeee433ab0ec8a17eb61b9a17c41}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_init___advection_a713f4d7ad7652070e41d995521d1b5ff}{init\+\_\+1d\+\_\+tophat} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\item 
+void \hyperlink{class_init___advection_a40cb7002a9a849adb5d9d7c9bca3e07e}{init\+\_\+1d\+\_\+sin} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\item 
+void \hyperlink{class_init___advection_a8100aa1f38bb3a9684e410b2ea167b8e}{init\+\_\+2d\+\_\+tophat} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\item 
+void \hyperlink{class_init___advection_a9dbd1a325e26cf02eac47fb45b980dbb}{init\+\_\+2d\+\_\+sin} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Initial condition for the linear advection-\/diffusion equation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{Init\+\_\+\+Advection(\+Control $\ast$c)}{Init_Advection(Control *c)}}]{\setlength{\rightskip}{0pt plus 5cm}Init\+\_\+\+Advection\+::\+Init\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+\item[{{\bf Control} $\ast$}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_init___advection_a7d15ce87d291abaddcd0dad556cb9469}{}\label{class_init___advection_a7d15ce87d291abaddcd0dad556cb9469}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!````~Init\+\_\+\+Advection@{$\sim$\+Init\+\_\+\+Advection}}
+\index{````~Init\+\_\+\+Advection@{$\sim$\+Init\+\_\+\+Advection}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{$\sim$\+Init\+\_\+\+Advection()}{~Init_Advection()}}]{\setlength{\rightskip}{0pt plus 5cm}Init\+\_\+\+Advection\+::$\sim$\+Init\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_init___advection_a4defc25e1485a0f8f8172ba2c45e8950}{}\label{class_init___advection_a4defc25e1485a0f8f8172ba2c45e8950}
+
+
+\subsection{Member Function Documentation}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!init\+\_\+1d\+\_\+sin@{init\+\_\+1d\+\_\+sin}}
+\index{init\+\_\+1d\+\_\+sin@{init\+\_\+1d\+\_\+sin}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{init\+\_\+1d\+\_\+sin(\+Grid $\ast$g) const }{init_1d_sin(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+\_\+\+Advection\+::init\+\_\+1d\+\_\+sin (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_init___advection_a40cb7002a9a849adb5d9d7c9bca3e07e}{}\label{class_init___advection_a40cb7002a9a849adb5d9d7c9bca3e07e}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!init\+\_\+1d\+\_\+tophat@{init\+\_\+1d\+\_\+tophat}}
+\index{init\+\_\+1d\+\_\+tophat@{init\+\_\+1d\+\_\+tophat}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{init\+\_\+1d\+\_\+tophat(\+Grid $\ast$g) const }{init_1d_tophat(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+\_\+\+Advection\+::init\+\_\+1d\+\_\+tophat (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_init___advection_a713f4d7ad7652070e41d995521d1b5ff}{}\label{class_init___advection_a713f4d7ad7652070e41d995521d1b5ff}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!init\+\_\+2d\+\_\+sin@{init\+\_\+2d\+\_\+sin}}
+\index{init\+\_\+2d\+\_\+sin@{init\+\_\+2d\+\_\+sin}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{init\+\_\+2d\+\_\+sin(\+Grid $\ast$g) const }{init_2d_sin(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+\_\+\+Advection\+::init\+\_\+2d\+\_\+sin (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_init___advection_a9dbd1a325e26cf02eac47fb45b980dbb}{}\label{class_init___advection_a9dbd1a325e26cf02eac47fb45b980dbb}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!init\+\_\+2d\+\_\+tophat@{init\+\_\+2d\+\_\+tophat}}
+\index{init\+\_\+2d\+\_\+tophat@{init\+\_\+2d\+\_\+tophat}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{init\+\_\+2d\+\_\+tophat(\+Grid $\ast$g) const }{init_2d_tophat(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+\_\+\+Advection\+::init\+\_\+2d\+\_\+tophat (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_init___advection_a8100aa1f38bb3a9684e410b2ea167b8e}{}\label{class_init___advection_a8100aa1f38bb3a9684e410b2ea167b8e}
+\index{Init\+\_\+\+Advection@{Init\+\_\+\+Advection}!operator()@{operator()}}
+\index{operator()@{operator()}!Init\+\_\+\+Advection@{Init\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g) const }{operator()(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Init\+\_\+\+Advection\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_init___advection_a336eaeee433ab0ec8a17eb61b9a17c41}{}\label{class_init___advection_a336eaeee433ab0ec8a17eb61b9a17c41}
+Defines the initial condition given an entry in the control file.
+\begin{DoxyItemize}
+\item 1\+: 1D top hat
+\item 2\+: 1D sine wave
+\item 3\+: 2D top hat
+\item 4\+: 2D sine wave 
+\end{DoxyItemize}
+
+Implements \hyperlink{class_init_a1deef07e59de84489cbf7a10d2e737d2}{Init}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{init__advection_8h}{init\+\_\+advection.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{init__advection_8cpp}{init\+\_\+advection.\+cpp}\end{DoxyCompactItemize}

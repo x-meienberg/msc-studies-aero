@@ -1,0 +1,160 @@
+\hypertarget{class_time}{}\section{Time Class Reference}
+\label{class_time}\index{Time@{Time}}
+
+
+Class for running time loops.  
+
+
+
+
+{\ttfamily \#include $<$time.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_time_a061dce41044220b18a72cc7bf97f9292}{Time} (int \hyperlink{class_time_a5531904db2f9c1d235541f9ca7fd2d4c}{nt}, int \hyperlink{class_time_acd1a70038dd64fa66b78d485e7ba336b}{nout}, double \hyperlink{class_time_aa47c036756e0674b0bb0ca4018a51e72}{dt})
+\item 
+void \hyperlink{class_time_ae97106319f88a7a473cd65e18d8636a4}{begin} ()
+\item 
+bool \hyperlink{class_time_acb5e70831abf1bfe9754d178a31993ab}{end} () const 
+\item 
+void \hyperlink{class_time_a7525e86315b53c419af314d7be541b2f}{inc} ()
+\item 
+bool \hyperlink{class_time_a427e593bd1fa2a520fb3a10316b65976}{output} ()
+\item 
+int \& \hyperlink{class_time_a5531904db2f9c1d235541f9ca7fd2d4c}{nt} ()
+\item 
+int \& \hyperlink{class_time_a1904b7d364082f3e9a3e5661d9c54693}{it} ()
+\item 
+int \& \hyperlink{class_time_acd1a70038dd64fa66b78d485e7ba336b}{nout} ()
+\item 
+double \& \hyperlink{class_time_aa47c036756e0674b0bb0ca4018a51e72}{dt} ()
+\item 
+double \& \hyperlink{class_time_ab2b34172745cdd6363064d0fc3a4a55c}{t} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_time_a3c9e1bfeb4011d025e13822cb5f5c505}{\+\_\+it}
+\item 
+int \hyperlink{class_time_a280ffde054834baa2dd58b9faa745fb9}{\+\_\+nt}
+\item 
+int \hyperlink{class_time_a587de2dad9055fd5600a932ec6a38b4e}{\+\_\+nout}
+\item 
+double \hyperlink{class_time_ac5b122ce34cac3661357f0d3a7883771}{\+\_\+dt}
+\item 
+double \hyperlink{class_time_a4ee3f4042a1b37b86c3ae7c8bc3a036e}{\+\_\+t}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for running time loops. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\subsubsection[{\texorpdfstring{Time(int nt, int nout, double dt)}{Time(int nt, int nout, double dt)}}]{\setlength{\rightskip}{0pt plus 5cm}Time\+::\+Time (
+\begin{DoxyParamCaption}
+\item[{int}]{nt, }
+\item[{int}]{nout, }
+\item[{double}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_a061dce41044220b18a72cc7bf97f9292}{}\label{class_time_a061dce41044220b18a72cc7bf97f9292}
+Construct from components 
+\begin{DoxyParams}{Parameters}
+{\em nt} & Number of time steps \\
+\hline
+{\em nout} & Number of time steps between result outputs \\
+\hline
+{\em dt} & \hyperlink{class_time}{Time} step size \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Time@{Time}!begin@{begin}}
+\index{begin@{begin}!Time@{Time}}
+\subsubsection[{\texorpdfstring{begin()}{begin()}}]{\setlength{\rightskip}{0pt plus 5cm}void Time\+::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_ae97106319f88a7a473cd65e18d8636a4}{}\label{class_time_ae97106319f88a7a473cd65e18d8636a4}
+Set the time to zero. \index{Time@{Time}!dt@{dt}}
+\index{dt@{dt}!Time@{Time}}
+\subsubsection[{\texorpdfstring{dt()}{dt()}}]{\setlength{\rightskip}{0pt plus 5cm}double\& Time\+::dt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_aa47c036756e0674b0bb0ca4018a51e72}{}\label{class_time_aa47c036756e0674b0bb0ca4018a51e72}
+Read/write access to the time step size \index{Time@{Time}!end@{end}}
+\index{end@{end}!Time@{Time}}
+\subsubsection[{\texorpdfstring{end() const }{end() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Time\+::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_acb5e70831abf1bfe9754d178a31993ab}{}\label{class_time_acb5e70831abf1bfe9754d178a31993ab}
+Return whether the time loop is ended. \index{Time@{Time}!inc@{inc}}
+\index{inc@{inc}!Time@{Time}}
+\subsubsection[{\texorpdfstring{inc()}{inc()}}]{\setlength{\rightskip}{0pt plus 5cm}void Time\+::inc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_a7525e86315b53c419af314d7be541b2f}{}\label{class_time_a7525e86315b53c419af314d7be541b2f}
+Increment by one time step. \index{Time@{Time}!it@{it}}
+\index{it@{it}!Time@{Time}}
+\subsubsection[{\texorpdfstring{it()}{it()}}]{\setlength{\rightskip}{0pt plus 5cm}int\& Time\+::it (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_a1904b7d364082f3e9a3e5661d9c54693}{}\label{class_time_a1904b7d364082f3e9a3e5661d9c54693}
+Read/write access to the iteration number \index{Time@{Time}!nout@{nout}}
+\index{nout@{nout}!Time@{Time}}
+\subsubsection[{\texorpdfstring{nout()}{nout()}}]{\setlength{\rightskip}{0pt plus 5cm}int\& Time\+::nout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_acd1a70038dd64fa66b78d485e7ba336b}{}\label{class_time_acd1a70038dd64fa66b78d485e7ba336b}
+Read/write access to the number of time steps between result outputs \index{Time@{Time}!nt@{nt}}
+\index{nt@{nt}!Time@{Time}}
+\subsubsection[{\texorpdfstring{nt()}{nt()}}]{\setlength{\rightskip}{0pt plus 5cm}int\& Time\+::nt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_a5531904db2f9c1d235541f9ca7fd2d4c}{}\label{class_time_a5531904db2f9c1d235541f9ca7fd2d4c}
+Read/write access to the number of time steps \index{Time@{Time}!output@{output}}
+\index{output@{output}!Time@{Time}}
+\subsubsection[{\texorpdfstring{output()}{output()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Time\+::output (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_a427e593bd1fa2a520fb3a10316b65976}{}\label{class_time_a427e593bd1fa2a520fb3a10316b65976}
+Return whether the current time step is an output time step \index{Time@{Time}!t@{t}}
+\index{t@{t}!Time@{Time}}
+\subsubsection[{\texorpdfstring{t()}{t()}}]{\setlength{\rightskip}{0pt plus 5cm}double\& Time\+::t (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_time_ab2b34172745cdd6363064d0fc3a4a55c}{}\label{class_time_ab2b34172745cdd6363064d0fc3a4a55c}
+Read/write access to the current time 
+
+\subsection{Member Data Documentation}
+\index{Time@{Time}!\+\_\+dt@{\+\_\+dt}}
+\index{\+\_\+dt@{\+\_\+dt}!Time@{Time}}
+\subsubsection[{\texorpdfstring{\+\_\+dt}{_dt}}]{\setlength{\rightskip}{0pt plus 5cm}double Time\+::\+\_\+dt\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_time_ac5b122ce34cac3661357f0d3a7883771}{}\label{class_time_ac5b122ce34cac3661357f0d3a7883771}
+\index{Time@{Time}!\+\_\+it@{\+\_\+it}}
+\index{\+\_\+it@{\+\_\+it}!Time@{Time}}
+\subsubsection[{\texorpdfstring{\+\_\+it}{_it}}]{\setlength{\rightskip}{0pt plus 5cm}int Time\+::\+\_\+it\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_time_a3c9e1bfeb4011d025e13822cb5f5c505}{}\label{class_time_a3c9e1bfeb4011d025e13822cb5f5c505}
+\index{Time@{Time}!\+\_\+nout@{\+\_\+nout}}
+\index{\+\_\+nout@{\+\_\+nout}!Time@{Time}}
+\subsubsection[{\texorpdfstring{\+\_\+nout}{_nout}}]{\setlength{\rightskip}{0pt plus 5cm}int Time\+::\+\_\+nout\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_time_a587de2dad9055fd5600a932ec6a38b4e}{}\label{class_time_a587de2dad9055fd5600a932ec6a38b4e}
+\index{Time@{Time}!\+\_\+nt@{\+\_\+nt}}
+\index{\+\_\+nt@{\+\_\+nt}!Time@{Time}}
+\subsubsection[{\texorpdfstring{\+\_\+nt}{_nt}}]{\setlength{\rightskip}{0pt plus 5cm}int Time\+::\+\_\+nt\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_time_a280ffde054834baa2dd58b9faa745fb9}{}\label{class_time_a280ffde054834baa2dd58b9faa745fb9}
+\index{Time@{Time}!\+\_\+t@{\+\_\+t}}
+\index{\+\_\+t@{\+\_\+t}!Time@{Time}}
+\subsubsection[{\texorpdfstring{\+\_\+t}{_t}}]{\setlength{\rightskip}{0pt plus 5cm}double Time\+::\+\_\+t\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_time_a4ee3f4042a1b37b86c3ae7c8bc3a036e}{}\label{class_time_a4ee3f4042a1b37b86c3ae7c8bc3a036e}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{time_8h}{time.\+h}\end{DoxyCompactItemize}

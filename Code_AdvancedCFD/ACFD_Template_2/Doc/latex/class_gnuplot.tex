@@ -1,0 +1,215 @@
+\hypertarget{class_gnuplot}{}\section{Gnuplot Class Reference}
+\label{class_gnuplot}\index{Gnuplot@{Gnuplot}}
+
+
+{\ttfamily \#include $<$gnuplot\+\_\+i.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_gnuplot_a936d27de7b6f57d1f3d61491dc70f1ae}{Gnuplot} ()
+\item 
+\hyperlink{class_gnuplot_a4acdc327a6a9eb3c4ab3f37814dce26e}{Gnuplot} (const string \&)
+\item 
+\hyperlink{class_gnuplot_a93344aa5bd86c3ee4ab37aaa6bff92e0}{Gnuplot} (const string \&, const string \&, const string \&, const string \&, vector$<$ double $>$, vector$<$ double $>$)
+\item 
+\hyperlink{class_gnuplot_a22ec497060171153b0ce321763e9c7f9}{Gnuplot} (const string \&, const string \&, const string \&, const string \&, vector$<$ double $>$)
+\item 
+\hyperlink{class_gnuplot_a78a68f621caa87d1f34324fcd093c7bd}{$\sim$\+Gnuplot} ()
+\item 
+void \hyperlink{class_gnuplot_a6f299285af0a0ee2cf1722c469aa1a57}{cmd} (const char $\ast$,...)
+\item 
+void \hyperlink{class_gnuplot_accdd7b69237ead4109c74e1e440c185f}{set\+\_\+style} (const string \&)
+\item 
+void \hyperlink{class_gnuplot_af85dd1d368699914112460285ead0fde}{set\+\_\+ylabel} (const string \&)
+\item 
+void \hyperlink{class_gnuplot_ac9b0c04d47e375eb82f50437eda5e46e}{set\+\_\+xlabel} (const string \&)
+\item 
+void \hyperlink{class_gnuplot_ae3b7c28efb53f636431b9655085906be}{plot\+\_\+x} (vector$<$ double $>$, const string \&)
+\item 
+void \hyperlink{class_gnuplot_a1e817a58ef3e40ceaeb128c7e6437e8a}{plot\+\_\+xy} (vector$<$ double $>$, vector$<$ double $>$, const string \&)
+\item 
+void \hyperlink{class_gnuplot_a80c9d9e6bc3e64db073d9d39d6ec5d5f}{plot\+\_\+slope} (double, double, const string \&)
+\item 
+void \hyperlink{class_gnuplot_a55e6430f1329bf8a66f155dcacb9d112}{plot\+\_\+equation} (const string \&, const string \&)
+\item 
+void \hyperlink{class_gnuplot_ad54976652afe30231a850dd31e1ca70f}{reset\+\_\+plot} (void)
+\item 
+bool \hyperlink{class_gnuplot_a0daaf54cd8e41dbbd574722f3a831cfd}{is\+\_\+valid} (void)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_gnuplot_a871da9736b4127535bfd1afe3e23fdae}{get\+\_\+program\+\_\+path} (const string)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+F\+I\+LE $\ast$ \hyperlink{class_gnuplot_a93e59138d3e192ffa2a4f0d7c310d61d}{gnucmd}
+\item 
+string \hyperlink{class_gnuplot_ab9026ca6c25109ab78f82c34b2442da9}{pstyle}
+\item 
+vector$<$ string $>$ \hyperlink{class_gnuplot_a6326ff7aa2076001a4c2cf9c44b0e3db}{to\+\_\+delete}
+\item 
+int \hyperlink{class_gnuplot_acceb0a453297bb0ec7b26ec1dafbcec2}{nplots}
+\item 
+bool \hyperlink{class_gnuplot_a0155f4026915ed9b05b18c1e89ba9757}{valid}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{Gnuplot()}{Gnuplot()}}]{\setlength{\rightskip}{0pt plus 5cm}Gnuplot\+::\+Gnuplot (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a936d27de7b6f57d1f3d61491dc70f1ae}{}\label{class_gnuplot_a936d27de7b6f57d1f3d61491dc70f1ae}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{Gnuplot(const string \&)}{Gnuplot(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}Gnuplot\+::\+Gnuplot (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{style}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a4acdc327a6a9eb3c4ab3f37814dce26e}{}\label{class_gnuplot_a4acdc327a6a9eb3c4ab3f37814dce26e}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{Gnuplot(const string \&, const string \&, const string \&, const string \&, vector$<$ double $>$, vector$<$ double $>$)}{Gnuplot(const string &, const string &, const string &, const string &, vector< double >, vector< double >)}}]{\setlength{\rightskip}{0pt plus 5cm}Gnuplot\+::\+Gnuplot (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{title, }
+\item[{const string \&}]{style, }
+\item[{const string \&}]{labelx, }
+\item[{const string \&}]{labely, }
+\item[{vector$<$ double $>$}]{x, }
+\item[{vector$<$ double $>$}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a93344aa5bd86c3ee4ab37aaa6bff92e0}{}\label{class_gnuplot_a93344aa5bd86c3ee4ab37aaa6bff92e0}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\index{Gnuplot@{Gnuplot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{Gnuplot(const string \&, const string \&, const string \&, const string \&, vector$<$ double $>$)}{Gnuplot(const string &, const string &, const string &, const string &, vector< double >)}}]{\setlength{\rightskip}{0pt plus 5cm}Gnuplot\+::\+Gnuplot (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{title, }
+\item[{const string \&}]{style, }
+\item[{const string \&}]{labelx, }
+\item[{const string \&}]{labely, }
+\item[{vector$<$ double $>$}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a22ec497060171153b0ce321763e9c7f9}{}\label{class_gnuplot_a22ec497060171153b0ce321763e9c7f9}
+\index{Gnuplot@{Gnuplot}!````~Gnuplot@{$\sim$\+Gnuplot}}
+\index{````~Gnuplot@{$\sim$\+Gnuplot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{$\sim$\+Gnuplot()}{~Gnuplot()}}]{\setlength{\rightskip}{0pt plus 5cm}Gnuplot\+::$\sim$\+Gnuplot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a78a68f621caa87d1f34324fcd093c7bd}{}\label{class_gnuplot_a78a68f621caa87d1f34324fcd093c7bd}
+
+
+\subsection{Member Function Documentation}
+\index{Gnuplot@{Gnuplot}!cmd@{cmd}}
+\index{cmd@{cmd}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{cmd(const char $\ast$,...)}{cmd(const char *,...)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::cmd (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{cmdstr, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a6f299285af0a0ee2cf1722c469aa1a57}{}\label{class_gnuplot_a6f299285af0a0ee2cf1722c469aa1a57}
+\index{Gnuplot@{Gnuplot}!get\+\_\+program\+\_\+path@{get\+\_\+program\+\_\+path}}
+\index{get\+\_\+program\+\_\+path@{get\+\_\+program\+\_\+path}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{get\+\_\+program\+\_\+path(const string)}{get_program_path(const string)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Gnuplot\+::get\+\_\+program\+\_\+path (
+\begin{DoxyParamCaption}
+\item[{const string}]{pname}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_a871da9736b4127535bfd1afe3e23fdae}{}\label{class_gnuplot_a871da9736b4127535bfd1afe3e23fdae}
+\index{Gnuplot@{Gnuplot}!is\+\_\+valid@{is\+\_\+valid}}
+\index{is\+\_\+valid@{is\+\_\+valid}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{is\+\_\+valid(void)}{is_valid(void)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Gnuplot\+::is\+\_\+valid (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a0daaf54cd8e41dbbd574722f3a831cfd}{}\label{class_gnuplot_a0daaf54cd8e41dbbd574722f3a831cfd}
+\index{Gnuplot@{Gnuplot}!plot\+\_\+equation@{plot\+\_\+equation}}
+\index{plot\+\_\+equation@{plot\+\_\+equation}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{plot\+\_\+equation(const string \&, const string \&)}{plot_equation(const string &, const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::plot\+\_\+equation (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{equation, }
+\item[{const string \&}]{title}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a55e6430f1329bf8a66f155dcacb9d112}{}\label{class_gnuplot_a55e6430f1329bf8a66f155dcacb9d112}
+\index{Gnuplot@{Gnuplot}!plot\+\_\+slope@{plot\+\_\+slope}}
+\index{plot\+\_\+slope@{plot\+\_\+slope}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{plot\+\_\+slope(double, double, const string \&)}{plot_slope(double, double, const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::plot\+\_\+slope (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{double}]{b, }
+\item[{const string \&}]{title}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a80c9d9e6bc3e64db073d9d39d6ec5d5f}{}\label{class_gnuplot_a80c9d9e6bc3e64db073d9d39d6ec5d5f}
+\index{Gnuplot@{Gnuplot}!plot\+\_\+x@{plot\+\_\+x}}
+\index{plot\+\_\+x@{plot\+\_\+x}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{plot\+\_\+x(vector$<$ double $>$, const string \&)}{plot_x(vector< double >, const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::plot\+\_\+x (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{d, }
+\item[{const string \&}]{title}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_ae3b7c28efb53f636431b9655085906be}{}\label{class_gnuplot_ae3b7c28efb53f636431b9655085906be}
+\index{Gnuplot@{Gnuplot}!plot\+\_\+xy@{plot\+\_\+xy}}
+\index{plot\+\_\+xy@{plot\+\_\+xy}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{plot\+\_\+xy(vector$<$ double $>$, vector$<$ double $>$, const string \&)}{plot_xy(vector< double >, vector< double >, const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::plot\+\_\+xy (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{x, }
+\item[{vector$<$ double $>$}]{y, }
+\item[{const string \&}]{title}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_a1e817a58ef3e40ceaeb128c7e6437e8a}{}\label{class_gnuplot_a1e817a58ef3e40ceaeb128c7e6437e8a}
+\index{Gnuplot@{Gnuplot}!reset\+\_\+plot@{reset\+\_\+plot}}
+\index{reset\+\_\+plot@{reset\+\_\+plot}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{reset\+\_\+plot(void)}{reset_plot(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::reset\+\_\+plot (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_ad54976652afe30231a850dd31e1ca70f}{}\label{class_gnuplot_ad54976652afe30231a850dd31e1ca70f}
+\index{Gnuplot@{Gnuplot}!set\+\_\+style@{set\+\_\+style}}
+\index{set\+\_\+style@{set\+\_\+style}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{set\+\_\+style(const string \&)}{set_style(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::set\+\_\+style (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{stylestr}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_accdd7b69237ead4109c74e1e440c185f}{}\label{class_gnuplot_accdd7b69237ead4109c74e1e440c185f}
+\index{Gnuplot@{Gnuplot}!set\+\_\+xlabel@{set\+\_\+xlabel}}
+\index{set\+\_\+xlabel@{set\+\_\+xlabel}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{set\+\_\+xlabel(const string \&)}{set_xlabel(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::set\+\_\+xlabel (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{label}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_ac9b0c04d47e375eb82f50437eda5e46e}{}\label{class_gnuplot_ac9b0c04d47e375eb82f50437eda5e46e}
+\index{Gnuplot@{Gnuplot}!set\+\_\+ylabel@{set\+\_\+ylabel}}
+\index{set\+\_\+ylabel@{set\+\_\+ylabel}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{set\+\_\+ylabel(const string \&)}{set_ylabel(const string &)}}]{\setlength{\rightskip}{0pt plus 5cm}void Gnuplot\+::set\+\_\+ylabel (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{label}
+\end{DoxyParamCaption}
+)}\hypertarget{class_gnuplot_af85dd1d368699914112460285ead0fde}{}\label{class_gnuplot_af85dd1d368699914112460285ead0fde}
+
+
+\subsection{Member Data Documentation}
+\index{Gnuplot@{Gnuplot}!gnucmd@{gnucmd}}
+\index{gnucmd@{gnucmd}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{gnucmd}{gnucmd}}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+LE$\ast$ Gnuplot\+::gnucmd\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_a93e59138d3e192ffa2a4f0d7c310d61d}{}\label{class_gnuplot_a93e59138d3e192ffa2a4f0d7c310d61d}
+\index{Gnuplot@{Gnuplot}!nplots@{nplots}}
+\index{nplots@{nplots}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{nplots}{nplots}}]{\setlength{\rightskip}{0pt plus 5cm}int Gnuplot\+::nplots\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_acceb0a453297bb0ec7b26ec1dafbcec2}{}\label{class_gnuplot_acceb0a453297bb0ec7b26ec1dafbcec2}
+\index{Gnuplot@{Gnuplot}!pstyle@{pstyle}}
+\index{pstyle@{pstyle}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{pstyle}{pstyle}}]{\setlength{\rightskip}{0pt plus 5cm}string Gnuplot\+::pstyle\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_ab9026ca6c25109ab78f82c34b2442da9}{}\label{class_gnuplot_ab9026ca6c25109ab78f82c34b2442da9}
+\index{Gnuplot@{Gnuplot}!to\+\_\+delete@{to\+\_\+delete}}
+\index{to\+\_\+delete@{to\+\_\+delete}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{to\+\_\+delete}{to_delete}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ Gnuplot\+::to\+\_\+delete\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_a6326ff7aa2076001a4c2cf9c44b0e3db}{}\label{class_gnuplot_a6326ff7aa2076001a4c2cf9c44b0e3db}
+\index{Gnuplot@{Gnuplot}!valid@{valid}}
+\index{valid@{valid}!Gnuplot@{Gnuplot}}
+\subsubsection[{\texorpdfstring{valid}{valid}}]{\setlength{\rightskip}{0pt plus 5cm}bool Gnuplot\+::valid\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_gnuplot_a0155f4026915ed9b05b18c1e89ba9757}{}\label{class_gnuplot_a0155f4026915ed9b05b18c1e89ba9757}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{gnuplot__i_8h}{gnuplot\+\_\+i.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{gnuplot__i_8cpp}{gnuplot\+\_\+i.\+cpp}\end{DoxyCompactItemize}

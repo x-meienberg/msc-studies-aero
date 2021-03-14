@@ -1,0 +1,112 @@
+\hypertarget{class_setup}{}\section{Setup Class Reference}
+\label{class_setup}\index{Setup@{Setup}}
+
+
+Class for the simulation setup.  
+
+
+
+
+{\ttfamily \#include $<$setup.\+h$>$}
+
+Inheritance diagram for Setup\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_setup}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_setup_aa402859a81d394a981849b4b9b1605a4}{$\sim$\+Setup} ()
+\item 
+virtual void \hyperlink{class_setup_a9f0d9baa17df8ae6876f3041788c559a}{refresh} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_control}{Control} $\ast$ \hyperlink{class_setup_a9b66656cfab0fbe2e17582cd3d9bc392}{\+\_\+c}
+\item 
+\hyperlink{class_grid}{Grid} $\ast$ \hyperlink{class_setup_a2812ab3c7f7322e9f77e4c4d43053655}{\+\_\+g}
+\item 
+\hyperlink{class_time}{Time} $\ast$ \hyperlink{class_setup_acbbdb0a7312ce4dd45a64a200d780c3d}{\+\_\+t}
+\item 
+\hyperlink{class_init}{Init} $\ast$ \hyperlink{class_setup_afc816a430e9d93f357229d9525f686b8}{\+\_\+i}
+\item 
+\hyperlink{class_boundary}{Boundary} $\ast$ \hyperlink{class_setup_ae76b77049e072bcd37017a5f5c5ebcec}{\+\_\+b}
+\item 
+\hyperlink{class_fluxes}{Fluxes} $\ast$ \hyperlink{class_setup_acd47ea266d609c5fbef77579608308a5}{\+\_\+f}
+\item 
+\hyperlink{class_source}{Source} $\ast$ \hyperlink{class_setup_a0b2e5fd96ef68ea898700ead61d27973}{\+\_\+q}
+\item 
+\hyperlink{class_update}{Update} $\ast$ \hyperlink{class_setup_a873ce4c87704142ce98b6cc0dfd779e7}{\+\_\+u}
+\item 
+\hyperlink{class_plot}{Plot} $\ast$ \hyperlink{class_setup_ad2cca0e00dff58e8f63a0ec3b652cab7}{\+\_\+p}
+\item 
+\hyperlink{class_postprocess}{Postprocess} $\ast$ \hyperlink{class_setup_adc487395b8e8221d9b8f0ba0b29d2540}{\+\_\+pp}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for the simulation setup. 
+
+This class allocates and deletes all required pointers. Classes derived from \hyperlink{class_setup}{Setup} need to allocate objects of type \hyperlink{class_control}{Control}, \hyperlink{class_grid}{Grid}, \hyperlink{class_time}{Time}, \hyperlink{class_init}{Init}, \hyperlink{class_boundary}{Boundary}, \hyperlink{class_fluxes}{Fluxes}, \hyperlink{class_source}{Source}, \hyperlink{class_update}{Update} and \hyperlink{class_plot}{Plot}.
+
+This class is not abstract but no object should be instantiated since there is only a default constructor that does nothing. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Setup@{Setup}!````~Setup@{$\sim$\+Setup}}
+\index{````~Setup@{$\sim$\+Setup}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{$\sim$\+Setup()}{~Setup()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Setup\+::$\sim$\+Setup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_setup_aa402859a81d394a981849b4b9b1605a4}{}\label{class_setup_aa402859a81d394a981849b4b9b1605a4}
+Destructor that deletes all pointers 
+
+\subsection{Member Function Documentation}
+\index{Setup@{Setup}!refresh@{refresh}}
+\index{refresh@{refresh}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{refresh()}{refresh()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Setup\+::refresh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_setup_a9f0d9baa17df8ae6876f3041788c559a}{}\label{class_setup_a9f0d9baa17df8ae6876f3041788c559a}
+Reread the entries \char`\"{}dt\char`\"{}, \char`\"{}nout\char`\"{} and \char`\"{}nt\char`\"{} from the control file 
+
+\subsection{Member Data Documentation}
+\index{Setup@{Setup}!\+\_\+b@{\+\_\+b}}
+\index{\+\_\+b@{\+\_\+b}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+b}{_b}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Boundary}$\ast$ Setup\+::\+\_\+b\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_ae76b77049e072bcd37017a5f5c5ebcec}{}\label{class_setup_ae76b77049e072bcd37017a5f5c5ebcec}
+\index{Setup@{Setup}!\+\_\+c@{\+\_\+c}}
+\index{\+\_\+c@{\+\_\+c}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+c}{_c}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Control}$\ast$ Setup\+::\+\_\+c\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_a9b66656cfab0fbe2e17582cd3d9bc392}{}\label{class_setup_a9b66656cfab0fbe2e17582cd3d9bc392}
+\index{Setup@{Setup}!\+\_\+f@{\+\_\+f}}
+\index{\+\_\+f@{\+\_\+f}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+f}{_f}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Fluxes}$\ast$ Setup\+::\+\_\+f\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_acd47ea266d609c5fbef77579608308a5}{}\label{class_setup_acd47ea266d609c5fbef77579608308a5}
+\index{Setup@{Setup}!\+\_\+g@{\+\_\+g}}
+\index{\+\_\+g@{\+\_\+g}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+g}{_g}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Grid}$\ast$ Setup\+::\+\_\+g\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_a2812ab3c7f7322e9f77e4c4d43053655}{}\label{class_setup_a2812ab3c7f7322e9f77e4c4d43053655}
+\index{Setup@{Setup}!\+\_\+i@{\+\_\+i}}
+\index{\+\_\+i@{\+\_\+i}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+i}{_i}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Init}$\ast$ Setup\+::\+\_\+i\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_afc816a430e9d93f357229d9525f686b8}{}\label{class_setup_afc816a430e9d93f357229d9525f686b8}
+\index{Setup@{Setup}!\+\_\+p@{\+\_\+p}}
+\index{\+\_\+p@{\+\_\+p}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+p}{_p}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Plot}$\ast$ Setup\+::\+\_\+p\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_ad2cca0e00dff58e8f63a0ec3b652cab7}{}\label{class_setup_ad2cca0e00dff58e8f63a0ec3b652cab7}
+\index{Setup@{Setup}!\+\_\+pp@{\+\_\+pp}}
+\index{\+\_\+pp@{\+\_\+pp}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+pp}{_pp}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Postprocess}$\ast$ Setup\+::\+\_\+pp\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_adc487395b8e8221d9b8f0ba0b29d2540}{}\label{class_setup_adc487395b8e8221d9b8f0ba0b29d2540}
+\index{Setup@{Setup}!\+\_\+q@{\+\_\+q}}
+\index{\+\_\+q@{\+\_\+q}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+q}{_q}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Source}$\ast$ Setup\+::\+\_\+q\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_a0b2e5fd96ef68ea898700ead61d27973}{}\label{class_setup_a0b2e5fd96ef68ea898700ead61d27973}
+\index{Setup@{Setup}!\+\_\+t@{\+\_\+t}}
+\index{\+\_\+t@{\+\_\+t}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+t}{_t}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Time}$\ast$ Setup\+::\+\_\+t\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_acbbdb0a7312ce4dd45a64a200d780c3d}{}\label{class_setup_acbbdb0a7312ce4dd45a64a200d780c3d}
+\index{Setup@{Setup}!\+\_\+u@{\+\_\+u}}
+\index{\+\_\+u@{\+\_\+u}!Setup@{Setup}}
+\subsubsection[{\texorpdfstring{\+\_\+u}{_u}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Update}$\ast$ Setup\+::\+\_\+u\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_setup_a873ce4c87704142ce98b6cc0dfd779e7}{}\label{class_setup_a873ce4c87704142ce98b6cc0dfd779e7}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{setup_8h}{setup.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,100 @@
+\hypertarget{class_fluxes}{}\section{Fluxes Class Reference}
+\label{class_fluxes}\index{Fluxes@{Fluxes}}
+
+
+Class for the computation of numerical fluxes over cell interfaces for a given conservation law.  
+
+
+
+
+{\ttfamily \#include $<$fluxes.\+h$>$}
+
+Inheritance diagram for Fluxes\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_fluxes}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_fluxes_accfbcaf73689eb08bee2b799cc981dcf}{Fluxes} (\hyperlink{class_control}{Control} $\ast$c, \hyperlink{class_grid}{Grid} $\ast$g)
+\item 
+virtual \hyperlink{class_fluxes_a18143f941adeeaf901f39e10b0c7a8f7}{$\sim$\+Fluxes} ()
+\item 
+virtual void \hyperlink{class_fluxes_ad3c2d7326f428cf6543e5ef374aa1b90}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g) const =0
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_fluxes_aed960cd3e402e665449ffccd33f448d1}{reinitialize\+\_\+fluxes} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\item 
+double \hyperlink{class_fluxes_ae159dd9fd9431e6ddcdeef7d04090a9f}{minmod} (double a, double b) const 
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_control}{Control} $\ast$ \hyperlink{class_fluxes_a82e80aa9b4d9431508850c1fe1d91c56}{\+\_\+c}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for the computation of numerical fluxes over cell interfaces for a given conservation law. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Fluxes@{Fluxes}!Fluxes@{Fluxes}}
+\index{Fluxes@{Fluxes}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{Fluxes(\+Control $\ast$c, Grid $\ast$g)}{Fluxes(Control *c, Grid *g)}}]{\setlength{\rightskip}{0pt plus 5cm}Fluxes\+::\+Fluxes (
+\begin{DoxyParamCaption}
+\item[{{\bf Control} $\ast$}]{c, }
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+)}\hypertarget{class_fluxes_accfbcaf73689eb08bee2b799cc981dcf}{}\label{class_fluxes_accfbcaf73689eb08bee2b799cc981dcf}
+Construct from \hyperlink{class_control}{Control} and \hyperlink{class_grid}{Grid} objects \index{Fluxes@{Fluxes}!````~Fluxes@{$\sim$\+Fluxes}}
+\index{````~Fluxes@{$\sim$\+Fluxes}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{$\sim$\+Fluxes()}{~Fluxes()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Fluxes\+::$\sim$\+Fluxes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_fluxes_a18143f941adeeaf901f39e10b0c7a8f7}{}\label{class_fluxes_a18143f941adeeaf901f39e10b0c7a8f7}
+
+
+\subsection{Member Function Documentation}
+\index{Fluxes@{Fluxes}!minmod@{minmod}}
+\index{minmod@{minmod}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{minmod(double a, double b) const }{minmod(double a, double b) const }}]{\setlength{\rightskip}{0pt plus 5cm}double Fluxes\+::minmod (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}\hypertarget{class_fluxes_ae159dd9fd9431e6ddcdeef7d04090a9f}{}\label{class_fluxes_ae159dd9fd9431e6ddcdeef7d04090a9f}
+Minmod of two numbers \index{Fluxes@{Fluxes}!operator()@{operator()}}
+\index{operator()@{operator()}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g) const =0}{operator()(Grid *g) const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Fluxes\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_fluxes_ad3c2d7326f428cf6543e5ef374aa1b90}{}\label{class_fluxes_ad3c2d7326f428cf6543e5ef374aa1b90}
+Compute fluxes based on a scheme given in the control file 
+
+Implemented in \hyperlink{class_fluxes___advection_a3e464c726fac986b627af81975b2ad68}{Fluxes\+\_\+\+Advection}.
+
+\index{Fluxes@{Fluxes}!reinitialize\+\_\+fluxes@{reinitialize\+\_\+fluxes}}
+\index{reinitialize\+\_\+fluxes@{reinitialize\+\_\+fluxes}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{reinitialize\+\_\+fluxes(\+Grid $\ast$g) const }{reinitialize_fluxes(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Fluxes\+::reinitialize\+\_\+fluxes (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_fluxes_aed960cd3e402e665449ffccd33f448d1}{}\label{class_fluxes_aed960cd3e402e665449ffccd33f448d1}
+Set all fluxes to zero 
+
+\subsection{Member Data Documentation}
+\index{Fluxes@{Fluxes}!\+\_\+c@{\+\_\+c}}
+\index{\+\_\+c@{\+\_\+c}!Fluxes@{Fluxes}}
+\subsubsection[{\texorpdfstring{\+\_\+c}{_c}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Control}$\ast$ Fluxes\+::\+\_\+c\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_fluxes_a82e80aa9b4d9431508850c1fe1d91c56}{}\label{class_fluxes_a82e80aa9b4d9431508850c1fe1d91c56}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{fluxes_8h}{fluxes.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{fluxes_8cpp}{fluxes.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,47 @@
+\hypertarget{gnuplot__i_8h}{}\section{/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/gnuplot\+\_\+i.h File Reference}
+\label{gnuplot__i_8h}\index{/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/gnuplot\+\_\+i.\+h@{/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/gnuplot\+\_\+i.\+h}}
+{\ttfamily \#include $<$stdarg.\+h$>$}\\*
+{\ttfamily \#include $<$unistd.\+h$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$cstdio$>$}\\*
+{\ttfamily \#include $<$cstring$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$stdexcept$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_gnuplot_exception}{Gnuplot\+Exception}
+\item 
+class \hyperlink{class_gnuplot}{Gnuplot}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gnuplot__i_8h_a0b92738856c4bda43003d1c847483dd2}{G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES}~64
+\item 
+\#define \hyperlink{gnuplot__i_8h_a093b4c5627360601a4605251ed3495c8}{G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE}~512
+\item 
+\#define \hyperlink{gnuplot__i_8h_adc74c0a238dd6f2220b0b2839cdda632}{G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE}~1024
+\item 
+\#define \hyperlink{gnuplot__i_8h_a9e47e543bc0b91c93c5d8d259c563977}{G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE}~80
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}!G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE}}
+\index{G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE}!gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}}
+\subsubsection[{\texorpdfstring{G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE}{GP_CMD_SIZE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\+P\+\_\+\+C\+M\+D\+\_\+\+S\+I\+ZE~1024}\hypertarget{gnuplot__i_8h_adc74c0a238dd6f2220b0b2839cdda632}{}\label{gnuplot__i_8h_adc74c0a238dd6f2220b0b2839cdda632}
+\index{gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}!G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES@{G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES}}
+\index{G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES@{G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES}!gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}}
+\subsubsection[{\texorpdfstring{G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES}{GP_MAX_TMP_FILES}}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\+P\+\_\+\+M\+A\+X\+\_\+\+T\+M\+P\+\_\+\+F\+I\+L\+ES~64}\hypertarget{gnuplot__i_8h_a0b92738856c4bda43003d1c847483dd2}{}\label{gnuplot__i_8h_a0b92738856c4bda43003d1c847483dd2}
+\index{gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}!G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE}}
+\index{G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE}!gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}}
+\subsubsection[{\texorpdfstring{G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE}{GP_TITLE_SIZE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\+P\+\_\+\+T\+I\+T\+L\+E\+\_\+\+S\+I\+ZE~80}\hypertarget{gnuplot__i_8h_a9e47e543bc0b91c93c5d8d259c563977}{}\label{gnuplot__i_8h_a9e47e543bc0b91c93c5d8d259c563977}
+\index{gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}!G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE}}
+\index{G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE@{G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE}!gnuplot\+\_\+i.\+h@{gnuplot\+\_\+i.\+h}}
+\subsubsection[{\texorpdfstring{G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE}{GP_TMP_NAME_SIZE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\+P\+\_\+\+T\+M\+P\+\_\+\+N\+A\+M\+E\+\_\+\+S\+I\+ZE~512}\hypertarget{gnuplot__i_8h_a093b4c5627360601a4605251ed3495c8}{}\label{gnuplot__i_8h_a093b4c5627360601a4605251ed3495c8}

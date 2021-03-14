@@ -1,0 +1,101 @@
+\hypertarget{class_fluxes___advection}{}\section{Fluxes\+\_\+\+Advection Class Reference}
+\label{class_fluxes___advection}\index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+
+
+Computation of fluxes for the linear advection-\/diffusion equation.  
+
+
+
+
+{\ttfamily \#include $<$fluxes\+\_\+advection.\+h$>$}
+
+Inheritance diagram for Fluxes\+\_\+\+Advection\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_fluxes___advection}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_fluxes___advection_a24b69e1dba304f7267df903d9475c3d3}{Fluxes\+\_\+\+Advection} (\hyperlink{class_control}{Control} $\ast$c, \hyperlink{class_grid}{Grid} $\ast$g)
+\item 
+\hyperlink{class_fluxes___advection_a4fcf0d50fb99dbe44b0718a9065e2618}{$\sim$\+Fluxes\+\_\+\+Advection} ()
+\item 
+void \hyperlink{class_fluxes___advection_a3e464c726fac986b627af81975b2ad68}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_fluxes___advection_aaf2de2525ef3dcafe15afd814fa2f4be}{fluxes\+\_\+conv\+\_\+central} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\item 
+void \hyperlink{class_fluxes___advection_a4f6e8629d5120b16763aa07b5189b38b}{fluxes\+\_\+conv\+\_\+upwind} (\hyperlink{class_grid}{Grid} $\ast$g) const 
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Computation of fluxes for the linear advection-\/diffusion equation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{Fluxes\+\_\+\+Advection(\+Control $\ast$c, Grid $\ast$g)}{Fluxes_Advection(Control *c, Grid *g)}}]{\setlength{\rightskip}{0pt plus 5cm}Fluxes\+\_\+\+Advection\+::\+Fluxes\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+\item[{{\bf Control} $\ast$}]{c, }
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+)}\hypertarget{class_fluxes___advection_a24b69e1dba304f7267df903d9475c3d3}{}\label{class_fluxes___advection_a24b69e1dba304f7267df903d9475c3d3}
+\index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!````~Fluxes\+\_\+\+Advection@{$\sim$\+Fluxes\+\_\+\+Advection}}
+\index{````~Fluxes\+\_\+\+Advection@{$\sim$\+Fluxes\+\_\+\+Advection}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{$\sim$\+Fluxes\+\_\+\+Advection()}{~Fluxes_Advection()}}]{\setlength{\rightskip}{0pt plus 5cm}Fluxes\+\_\+\+Advection\+::$\sim$\+Fluxes\+\_\+\+Advection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_fluxes___advection_a4fcf0d50fb99dbe44b0718a9065e2618}{}\label{class_fluxes___advection_a4fcf0d50fb99dbe44b0718a9065e2618}
+
+
+\subsection{Member Function Documentation}
+\index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!fluxes\+\_\+conv\+\_\+central@{fluxes\+\_\+conv\+\_\+central}}
+\index{fluxes\+\_\+conv\+\_\+central@{fluxes\+\_\+conv\+\_\+central}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{fluxes\+\_\+conv\+\_\+central(\+Grid $\ast$g) const }{fluxes_conv_central(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Fluxes\+\_\+\+Advection\+::fluxes\+\_\+conv\+\_\+central (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_fluxes___advection_aaf2de2525ef3dcafe15afd814fa2f4be}{}\label{class_fluxes___advection_aaf2de2525ef3dcafe15afd814fa2f4be}
+Central scheme for the advection term \index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!fluxes\+\_\+conv\+\_\+upwind@{fluxes\+\_\+conv\+\_\+upwind}}
+\index{fluxes\+\_\+conv\+\_\+upwind@{fluxes\+\_\+conv\+\_\+upwind}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{fluxes\+\_\+conv\+\_\+upwind(\+Grid $\ast$g) const }{fluxes_conv_upwind(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Fluxes\+\_\+\+Advection\+::fluxes\+\_\+conv\+\_\+upwind (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_fluxes___advection_a4f6e8629d5120b16763aa07b5189b38b}{}\label{class_fluxes___advection_a4f6e8629d5120b16763aa07b5189b38b}
+Upwind scheme for the advection term \index{Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}!operator()@{operator()}}
+\index{operator()@{operator()}!Fluxes\+\_\+\+Advection@{Fluxes\+\_\+\+Advection}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g) const }{operator()(Grid *g) const }}]{\setlength{\rightskip}{0pt plus 5cm}void Fluxes\+\_\+\+Advection\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_fluxes___advection_a3e464c726fac986b627af81975b2ad68}{}\label{class_fluxes___advection_a3e464c726fac986b627af81975b2ad68}
+Compute fluxes using a M\+U\+S\+CL or central scheme for the advection term. The central scheme is used for the diffusion term.
+
+The value of the key \char`\"{}\+Case\+\_\+\+Fluxes\char`\"{} is read from the control file and used for the discretization of the advection term.
+\begin{DoxyItemize}
+\item 1\+: M\+U\+S\+CL scheme
+\item 2\+: central scheme
+\end{DoxyItemize}
+
+The upwind scheme can be used by selecting the M\+U\+S\+CL scheme and setting key \char`\"{}muscl\char`\"{} to 0 in the control file.
+
+The advection velocity is read from the key \char`\"{}a\char`\"{}.
+
+The diffusion coefficient corresponds to the key \char`\"{}mu\char`\"{}. 
+
+Implements \hyperlink{class_fluxes_ad3c2d7326f428cf6543e5ef374aa1b90}{Fluxes}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{fluxes__advection_8h}{fluxes\+\_\+advection.\+h}\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{fluxes__advection_8cpp}{fluxes\+\_\+advection.\+cpp}\end{DoxyCompactItemize}

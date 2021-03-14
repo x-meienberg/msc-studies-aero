@@ -1,0 +1,67 @@
+\hypertarget{class_update}{}\section{Update Class Reference}
+\label{class_update}\index{Update@{Update}}
+
+
+Abstract class for the update of a grid object during a time loop.  
+
+
+
+
+{\ttfamily \#include $<$update.\+h$>$}
+
+Inheritance diagram for Update\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_update}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_update_a08e4d08d01520e03e99e6d7a9a741726}{$\sim$\+Update} ()
+\item 
+virtual void \hyperlink{class_update_ae48a452118ffbc96c67c475182ae69a9}{operator()} (\hyperlink{class_grid}{Grid} $\ast$g, double dt, double weight=0) const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract class for the update of a grid object during a time loop. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Update@{Update}!````~Update@{$\sim$\+Update}}
+\index{````~Update@{$\sim$\+Update}!Update@{Update}}
+\subsubsection[{\texorpdfstring{$\sim$\+Update()}{~Update()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Update\+::$\sim$\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_update_a08e4d08d01520e03e99e6d7a9a741726}{}\label{class_update_a08e4d08d01520e03e99e6d7a9a741726}
+
+
+\subsection{Member Function Documentation}
+\index{Update@{Update}!operator()@{operator()}}
+\index{operator()@{operator()}!Update@{Update}}
+\subsubsection[{\texorpdfstring{operator()(\+Grid $\ast$g, double dt, double weight=0) const =0}{operator()(Grid *g, double dt, double weight=0) const =0}}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Update\+::operator() (
+\begin{DoxyParamCaption}
+\item[{{\bf Grid} $\ast$}]{g, }
+\item[{double}]{dt, }
+\item[{double}]{weight = {\ttfamily 0}}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_update_ae48a452118ffbc96c67c475182ae69a9}{}\label{class_update_ae48a452118ffbc96c67c475182ae69a9}
+\hyperlink{class_update}{Update} operator. 
+\begin{DoxyParams}{Parameters}
+{\em g} & grid \\
+\hline
+{\em dt} & time step \\
+\hline
+{\em weight} & weighting factor for the equation right-\/hand side (e.\+g. used in Runge-\/\+Kutta schemes) \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_update___standard_aaea6d678d4e04d3a28e4e9e89b4a8f3f}{Update\+\_\+\+Standard}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/doberle/\+Advanced C\+F\+D/acfd/\+Code/\hyperlink{update_8h}{update.\+h}\end{DoxyCompactItemize}
