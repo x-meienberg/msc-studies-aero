@@ -276,6 +276,18 @@ The top event is connected by an OR-gate, hence if one of each events is true, t
     \item Minimal Cut Sets: Cut set that does not have another cut set as a subset. This means repairing one element of the set repairs the entire system. Therefore, removing one element of a MCS makes it no longer a cut set.
 \end{itemize}
 
+Any fault tree $\Phi(X)$ can be equivalently written as an OR-gate in the first level below the top event combining the minimal cut sets, each in return represented by
+an AND-gate intersecting all elements comprising the given minimal cut set
+
+\begin{align}
+    \Phi(X) = 1- (1-M_1)(1-M_2)(1-M_3)...\\ ...(1-M_{mcs}) = \amalg^{mcs}_j M_j \\ P(\Phi(X)=1) = E[\sum M_j - \sum \sum M_i M_j+ ... \\ ... + (-1)^{mcs+1}\Pi M_j \\ = \sum P(M_j) - \sum \sum P(M_i M_j) + ... \\ ...+ (-1)^{mcs+1}P\left(\Pi M_j \right)
+\end{align}
+
+\begin{itemize}
+    \item First event approximation: $\sum P(M_j)$
+    \item Second event approximation: \\ $\sum P(M_j)-\sum_i^{mcs-1} \sum_j^{mcs} P(M_i M_j)$
+\end{itemize}
+
 \end{multicols*}
 \end{document}
 
