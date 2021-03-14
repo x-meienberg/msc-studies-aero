@@ -241,9 +241,31 @@ The influence of an ageing process of the components failure rate shows that is 
 
 \subsubsection*{Boolean Logic - Fault Tree Analysis}
 
+Fault trees = set of Boolean algebraic equations (one for each gate) $\rightarrow$ structure (switching) function $\Phi$
 
+\begin{equation}
+    X_T = \Phi(X_1,X_2,X_3,...,X_N)
+\end{equation}
 
-\subsubsection*{Minimal Cut Sets}
+The top event is connected by an OR-gate, hence if one of each events is true, then the top event will be true. Here some further rules:
+
+\begin{itemize}
+    \item Negation: Given event $E$, given by the indicator variable $X_E$, its negation is described by $\overline{X_E} = 1-X_E$
+    \item Intersection: The event $A \cap B$ is true, if both $A$ and $B$ are simultaneously true: \begin{equation} X_{A\cap B} = X_A X_B \end{equation} ($X_{A\cap B} = 0$ for mutually exclusive events)
+    \item Union: The event $A \cup B$ is true, if either $A$ or $B$ are true and false if both are false: \begin{align} X_{A \cup B} = 1-(1-X_A)(1-X_B)\\= 1- \Pi(1-X_j) = \amalg X_j \\ = X_A + X_B - X_A X_B \end{align}
+    \item Probability of event $E$ with expected value Operator $E(\cdot)$: $p(E) = E(X_E)$ \begin{equation}
+        p(E) = p(X_E = 1)\cdot 1 + p(X_E = 0) \cdot 0 = E(X_E)
+    \end{equation} 
+    \item Multiple, non-mutually exclusive events: \begin{equation}
+        X_\cap = \Pi X_i
+    \end{equation}
+    \item Probability of event $E_\cap$ for the intersection of n events: \begin{equation}
+        P(E_\cap ) = E[X_\cap] = \Pi P(E_j) (\text{if events are independant})
+    \end{equation}
+\end{itemize}
+
+\subsubsection*{Structure Function and Minimal Cut Sets}
+
 
 
 \end{multicols*}
