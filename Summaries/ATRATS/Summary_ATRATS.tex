@@ -468,6 +468,26 @@ The probability of arriving in state j after n steps given the initial state was
 
 \textbf{Steady State Probabilities:}
 
+\begin{enumerate}
+    \item Solve $\underline{\Pi} = \underline{\Pi} \cdot \uuline{A}$ with $\sum_{j=0}^{N} \Pi_j = 1$ (2 equations)
+\end{enumerate}
+
+\textbf{First-passage Probabilities}
+
+\begin{itemize}
+    \item Probability that the system arrives \textbf{for the first time} in state j \textbf{after n steps}, given that it was in state i at the initial time 0 
+    \begin{align*}
+        f_{ij}(n) = P\left[X(n) = j \text{ for the first time} | X(0) = i\right] \\
+            f_{ij}(n) = P\left[X(n) = j, X(m) \neq j, 0 < m < n | X(0) = i \right] \end{align*}
+    \item Notice that $f_{ij}(n) \neq p_{ij}(n) = $ probability that the system reaches state $j$ \textbf{after $n$ steps} starting from state i, but \textbf{not necessarily for the first time}
+\end{itemize}
+
+\textbf{General Formula for the first-passage probability}
+
+\begin{align}
+    f_{ij}(k) = p_{ij}(k)-\sum_{l=1}^{k-1} f_{ij}(k-l)p_{jj}(l) \\ R(k) = 1- \sum_{l=1}^k \sum_{j \in \text{ failed states}} f_{ij}(l)
+\end{align}
+
 \end{multicols*}
 \end{document}
 
