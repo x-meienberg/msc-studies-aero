@@ -462,7 +462,11 @@ The probability of arriving in state j after n steps given the initial state was
     \item With the eigenvectors: $\underline{V_j} \cdot \uuline{A} = \omega_j \cdot \underline{V_j}$ 
     \item $\underline{P}(n) = \sum_{j=0}^N \alpha_j \cdot \underline{V_j}$ and $\underline{C} = \sum_{j=0}^N c_j \cdot \underline{V_j}$ are linear combinations of the eigenvectors
     \item The coefficients can be found through the adjoint eigenvalue problem
+    \item The general solution yields: $\underline{P}(n) = \sum_{j=0}^{N} c_j\cdot \omega_j^n \cdot \underline{V_j} $
+    \item The availability at time $k$: $A(k) = \sum_{j \in \text{success states}} P_j(k)$
 \end{enumerate}
+
+\textbf{Steady State Probabilities:}
 
 \end{multicols*}
 \end{document}
