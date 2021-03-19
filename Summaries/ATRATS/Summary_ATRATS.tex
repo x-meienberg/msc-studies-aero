@@ -426,9 +426,34 @@ The occurence probability of $X_2$ will only be appearing once in the calculatio
 
 \textbf{Unconditional State Probabilities}:
 
+\begin{align}
+    \underline{P}(n) = \left[ P_0(n), P_1(n), ..., P_j(n),...,P_N(n)\right] = \\ \text{probabilities of being in state 0,1,...,N at time step n} \\
+    \underline{P}(0) = \underline{C} = \left[C_0, C_1, ..., C_j,..., C_N\right] = \\ \text{initial vector at time step n=0}
+\end{align}
 
+At the first time step $n=1$:
 
+\begin{align}
+    P_j(1) = P[X(1) = j] \\ = \sum_{i=0}^N P\left[X(1) = j | X(0) = i\right] \cdot P\left[ X(0)=i\right] \\ = \sum_{i=0}^N p_{ij} C_i, \text{with } j = 0,1,2,...,N
+\end{align}
 
+The fundamental equation follows:
+
+\begin{align}
+    \underline{P}(n) = \underline{P}(0) \cdot \uuline{A}^n = \underline{C} \cdot \uuline{A}^n \\
+    \uuline{A}^n = \begin{pmatrix}
+        p_{00}(n) & p_{01}(n) & ... & p_{0N}(n) \\
+        p_{10}(n) & p_{11}(n) & ... & p_{1N}(n) \\
+        \dots   & \dots & \dots & \dots \\
+        p_{N0}(n) & p_{N1}(n) & ... & p_{NN}(n)
+    \end{pmatrix}
+\end{align}
+
+\begin{equation}
+    p_{ij}(n) = P[X(n) = j | X(0) = i]
+\end{equation}
+
+The probability of arriving in state j after n steps given the initial state was i 
 
 \end{multicols*}
 \end{document}
