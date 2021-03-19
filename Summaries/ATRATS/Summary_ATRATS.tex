@@ -453,7 +453,16 @@ The fundamental equation follows:
     p_{ij}(n) = P[X(n) = j | X(0) = i]
 \end{equation}
 
-The probability of arriving in state j after n steps given the initial state was i 
+The probability of arriving in state j after n steps given the initial state was i \newline \newline
+
+\textbf{General Solution of the Fundamental Equation}
+
+\begin{enumerate}
+    \item Solve the eigenvalue ($\omega$) problem: $\underline{V}\cdot \uuline{A} = \omega \cdot \underline{V}$
+    \item With the eigenvectors: $\underline{V_j} \cdot \uuline{A} = \omega_j \cdot \underline{V_j}$ 
+    \item $\underline{P}(n) = \sum_{j=0}^N \alpha_j \cdot \underline{V_j}$ and $\underline{C} = \sum_{j=0}^N c_j \cdot \underline{V_j}$ are linear combinations of the eigenvectors
+    \item The coefficients can be found through the adjoint eigenvalue problem
+\end{enumerate}
 
 \end{multicols*}
 \end{document}
