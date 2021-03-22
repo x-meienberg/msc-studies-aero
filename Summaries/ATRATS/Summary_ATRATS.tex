@@ -500,6 +500,10 @@ The probability of passing the state $j$ from $i$ is the transition probability 
     \begin{equation}
         \Pi_i = 0
     \end{equation}
+    \item Absorbing: The state $i$ is absorbing if the system cannot leave it once it enters:
+    \begin{equation}
+        p_ii = 1
+    \end{equation}
 \end{itemize}
 
 \newpage
@@ -521,6 +525,89 @@ What are they useful for?
     \item Model the evolution of one component or system as a structure of components
     \item To find the probability that the system will be functioning at time $t^*$
 \end{itemize}
+
+\textbf{The transition probability matrix}
+
+\begin{equation}
+    p_{ij}(dt) = \alpha_{ij} \cdot dt + \underbrace{\theta(dt)}_{O(dt)},~\lim_{dt \rightarrow 0} \frac{\theta(dt)}{dt} = 0
+\end{equation}
+
+In analogy with the discrete-time formulation:
+
+\begin{equation}
+    \uuline{A} = \begin{pmatrix}
+        1-dt\cdot \sum_{j=1}^{N} \alpha_{0j} & \alpha_{01} \cdot dt & ... & \alpha_{0N} \cdot dt \\
+        \alpha_{10}\cdot dt & 1-dt\cdot \sum_{j=0, \neq 1}^{N} \alpha_{1j} & ... & \alpha_{1N} \cdot dt \\
+        ... & ... & ...& ...
+    \end{pmatrix}
+\end{equation}
+
+\begin{align}
+    \underline{P}(t+dt) = \underline{P}(t)\cdot \uuline{A} \\
+    \frac{d\underline{P}}{dt} = \underline{P}(t) \cdot \uuline{A}^* \\
+    \underline{P}(0) = \underline{C}
+\end{align}
+
+\begin{equation}
+    \uuline{A}^* = \begin{pmatrix}
+        -\sum_{j=1}^N \alpha_{0j} = \alpha_{00} & \alpha_{01} & ... &  \alpha_{0N} \\
+        \alpha_{10} & -\sum_{j=0, \neq 1} \alpha_{1j}= \alpha_{11} & ... & \alpha_{1N} \\
+        ... & ... & ... & ...
+    \end{pmatrix}
+\end{equation}
+
+The sum of all rows in $\uuline{A}^*$ is $0$. From now on, the matrix $\uuline{A}$ will be called the \textbf{Transition Rate Matrix}. The system of linear, first-order differential equations in the unknown state probabilities will be solved through the Laplace Transform
+
+\begin{itemize}
+    \item Definitions of Laplace Transform $L(\cdot)$:
+    \begin{align}
+        \tilde{P}_j(s) = L[P_{j}(t)] = \int_0^\infty e^{-st} P_j(t) dt, ~ j=0,1,,...,N \\
+        L\left[\frac{dP_j(t)}{dt}\right] = s\cdot\tilde{P}_j(s) - P_j(0),~ j=1,1,...,N
+    \end{align}
+    \item Applying $L(\cdot)$ on $\frac{dP}{dt} = P\cdot A$ yields:
+    \begin{equation}
+        \underline{\tilde{P}}(s) = \underline{C}\cdot [s\uuline{I}-\uuline{A}]^{-1}
+    \end{equation}
+    \item $\underline{P}(t) = \text{inverse transform of } \underline{\tilde{P}}(s)$
+    \item Compute for example (one component, one repairman, 2x2):
+    \begin{equation}
+        (s\uuline{I}-\uuline{A})^{-1} = \frac{1}{s^2 + s\lambda + s \mu}\begin{pmatrix}
+            s+\mu & \lambda \\
+            \mu & s+\lambda
+        \end{pmatrix}
+    \end{equation}
+    \item Then:
+    \begin{equation}
+        \underline{\tilde{P}}(s) = \underline{C}\cdot(s\uuline{I}-\uuline{A})^{-1} = \left[\frac{s+\mu}{s(s+\lambda+\mu)}~ \frac{\lambda}{s(s+\lambda+\mu)}\right]
+    \end{equation}
+    \item Anti-transform $\tilde{P}(s)$, whereas following definitions are used:
+    \begin{align}
+        L^{-1}\left[\frac{1}{s+a}\right] = e^{-at} \\
+        L^{-1}\left[\frac{1}{s(s+a)}\right] = \frac{1}{a}\left(1-e^{-at}\right)
+    \end{align}
+    \item The State Probability Vector is found:
+    \begin{equation}
+            \underline{P}(t) = \left(\underbrace{\frac{\mu}{\lambda+\mu}+\frac{\lambda}{\lambda+\mu}\cdot e^{-\left(\lambda+\mu \right) \cdot t}}_{P_0(t)} , ~ \underbrace{\frac{\lambda}{\lambda+\mu} - \frac{\lambda}{\lambda+\mu} \cdot e^{-\left(\lambda+\mu \right)\cdot t}}_{P_1(t)}\right)
+    \end{equation}
+    whereas \begin{itemize}
+        \item $P_0(t)$ is the system point \textbf{availability} (prob. of being in operational state $0$ at time $t$)
+        \item $P_1(t)$ is the system point \textbf{unavailability} (prob. of being in failed state $1$ at time $t$)
+    \end{itemize}
+    \item Set $\frac{d\underline{P}(t)}{dt} = 0$ in the fundamental equation and solve the system of equations:
+    \begin{align}
+        \underline{P} \cdot \uuline{A} = 0 \\
+        \sum_{j=0}^N \Pi_j = 1
+    \end{align}
+    \item the Steady State Probabilities become:
+    \begin{align}
+        \Pi_0 = \lim_{t\rightarrow \infty} P_0(t) = \frac{\mu}{\mu+\lambda} = \frac{1/ \lambda}{1 / \mu + 1/ \lambda} = \frac{MTBF}{MTTR + MTBF} \\
+        = \text{\textbf{average fraction of time the system is functioning}} \\
+        \Pi_1 = \lim_{t\rightarrow \infty} P_0(t) = \frac{\lambda}{\mu+\lambda} = \frac{1/ \mu}{1 / \mu + 1/ \lambda} = \frac{MTTR}{MTTR + MTBF} \\
+        = \text{\textbf{average fraction of time the system is down (i.e. under repair)}}
+    \end{align}
+\end{itemize}
+
+
 
 \end{multicols*}
 \end{document}
