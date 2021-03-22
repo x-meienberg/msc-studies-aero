@@ -485,8 +485,35 @@ The probability of arriving in state j after n steps given the initial state was
 \textbf{General Formula for the first-passage probability}
 
 \begin{align}
-    f_{ij}(k) = p_{ij}(k)-\sum_{l=1}^{k-1} f_{ij}(k-l)p_{jj}(l) \\ R(k) = 1- \sum_{l=1}^k \sum_{j \in \text{ failed states}} f_{ij}(l)
+    f_{ij}(k) = \underbrace{p_{ij}(k)}_{(I)}-\underbrace{\sum_{l=1}^{k-1} f_{ij}(k-l)p_{jj}(l)}_{(II)} \\ R(k) = 1- \sum_{l=1}^k \sum_{j \in \text{ failed states}} f_{ij}(l)
 \end{align}
+
+The probability of passing the state $j$ from $i$ is the transition probability at time step $k$, given it was in $i$ at $0$ $(I)$ whereas $(II)$ is the probability of staying in j as it reached the state prior to time step $k$ \\ \\ The reliability is defined as the probability at time $k$ where the system has not yet failed, hence we subtract all first passage probabilities of all failed states up to time $k$ \newline \newline \textbf{Recurrent, Transient and Absorbing States}
+
+
+\begin{itemize}
+    \item Recurrent: The system at state $i$ will surely return to $i$ \textbf{sooner or later}:
+    \begin{equation}
+        \Pi_i \neq 0
+    \end{equation}
+    \item Transient: The system at state $i$ has a \textbf{finite probability} of \textbf{never} returning to it:
+    \begin{equation}
+        \Pi_i = 0
+    \end{equation}
+\end{itemize}
+
+\newpage
+
+\textbf{Average Occupation Time of a State}
+
+\begin{itemize}
+    \item The average occupation time of a stat i for $l_i$ steps = Average number of steps before the systems exits the state $i$:
+    \begin{align}
+        l_i [\text{steps}]= \frac{1}{P(\text{System exits state i})} \\ = \frac{1}{1-P(\text{System remains in i})} = \frac{1}{1-p_{ii}}
+    \end{align}
+\end{itemize}
+
+\subsection*{Continuous-time Discrete-state Markov Processes}
 
 \end{multicols*}
 \end{document}
