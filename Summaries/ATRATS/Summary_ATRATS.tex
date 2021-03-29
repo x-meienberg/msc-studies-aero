@@ -605,6 +605,31 @@ The sum of all rows in $\uuline{A}^*$ is $0$. From now on, the matrix $\uuline{A
         \Pi_1 = \lim_{t\rightarrow \infty} P_0(t) = \frac{\lambda}{\mu+\lambda} = \frac{1/ \mu}{1 / \mu + 1/ \lambda} = \frac{MTTR}{MTTR + MTBF} \\
         = \text{\textbf{average fraction of time the system is down (i.e. under repair)}}
     \end{align}
+    \item Frequency of \textbf{departure} from a state $i$ to state $j$
+    \begin{align}
+        \nu_{ij}^{dep}(t) = \lim_{\Delta t \rightarrow 0} \frac{p_ij(dt)\cdot P_i(t)}{dt} = \alpha_{ij}\cdot P_i(t) \underbrace{=}_{\text{steady state}} \alpha_{ij} \cdot \Pi_i
+    \end{align} 
+    \item Total Frequency of \textbf{departure} from state $i$ to any other state $j$
+    \begin{align}
+        \nu_{i} (t) = \sum_{j=0,\neq i}\alpha_{ij}P_i(t) = \alpha_{ii}\cdot P_i(t)  \underbrace{=}_{\text{steady state}} \nu_i = \alpha_{ii} \cdot \Pi_i
+    \end{align}
+    \item Frequency of \textbf{arrival} to state $i$ from $k$
+    \begin{align}
+        \nu_i^{arr}(t) = \sum_{k=0,\neq i} \alpha_{ki}\cdot P_k(t) \underbrace{=}_{\text{steady state}} \alpha_{ki}\cdot \Pi_k
+    \end{align}
+    \item From some algebra, it can be followed that at steady state, that the number of arrivals to state $i$ equals the departures from $i$
+    \item \textbf{System failure intensity} $W_f$
+    \begin{itemize}
+        \item Rate at which system failures occur = expected number of failures per unit time = rate of exiting a success state to go into one of fault:
+        \begin{equation}
+            W_f(t) = \sum_{i \in S} P_i(t)\cdot \lambda_{i\rightarrow F}
+        \end{equation}
+        whereas $S$ is the set of success states in the system, $F$ of the failure states. $\lambda_{i\rightarrow F}$ describes the conditional (transition) probability of leaving success state $i$ towards a failure state 
+    \end{itemize}
+    \item \textbf{System repair intensity} $W_r$ (same principal as for failure intensity)
+    \begin{equation}
+        W_r(t) = \sum_{j \in F} P_i(t)\cdot \mu_{j\rightarrow S}
+    \end{equation}
 \end{itemize}
 
 
