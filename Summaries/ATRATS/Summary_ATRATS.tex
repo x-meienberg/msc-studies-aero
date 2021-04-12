@@ -634,7 +634,17 @@ The sum of all rows in $\uuline{A}^*$ is $0$. From now on, the matrix $\uuline{A
 
 \subsection*{Introduction to Monte Carlo Simulation - The experimental view}
 
+\subsubsection*{Inverse Transform Method (analytical way)}
 
+\begin{itemize}
+    \item By taking a sample $R$ from $U_R(r)$ and compute $X$
+    \item $X=F_X^{-1}(R)$
+    \item For the exponential distribution, this would result in 
+    \item $X = F_X^{-1}(R) = -\frac{1}{\lambda} ln(1-R)$
+    \item This means, that from a random sample R, one can will receive a $X$ which is transformed through the new shape of the curve from the exponential distribution
+\end{itemize}
+
+\subsubsection*{Sampling from discrete distributions (non-analytical)}
 
 \end{multicols*}
 \end{document}
