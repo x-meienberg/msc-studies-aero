@@ -927,6 +927,26 @@ INPUT ./Images/RandomWalk.png
 INPUT Images/RandomWalk.png
 INPUT ./Images/RandomWalk.png
 INPUT ./Images/RandomWalk.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
 INPUT Summary_ATRATS.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb

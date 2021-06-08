@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623098819 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623098821
+["pdflatex"] 1623155935 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623155937
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -187,10 +187,14 @@
   "Images/Hazard_Function.png" 1618450698 93933 5eac550dafb8397dd6e3285e843f5901 ""
   "Images/Inverse-Transform.png" 1622466737 83640 b15c8a8404bb81788959925afa37dd15 ""
   "Images/RandomWalk.png" 1623096686 78332 ad885970b9f90fc85d8ee87e102f49e7 ""
+  "Images/Reliability Estimation.png" 1623134638 107896 ef997376d779ed11f8d68db60170fff2 ""
+  "Images/SampledInterpolationNonInvertible.png" 1623155163 135303 12db28ff8d16177199503348950d66cb ""
   "Images/Sampling_Discrete.png" 1623056371 139996 54eb55dd5a4923339bc92b8df8c6b94e ""
-  "Summary_ATRATS.aux" 1623098820 424 a82ae1dcb367ee5d970cca62c961d225 "pdflatex"
-  "Summary_ATRATS.tex" 1623098818 33374 6d6705b6e7b03dfa656b6c7764948a33 ""
+  "Images/TimeAndTypeOfTransition.png" 1623136642 51920 8e233dbb76cdd6c5dae3bd0064c02903 ""
+  "Images/Unavailability Estimation.png" 1623134681 71443 11ea893f25f8023cb8eecca4674dab11 ""
+  "Summary_ATRATS.aux" 1623155937 424 177a91d18888dd2b4faa083ea07c0fef "pdflatex"
+  "Summary_ATRATS.tex" 1623155934 42615 ed9b33263a837dff2c92b610b3d5934e ""
   (generated)
-  "Summary_ATRATS.pdf"
   "Summary_ATRATS.aux"
+  "Summary_ATRATS.pdf"
   "Summary_ATRATS.log"
