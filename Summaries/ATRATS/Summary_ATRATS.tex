@@ -808,9 +808,96 @@ The simulation proceeds to the successive times in the list, in correspondence o
     \item While $t < $ Mission time 
     \begin{itemize}
         \item Mapping the state of the components to the system state
-        \item Take the step to the random walk $\rightarrow$ Compute the transition rate out of initial state. 
+        \item Take the step to the random walk $\rightarrow$ Compute the transition rate out of initial state
+        \item Sample from the $T$ and $C$ the transition time and the arrival state
+        \item Update the counters
     \end{itemize}
 \end{itemize}
+
+
+The analytical approach of a Markov model becomes impractical, as soon as the system becomes highly complex. This means, that if for example the number of components, their states (hence many plant states) and for example repair teams (which can modify plant states) can yield a inhomogeneous Markov chain. Therefore, Monte Carlo is used whereas system faults will be grouped. Different minimum cut sets are defined. The transport kernel is defined as always, through sampling from the exponential distribution. 
+
+%% 22. April
+
+\subsection*{Monte Carlo - The theoretical view}
+
+\subsubsection*{Sampling random variables}
+
+\textbf{Sampling in uniform}
+
+\begin{itemize}
+    \item cdf: $U_R(r) = P(R \leq r) = r$
+    \item pdf: $u_R = 1 = \frac{d U_R}{dr}$
+\end{itemize}
+
+\textbf{Pseudo random numbers in uniform}
+
+\begin{itemize}
+    \item $x_i = (ax_{i-1} + c)~mod~m$
+    \item where $a$, $c \in [0,m-1)$ and $m>>1$ are free parameters 
+    \item $r_i = \frac{x_i}{m}$
+    \item As a result, the pdf of the analytical function can be well approximated
+\end{itemize}
+
+\textbf{Buffon's Needle} is a method which lets us approximate $\pi$. The idea is stemming from the fact that a needle of length $L$ with a size smaller than $D$ spaced lines has a certain probability of intersecting with one line. The needle is randomly oriented by its angle $\phi$ and its center height $y$ which are independent from each other. For a fixed $\phi$, the probabilty is just a function of $y$:
+
+\begin{itemize}
+    \item $P(Y \leq L sin\phi) = \frac{L sin\phi}{D}$
+\end{itemize}
+
+
+For a random variable $\phi$, the probability is:
+
+\begin{itemize}
+    \item $P = \frac{2L}{\pi D}$
+\end{itemize}
+
+The counter is initialised via $N_S = 0$ at the beginning. Since the pdf is $f_Y(y) = \frac{1}{D}$ the reverse transform method will yield: $R = \frac{Y}{D}$ and $Y = R_1 D$, whereas the angle is similarly sampled: $\Phi = R_2 \pi$. If the needle intercepts the line, the $N_S = N_S +1$. In the long term, $P \approx \frac{N_S}{N}$ and hence $\pi$ can be approximated through the given formula. \newline
+
+\textbf{Constant rate exponential distribution}
+
+Assuming we have a markovian state (2 states, good and failed), and a constant hazard rate $\lambda = const.$ The following equations hold true:
+
+\begin{itemize}
+    \item $R = 1-e^{-\lambda t}$
+    \item inverted: $T = F^{-1} = -\frac{1}{\lambda} ln(1-R)$
+\end{itemize}
+
+\textbf{Time-dependent rate Weibull distribution} - if the hazard rate is not constant
+
+\begin{itemize}
+    \item $R = 1-e^{-\beta t\alpha}$
+    \item inverted: $T = F^{-1} = \left(-\frac{1}{\beta} ln(1-R)\right)^{\frac{1}{\alpha}}$
+\end{itemize}
+
+\textbf{Sampling from non-invertible transition time pdf} - if for example the pdf is not analytically invertible (mathematically for example $f_T^{i,j_i \rightarrow m_i}(t) = 0.453 e^{-1.036 t}\sinh \sqrt{2.29 t}$, or if goint to infinite somewhere when $x$ is zero or so). Then, the $t_S$ is sampled via interpolation between two points in the distribution.
+
+\begin{equation}
+   t_s = x_1 + \frac{x_2 -x_1 }{F_2 - F_1 } (R_S - F_1)
+\end{equation}
+
+\includegraphics[width=10cm]{Images/SampledInterpolationNonInvertible.png}
+
+The histogram of random samples approximates the function pretty well. \newline
+
+\textbf{Von Neumann Algorithm I (Sampling by Rejection)} \newline
+
+If a pdf is complicated, then normalize the maximal point such that it becomes one and a point $f_X(x)$ is between $0$ and $1$:
+
+\begin{equation}
+    h(x) = \frac{f_X(x)}{f_M}
+\end{equation} 
+
+Then sample a $x'$ between the beginning and end of the function and calculate its function value $h(x')$, which is called a \emph{tentative value}. Sample a R between 0 and 1 and accept it iff it is smaller than $h(x')$. \newline
+
+\textbf{Von Neumann Algorithm II} \newline
+
+
+%%29. April
+
+
+
+
 
 \end{multicols*}
 \end{document}
