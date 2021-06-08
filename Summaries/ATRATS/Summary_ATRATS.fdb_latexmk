@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623155935 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623155937
+["pdflatex"] 1623183007 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623183010
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -181,6 +181,7 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1618432554 2724736 5c3ed188d8bb6dabb926cbd718007a25 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
+  "Images/BiasedSampling.png" 1623182921 66767 ec5677a4719b728e1ab3a45e0bc98e1a ""
   "Images/Exponential_Distribution.png" 1618450698 57252 a31bf9518a317eeba97699c918e6fea5 ""
   "Images/Farmer_I.png" 1618450698 157914 79d237e1f10e6456f8c3ba172b2c2a3f ""
   "Images/Farmer_II.png" 1618450698 212816 3d5590de59861f146c93718b6de6c0e3 ""
@@ -192,9 +193,9 @@
   "Images/Sampling_Discrete.png" 1623056371 139996 54eb55dd5a4923339bc92b8df8c6b94e ""
   "Images/TimeAndTypeOfTransition.png" 1623136642 51920 8e233dbb76cdd6c5dae3bd0064c02903 ""
   "Images/Unavailability Estimation.png" 1623134681 71443 11ea893f25f8023cb8eecca4674dab11 ""
-  "Summary_ATRATS.aux" 1623155937 424 177a91d18888dd2b4faa083ea07c0fef "pdflatex"
-  "Summary_ATRATS.tex" 1623155934 42615 ed9b33263a837dff2c92b610b3d5934e ""
+  "Summary_ATRATS.aux" 1623183010 424 7d3a8a4fc2fbe8b8ced3f7af8f1212cf "pdflatex"
+  "Summary_ATRATS.tex" 1623183006 44637 487b8e14079a59fdd9d096aeea5dec43 ""
   (generated)
-  "Summary_ATRATS.aux"
-  "Summary_ATRATS.pdf"
   "Summary_ATRATS.log"
+  "Summary_ATRATS.pdf"
+  "Summary_ATRATS.aux"

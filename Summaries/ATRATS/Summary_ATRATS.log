@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  8 JUN 2021 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.14)  8 JUN 2021 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1577,34 +1577,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 893--894
 
  []
 
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 907.
+
 [8 <./Images/TimeAndTypeOfTransition.png> <./Images/SampledInterpolationNonInve
-rtible.png>] (./Summary_ATRATS.aux) ) 
+rtible.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
+
+ []
+
+<Images/BiasedSampling.png, id=66, 966.61125pt x 413.545pt>
+File: Images/BiasedSampling.png Graphic file (type png)
+<use Images/BiasedSampling.png>
+Package pdftex.def Info: Images/BiasedSampling.png  used on input line 927.
+(pdftex.def)             Requested size: 227.62204pt x 97.3787pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 927--928
+[][] 
+ []
+
+[9 <./Images/BiasedSampling.png>] (./Summary_ATRATS.aux) ) 
 Here is how much of TeX's memory you used:
- 19915 strings out of 478994
- 418818 string characters out of 5858184
+ 19921 strings out of 478994
+ 418980 string characters out of 5858184
  899195 words of memory out of 5000000
- 37012 multiletter control sequences out of 15000+600000
+ 37017 multiletter control sequences out of 15000+600000
  424929 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,15n,116p,10636b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/
-enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/
-charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/cha
-rter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cmextra/cmex7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb>
-Output written on Summary_ATRATS.pdf (8 pages, 1070145 bytes).
+{/usr/local/texlive/2
+021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/
+fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb>
+Output written on Summary_ATRATS.pdf (9 pages, 1123146 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
