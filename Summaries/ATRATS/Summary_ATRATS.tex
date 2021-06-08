@@ -896,8 +896,35 @@ Then sample a $x'$ between the beginning and end of the function and calculate i
 %%29. April
 
 
+We assume that now we can split up the function $f_X(x)$ into a product of $g_X'(x)$ and $H(x)$, which is possible based on theoretical assumptions. The maximum will be defined as previously, hence $B_H = max(H)$ and therefore $h(x) = \frac{H(x)}{B_H}$, the same procedure is done as shown previously, where if the sample is inbetween the tentative value and 0, we accept the sample. The efficiency of the rejection method is:
 
+\begin{equation}
+    \epsilon = P[accepted] = \frac{1}{B_H}
+\end{equation}
 
+In the following example, a trick is used to decouple two functions. One trick would be to define $X = R^2$, meaning that the random variable is a square of another one. This eliminates the terms with squareroots in the denominator of a pdf due to the derivative a square root. 
+
+\subsection*{MC Evaluation of Definite Integrals (1D)}
+
+The function which yields an award, such as $G$ can be defined as follows:
+
+\begin{equation}
+    G = \int_a^b g(x) f(x) dx 
+\end{equation}
+
+assuming $f(x)>0$ and a pdf $\int f dx = 1$, $G$ is equal the \textbf{Expectation Value} $E(g(x))$, meaning the expected outcome of a function $g$ which awards a sampled $x_i$. Considering $N$ trials, the expected win is the average of sampled $g$
+
+\begin{equation}
+    G_N = \frac{1}{N} \sum_{i=1}^N g(x_i) = \overline{g}
+\end{equation} 
+
+In order to prove why $G_N$ is a good estimator, the \textbf{Expectation and Variance} of $G_N$ can be computed. The expectation value is exactly $G$ and the variance is zero, when using the above definition of $G_N$. With $N \rightarrow \infty$, the variance vanishes to zero. Even though one could always compute the values numerically, those are not always known in practical cases due to the complexity of the problem. \newline
+
+\textbf{Biased case (Importance Sampling)}
+
+If however $f$ and $g$ are such that one is big and the other is small, then for example the variance becomes huge nad hence error of the estimate as well. 
+
+\includegraphics[width=8cm]{Images/BiasedSampling.png}
 
 \end{multicols*}
 \end{document}
