@@ -926,6 +926,31 @@ If however $f$ and $g$ are such that one is big and the other is small, then for
 
 \includegraphics[width=8cm]{Images/BiasedSampling.png}
 
+In order to mitigate the error, the following equation is used:
+
+\begin{equation}
+    G =  \int_D \left[ \frac{f(x)}{f_1(x)} g(x)\right] f_1(x) dx = \int_D g_1(x) f_1(x) dx
+\end{equation}
+
+The biasing happens by shifting the center towards the other center through scaling and translation. The award is now a function of $g_1$ instead of $g$ and the award is $G_{1N}$. By using the taylor expansion of $g(x)$ (a polynomial) and then through a normalisation procedure, $g$ is ultimately approximated.
+
+\subsubsection*{Simulation of System Transport}
+
+The von Neumann approach of the random walk is motivated by having the system transport kernel, a function of the conditional probability transition and the conditional probability that a system enters a state - whereas a new function $\psi$ is defined as a series of transitions and independent of previous states and time steps. \textbf{The transition density $\psi(t;k)$ is expanded in a series of the partial transition densities $\psi^n(t;k)$} (n-th transition at $t$, entering $k$):
+
+\begin{equation}
+    \psi(t,k) = \psi^0(t,k) + \sum_{k'} \int_{t_0}^t \psi(t',k')K(t,k | t',k') dt
+\end{equation}
+
+The term in the integral is a convolution term, whereas the transport kernel is convoluted with $\psi$ from the previous time and state. The transition density of the previous time step is however again a transport kernel (see figure) and so this results into a multidimensional convolution for higher order system transport kernel. 
+
+\includegraphics[width=8cm]{Images/TransportEquationSystem.png}
+\includegraphics[width=8cm]{Images/TransportEquationExampleConvolution.png}
+\includegraphics[width=8cm]{Images/ConvergenceOfPsi.png}
+\subsubsection*{Simulation for Reliability and Availability Analysis}
+
+%% 20. May lecture
+
 \end{multicols*}
 \end{document}
 
