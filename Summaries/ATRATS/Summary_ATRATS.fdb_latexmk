@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623198808 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623198810
+["pdflatex"] 1623289287 "Summary_ATRATS.tex" "Summary_ATRATS.pdf" "Summary_ATRATS" 1623289290
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -193,13 +193,14 @@
   "Images/Reliability Estimation.png" 1623134638 107896 ef997376d779ed11f8d68db60170fff2 ""
   "Images/SampledInterpolationNonInvertible.png" 1623155163 135303 12db28ff8d16177199503348950d66cb ""
   "Images/Sampling_Discrete.png" 1623056371 139996 54eb55dd5a4923339bc92b8df8c6b94e ""
+  "Images/SystemAvailabilityReliability.png" 1623275279 115619 637adc24f16842d967d6d382d42a3e2b ""
   "Images/TimeAndTypeOfTransition.png" 1623136642 51920 8e233dbb76cdd6c5dae3bd0064c02903 ""
   "Images/TransportEquationExampleConvolution.png" 1623197113 88732 a3dd8d12940ba6fbd51a54ff2032f447 ""
   "Images/TransportEquationSystem.png" 1623196967 101399 d58233eaf35265b18d307b373113aff6 ""
   "Images/Unavailability Estimation.png" 1623134681 71443 11ea893f25f8023cb8eecca4674dab11 ""
-  "Summary_ATRATS.aux" 1623198810 424 7d3a8a4fc2fbe8b8ced3f7af8f1212cf "pdflatex"
-  "Summary_ATRATS.tex" 1623198807 46397 3099ba965a0753cf2390d5fcdce65b8f ""
+  "Summary_ATRATS.aux" 1623289289 425 8e213ffe12f0534f754421f417b8fcbf "pdflatex"
+  "Summary_ATRATS.tex" 1623289286 49539 a91d1292300912f914ce100c76ce9633 ""
   (generated)
-  "Summary_ATRATS.aux"
   "Summary_ATRATS.log"
+  "Summary_ATRATS.aux"
   "Summary_ATRATS.pdf"

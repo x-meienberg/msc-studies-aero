@@ -932,7 +932,7 @@ In order to mitigate the error, the following equation is used:
     G =  \int_D \left[ \frac{f(x)}{f_1(x)} g(x)\right] f_1(x) dx = \int_D g_1(x) f_1(x) dx
 \end{equation}
 
-The biasing happens by shifting the center towards the other center through scaling and translation. The award is now a function of $g_1$ instead of $g$ and the award is $G_{1N}$. By using the taylor expansion of $g(x)$ (a polynomial) and then through a normalisation procedure, $g$ is ultimately approximated.
+The biasing happens by shifting the center towards the other center through scaling and translation. The award is now a function of $g_1$ instead of $g$ and the award is $G_{1N}$. By using the Taylor expansion of $g(x)$ (a polynomial) and then through a normalisation procedure, $g$ is ultimately approximated.
 
 \subsubsection*{Simulation of System Transport}
 
@@ -947,9 +947,74 @@ The term in the integral is a convolution term, whereas the transport kernel is 
 \includegraphics[width=8cm]{Images/TransportEquationSystem.png}
 \includegraphics[width=8cm]{Images/TransportEquationExampleConvolution.png}
 \includegraphics[width=8cm]{Images/ConvergenceOfPsi.png}
+
+
 \subsubsection*{Simulation for Reliability and Availability Analysis}
 
+\begin{equation}
+	G(t) = \sum_{k \in \Gamma} \int_0^t \psi(\tau, k)R_k(\tau, t) d\tau 
+\end{equation}
+
+Is the expected value of the reliability (survival function) of the system with the global transition density in convolution. The reliability function is used similar as the methods before, where 1 is added to the counter. We use $R$ as a counter here as well, however we use it as follows for both unavailability and unreliability
+
+\begin{itemize}
+	\item Unreliability: $R_k(\tau, t) = 1$
+	\item Unavailability: $R_k(\tau, t) = e^{-\lambda^k(t-\tau))}$	
+\end{itemize}
+
+The function $G$ yields each the unreliability and unavailability of the system
+
+\includegraphics[width=8cm]{Images/SystemAvailabilityReliability.png}
+
+\subsection*{Monte Carlo Simulation Approaches}
+
+\begin{itemize}
+    \item Each trial of Monte Carlo consists of generating a random walk which guides the system from one configuration to another
+    \item From a given state and time step, we need to determine the next transition and which new configuration is reached
+    \item The indirect MC samples the time through the function $T$ of a system transition
+    \item Then, the new configuration is computed through the function $C$ and is repeated to the next transition
+    \item Direct MC includes sampling of each and every 
+\end{itemize}
+
 %% 20. May lecture
+
+\section*{Complex Network Theory}
+
+\begin{itemize}
+    \item A network or graph is a set of $N$ nodes connected by $L$ links (edges or bonds)
+    \item $G(N,L)$ is a arbitrary graph of order $N$ and size $L$
+    \item Graphs can be directed or undirected
+    \item The degree $k_i$ signifies the total number of connections a node has to its nearest neigbouring nodes $k_j = \sum_j a_{ij}$
+    \item The adjacency matrix $a_{ij}$ defines which nodes are connected to each other and how they are directed or not
+    \item The degree distribution $P(k)$ gives the probability that any randomly chosen vertex has degree $k$ (Poisson, Exponential or Power law)
+\end{itemize}
+
+\textbf{Shortest Path}
+
+\begin{itemize}
+    \item Finding the shortest path $d_{ji}$ between two nodes
+    \item Floyd-Warshall or Dijkstra
+    \item Characteristic path length: $L = \frac{1}{N(N-1)}\sum_{i \neq j} d_{ij} $
+    \item Clustering Coefficient: Measures the density of the connections around a node $i$ (number of connecting neighbours): $C_i = \frac{y}{C_{max}} = \frac{2 y}{k_i (k_i -1)}$
+    \item The average of the clustering coefficient is a measure for local connectivity
+    \item Large values of C would be welcome for the robustness of the connectivity: a node removal disconnecting two portions of the system would be overcome by simply passing onto adjacent working nodes through short-range neighboring nodes
+    \item Small world property: Good global and local connectivity, exponential decrease of degree distribution. In general, less vulnerable to malicious attacks and tolerant to random faults
+    \item Scale-free networks: No characteristic degree distribution: Few highly connected nodes. Is robust to random faults due to highly connected hubs ($\gamma$ is given in tabular). However, against an attack very vulnerable (hubs destroyed)
+\end{itemize}
+
+\textbf{Random Failure and Attack Tolerance}
+
+\begin{itemize}
+    \item Failure: Nodes removed randomly
+    \item Attack: Most connected nodes (hubs) removed
+\end{itemize}
+
+Die Efficiency Matrix $\epsilon_{ij} = \frac{1}{d_{ij}}$ gibt an, wie effizient das Netzwerk ist. Je kleiner die kürzesten Wege, umso besser. Ungewichtet (ohne Anzahl) ergeben sich die durschchnittlichen Züge und gewichtet ebenso. The Global Efficiency is calculated as the sum of all efficiencies which are on the off diagonal
+
+\subsubsection*{Vulnerability to Element Removal}
+
+
+
 
 \end{multicols*}
 \end{document}
