@@ -126,6 +126,22 @@ The required equations are the conservation laws for mass, momentum and energy t
 
 \section{Conservation Laws for Continuum Flows}
 
+\begin{equation}
+	\frac{Dm}{Dt} = \frac{D}{Dt}\int_{\tilde V} \rho d\tilde V = 0 ~(material~ volume)
+\end{equation}
+
+\begin{equation}
+	\int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho(\bold{u}\cdot \bold{n}) dS = 0~(Eulerian~Volume)
+\end{equation}
+
+\begin{equation}
+	\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i}(\rho u_i) = 0~(material~volume~/~index)
+\end{equation}
+
+\begin{equation}
+	\frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}~(Eulerian~Volume / ~index)
+\end{equation}
+
 \subsubsection*{Mass Conservation}
 
 \subsubsection*{Momentum Conservation}
