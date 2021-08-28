@@ -1,7 +1,0 @@
-// 1: Advection
-// 2: Burgers
-// 3: Navier-Stokes incompressible
-// 4: Navier-Stokes compressible
-
-case 3
-rk   3
