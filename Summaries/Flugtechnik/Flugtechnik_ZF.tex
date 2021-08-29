@@ -710,7 +710,59 @@ Die angabe der Druckhöhe (pressure altitude) ist die am meisten verwendete Meth
 
 \subsubsection{Messung der Fluggeschwindigkeit}
 
+Folgende Methoden zur Ermittlung der Geschwindkeit werden angewendet:
 
+\begin{itemize}
+    \item Staudruckmessung
+    \item Peilverfahren (Distanz zu Funkstationen, GPS)
+    \item Radar, bordgestützt (Messung der Geschwindigkeit über Grund)
+    \item Trägheitsnavigationssysteme (Integration von Beschleunigungen)
+\end{itemize}
+
+Die Staudruckmessung vo aerodynamischen Standpunkt betrachtet gilt als die wichtigste Messmethode, da viele Flugleistungsparameter direkt von Staudruck abhängig sind. Hierzu stehen folgende Sonden zur Verfügung:
+
+\begin{itemize}
+    \item Pitotrohr (Messung Gesamtdruck)
+    \item Prandtl-Rohr (Messung des Gesamtdruckes und statischen Druckes)
+    \item Venturi-Rohr
+\end{itemize}
+
+Die Ablesegeschwindigkeit im Cockpit entspricht nicht zu $100\%$ den wahren Gegebenheiten, also der wahren Geschwindigkeit. Die Ablesegeschwinddigkeit beinhaltet mehrere `Fehler'. Es werden also wie folgt folgende Grössen eingeführt:
+
+\begin{itemize}
+    \item True airspeed, TAS $ = V$:
+    \begin{itemize}
+        \item $ V = \sqrt{\frac{2(p_{tot}-p_{stat})}{\rho}} ~ (Ma \leq 0.5)$
+        \item $ V = a \sqrt{\frac{2}{\gamma-1}}\left[\left[\frac{p_{tot}-p}{p}+1\right]^{\frac{\gamma}{\gamma-1}}-1\right]^{1/2}$
+        \item $p = p_{stat} = p_\infty =$ statischer/gemessener Druck
+        \item $p_{tot} =$ dynamischer Druck (Bernoulli)
+        \item $a  =\gamma \cdot R\cdot T$, $~\gamma = 1,4$, $~ R = 287,053~ J/kgK $
+    \end{itemize}
+    \item Equivalent airspeed, EAS $ = V_e$ (Annahme Dichte ist nicht bestimmbar, gleich wie bei Boden): 
+    \begin{itemize}
+        \item $V_e = V \sqrt{\frac{\rho}{\rho_0}} = V \sqrt{\sigma} = V \cdot\Theta(H)^{-2.12805}$
+    \end{itemize}
+    \item Calibrated airspeed, CAS = $ V_c$ (Da Geschwindigkeitsmesser nur Druckdifferenz bestimmen kann, und nicht direkt $p$ in Umgebung, wird nun die Geschwindigkeit anders gemessen (mittels Bodenwerten $p_0$ und $a_0$))
+    \begin{itemize}
+        \item $V_C = \sqrt{\frac{2 a_0}{\gamma-1}} \left[ \left[\frac{p_{tot}-p}{p_0}+1\right]^{\frac{\gamma-1}{\gamma}}-1\right]^{1/2}$
+        \item $V_C = V_e + \Delta V_C$ 
+        \item $\Delta V_C=$ Kompressibilitätskorrektur
+    \end{itemize}
+    \item Indicated airspeed, IAS = $ V_a$ (Falls der gemessene, statische Umgebungsdruck dem korrekten Druck abweicht)
+    \begin{itemize}
+        \item $V_a = V_c + \Delta V_p$
+        \item $\Delta V_p =$ Statischer Druckfehler 
+    \end{itemize}
+    \item Ablesegeschwindigkeit, $V_i$ (Fehler in der Instrumentenanzeige selbst / mechanisch)
+    \begin{itemize}
+        \item $V_i = V_a + \Delta V_i$
+        \item $\Delta V_i =$ Instrumentenfehler
+    \end{itemize}
+    \item Zusammenfassung
+    \begin{itemize}
+        \item $V = \frac{1}{\sqrt{\sigma}}(V_i - \Delta V_C - \Delta V_p - \Delta V_i)$
+    \end{itemize}
+\end{itemize}
 
 \subsubsection{Messung der Strömungsrichtung}
 
