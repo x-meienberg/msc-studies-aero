@@ -661,6 +661,65 @@ Für Verluste durch Versperrwirkung, beispielsweise am Rumpf, sind unberücksich
 
 Versuche in Windkanälen können hier mehr Informationen liefern, z.B. durch einen erzeugten Drall vom Propeller.
 
+\setcounter{subsection}{11} % Initiate new counter
+\subsection{Flugmesstechnik}
+
+\subsubsection{Einsatz und Anwendung}
+
+Auf der einen Seite beliefern Sensoren die Anzeigeinstrumente im Cockpit mit den notwendigen Informationen, damit der Pilot das Flugzeug zweckmässig führen kann. Andererseits werden Datn in Flugregler und Autopiloten geführt, um den Piloten in der Flugbahnführung und -planung, Navigation und Einhalten der Grenzwerten zu unterstützen, oder sogar zu ersetzen. Ebenso dienen flugzeuggestütze Instrumentierung bei, Flugleistungen zu ermitteln, Flugeigenschaften zu quantifizieren, Grenzwerte festzulegen. 
+
+\subsubsection{Messung der Flughöhe}
+
+Folgende Messmethoden dienen zur Höhenbestimmung:
+
+\begin{itemize}
+    \item Messung des Umgebungsdrucks
+    \item Messung der Umgebungstemperatur
+    \item Messung der Umgebungsdichte
+    \item Radar-Vermessung, flugzeuggestützt
+    \item Peilverfahren (Radar, GPS,...)
+    \item Trägheitsnavigationssysteme
+\end{itemize}
+
+wobei die ersten drei die Eigenschaften der Atmosphäre genutzt wird. Im allgemeinen ist die barometrische Höhenmessung auch heute die noch am weitesten verbreitete Methode. Die \textbf{Druckmessstellen} sind folgende, welche in Frage kommen:
+
+\begin{itemize}
+    \item statische Druckbohrung am Rumpf
+    \item statische Drucksonde, in Kombination mit Gesamtdruckmessung (Prandtl-Sonde)
+    \item Kabineninnendruck bei Flugzeugen ohne Druckkabine (sehr ungenau, nur im Notfall)
+\end{itemize}
+
+Der \textbf{abgegriffene Druck ist abhängig von}:
+
+\begin{itemize}
+    \item Position der Messung
+    \item Fluggeschwindigkeit
+    \item Flugzeuglage relativ zur Anströmungsrichtung
+    \item Regen und Vereisung
+    \item Verschmutzung der Messstelle
+    \item Lokale Effekte von Proprellerstrahl, Verdichtungsstössen (hohe Machzahl)
+\end{itemize}
+
+Die angabe der Druckhöhe (pressure altitude) ist die am meisten verwendete Methode. Hierzu braucht es aber ebenfalls \textbf{Einstellungen}, welche an verschidenen Orten durchgeführt werden müssen:
+
+\begin{itemize}
+    \item Höhe über Meer (QNH): Vor dem Startwird die Höhenmessanzeige auf die topographische Höhe des Flugplatzes eingestellt
+    \item Höhe über Flugplatz (QFE): Vor de Start wird die Höhenmessanzeige auf $0$ gestellt
+    \item Standard-Einstellung (QNE): Der Höhenmesser wird so eingestellt , dass bei $1013~Pa$ eine Höhe von $0~m$ angezeigt wird
+\end{itemize}
+
+\subsubsection{Messung der Fluggeschwindigkeit}
+
+
+
+\subsubsection{Messung der Strömungsrichtung}
+
+Nebst Staudruck ist die Richtung der Anströmung ebenfalls eine wichtige aerodynamische Grösse. Insbesondere ist man interessiert an den Werten des Anstell- ($\alpha$) und Schiebewinkels ($\beta$). In Transportflugzeugen wird lediglich der Anstellwinkel gemessn, jedoch bei Kampfflugzeugen auch der Schiebewinkel. \newline 
+\newline Somit werden lokale Strömungswinkel am Ort von der Sonde gemessen. Der gemessene Winkel entspricht beispielsweise nicht exakt dem
+Anstellwinkel des Flugzeugs. Der Zusammenhang wird mittels Eichung (Windkanal- oder Flugversuch) ermittelt. \newline
+\newline Der grosse Vorteil der Strömungsrichtungmessung liegt darin, dass direkt aerodynamische Grössen ermittelt werden (unabhängig von Druck, Temperatur, Masse etc.) im Gegensatz zur Geschwindigkeitsmessung. \newline
+\newline Die Strömungsrichtungsmessung ist vielfach nur eine Hilfsfunktion und ist für die Flugsicherheit nicht von primärer Bedeutung. 
+
 \subsection*{Disclaimer}
 
 Diese Zusammenfassung basiert auf den persönlichen Notizen und Zusammenfassungen früherer Jahre. Fehler sind unvermeidbar und es besteht keine Garantie dass diese Zusammenfassung vollständig komplett ist. 
