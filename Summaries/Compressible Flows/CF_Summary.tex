@@ -128,7 +128,24 @@ The required equations are the conservation laws for mass, momentum and energy t
 
 \subsubsection*{Mass Conservation}
 
+Material Volume
+\begin{align}
+    \frac{Dm}{Dt} = \frac{D}{Dt} \int_{\vec{V}} \rho d\vec{V} = 0 \\
+    \frac{\partial \rho}{\partial t} + \frac{\partial \rho}{\partial x_i }(\rho u_i) = 0
+\end{align}
+
+Eulerian Volume
+
+\begin{align}
+    \int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho (\vec{u}\cdot \vec{n}) dS = 0 \\
+    \frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}
+\end{align}
+
 \subsubsection*{Momentum Conservation}
+
+\begin{align}
+    \frac{\partial}{\partial t} (\rho u_i) + \frac{\partial}{\partia}
+\end{align}
 
 \subsubsection*{Energy Conservation}
 

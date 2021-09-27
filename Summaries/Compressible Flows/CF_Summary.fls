@@ -1,9 +1,9 @@
-PWD /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows
+PWD /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.tex
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.log
+INPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.tex
+OUTPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.log
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -236,9 +236,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+INPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+INPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+OUTPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -300,7 +300,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-OUTPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf
+OUTPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -311,7 +311,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /Users/Xeno/Documents/Dokumente - Xenos MacBook Pro/Studies/ETH Zürich/Subjects - ETH/MSc/Git Repo/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+INPUT /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
