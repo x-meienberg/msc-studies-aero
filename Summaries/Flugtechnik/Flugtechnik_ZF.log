@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  4 OCT 2021 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  29 AUG 2021 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.tex"
-(/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.tex
+**/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/Flugtechnik_ZF.tex
+(/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/Flugtechnik_ZF.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1409,8 +1409,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \footskip       = 33.25pt
 (typearea)              \baselineskip   = 9.5pt
 (typearea)              on input line 30.
-(/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux)
-\openout1 = `CF_Summary.aux'.
+(/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/Flugtechnik_ZF.aux)
+\openout1 = `Flugtechnik_ZF.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -1532,17 +1532,76 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 60.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 70.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--88
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 89.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-)
-Overfull \hbox (60.29198pt too wide) in paragraph at lines 152--152
+) <images/meteorologie-wetter-atmosphaere-102.png, id=4, 857.2025pt x 857.2025pt>
+File: images/meteorologie-wetter-atmosphaere-102.png Graphic file (type png)
+ <use images/meteorologie-wetter-atmosphaere-102.png>
+Package pdftex.def Info: images/meteorologie-wetter-atmosphaere-102.png used on input line 114.
+(pdftex.def)             Requested size: 227.62204pt x 227.61537pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 114--115
+[][] 
+ []
+
+<images/Fluegelgeometrie-1.png, id=5, 875.27pt x 620.3175pt>
+File: images/Fluegelgeometrie-1.png Graphic file (type png)
+ <use images/Fluegelgeometrie-1.png>
+Package pdftex.def Info: images/Fluegelgeometrie-1.png used on input line 132.
+(pdftex.def)             Requested size: 170.71652pt x 120.98509pt.
+
+Overfull \hbox (70.708pt too wide) in paragraph at lines 134--150
 [] 
  []
 
 
-Overfull \hbox (38.07574pt too wide) in paragraph at lines 161--161
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 153--165
+
  []
 
 [1
@@ -1550,29 +1609,114 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/bch/b/n/10.95 Homentropic Flow around slen-der
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/meteorologie-wetter-atmosphaere-102.png (PNG copy)> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Fluegelgeometrie-1.png>] <images/Aufstiegspolaren.png, id=25, 1262.7175pt x 455.7025pt>
+File: images/Aufstiegspolaren.png Graphic file (type png)
+ <use images/Aufstiegspolaren.png>
+Package pdftex.def Info: images/Aufstiegspolaren.png used on input line 186.
+(pdftex.def)             Requested size: 227.62204pt x 82.14111pt.
+
+Overfull \hbox (8.19206pt too wide) in paragraph at lines 186--187
+ [] 
  []
 
-[2] (/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux)
+<images/Druckverteilung_am_Profil.png, id=26, 568.1225pt x 877.2775pt>
+File: images/Druckverteilung_am_Profil.png Graphic file (type png)
+ <use images/Druckverteilung_am_Profil.png>
+Package pdftex.def Info: images/Druckverteilung_am_Profil.png used on input line 247.
+(pdftex.def)             Requested size: 156.49014pt x 241.64694pt.
+ [2 </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Aufstiegspolaren.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Druckverteilung_am_Profil.png>] <images/Wirbelsystem_einfaches_Hufeisenmodell.png, id=32, 911.405pt x 673.51625pt>
+File: images/Wirbelsystem_einfaches_Hufeisenmodell.png Graphic file (type png)
+ <use images/Wirbelsystem_einfaches_Hufeisenmodell.png>
+Package pdftex.def Info: images/Wirbelsystem_einfaches_Hufeisenmodell.png used on input line 273.
+(pdftex.def)             Requested size: 156.49014pt x 115.637pt.
+ <images/Prandtl_Wirbelmodell.png, id=33, 911.405pt x 465.74pt>
+File: images/Prandtl_Wirbelmodell.png Graphic file (type png)
+ <use images/Prandtl_Wirbelmodell.png>
+Package pdftex.def Info: images/Prandtl_Wirbelmodell.png used on input line 274.
+(pdftex.def)             Requested size: 156.49014pt x 79.96358pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+[]\OT1/bch/m/n/8 Bei ge-pfeil-ter Fl[]ugelform: Zus[]atzlich kan ein
+ []
+
+<images/Widerstandsarten.png, id=34, 1020.81375pt x 771.88374pt>
+File: images/Widerstandsarten.png Graphic file (type png)
+ <use images/Widerstandsarten.png>
+Package pdftex.def Info: images/Widerstandsarten.png used on input line 322.
+(pdftex.def)             Requested size: 170.71652pt x 129.08669pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
+
+ []
+
+[3 </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Wirbelsystem_einfaches_Hufeisenmodell.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Prandtl_Wirbelmodell.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Widerstandsarten.png>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+[]\OT1/bch/m/n/8 Durch Be-ein-flus-sung der Aus-gleichss-tr[]omung
+ []
+
+<images/Schub.png, id=45, 492.84125pt x 171.64125pt>
+File: images/Schub.png Graphic file (type png)
+ <use images/Schub.png>
+Package pdftex.def Info: images/Schub.png used on input line 527.
+(pdftex.def)             Requested size: 170.71652pt x 59.4546pt.
+ <images/Antriebswirkungsgrade_Prop_Jet.png, id=46, 485.815pt x 479.7925pt>
+File: images/Antriebswirkungsgrade_Prop_Jet.png Graphic file (type png)
+ <use images/Antriebswirkungsgrade_Prop_Jet.png>
+Package pdftex.def Info: images/Antriebswirkungsgrade_Prop_Jet.png used on input line 539.
+(pdftex.def)             Requested size: 170.71652pt x 168.59608pt.
+ <images/Propeller_Ideal.png, id=47, 577.15625pt x 408.52625pt>
+File: images/Propeller_Ideal.png Graphic file (type png)
+ <use images/Propeller_Ideal.png>
+Package pdftex.def Info: images/Propeller_Ideal.png used on input line 574.
+(pdftex.def)             Requested size: 170.71652pt x 120.83835pt.
+ [5 </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Schub.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Antriebswirkungsgrade_Prop_Jet.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Propeller_Ideal.png>] <images/Schubgrenze.png, id=54, 384.43625pt x 510.90875pt>
+File: images/Schubgrenze.png Graphic file (type png)
+ <use images/Schubgrenze.png>
+Package pdftex.def Info: images/Schubgrenze.png used on input line 607.
+(pdftex.def)             Requested size: 170.71652pt x 226.88203pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+
+ []
+
+<images/Blattelementtheorie_1.png, id=55, 690.58pt x 593.21625pt>
+File: images/Blattelementtheorie_1.png Graphic file (type png)
+ <use images/Blattelementtheorie_1.png>
+Package pdftex.def Info: images/Blattelementtheorie_1.png used on input line 632.
+(pdftex.def)             Requested size: 213.39566pt x 183.30676pt.
+ [6 </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Schubgrenze.png> </Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/images/Blattelementtheorie_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 769--774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--774
+
+ []
+
+[7] (/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/Flugtechnik_ZF.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25482 strings out of 493089
- 516505 string characters out of 6134841
- 629138 words of memory out of 5000000
- 28537 multiletter control sequences out of 15000+600000
- 18702 words of font info for 52 fonts, out of 8000000 for 9000
+ 25555 strings out of 493089
+ 518672 string characters out of 6134841
+ 632142 words of memory out of 5000000
+ 28595 multiletter control sequences out of 15000+600000
+ 21227 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,84p,10462b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (2 pages, 111553 bytes).
+ 73i,9n,84p,10457b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on /Users/Xeno/Documents/GitHub/msc-studies-aero/Summaries/Flugtechnik/Flugtechnik_ZF.pdf (7 pages, 2131869 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

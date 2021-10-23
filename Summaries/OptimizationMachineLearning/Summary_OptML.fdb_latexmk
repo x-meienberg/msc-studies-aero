@@ -1,0 +1,17 @@
+# Fdb version 3
+["pdflatex"] 1627392013 "Summary_OptML.tex" "Summary_OptML.pdf" "Summary_OptML" 1627392014
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls" 1428932888 23767 74c5551841f58a4efbb8c5d892190037 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo" 1428932888 9190 a2c71ff21fa1cfc03c403f5e246966b5 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
+  "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1445766340 3849860 7dfd5735ef440baebed6267662aa6d5d ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "Summary_OptML.aux" 1627392014 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Summary_OptML.tex" 1627392013 66 1d17614e26b316f58d1a7df509ede968 ""
+  (generated)
+  "Summary_OptML.pdf"
+  "Summary_OptML.log"
+  "Summary_OptML.aux"
