@@ -1,4 +1,70 @@
-\documentclass[12pt]{report}
-\begin{document}
+\documentclass[8pt, landscape, fleqn]{scrartcl}
+\setlength{\parindent}{0pt}
+\usepackage[ngerman]{babel}
+%\usepackage[applemac]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{geometry}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{charter} %%% Schreibart
+%\renewcommand{\familydefault}{\sfdefault}
 
+
+
+%%%%%%%%%%Paket für Chemische Formeln
+\usepackage{chemformula} 
+\usepackage[version=3]{mhchem}
+%%%%%%%%%%%%%%%%% Farbe
+\usepackage{color}
+
+\pagestyle{plain}
+\typearea{20}
+\columnsep 30pt
+\columnseprule .4pt
+\setlength{\extrarowheight}{0.9em}
+
+\renewcommand{\arraystretch}{0.8}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth1.5pt
+width0.25\columnwidth\vspace*{1.2em}\Large\bfseries\rmfamily}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth0.75pt
+width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\vspace*{1.2em}\normalsize\bfseries\rmfamily}}
+\makeatother
+
+\newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\begin{document}
+\part*{\LARGE\textrm{Optimization and Machine Learning $\hfill$ Xeno Meienberg}}
+\begin{multicols*}{3}
+
+\section{Introduction}
+
+
+
+
+\end{multicols*}
 \end{document}
+
