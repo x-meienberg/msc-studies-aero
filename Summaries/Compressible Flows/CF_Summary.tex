@@ -236,11 +236,57 @@ Between 2 points along stream line
     \item Unsteady $\rightarrow$ steady (no wave propagation)
     \item 3D $\rightarrow$ 2D $\rightarrow$ quasi 1-D
     \item Viscous, heat conduction $\rightarrow$ inviscid, adiabatic (isentropic, homentropic)
+    \item Subsonic $\rightarrow$ transonic $\rightarrow$ supersonic $\rightarrow$ hypersonic (Elliptic $\rightarrow$ hyperbolic)
+    \item Full nonlinear $\rightarrow$ linearised (solve for small pertubations around predefined flow state unique solvable problem, separation of influencing factors facilitated)
 \end{itemize}
 
 \section{Conservation Laws for Stream Tubes}
 
+Quasi 1D, separate for environment. Outer surface formed by instantaneous streamlines, no flow across boundaries. Inlet + outlet. Shape (t). For small enough $A$, flow properties can be treated constant in any cross section.
+
+\subsubsection*{Mass Conservation}
+
+\begin{equation}
+    \int_1^2 \frac{\partial}{\partial t}\left[ \rho(s,t) A(s,t)\right] ds + \rho_2 A_2 u_2 - \rho_1 A_1 u_1 = 0
+\end{equation}
+
+\begin{equation}
+    \dot{m} = \rho A u = const.
+\end{equation}
+
+\subsubsection*{Momentum Conservation}
+
+\begin{align}
+    \int_1^2 \frac{\partial}{\partial t} \left[ \rho(s,t) A(s,t) \right] ds + \rho_2 A_2 u_2 \vec{u}_2 - \rho_1 A_1 u_1 \vec{u}_1 = \\
+    = -p_2 A_2 \vec{n}_2 + p_1 A_1 \vec{n}_1 + F_\tau |_1^2 + F_S
+\end{align}
+
+Steady, frictionless
+
+\begin{equation}
+    \rho_2 u_2^2 + p_2 = \rho_1 u_1^2 + p_1
+\end{equation}
+
+\subsubsection*{Energy Conservation (p.20)}
+
+Steady, frictionless
+
+\begin{equation}
+    e_2 + \frac{u_2^2}{2} + \frac{p_2}{\rho_2} = e_1 + \frac{u_1^2}{2} + \frac{p_1}{\rho_1}
+\end{equation}
+
+Enthalpy subsitution $h = e + \frac{p}{\rho} \rightarrow h_{t1} = h_{t2} = const.$
+
 \section{Steady one-dimensional Flow without Friction and Heat}
+
+Assumptions: 
+
+\begin{itemize}
+    \item No friction (inviscid)
+    \item No heat source or transport
+    \item No flow through mantle
+    \item Perfect gas
+\end{itemize}
 
 \section{Unsteady one-dimensional Flows}
 
