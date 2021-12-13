@@ -288,6 +288,55 @@ Assumptions:
     \item Perfect gas
 \end{itemize}
 
+\begin{equation}
+    Ma = \frac{u}{a}
+\end{equation}
+
+\begin{equation}
+    a^2 = \gamma R T 
+\end{equation}
+
+Stagnation properties, when $u=0$: 
+
+\begin{equation}
+    \frac{h_0}{h} = \frac{T_0}{T} = \left( \frac{a_0^2}{a^2}\right) = 1 + \frac{\gamma - 1}{2} Ma^2
+\end{equation}
+
+Isentropic flow:
+
+\begin{equation}
+    \frac{p_0}{p} = \left( \frac{T_0}{T}\right)^{\frac{\gamma}{\gamma -1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{\gamma}{\gamma-1}}
+\end{equation}
+
+\begin{equation}
+    \frac{\rho_0}{\rho} = \left( \frac{T_0}{T} \right)^{\frac{1}{\gamma-1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{1}{\gamma-1}}
+\end{equation}
+
+When $Ma < 0.3$, density changes $< 4.5 \%$: Assumption is: incompressible. The critical state is then ($Ma = 1$), $superscript~^*$
+
+\begin{equation}
+    \frac{h^*}{h_0} = \frac{T^*}{T_0} = \left( \frac{a^{*2}}{a_0^2}\right) = \left[ 1 + \frac{\gamma -1 }{2}\right]^{-1} = \frac{2}{\gamma+1}
+\end{equation}
+
+\begin{equation}
+    \frac{p^*}{p_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma}{\gamma-1}}
+\end{equation}
+
+\begin{equation}
+    \frac{\rho^*}{\rho_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{1}{\gamma-1}}
+\end{equation}
+
+Critical $Ma^*$:
+
+\begin{align}
+    Ma^* = \frac{u}{a^*} = \frac{u}{a(Ma=1)} = \frac{u}{a}\frac{a}{a_0}\frac{a_0}{a^*} \\
+    = Ma \sqrt{\frac{T}{T_0}}\sqrt{\frac{T_0}{T^*}} = \sqrt{\frac{\frac{\gamma+1}{2}Ma^2}{1+\frac{\gamma-1}{2}Ma^2}}
+\end{align}
+
+\begin{equation}
+    Ma^* \rightarrow \frac{\gamma+1}{\gamma-1}~(Ma \rightarrow \infty)
+\end{equation}
+
 \section{Unsteady one-dimensional Flows}
 
 \section{Two-dimensional steady supersonic Flow}
