@@ -115,7 +115,6 @@ The required equations are the conservation laws for mass, momentum and energy t
 \end{equation}
 
 
-
 \subsubsection*{Incompressible Fluid}
 
 \begin{equation}
@@ -159,25 +158,33 @@ Eulerian Volume
 
 \subsubsection*{Momentum Conservation}
 
-\begin{align}
-    \frac{\partial}{\partial t} (\rho u_i) + \frac{\partial}{\partial x_j} (\rho u_i u_j) = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i \\
-    \rho \frac{D u_i}{Dt} = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i \\
-    \sigma_{ij} = -p \delta_{ij} + \tau_{ij} \\
-    \tau_{ij} = \mu\left(\frac{\partial u_i}{ \partial x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3} \mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k} \\
+\begin{equation}
+    \frac{\partial}{\partial t} (\rho u_i) + \frac{\partial}{\partial x_j} (\rho u_i u_j) = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i
+\end{equation}
+\begin{equation}
+    \rho \frac{D u_i}{Dt} = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i
+\end{equation}
+\begin{equation}
+    \sigma_{ij} = -p \delta_{ij} + \tau_{ij}
+\end{equation}
+\begin{equation}
+    \tau_{ij} = \mu\left(\frac{\partial u_i}{ \partial x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3} \mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k}
+\end{equation}
+\begin{equation}
     \rho \frac{D u_i}{D t} = -\frac{\partial p}{\partial x_i} + \frac{\partial}{\partial x_j}\left[\mu \left( \frac{\partial u_i}{x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3}\mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k}\right] + \rho f_i
-\end{align}
+\end{equation}
 
 \subsubsection*{Energy Conservation}
 
-\begin{align}
-    \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = \frac{\partial}{\partial x_j} (\sigma_{ij} u_i)) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v \\
-    \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = -\frac{\partial}{\partial x_i}(pu_i) + \frac{\partial }{\partial x_j}(\tau_{ij} u_i) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v \\
-    \rho u_i \frac{D u_i}{Dt} = \rho \frac{D}{Dt}\left(\frac{u_i^2}{2}\right) = -u_i \frac{\partial p}{\partial x_i} + u_i \frac{\partial}{\partial x_j} \tau_{ij} + \rho f_i u_i \\
-    \rho \frac{D e}{D t} = \rho \frac{D}{Dt}\left(e + \frac{1}{2} u_i^2 \right) - \rho \frac{D}{Dt}\left( \frac{u_i^2}{2}\right) = \\ = -p \frac{\partial u_i}{\partial x_i} + \tau_{ij} \frac{\partial u_i}{\partial x_j} + \rho q_v - \frac{\partial q_i}{\partial x_i}
-\end{align}
+\begin{equation}
+    \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = \frac{\partial}{\partial x_j} (\sigma_{ij} u_i)) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v 
+\end{equation}
+\begin{equation} \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = -\frac{\partial}{\partial x_i}(pu_i) + \frac{\partial }{\partial x_j}(\tau_{ij} u_i) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v
+\end{equation}
+    $\rho u_i \frac{D u_i}{Dt} = \rho \frac{D}{Dt}\left(\frac{u_i^2}{2}\right) = -u_i \frac{\partial p}{\partial x_i} + u_i \frac{\partial}{\partial x_j} \tau_{ij} + \rho f_i u_i$
+    $\rho \frac{D e}{D t} = \rho \frac{D}{Dt}\left(e + \frac{1}{2} u_i^2 \right) - \rho \frac{D}{Dt}\left( \frac{u_i^2}{2}\right) = \\ = -p \frac{\partial u_i}{\partial x_i} + \tau_{ij} \frac{\partial u_i}{\partial x_j} + \rho q_v - \frac{\partial q_i}{\partial x_i}$
 
 \subsubsection*{Dissipation Function $ \Phi $}
-
 Insert $h = e + \frac{p}{\rho}$ to obtain Enthalpy equation, introduce $h_t = h + \frac{u_i^2}{2}$ and add kinetic energy (p. 15). For perfect gasses, $h = c_p T$, $q_i = -k \frac{dT}{dx}$, derive the temperature equation.
 
 \subsubsection*{Entropy Equation}
@@ -191,9 +198,45 @@ Insert $h = e + \frac{p}{\rho}$ to obtain Enthalpy equation, introduce $h_t = h 
     \rho \frac{D}{Dt} \left( \frac{\vec{\omega}}{\rho} \right) = \left( \vec{\omega} \cdot \nabla \right) \vec{u} + \frac{1}{\rho^2} \nabla \rho \times \nabla p + \nabla \times \left( \frac{1}{\rho} \nabla \cdot \vec{\tau}\right)
 \end{equation}
 
-\subsubsection*{Crocco Theorem (rewritten momentum equation using Enthalpy and Entropy)} 
+\subsubsection*{Crocco Theorem (rewritten momentum equation using Enthalpy and Entropy)}
+
+\begin{equation}
+    \frac{\partial u}{\partial t} + \nabla \left( \frac{1}{2} \vec{u}^2 + h + \psi \right) = \vec{u} \times \vec{\omega} + T \nabla s + \frac{1}{\rho} \nabla \cdot \vec{\tau}
+\end{equation}
+
+\subsection*{Compressible Bernoulli}
+
+equation (integrate momentum equation law along particle path). Clasical not feasible
+
+\begin{equation}
+    \rho \left( \frac{D h_t}{D t} - f_i u_i\right) = 0
+\end{equation}
+
+\begin{equation}
+    f_i = - \frac{\partial \psi}{\partial x_i} 
+\end{equation}
+
+\begin{equation}
+    \psi \neq \psi(t)
+\end{equation}
+
+\begin{equation}
+    \frac{D}{Dt}\left( h_t + \psi \right) = 0
+\end{equation}
+
+Between 2 points along stream line
+
+\begin{equation}
+    h_t + \psi = e + \frac{p}{\rho} + \frac{u_i^2}{2} + \psi = const.
+\end{equation}
 
 \section{Simplification Strategies}
+
+\begin{itemize}
+    \item Unsteady $\rightarrow$ steady (no wave propagation)
+    \item 3D $\rightarrow$ 2D $\rightarrow$ quasi 1-D
+    \item Viscous, heat conduction $\rightarrow$ inviscid, adiabatic (isentropic, homentropic)
+\end{itemize}
 
 \section{Conservation Laws for Stream Tubes}
 

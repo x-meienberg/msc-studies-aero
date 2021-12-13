@@ -1,9 +1,9 @@
-PWD /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows
+PWD /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.tex
-OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.log
+INPUT Summary_ATRATS.tex
+OUTPUT Summary_ATRATS.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -799,10 +799,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
-INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
-INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
-OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+INPUT ./Summary_ATRATS.aux
+INPUT Summary_ATRATS.aux
+INPUT Summary_ATRATS.aux
+OUTPUT Summary_ATRATS.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -861,39 +861,122 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./Images/Farmer_I.png
+INPUT ./Images/Farmer_I.png
+INPUT Images/Farmer_I.png
+INPUT ./Images/Farmer_I.png
+OUTPUT Summary_ATRATS.pdf
+INPUT ./Images/Farmer_I.png
+INPUT ./Images/Farmer_II.png
+INPUT ./Images/Farmer_II.png
+INPUT Images/Farmer_II.png
+INPUT ./Images/Farmer_II.png
+INPUT ./Images/Farmer_II.png
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
+INPUT ./Images/Hazard_Function.png
+INPUT ./Images/Hazard_Function.png
+INPUT Images/Hazard_Function.png
+INPUT ./Images/Hazard_Function.png
+INPUT ./Images/Hazard_Function.png
+INPUT ./Images/Exponential_Distribution.png
+INPUT ./Images/Exponential_Distribution.png
+INPUT Images/Exponential_Distribution.png
+INPUT ./Images/Exponential_Distribution.png
+INPUT ./Images/Exponential_Distribution.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
+INPUT ./Images/Inverse-Transform.png
+INPUT ./Images/Inverse-Transform.png
+INPUT Images/Inverse-Transform.png
+INPUT ./Images/Inverse-Transform.png
+INPUT ./Images/Inverse-Transform.png
+INPUT ./Images/Sampling_Discrete.png
+INPUT ./Images/Sampling_Discrete.png
+INPUT Images/Sampling_Discrete.png
+INPUT ./Images/Sampling_Discrete.png
+INPUT ./Images/Sampling_Discrete.png
+INPUT ./Images/RandomWalk.png
+INPUT ./Images/RandomWalk.png
+INPUT Images/RandomWalk.png
+INPUT ./Images/RandomWalk.png
+INPUT ./Images/RandomWalk.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Reliability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/Unavailability Estimation.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/TimeAndTypeOfTransition.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/SampledInterpolationNonInvertible.png
+INPUT ./Images/BiasedSampling.png
+INPUT ./Images/BiasedSampling.png
+INPUT Images/BiasedSampling.png
+INPUT ./Images/BiasedSampling.png
+INPUT ./Images/BiasedSampling.png
+INPUT ./Images/TransportEquationSystem.png
+INPUT ./Images/TransportEquationSystem.png
+INPUT Images/TransportEquationSystem.png
+INPUT ./Images/TransportEquationSystem.png
+INPUT ./Images/TransportEquationSystem.png
+INPUT ./Images/TransportEquationExampleConvolution.png
+INPUT ./Images/TransportEquationExampleConvolution.png
+INPUT Images/TransportEquationExampleConvolution.png
+INPUT ./Images/TransportEquationExampleConvolution.png
+INPUT ./Images/TransportEquationExampleConvolution.png
+INPUT ./Images/ConvergenceOfPsi.png
+INPUT ./Images/ConvergenceOfPsi.png
+INPUT Images/ConvergenceOfPsi.png
+INPUT ./Images/ConvergenceOfPsi.png
+INPUT ./Images/ConvergenceOfPsi.png
+INPUT ./Images/SystemAvailabilityReliability.png
+INPUT ./Images/SystemAvailabilityReliability.png
+INPUT Images/SystemAvailabilityReliability.png
+INPUT ./Images/SystemAvailabilityReliability.png
+INPUT ./Images/SystemAvailabilityReliability.png
+INPUT Summary_ATRATS.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
@@ -901,4 +984,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

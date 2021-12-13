@@ -60,8 +60,17 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 \part*{\LARGE\textrm{Optimization and Machine Learning $\hfill$ Xeno Meienberg}}
 \begin{multicols*}{3}
 
-\section{Introduction}
+\section{Unconstrained Optimization}
 
+\begin{itemize}
+    \item Convex function: Local minimum = global minium. If the objective funciton and the feasible region are both convex, then any local solution of the problem is a global solution.
+    \item Conditions for minimum:
+    \begin{enumerate}
+        \item $\nabla f(x^*) = 0$
+        \item $ \nabla^2 f(x^*) \text{ is positive definite}$
+    \end{enumerate}
+    \item $(y^T A y > 0) \text{ for all } y \neq 0 \text{ equal:} (\lambda_i > 0)$
+\end{itemize}
 
 
 
