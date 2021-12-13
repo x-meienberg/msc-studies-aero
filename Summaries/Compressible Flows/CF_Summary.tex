@@ -337,6 +337,50 @@ Critical $Ma^*$:
     Ma^* \rightarrow \frac{\gamma+1}{\gamma-1}~(Ma \rightarrow \infty)
 \end{equation}
 
+\subsubsection*{Area velocity relation}
+
+A velocity increase $\rightarrow$ density decrease. If $Ma << 1$, then the density changes are small compared to the velocity changes.
+
+\begin{equation}
+    Ma^2 \frac{1}{u} \frac{d u}{d x} = -\frac{1}{\rho} \frac{d \rho}{d x}
+\end{equation}
+
+\begin{equation}
+    \left( Ma^2 -1 \right) \frac{1}{u} \frac{d u}{d x} = \frac{1}{A} \frac{d A}{d x}
+\end{equation}
+
+If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change has no effect
+
+\subsubsection*{Stationary normal shock}
+
+\begin{equation}
+    \frac{u_2}{u_1} = \frac{\rho_1}{\rho_2} = 1 - \frac{2}{\gamma+1} \left( 1- \frac{1}{Ma_1^2}\right) = \frac{1}{Ma^{*2}}
+\end{equation}
+
+\begin{equation}
+    \frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 - 1 \right)
+\end{equation}
+
+\begin{equation}
+    \frac{T_2}{T_1} = \left[ 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 -1 \right) \right]\left[ 1-\frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2} \right) \right]
+\end{equation}
+
+\begin{align*}
+    &\frac{\Delta s}{R} = \frac{1}{\gamma-1} \left[ \ln \left( \frac{p_2}{p_1} \right) - \gamma \ln \left( \frac{\rho_2}{\rho_1}\right)\right] = \\
+    & \frac{1}{\gamma-1}\left\{\left[ 1 + \frac{2\gamma}{\gamma+1}\left( Ma_1^2 -1 \right)\right] \left[ 1-\frac{2}{\gamma+1}\left(1-\frac{1}{Ma_1^2}\right)\right]\right\}
+\end{align*}
+
+$h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved:
+
+\begin{align*}
+    &\frac{p_{02}}{p_{01}} = \frac{p_{02}}{p_{2}} \frac{p_2}{p_1} \frac{p_1}{p_{01}} = \frac{p_2}{P-1} \left( \frac{T_{02}}{T_2} \right)^{\frac{\gamma}{\gamma-1}}\left(\frac{T_1}{T_{01}}\right)^{\frac{\gamma}{\gamma-1}} = \\
+    & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{\-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
+\end{align*}
+
+As $s$ increases, $u$ decreases
+
+\subsubsection*{Moving Shock Wave}
+
 \section{Unsteady one-dimensional Flows}
 
 \section{Two-dimensional steady supersonic Flow}
