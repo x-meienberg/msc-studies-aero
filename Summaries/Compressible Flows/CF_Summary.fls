@@ -874,6 +874,8 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
@@ -885,8 +887,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux
