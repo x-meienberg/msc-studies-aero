@@ -1,0 +1,176 @@
+\documentclass[8pt, landscape, fleqn]{scrartcl}
+\setlength{\parindent}{0pt}
+\usepackage[ngerman]{babel}
+%\usepackage[applemac]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{geometry}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{charter} %%% Schreibart
+%\renewcommand{\familydefault}{\sfdefault}
+
+
+
+%%%%%%%%%%Paket für Chemische Formeln
+\usepackage{chemformula} 
+\usepackage[version=3]{mhchem}
+%%%%%%%%%%%%%%%%% Farbe
+\usepackage{color}
+
+\pagestyle{plain}
+\typearea{20}
+\columnsep 30pt
+\columnseprule .4pt
+\setlength{\extrarowheight}{0.9em}
+
+\renewcommand{\arraystretch}{0.8}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth1.5pt
+width0.25\columnwidth\vspace*{1.2em}\Large\bfseries\rmfamily}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth0.75pt
+width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\vspace*{1.2em}\normalsize\bfseries\rmfamily}}
+\makeatother
+
+\newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\begin{document}
+\part*{\LARGE\textrm{Satelitengeodäsie - Zusammenfassung $\hfill$ Xeno Meienberg}}
+\begin{multicols*}{3}
+
+\section{Bezugssysteme}
+
+\subsection{Einführung}
+
+\subsubsection{Zeit und Bezugssystem}
+
+\begin{itemize}
+    \item Newtonsche Mechanik: absolute Zeit $t$ $\rightarrow$ gleiförmig und unabhängig vom Koord.system
+    \item Mathematisch: Die unabhängige Variable im Raum sämtlicher Bewegungen ist die Zeit
+    \item Koordinatensystem: Definiert durch einen Urpsprung $O$ + drei orthogonale Einheitsvektoren $e_1$, $e_2$, $e_3$
+    \item $\vec{e_1}$,$\vec{e_2}$, $\vec{e_3}$ = Basisvektoren, wobei $\vec{x}$ eine Linearkombination aller drei Komponenten ($x_1$,$x_2$,$x_3$) des Punktes $\vec{x}$ sind 
+    \item Die Bezeichnung ``Vektor'' ist eigentlich falsch, da ein Vektor unabhängig von Koordinatensystem ist. Koordinaten sind von einem Bezugssystem abhängig
+    \item Post-newtonsche Formalismen sind Bezugs- und Zeitsysteme, Frequenzen, Phasen- und Laufzeitdifferenzen, welche ebenfalls wichtig sind
+\end{itemize}
+
+\subsubsection{Ortsvektor, Bahnkurve, Weltlinie}
+
+Die \textbf{Kinematik} eines Massenpunktes wird beschrieben durch den Ortsvektor $\underline{x}(t)$ als Funktion der Zeit: $\underline{x}(t) = (x_1(t),x_2(t),x_3(t))$. \\
+
+
+Die Gesamtheit aller Endpunkte der Ortsvektoren nennt man \textbf{Bahnkurve}. Die Funktionen $x_1$,$x_2$,$x_3$ sind die Koordinaten des Massenpunktes im gewählten \textbf{Bezugssystems} $\{O,~e_1,~e_2,~e_3\}$ \\
+
+Anstatt Parameterdarstellung $\underline{x}=\underline{x}(t)$ kann auch die Kurve im vierdimensionalen Raum dargestellt werden ($t =$ 4. Achse). Daraus ergibt sich die \textbf{Weltlinie} $\underline{x}(ct,~x_1,~x_2,~x_3)$
+
+\subsubsection{Referenzsysteme und Referenzrahmen}
+
+\begin{itemize}
+    \item \textbf{Koordinatensystem}: Alle Grössen, die notwendig sind, um Punkte eindeutige Koordinaten zuordnen zu können (Ursprung, Achsen, Massstab)
+    \item \textbf{Referenz- und Bezugssystem}: Erweiterung des Koordinatensystems durch z.B. eines Bezugsellipsoids oder Modellschwerefeld oder Gravitationskonstante
+    \item \textbf{Datumsdefinition}: Festlegung von DOF (Freiheitsgrade), die nicht aus den Messungen selbst abgeleitet werden können. Hinreichende Menge von ausgewählten Grössen muss vorhanden sein 
+    \item \textbf{Koordinatenrahmen}: Wahl des Systems (Koordinatensystem) + Datumsdefinition $\rightarrow$ Koordinatenlisten für Referenzpunkte
+    \item \textbf{Referenzrahmen oder Bezugsrahmen}: Realisierung des Koordinatensystems + Datumsdefinition
+    \item \textbf{Referenzsystem}: Konzept eines idealen Referenzsystems basierend auf abstrakten Prinzipen (Mathematik)
+    \item \textbf{Konventionelles Ref.system}: Mathematik reicht nicht aus, da Faktoren wie Gezeiten, Lovesche Zahlen (Erdrigidität) berücksichtigt werden müssen
+    \item \textbf{Konventioneller Ref.rahmen}: Konkrete Realisierung durch Punkte wie Stationen, Sterne, Quasare mit Koordinaten
+\end{itemize}
+
+In der Geodäsie gibt es drei Arten von Bezugssystemen:
+
+\begin{itemize}
+    \item \textbf{Raumfeste Systeme}: Inertialsystem (gute Annäherung) $\rightarrow$ zälestisch = celestial
+    \item \textbf{Erdfeste Systeme}: Fest mit Erde verbunden und rotiert mit dieser
+    \item \textbf{Lokale Systeme}: An ein Messinstrument gekoppelt oder orientiert sich an einer Referenzfläche
+\end{itemize}
+
+\subsection{Raumfeste Bezugssysteme}
+
+Inertialsystem, welche keinen Scheinkräften ausgesetzt sind, es gelten allgemeine Kräfte wie: $F = m\cdot a$. Es gibt zwei Ansätze hierzu:
+
+\begin{itemize}
+    \item \textbf{Dynamischer Ansatz}: Trajektorien von Planeten udn Ssystem sind Differentialgleichungssysteme. Die Gleichungen gelten nur in einem Inertialsystem
+    \item \textbf{Kinematischer Ansatz}: Annahme: Universum rotiert nicht (fixe Punkte). Aus diesem Grund ist es ein Inertialsystem. Galaktische Objekte bewegen sich nicht allzu fest
+\end{itemize}
+
+Es ist nicht ausschliessbar, dass unser Sonnensystem sich bewegt, und sich linear im Raum bewegt. Man nennt dies in diesem Fall ein \textbf{Quasiinertialsystem}
+
+\subsubsection{Grundbegriffe}
+\begin{itemize}
+    \item \textbf{Epoche}: Zeitpunkt, auf den sich Koordinaten, Bahnelemente oder Ephemeriden (tabellierte Positionen von Sternen etc. beziehen
+    \item \textbf{Äquatorebene:} Ausdehnung des Äquators in den Raum und senkrecht zur Rotationsachse der Erde
+    \item \textbf{Ekliptik:} Umlaufebene der Erde um die Sonne. Diese ist relativ zur Äquatorebene verschoben um die Schiefe der Ekliptik
+    \item \textbf{Rotationspol der Erde:} $P_N$: Schnitt der Koordinate Z im Raumfesten Bezugssystem (Rotationsachse)
+    \item \textbf{Pol der Ekliptik:} $P_\Pi$: Pol , welcher sich mit der Ekliptik verschiebt
+    \item \textbf{Schiefe der Ekliptik:} $\epsilon \approx 23.4^{\circ}$
+    \item \textbf{Frühlingspunkt}: Ist der Punkt, wo sich Ekliptik und und Äquatorebene schneidet bevor die Ekliptik positiv wird (von Süden nach Norden). Bei der Nordhalbkugel ist dies der 19., 20. oder 21. März
+    \item \textbf{Herbstpunkt}: Analog zu Frühlingspunkt, jedoch wird die Ekliptik hier von Norden nach Süden verlaufen (22. oder 23. September)
+    \item \textbf{Äquinoktien}: Sind Frühlings- und Herbstpunkt der Erde (analog bei anderen Himmelskörpern) so kommt es zur Tag- und Nachtgleiche. Die Ekliptik und Äquatorebene gleich und die Halbkugel Nord und Süd wird komplett von der Sonne bestrahlt
+\end{itemize}
+
+\subsubsection{International Celestial Reference System}
+
+Das \textbf{International Celestial Reference System (ICRS)} ist kinematisch definiert und ist ein raumfestes System. Die Achsenorientierung ist ausgelegt auf sehr weite Objekte im Universum, da diese praktisch kaum eine Eigenbewegung aufweisen. \\
+
+Die Hauptebene des Systems entspricht dem mittleren Erdäquator zur Epoche J2000.0. Diese Ebene wird auch \textbf{Himmelsäquator} genannt. Eine Achse des Systems zeigt dementsprechend zum mittleren Rotationspol $\overline{P}_{N_0}$. Dieser Pol wird \textbf{Conventional Reference Pole} CRP gennant.
+
+\subsubsection{Internation Celestial Reference Frame}
+
+\subsection{Erdfeste Bezugssysteme}
+
+\subsubsection{International Terrestrial Reference System}
+
+\subsubsection{International Terrestrial Reference Frame}
+
+\subsubsection{GNSS-spezifische Referenzsysteme}
+
+\subsection{Erdrotation}
+
+\subsubsection{Präzession}
+
+\subsubsection{Nutation}
+
+\subsubsection{Erdrotation}
+
+\subsubsection{Polbewegung}
+
+\subsubsection{Zusammenfassung Transformation raumfest $\leftrightarrow$ erdfest}
+
+\subsection{Schwerefeldbezogene Bezugssysteme}
+
+\subsubsection{Beschreibung der örtlichen Lotlinie}
+
+\subsubsection{Lokale astronomische Systeme}
+
+\subsection{Zeitsysteme}
+
+\subsubsection{Sonnenzeit und Sternzeit}
+ 
+\subsubsection{Atomzeit}
+
+\section{Geometrie der Erde}
+
+\end{multicols*}
+\end{document}
+
