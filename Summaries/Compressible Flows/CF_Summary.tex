@@ -27,7 +27,7 @@
 \usepackage{color}
 
 \pagestyle{plain}
-\typearea{40}
+\typearea{45}
 \columnsep 39pt
 \columnseprule .4pt
 \setlength{\extrarowheight}{0.9em}
@@ -230,17 +230,17 @@ Between 2 points along stream line
     h_t + \psi = e + \frac{p}{\rho} + \frac{u_i^2}{2} + \psi = const.
 \end{equation}
 
-\section{Simplification Strategies}
+\section{Simplification Strategies (p.20)}
 
 \begin{itemize}
-    \item Unsteady $\rightarrow$ steady (no wave propagation)
+    \item Unsteady $\rightarrow$ steady (no wave propagation) (no time dependence)
     \item 3D $\rightarrow$ 2D $\rightarrow$ quasi 1-D
     \item Viscous, heat conduction $\rightarrow$ inviscid, adiabatic (isentropic, homentropic)
     \item Subsonic $\rightarrow$ transonic $\rightarrow$ supersonic $\rightarrow$ hypersonic (Elliptic $\rightarrow$ hyperbolic)
     \item Full nonlinear $\rightarrow$ linearised (solve for small pertubations around predefined flow state unique solvable problem, separation of influencing factors facilitated)
 \end{itemize}
 
-\section{Conservation Laws for Stream Tubes}
+\section{Conservation Laws for Stream Tubes (p. 22)}
 
 Quasi 1D, separate for environment. Outer surface formed by instantaneous streamlines, no flow across boundaries. Inlet + outlet. Shape (t). For small enough $A$, flow properties can be treated constant in any cross section.
 
@@ -287,69 +287,54 @@ Assumptions:
     \item No flow through mantle
     \item Perfect gas
 \end{itemize}
-
 \begin{equation}
     Ma = \frac{u}{a}
 \end{equation}
-
 \begin{equation}
     a^2 = \gamma R T 
 \end{equation}
-
 Stagnation properties, when $u=0$: 
-
 \begin{equation}
     \frac{h_0}{h} = \frac{T_0}{T} = \left( \frac{a_0^2}{a^2}\right) = 1 + \frac{\gamma - 1}{2} Ma^2
 \end{equation}
 
 Isentropic flow:
-
 \begin{equation}
     \frac{p_0}{p} = \left( \frac{T_0}{T}\right)^{\frac{\gamma}{\gamma -1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{\gamma}{\gamma-1}}
 \end{equation}
-
 \begin{equation}
     \frac{\rho_0}{\rho} = \left( \frac{T_0}{T} \right)^{\frac{1}{\gamma-1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{1}{\gamma-1}}
 \end{equation}
-
 When $Ma < 0.3$, density changes $< 4.5 \%$: Assumption is: incompressible. The critical state is then ($Ma = 1$), $superscript~^*$
-
+\begin{equation*}
+    \frac{h^*}{h_0} = \frac{T^*}{T_0} = \left( \frac{a^{*2}}{a_0^2}\right) = \left[ 1 + \frac{\gamma -1 }{2}\right]^{-1} = \frac{2}{\gamma+1} = 0.8333 (\gamma = 1.4)
+\end{equation*}
 \begin{equation}
-    \frac{h^*}{h_0} = \frac{T^*}{T_0} = \left( \frac{a^{*2}}{a_0^2}\right) = \left[ 1 + \frac{\gamma -1 }{2}\right]^{-1} = \frac{2}{\gamma+1}
+    \frac{p^*}{p_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma}{\gamma-1}} = 0.5283 (\gamma = 1.4)
 \end{equation}
-
 \begin{equation}
-    \frac{p^*}{p_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma}{\gamma-1}}
+    \frac{\rho^*}{\rho_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{1}{\gamma-1}} = 0.6339 (\gamma = 1.4)
 \end{equation}
-
-\begin{equation}
-    \frac{\rho^*}{\rho_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{1}{\gamma-1}}
-\end{equation}
-
 Critical $Ma^*$:
-
 \begin{align}
     Ma^* = \frac{u}{a^*} = \frac{u}{a(Ma=1)} = \frac{u}{a}\frac{a}{a_0}\frac{a_0}{a^*} \\
     = Ma \sqrt{\frac{T}{T_0}}\sqrt{\frac{T_0}{T^*}} = \sqrt{\frac{\frac{\gamma+1}{2}Ma^2}{1+\frac{\gamma-1}{2}Ma^2}}
 \end{align}
-
 \begin{equation}
-    Ma^* \rightarrow \frac{\gamma+1}{\gamma-1}~(Ma \rightarrow \infty)
+    Ma^* \rightarrow \sqrt{\frac{\gamma+1}{\gamma-1}}~(Ma \rightarrow \infty) = 2.4495~(\gamma = 1.4)
 \end{equation}
 
 \subsubsection*{Area velocity relation}
 
 A velocity increase $\rightarrow$ density decrease. If $Ma << 1$, then the density changes are small compared to the velocity changes.
-
 \begin{equation}
     Ma^2 \frac{1}{u} \frac{d u}{d x} = -\frac{1}{\rho} \frac{d \rho}{d x}
 \end{equation}
-
 \begin{equation}
     \left( Ma^2 -1 \right) \frac{1}{u} \frac{d u}{d x} = \frac{1}{A} \frac{d A}{d x}
 \end{equation}
 
-If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change has no effect
+If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change has no effect (chocked flow)
 
 \subsubsection*{Stationary normal shock}
 
@@ -370,32 +355,88 @@ If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma >
     & \frac{1}{\gamma-1}\left\{\left[ 1 + \frac{2\gamma}{\gamma+1}\left( Ma_1^2 -1 \right)\right] \left[ 1-\frac{2}{\gamma+1}\left(1-\frac{1}{Ma_1^2}\right)\right]\right\}
 \end{align*}
 
-$h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved:
+$h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved (however stagnation pressure not constant, $p_{01}\neq p_{02}$):
 
 \begin{align*}
     &\frac{p_{02}}{p_{01}} = \frac{p_{02}}{p_{2}} \frac{p_2}{p_1} \frac{p_1}{p_{01}} = \frac{p_2}{P-1} \left( \frac{T_{02}}{T_2} \right)^{\frac{\gamma}{\gamma-1}}\left(\frac{T_1}{T_{01}}\right)^{\frac{\gamma}{\gamma-1}} = \\
     & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{\-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
 \end{align*}
 
-As $s$ increases, $u$ decreases. If $Ma_2 < 1$ always $Ma_1 \rightarrow \infty$:
+As $s$ increases, $u$ decreases. $Ma_2$ is always $<1$, when $Ma_1 \rightarrow \infty$:
 
 \begin{equation}
-    Ma_2 \rightarrow \sqrt{\frac{\gamma-1}{2\gamma}}
+    Ma_2 \rightarrow \sqrt{\frac{\gamma-1}{2\gamma}} = 0.38 ~ (\gamma = 1.4)
 \end{equation}
-
 \begin{equation*}
     Ma_2^2 = \left( \frac{u_2}{a_2}\right)^2 = \left( \frac{u_2}{u_1}\right)^2 \left( \frac{u_1}{a_1}\right)^2 \left( \frac{a_1}{a_2}\right)^2 = \left( \frac{u_2}{u_1}\right)^2 Ma_1^2 \left( \frac{T_1}{T_2}\right)
 \end{equation*}
-
-\subsubsection*{Rankine Hugoniot (p27) - Adiabatic Shock}
-
 \begin{equation}
     Ma_2 = \sqrt{\frac{1 + \frac{\gamma -1}{\gamma + 1} \left( Ma_1^2 -1\right)}{1 + \frac{2\gamma}{\gamma + 1}\left( Ma_1^2 - 1\right)}}
 \end{equation}
+\subsubsection*{Rankine Hugoniot (p.32) - Adiabatic Shock}
+
+\begin{equation*}
+    \frac{p_2}{p_1} = 1 + \frac{2 \gamma \left( \frac{\rho_2}{\rho_1}-1\right)}{\gamma + 1 - (\gamma -1)\frac{\rho_2}{\rho_1}}
+\end{equation*} 
 
 \subsubsection*{Moving Shock Wave}
 
-Switch to reference frame 
+Switch to reference frame
+\begin{equation*}
+    u_1 \widehat{=} u_s~,~ p_1 \widehat{=} p_e~,~ \rho_1 \widehat{=} \rho_0
+\end{equation*}
+Flow behind
+\begin{equation*}
+    u_2 \widehat{=} u_s-u_d~,~ p_2 \widehat{=} p_d~,~ \rho_2 \widehat{=} \rho_d
+\end{equation*}
+Shock $u_d$
+\begin{equation*}
+    u_d = u_s - u_2 = u_1 - u_2 = u_1 \left( 1 - \frac{u_2}{u_1}\right) = u_1 \frac{2}{\gamma+1}\left(1- \frac{1}{Ma_1^2}\right)
+\end{equation*}
+\begin{equation*}
+    Ma_d = \frac{u_d}{a_d} = \frac{u_1-u_2}{a_d} = \frac{u_1}{a_1}\frac{a_1}{a_d}\left( 1- \frac{u_2}{u_1}\right) = Ma_1 \sqrt{\frac{T_1}{T_2}}\left(1-\frac{u_2}{u_1}\right)
+\end{equation*}
+\begin{equation*}
+    u_d = \frac{a_0}{\gamma} \frac{\frac{\Delta p}{p_0}}{\sqrt{1 + \frac{\gamma+1}{2\gamma} \frac{\Delta p}{p_0}}}
+\end{equation*}
+
+Pressure increase
+
+\begin{equation*}
+    \frac{\Delta p}{p_0} = \frac{p_d - p_0}{0_0} = \frac{2 \gamma}{\gamma + 1} \left( Ma_S^2 -1 \right)
+\end{equation*}
+
+The ratio (Pressure increase) has an asymptotic limit. For high $Ma_s$, the function becomes limited.
+
+\subsubsection*{Detonations ($Ma_2 >1$) and Deflagrations ($Ma_2 < 1$)}
+
+Assumption: Ignore adiabatic flow, include however heat release
+
+Rayleigh line: $\frac{p_1}{p_0} = 1 + \frac{\rho_0}{p_0} u_0^2 - \frac{\rho_0}{p_0}\frac{\rho_1}{\rho_0}u_1^2 = 1 + \gamma Ma_0^2 \left( 1 - \frac{\rho_0}{\rho_1}\right)$,
+Rankine Hugeniot with heat: $\frac{p_2}{p_0} = \frac{(\gamma+1)-(\gamma-1)\frac{\rho_0}{\rho_2}+2\gamma \hat{q}}{(\gamma+1)\frac{\rho_0}{\rho_2}-(\gamma-1)}~,~ \hat{q} = \frac{q_{heat}}{c_p T_1}$
+
+\subsubsection*{Chapman Jouget Point}
+
+...is the intersection where $Ma=1$, so $Ma_2 = 1 = Ma_0 \sqrt{\frac{\rho_0}{\rho_2}} \sqrt{\frac{\rho_0}{\rho_2}}$
+The limiting case for shock cycle: 
+\begin{equation*}
+    \frac{\rho_0}{\rho_2} |_c = \frac{u_2}{u_0} |_c = \frac{ \gamma Ma_0^2 + 1 }{Ma_0^2 (\gamma + 1)}
+\end{equation*}
+
+Behind the shock, the flow is subsonic $\leftrightarrow$ strong detonation. There is a weak deflagration if the density ratio $\frac{\rho_1}{\rho_2} > 1$ is large
+
+\subsubsection*{Laval Nozzle (p. 39)}
+
+Varying cross-section:
+
+\begin{align*}
+    \frac{p(x)}{p_0} &= \left[ 1 + \frac{\gamma - 1}{2} Ma^2 (x) \right]^{\frac{-\gamma}{\gamma-1}} \\
+    \frac{A^*}{A(x)} &= Ma(x) \left[ \frac{2}{\gamma+1} + \frac{\gamma-1}{\gamma+1}Ma^2(x)\right] \\
+    u(x) &= Ma(x) a_0 \frac{a(x)}{a_0} = Ma(x) a_0 \sqrt{\frac{T(x)}{T_0}} = \frac{a_0 \cdot Ma(x)}{\sqrt{1 + \frac{\gamma-1}{2}Ma^2(x)}} \\
+    u^* &= a^* ~,~ \text{if}~ Ma^* = 1
+\end{align*}
+
+In order to increase the $Ma_{exit}$, reduce the area ration (tune $A^*$). Different flow regimes are shown on p. 41. A variable exit area is in practice not possible
 
 \section{Unsteady one-dimensional Flows}
 

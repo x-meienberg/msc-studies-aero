@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  2 JAN 2022 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  3 JAN 2022 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,23 +824,23 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 
 Package typearea Warning: Bad type area settings!
-(typearea)                The detected line width is about 181%
+(typearea)                The detected line width is about 183%
 (typearea)                larger than the heuristically estimated maximum
 (typearea)                limit of typographical good line width.
 (typearea)                You should e.g. decrease DIV, increase fontsize
 (typearea)                or change papersize.
 
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 40
+(typearea)             DIV  = 45
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
-(typearea)              \textwidth      = 781.66846pt
-(typearea)              DIV departure   = -181%
-(typearea)              \evensidemargin = -40.58075pt
-(typearea)              \oddsidemargin  = -40.58075pt
+(typearea)              \textwidth      = 788.71051pt
+(typearea)              DIV departure   = -183%
+(typearea)              \evensidemargin = -44.10178pt
+(typearea)              \oddsidemargin  = -44.10178pt
 (typearea)             \paperheight     = 597.50793pt
 (typearea)              \textheight     = 559.0pt
-(typearea)              \topmargin      = -83.45729pt
+(typearea)              \topmargin      = -85.11703pt
 (typearea)              \headheight     = 11.875pt
 (typearea)              \headsep        = 14.25pt
 (typearea)              \topskip        = 8.0pt
@@ -882,16 +882,16 @@ LaTeX Font Info:    ... okay on input line 59.
 * v-part:(T,H,B)=(71.70166pt, 418.25372pt, 107.55255pt)
 * \paperwidth=845.04694pt
 * \paperheight=597.50793pt
-* \textwidth=781.66846pt
+* \textwidth=788.71051pt
 * \textheight=559.0pt
-* \oddsidemargin=-40.58075pt
-* \evensidemargin=-40.58075pt
-* \topmargin=-83.45729pt
+* \oddsidemargin=-44.10178pt
+* \evensidemargin=-44.10178pt
+* \topmargin=-85.11703pt
 * \headheight=11.875pt
 * \headsep=14.25pt
 * \topskip=8.0pt
 * \footskip=33.25pt
-* \marginparwidth=21.12616pt
+* \marginparwidth=18.77881pt
 * \marginparsep=12.8401pt
 * \columnsep=39.0pt
 * \skip\footins=7.0pt plus 4.0pt minus 2.0pt
@@ -1002,7 +1002,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input line 159.
 
 
-Overfull \hbox (16.35983pt too wide) detected at line 175
+Overfull \hbox (14.01248pt too wide) detected at line 175
  $\OML/cmm/m/it/8 ^^Z[] \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@[] \OT1/cmr/m/n/8 + [] [] + \OML/cmm/m/it/8 ^^Zf[]$  
  []
 
@@ -1077,26 +1077,31 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input line 270.
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 340.
+Overfull \hbox (6.28906pt too wide) detected at line 311
+ $[] \OT1/cmr/m/n/8 = [] = [] = [][] = [] = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8333(\OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = 1\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 4)$ 
+ []
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 354.
+(scrartcl)              This could result in several error messages on input line 327.
 
 
-Overfull \hbox (5.37979pt too wide) detected at line 371
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input line 339.
+
+
+Overfull \hbox (3.03244pt too wide) detected at line 356
 []
  []
 
 [2]
-Overfull \hbox (4.9709pt too wide) detected at line 388
+Overfull \hbox (2.62355pt too wide) detected at line 372
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [][] = [][] [][] [][] = [][] \OML/cmm/m/it/8 Ma[] []$ 
  []
 
@@ -1105,26 +1110,57 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 390.
+(scrartcl)              This could result in several error messages on input line 376.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 396.
+(scrartcl)              This could result in several error messages on input line 382.
+
+
+Overfull \hbox (9.54233pt too wide) detected at line 398
+ $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [] = [] = [][] [] = \OML/cmm/m/it/8 Ma[][] []$ 
+ []
+
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input line 411.
+
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input line 418.
+
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input line 428.
+
+
+Overfull \hbox (23.23888pt too wide) detected at line 437
+[]
+ []
 
 [3] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
 Here is how much of TeX's memory you used:
- 19842 strings out of 478994
- 417264 string characters out of 5858183
- 890200 words of memory out of 5000000
- 36949 multiletter control sequences out of 15000+600000
- 422216 words of font info for 72 fonts, out of 8000000 for 9000
+ 19844 strings out of 478994
+ 417290 string characters out of 5858183
+ 892201 words of memory out of 5000000
+ 36951 multiletter control sequences out of 15000+600000
+ 423404 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,11n,116p,10709b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 151569 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 160190 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
