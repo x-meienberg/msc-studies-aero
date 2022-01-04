@@ -120,35 +120,21 @@ The required equations are the conservation laws for mass, momentum and energy t
 \end{equation*}
 
 \section{Conservation Laws for Continuum Flows}
-
+\underline{\textbf{Mass Conservation}} \\
 \begin{equation*}
-	\frac{Dm}{Dt} = \frac{D}{Dt}\int_{\tilde V} \rho d\tilde V = 0 ~(material~ volume)
+	\frac{Dm}{Dt} = \frac{D}{Dt}\int_{\tilde V} \rho d\tilde V = 0 ~\text{(material~ volume)}
 \end{equation*}
 \begin{equation*}
-	\int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho(\bold{u}\cdot \bold{n}) dS = 0~(Eulerian~Volume)
+	\int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho(\bold{u}\cdot \bold{n}) dS = 0~\text{(Eulerian~Volume)}
 \end{equation*}
 \begin{equation*}
-	\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i}(\rho u_i) = 0~(material~volume~/~index)
+	\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i}(\rho u_i) = 0~\text{(material~volume~/~index)}
 \end{equation*}
 \begin{equation*}
-	\frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}~(Eulerian~Volume / ~index)
+	\frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}~\text{(Eulerian~Volume / ~index)}
 \end{equation*}
 
-\textbf{Mass Conservation} \\
-
-Material Volume
-\begin{align*}
-    \frac{Dm}{Dt} = \frac{D}{Dt} \int_{\vec{V}} \rho d\vec{V} = 0 \\
-    \frac{\partial \rho}{\partial t} + \frac{\partial \rho}{\partial x_i }(\rho u_i) = 0
-\end{align*}
-
-Eulerian Volume
-\begin{align*}
-    \int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho (\vec{u}\cdot \vec{n}) dS = 0 \\
-    \frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}
-\end{align*}
-
-\textbf{Momentum Conservation}
+\underline{\textbf{Momentum Conservation}}
 \begin{equation*}
     \frac{\partial}{\partial t} (\rho u_i) + \frac{\partial}{\partial x_j} (\rho u_i u_j) = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i
 \end{equation*}
@@ -165,7 +151,7 @@ Eulerian Volume
     \rho \frac{D u_i}{D t} = -\frac{\partial p}{\partial x_i} + \frac{\partial}{\partial x_j}\left[\mu \left( \frac{\partial u_i}{x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3}\mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k}\right] + \rho f_i
 \end{equation*}
 
-\textbf{Energy Conservation}
+\underline{\textbf{Energy Conservation}}
 \begin{equation*}
     \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = \frac{\partial}{\partial x_j} (\sigma_{ij} u_i)) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v 
 \end{equation*}
@@ -174,7 +160,7 @@ Eulerian Volume
     $\rho u_i \frac{D u_i}{Dt} = \rho \frac{D}{Dt}\left(\frac{u_i^2}{2}\right) = -u_i \frac{\partial p}{\partial x_i} + u_i \frac{\partial}{\partial x_j} \tau_{ij} + \rho f_i u_i$
     $\rho \frac{D e}{D t} = \rho \frac{D}{Dt}\left(e + \frac{1}{2} u_i^2 \right) - \rho \frac{D}{Dt}\left( \frac{u_i^2}{2}\right) = \\ = -p \frac{\partial u_i}{\partial x_i} + \tau_{ij} \frac{\partial u_i}{\partial x_j} + \rho q_v - \frac{\partial q_i}{\partial x_i}$ \\
 
-\textbf{Dissipation Function $ \Phi $} \\
+\underline{\textbf{Dissipation Function $ \Phi $}} \\
 Insert $h = e + \frac{p}{\rho}$ to obtain Enthalpy equation, introduce $h_t = h + \frac{u_i^2}{2}$ and add kinetic energy (p. 15). For perfect gasses, $h = c_p T$, $q_i = -k \frac{dT}{dx}$, derive the temperature equation. \\
 
 \textbf{Entropy Equation}
@@ -292,7 +278,7 @@ Critical $Ma^*$ (isentropic flow stays limited when $Ma \rightarrow \infty$). Th
     Ma^* \rightarrow \sqrt{\frac{\gamma+1}{\gamma-1}}~(Ma \rightarrow \infty) = 2.4495~(\gamma = 1.4)
 \end{equation*}
 
-\textbf{Area velocity relation}
+\underline{\textbf{Area velocity relation}}
 
 A velocity increase $\rightarrow$ density decrease (always). If $Ma << 1$, then the density changes are small compared to the velocity changes. A small velocity increase at $Ma >> 1$ will lead to large density changes.
 \begin{equation*}
@@ -304,18 +290,11 @@ A velocity increase $\rightarrow$ density decrease (always). If $Ma << 1$, then 
 
 If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change in Area $A$ has no effect (chocked flow) \\
 
-\textbf{Stationary normal shock}
-\begin{equation*}
-    \frac{u_2}{u_1} = \frac{\rho_1}{\rho_2} = 1 - \frac{2}{\gamma+1} \left( 1- \frac{1}{Ma_1^2}\right) = \frac{1}{Ma^{*2}}
-\end{equation*}
-\begin{equation*}
-    \frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 - 1 \right)
-\end{equation*}
-\begin{equation*}
-    \frac{T_2}{T_1} = \left[ 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 -1 \right) \right]\left[ 1-\frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2} \right) \right]
-\end{equation*}
-
+\underline{\textbf{Stationary normal shock}}
 \begin{align*}
+    \frac{u_2}{u_1} &= \frac{\rho_1}{\rho_2} = 1 - \frac{2}{\gamma+1} \left( 1- \frac{1}{Ma_1^2}\right) = \frac{1}{Ma^{*2}} \\
+    \frac{p_2}{p_1} &= 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 - 1 \right) \\
+    \frac{T_2}{T_1} &= \left[ 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 -1 \right) \right]\left[ 1-\frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2} \right) \right] \\
     &\frac{\Delta s}{R} = \frac{1}{\gamma-1} \left[ \ln \left( \frac{p_2}{p_1} \right) - \gamma \ln \left( \frac{\rho_2}{\rho_1}\right)\right] = \\
     & \frac{1}{\gamma-1}\left\{\left[ 1 + \frac{2\gamma}{\gamma+1}\left( Ma_1^2 -1 \right)\right] \left[ 1-\frac{2}{\gamma+1}\left(1-\frac{1}{Ma_1^2}\right)\right]\right\}
 \end{align*}
@@ -325,7 +304,6 @@ $h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved (however stag
     &\frac{p_{02}}{p_{01}} = \frac{p_{02}}{p_{2}} \frac{p_2}{p_1} \frac{p_1}{p_{01}} = \frac{p_2}{p_1} \left( \frac{T_{02}}{T_2} \right)^{\frac{\gamma}{\gamma-1}}\left(\frac{T_1}{T_{01}}\right)^{\frac{\gamma}{\gamma-1}} = \\
     & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{\-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
 \end{align*}
-
 As $s$ increases, $u$ decreases. $Ma_2$ is always $<1$, when $Ma_1 \rightarrow \infty$:
 \begin{equation*}
     Ma_2 \rightarrow \sqrt{\frac{\gamma-1}{2\gamma}} = 0.38 ~ (\gamma = 1.4)
@@ -339,12 +317,11 @@ As $s$ increases, $u$ decreases. $Ma_2$ is always $<1$, when $Ma_1 \rightarrow \
 
 A weak shock occurs at $Ma_1$ close to one. See page 31 for equation \\
 
-\textbf{Rankine Hugoniot (p.32) - Adiabatic Shock (no $Ma$ dependency)}
+\underline{\textbf{Rankine Hugoniot (p.32) - Adiabatic Shock (no $Ma$ dependency)}}
 \begin{equation*}
     \frac{p_2}{p_1} = 1 + \frac{2 \gamma \left( \frac{\rho_2}{\rho_1}-1\right)}{\gamma + 1 - (\gamma -1)\frac{\rho_2}{\rho_1}}
 \end{equation*} 
-\newpage
-\textbf{Moving Shock Wave (p.33)}
+\underline{\textbf{Moving Shock Wave (p.33)}}
 
 Switch to reference frame (from frame fixed with moving shock front into a frame moving with shock)
 \begin{equation*}
@@ -392,7 +369,6 @@ Behind the shock, the flow is subsonic $\leftrightarrow$ strong detonation. Ther
 \underline{\textbf{Laval Nozzle (p. 39)}}
 
 Varying cross-section:
-
 \begin{align*}
     \frac{p(x)}{p_0} &= \left[ 1 + \frac{\gamma - 1}{2} Ma^2 (x) \right]^{\frac{-\gamma}{\gamma-1}} \\
     \frac{A^*}{A(x)} &= Ma(x) \left[ \frac{2}{\gamma+1} + \frac{\gamma-1}{\gamma+1}Ma^2(x)\right] \\
@@ -447,8 +423,7 @@ In the case for the piston moving to the left, the characteristics are limited b
 
 \textbf{Simple Compression Waves},
 see p. 54, explained for increasing velocity to the right \\ \\ 
-\textbf{Reflections}
-
+\underline{\textbf{Reflections}} \\
 \textbf{Reflection from solid wall}: $G=-F$ if boundary moves with velocity $0$ \\
 
 \textbf{Reflection from free boundary (contact surface), p.56}: The ratio $\alpha$ is the impendance, and is the ratio of both $a$ of two regions \\

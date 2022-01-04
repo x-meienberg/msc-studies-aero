@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  4 JAN 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  4 JAN 2022 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -954,30 +954,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 128.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Overfull \hbox (14.01248pt too wide) detected at line 166
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 128.
+
+
+Overfull \hbox (14.01248pt too wide) detected at line 152
  $\OML/cmm/m/it/8 ^^Z[] \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@[] \OT1/cmr/m/n/8 + [] [] + \OML/cmm/m/it/8 ^^Zf[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--176
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
@@ -988,82 +988,87 @@ Non-PDF special ignored!
 <special> ! /landplus90 true store
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.28906pt too wide) detected at line 279
+Overfull \hbox (6.28906pt too wide) detected at line 265
  $[] \OT1/cmr/m/n/8 = [] = [] = [][] = [] = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8333(\OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = 1\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 4)$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 
-Overfull \hbox (3.03244pt too wide) detected at line 321
+Overfull \hbox (14.54773pt too wide) detected at line 300
 []
  []
 
 
-Overfull \hbox (2.62355pt too wide) detected at line 335
+Overfull \hbox (2.62355pt too wide) detected at line 313
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [][] = [][] [][] [][] = [][] \OML/cmm/m/it/8 Ma[] []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
-
-[2]
-Overfull \hbox (9.54233pt too wide) detected at line 363
- $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [] = [] = [][] [] = \OML/cmm/m/it/8 Ma[][] []$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Overfull \hbox (7.73718pt too wide) in paragraph at lines 375--376
+Overfull \hbox (3.93062pt too wide) in paragraph at lines 320--321
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
+Overfull \hbox (9.54233pt too wide) detected at line 340
+ $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [] = [] = [][] [] = \OML/cmm/m/it/8 Ma[][] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Overfull \hbox (7.73718pt too wide) in paragraph at lines 352--353
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
 
  []
 
 
-Overfull \hbox (23.23888pt too wide) detected at line 401
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Overfull \hbox (23.23888pt too wide) detected at line 377
 []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--425
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
@@ -1071,13 +1076,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 454--455
 Here is how much of TeX's memory you used:
  19839 strings out of 478994
  417098 string characters out of 5858183
- 897201 words of memory out of 5000000
+ 913201 words of memory out of 5000000
  36947 multiletter control sequences out of 15000+600000
  422197 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,11n,116p,10709b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,11n,116p,10709b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 168497 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 167755 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
