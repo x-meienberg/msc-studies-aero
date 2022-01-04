@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  3 JAN 2022 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  4 JAN 2022 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1096,13 +1096,18 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input line 339.
 
 
-Overfull \hbox (3.03244pt too wide) detected at line 356
+Overfull \hbox (3.03244pt too wide) detected at line 354
 []
  []
 
 [2]
-Overfull \hbox (2.62355pt too wide) detected at line 372
+Overfull \hbox (2.62355pt too wide) detected at line 370
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [][] = [][] [][] [][] = [][] \OML/cmm/m/it/8 Ma[] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
  []
 
 
@@ -1110,17 +1115,10 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 376.
+(scrartcl)              This could result in several error messages on input line 383.
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 382.
-
-
-Overfull \hbox (9.54233pt too wide) detected at line 398
+Overfull \hbox (9.54233pt too wide) detected at line 399
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [] = [] = [][] [] = \OML/cmm/m/it/8 Ma[][] []$ 
  []
 
@@ -1132,38 +1130,44 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input line 411.
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 418.
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
+
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 428.
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
 
 
 Overfull \hbox (23.23888pt too wide) detected at line 437
 []
  []
 
-[3] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--463
+
+ []
+
+[3] [4] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
 Here is how much of TeX's memory you used:
- 19844 strings out of 478994
- 417290 string characters out of 5858183
- 892201 words of memory out of 5000000
- 36951 multiletter control sequences out of 15000+600000
- 423404 words of font info for 74 fonts, out of 8000000 for 9000
+ 19846 strings out of 478994
+ 417316 string characters out of 5858183
+ 902201 words of memory out of 5000000
+ 36953 multiletter control sequences out of 15000+600000
+ 424722 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,11n,116p,10709b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 160484 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (4 pages, 166495 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
