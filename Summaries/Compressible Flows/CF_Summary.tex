@@ -62,9 +62,9 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 
 \section{General Considerations}
 
-\begin{equation}
+\begin{equation*}
     \frac{D\rho}{D t} = \frac{\partial \rho}{\partial t} + u_i \frac{\partial \rho}{\partial x_i} \neq 0
-\end{equation}
+\end{equation*}
 
 \begin{itemize}
     \item Wave propagation
@@ -73,9 +73,9 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
     \item High speed flows with Mach numbers $Ma \geq 1$
 \end{itemize}
 
-Compressible flows can still be described through the continuum model and conservation laws. The assumption is also that the thermodynamic state of the fluid is in a local equilibrium. 
+Compressible flows can still be described through the continuum model and conservation laws. The assumption is also that the thermodynamic state of the fluid is in a local equilibrium. \\
 
-\subsubsection*{Assumptions}
+\textbf{Assumptions}
 
 \begin{itemize}
     \item Length scale of flows \emph{large} compared to molecular scales (mean free path $\lambda$)
@@ -84,7 +84,7 @@ Compressible flows can still be described through the continuum model and conser
 \end{itemize}
 
 
-\subsubsection*{Description of the ``Continuum'' Flow State}
+\textbf{Description of the ``Continuum'' Flow State}
 
 \begin{itemize}
     \item Three components of flow velocity $\underline{u}(\underline{x},t)$
@@ -97,7 +97,7 @@ The required equations are the conservation laws for mass, momentum and energy t
 
 \section{Thermodynamic Relations}
 
-\subsubsection*{State Variables}
+\textbf{State Variables}
 
 \begin{itemize}
     \item Density: $\rho = \rho(p,T)$
@@ -108,127 +108,100 @@ The required equations are the conservation laws for mass, momentum and energy t
     \item Entropy: $s = s(\rho, T)$
 \end{itemize}
 
-\subsubsection*{Van der Waals Gas}
-
-\begin{equation}
+\textbf{Van der Waals Gas}
+\begin{equation*}
     (p+a\rho^2)\left(\frac{1}{\rho}-b\right) = RT
-\end{equation}
+\end{equation*}
 
 
-\subsubsection*{Incompressible Fluid}
-
-\begin{equation}
+\textbf{Incompressible Fluid}
+\begin{equation*}
     \rho = const. \neq \rho(p,T)
-\end{equation}
-
-
+\end{equation*}
 
 \section{Conservation Laws for Continuum Flows}
 
-\begin{equation}
+\begin{equation*}
 	\frac{Dm}{Dt} = \frac{D}{Dt}\int_{\tilde V} \rho d\tilde V = 0 ~(material~ volume)
-\end{equation}
-
-\begin{equation}
+\end{equation*}
+\begin{equation*}
 	\int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho(\bold{u}\cdot \bold{n}) dS = 0~(Eulerian~Volume)
-\end{equation}
-
-\begin{equation}
+\end{equation*}
+\begin{equation*}
 	\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i}(\rho u_i) = 0~(material~volume~/~index)
-\end{equation}
-
-\begin{equation}
+\end{equation*}
+\begin{equation*}
 	\frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}~(Eulerian~Volume / ~index)
-\end{equation}
+\end{equation*}
 
-\subsubsection*{Mass Conservation}
+\textbf{Mass Conservation} \\
 
 Material Volume
-\begin{align}
+\begin{align*}
     \frac{Dm}{Dt} = \frac{D}{Dt} \int_{\vec{V}} \rho d\vec{V} = 0 \\
     \frac{\partial \rho}{\partial t} + \frac{\partial \rho}{\partial x_i }(\rho u_i) = 0
-\end{align}
+\end{align*}
 
 Eulerian Volume
-
-\begin{align}
+\begin{align*}
     \int_V \frac{\partial \rho}{\partial t} dV + \int_S \rho (\vec{u}\cdot \vec{n}) dS = 0 \\
     \frac{D\rho}{Dt} = -\rho \frac{\partial u_i}{\partial x_i}
-\end{align}
+\end{align*}
 
-\subsubsection*{Momentum Conservation}
-
-\begin{equation}
+\textbf{Momentum Conservation}
+\begin{equation*}
     \frac{\partial}{\partial t} (\rho u_i) + \frac{\partial}{\partial x_j} (\rho u_i u_j) = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \rho \frac{D u_i}{Dt} = \frac{\partial}{\partial x_j} \sigma_{ij} + \rho f_i
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \sigma_{ij} = -p \delta_{ij} + \tau_{ij}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \tau_{ij} = \mu\left(\frac{\partial u_i}{ \partial x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3} \mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \rho \frac{D u_i}{D t} = -\frac{\partial p}{\partial x_i} + \frac{\partial}{\partial x_j}\left[\mu \left( \frac{\partial u_i}{x_j} + \frac{\partial u_j}{\partial x_i}\right) + \left( \mu_v - \frac{2}{3}\mu\right) \delta_{ij} \frac{\partial u_k}{\partial x_k}\right] + \rho f_i
-\end{equation}
+\end{equation*}
 
-\subsubsection*{Energy Conservation}
-
-\begin{equation}
+\textbf{Energy Conservation}
+\begin{equation*}
     \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = \frac{\partial}{\partial x_j} (\sigma_{ij} u_i)) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v 
-\end{equation}
-\begin{equation} \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = -\frac{\partial}{\partial x_i}(pu_i) + \frac{\partial }{\partial x_j}(\tau_{ij} u_i) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v
-\end{equation}
+\end{equation*}
+\begin{equation*} \rho \frac{D}{Dt}(e + \frac{1}{2} u_1^2 ) = -\frac{\partial}{\partial x_i}(pu_i) + \frac{\partial }{\partial x_j}(\tau_{ij} u_i) + \rho f_i u_i - \frac{\partial q_i}{\partial x_i} + \rho q_v
+\end{equation*}
     $\rho u_i \frac{D u_i}{Dt} = \rho \frac{D}{Dt}\left(\frac{u_i^2}{2}\right) = -u_i \frac{\partial p}{\partial x_i} + u_i \frac{\partial}{\partial x_j} \tau_{ij} + \rho f_i u_i$
-    $\rho \frac{D e}{D t} = \rho \frac{D}{Dt}\left(e + \frac{1}{2} u_i^2 \right) - \rho \frac{D}{Dt}\left( \frac{u_i^2}{2}\right) = \\ = -p \frac{\partial u_i}{\partial x_i} + \tau_{ij} \frac{\partial u_i}{\partial x_j} + \rho q_v - \frac{\partial q_i}{\partial x_i}$
+    $\rho \frac{D e}{D t} = \rho \frac{D}{Dt}\left(e + \frac{1}{2} u_i^2 \right) - \rho \frac{D}{Dt}\left( \frac{u_i^2}{2}\right) = \\ = -p \frac{\partial u_i}{\partial x_i} + \tau_{ij} \frac{\partial u_i}{\partial x_j} + \rho q_v - \frac{\partial q_i}{\partial x_i}$ \\
 
-\subsubsection*{Dissipation Function $ \Phi $}
-Insert $h = e + \frac{p}{\rho}$ to obtain Enthalpy equation, introduce $h_t = h + \frac{u_i^2}{2}$ and add kinetic energy (p. 15). For perfect gasses, $h = c_p T$, $q_i = -k \frac{dT}{dx}$, derive the temperature equation.
+\textbf{Dissipation Function $ \Phi $} \\
+Insert $h = e + \frac{p}{\rho}$ to obtain Enthalpy equation, introduce $h_t = h + \frac{u_i^2}{2}$ and add kinetic energy (p. 15). For perfect gasses, $h = c_p T$, $q_i = -k \frac{dT}{dx}$, derive the temperature equation. \\
 
-\subsubsection*{Entropy Equation}
-
-\begin{equation}
+\textbf{Entropy Equation}
+\begin{equation*}
     \rho T \frac{Ds}{Dt} = \Phi + \rho q_v - \frac{\partial q_i}{\partial x_i}
-\end{equation}
-
-\subsubsection*{Vorticity Equation}
-\begin{equation}
+\end{equation*}
+\textbf{Vorticity Equation}
+\begin{equation*}
     \rho \frac{D}{Dt} \left( \frac{\vec{\omega}}{\rho} \right) = \left( \vec{\omega} \cdot \nabla \right) \vec{u} + \frac{1}{\rho^2} \nabla \rho \times \nabla p + \nabla \times \left( \frac{1}{\rho} \nabla \cdot \vec{\tau}\right)
-\end{equation}
-
-\subsubsection*{Crocco Theorem (rewritten momentum equation using Enthalpy and Entropy)}
-
-\begin{equation}
+\end{equation*}
+\textbf{Crocco Theorem (rewritten momentum equation using Enthalpy and Entropy)}
+\begin{equation*}
     \frac{\partial u}{\partial t} + \nabla \left( \frac{1}{2} \vec{u}^2 + h + \psi \right) = \vec{u} \times \vec{\omega} + T \nabla s + \frac{1}{\rho} \nabla \cdot \vec{\tau}
-\end{equation}
+\end{equation*}
 
-\subsection*{Compressible Bernoulli}
-
+\textbf{Compressible Bernoulli}
 equation (integrate momentum equation law along particle path). Clasical not feasible
-
-\begin{equation}
-    \rho \left( \frac{D h_t}{D t} - f_i u_i\right) = 0
-\end{equation}
-
-\begin{equation}
-    f_i = - \frac{\partial \psi}{\partial x_i} 
-\end{equation}
-
-\begin{equation}
-    \psi \neq \psi(t)
-\end{equation}
-
-\begin{equation}
+\begin{align*}
+    \rho \left( \frac{D h_t}{D t} - f_i u_i\right) = 0 \\
+    f_i = - \frac{\partial \psi}{\partial x_i} \\
+    \psi \neq \psi(t) \\
     \frac{D}{Dt}\left( h_t + \psi \right) = 0
-\end{equation}
-
+\end{align*}
 Between 2 points along stream line
-
-\begin{equation}
+\begin{equation*}
     h_t + \psi = e + \frac{p}{\rho} + \frac{u_i^2}{2} + \psi = const.
-\end{equation}
+\end{equation*}
 
 \section{Simplification Strategies (p.20)}
 
@@ -242,38 +215,33 @@ Between 2 points along stream line
 
 \section{Conservation Laws for Stream Tubes (p. 22)}
 
-Quasi 1D, separate for environment. Outer surface formed by instantaneous streamlines, no flow across boundaries. Inlet + outlet. Shape (t). For small enough $A$, flow properties can be treated constant in any cross section.
+Quasi 1D, separate for environment. Outer surface formed by instantaneous streamlines, no flow across boundaries. Inlet + outlet. Shape (t). For small enough $A$, flow properties can be treated constant in any cross section. \\
 
-\subsubsection*{Mass Conservation}
-
-\begin{equation}
+\textbf{Mass Conservation}
+\begin{equation*}
     \int_1^2 \frac{\partial}{\partial t}\left[ \rho(s,t) A(s,t)\right] ds + \rho_2 A_2 u_2 - \rho_1 A_1 u_1 = 0
-\end{equation}
-
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \dot{m} = \rho A u = const.
-\end{equation}
+\end{equation*}
 
-\subsubsection*{Momentum Conservation}
-
-\begin{align}
+\textbf{Momentum Conservation}
+\begin{align*}
     \int_1^2 \frac{\partial}{\partial t} \left[ \rho(s,t) A(s,t) \right] ds + \rho_2 A_2 u_2 \vec{u}_2 - \rho_1 A_1 u_1 \vec{u}_1 = \\
     = -p_2 A_2 \vec{n}_2 + p_1 A_1 \vec{n}_1 + F_\tau |_1^2 + F_S
-\end{align}
+\end{align*}
 
 Steady, frictionless
-
-\begin{equation}
+\begin{equation*}
     \rho_2 u_2^2 + p_2 = \rho_1 u_1^2 + p_1
-\end{equation}
+\end{equation*}
 
-\subsubsection*{Energy Conservation (p.20)}
+\textbf{Energy Conservation (p.20)}
 
 Steady, frictionless
-
-\begin{equation}
+\begin{equation*}
     e_2 + \frac{u_2^2}{2} + \frac{p_2}{\rho_2} = e_1 + \frac{u_1^2}{2} + \frac{p_1}{\rho_1}
-\end{equation}
+\end{equation*}
 
 Enthalpy subsitution $h = e + \frac{p}{\rho} \rightarrow h_{t1} = h_{t2} = const.$
 
@@ -287,66 +255,65 @@ Assumptions:
     \item No flow through mantle
     \item Perfect gas
 \end{itemize}
-\begin{equation}
+\begin{equation*}
     Ma = \frac{u}{a}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     a^2 = \gamma R T 
-\end{equation}
+\end{equation*}
 Stagnation properties, when $u=0$ (Ruhegrösse), subscript 0: 
-\begin{equation}
+\begin{equation*}
     \frac{h_0}{h} = \frac{T_0}{T} = \left( \frac{a_0^2}{a^2}\right) = 1 + \frac{\gamma - 1}{2} Ma^2
-\end{equation}
+\end{equation*}
 
 Isentropic flow (p.26):
-\begin{equation}
+\begin{equation*}
     \frac{p_0}{p} = \left( \frac{T_0}{T}\right)^{\frac{\gamma}{\gamma -1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{\gamma}{\gamma-1}}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \frac{\rho_0}{\rho} = \left( \frac{T_0}{T} \right)^{\frac{1}{\gamma-1}} = \left[ 1 + \frac{\gamma-1}{2} Ma^2 \right]^{\frac{1}{\gamma-1}}
-\end{equation}
+\end{equation*}
 When $Ma < 0.3$, density changes $< 4.5 \%$: Assumption is: incompressible. The critical state is then ($Ma = 1$), $superscript~^*$
 \begin{equation*}
     \frac{h^*}{h_0} = \frac{T^*}{T_0} = \left( \frac{a^{*2}}{a_0^2}\right) = \left[ 1 + \frac{\gamma -1 }{2}\right]^{-1} = \frac{2}{\gamma+1} = 0.8333 (\gamma = 1.4)
 \end{equation*}
-\begin{equation}
+\begin{equation*}
     \frac{p^*}{p_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma}{\gamma-1}} = 0.5283 (\gamma = 1.4)
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \frac{\rho^*}{\rho_0} = \left( \frac{2}{\gamma+1} \right)^{\frac{1}{\gamma-1}} = 0.6339 (\gamma = 1.4)
-\end{equation}
+\end{equation*}
 Critical $Ma^*$ (isentropic flow stays limited when $Ma \rightarrow \infty$). The flow velocity stays finite even if $Ma$ goes to infinity:
-\begin{align}
+\begin{align*}
     Ma^* = \frac{u}{a^*} = \frac{u}{a(Ma=1)} = \frac{u}{a}\frac{a}{a_0}\frac{a_0}{a^*} \\
     = Ma \sqrt{\frac{T}{T_0}}\sqrt{\frac{T_0}{T^*}} = \sqrt{\frac{\frac{\gamma+1}{2}Ma^2}{1+\frac{\gamma-1}{2}Ma^2}}
-\end{align}
-\begin{equation}
+\end{align*}
+\begin{equation*}
     Ma^* \rightarrow \sqrt{\frac{\gamma+1}{\gamma-1}}~(Ma \rightarrow \infty) = 2.4495~(\gamma = 1.4)
-\end{equation}
+\end{equation*}
 
-\subsubsection*{Area velocity relation}
+\textbf{Area velocity relation}
 
 A velocity increase $\rightarrow$ density decrease (always). If $Ma << 1$, then the density changes are small compared to the velocity changes. A small velocity increase at $Ma >> 1$ will lead to large density changes.
-\begin{equation}
+\begin{equation*}
     Ma^2 \frac{1}{u} \frac{d u}{d x} = -\frac{1}{\rho} \frac{d \rho}{d x}~~\textbf{(Mach-density relation)}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \left( Ma^2 -1 \right) \frac{1}{u} \frac{d u}{d x} = \frac{1}{A} \frac{d A}{d x}~~\textbf{(Mach-Area relation)}
-\end{equation}
+\end{equation*}
 
-If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change in Area $A$ has no effect (chocked flow)
+If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma > 1$, then opposite applies. If $Ma = 1$, then a change in Area $A$ has no effect (chocked flow) \\
 
-\subsubsection*{Stationary normal shock}
-
-\begin{equation}
+\textbf{Stationary normal shock}
+\begin{equation*}
     \frac{u_2}{u_1} = \frac{\rho_1}{\rho_2} = 1 - \frac{2}{\gamma+1} \left( 1- \frac{1}{Ma_1^2}\right) = \frac{1}{Ma^{*2}}
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 - 1 \right)
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
     \frac{T_2}{T_1} = \left[ 1 + \frac{2 \gamma}{\gamma + 1} \left( Ma_1^2 -1 \right) \right]\left[ 1-\frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2} \right) \right]
-\end{equation}
+\end{equation*}
 
 \begin{align*}
     &\frac{\Delta s}{R} = \frac{1}{\gamma-1} \left[ \ln \left( \frac{p_2}{p_1} \right) - \gamma \ln \left( \frac{\rho_2}{\rho_1}\right)\right] = \\
@@ -354,33 +321,30 @@ If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma >
 \end{align*}
 
 $h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved (however stagnation pressure not constant, $p_{01}\neq p_{02}$):
-
 \begin{align*}
     &\frac{p_{02}}{p_{01}} = \frac{p_{02}}{p_{2}} \frac{p_2}{p_1} \frac{p_1}{p_{01}} = \frac{p_2}{p_1} \left( \frac{T_{02}}{T_2} \right)^{\frac{\gamma}{\gamma-1}}\left(\frac{T_1}{T_{01}}\right)^{\frac{\gamma}{\gamma-1}} = \\
     & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{\-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
 \end{align*}
 
 As $s$ increases, $u$ decreases. $Ma_2$ is always $<1$, when $Ma_1 \rightarrow \infty$:
-
-\begin{equation}
+\begin{equation*}
     Ma_2 \rightarrow \sqrt{\frac{\gamma-1}{2\gamma}} = 0.38 ~ (\gamma = 1.4)
-\end{equation}
+\end{equation*}
 \begin{equation*}
     Ma_2^2 = \left( \frac{u_2}{a_2}\right)^2 = \left( \frac{u_2}{u_1}\right)^2 \left( \frac{u_1}{a_1}\right)^2 \left( \frac{a_1}{a_2}\right)^2 = \left( \frac{u_2}{u_1}\right)^2 Ma_1^2 \left( \frac{T_1}{T_2}\right)
 \end{equation*}
-\begin{equation}
+\begin{equation*}
     Ma_2 = \sqrt{\frac{1 + \frac{\gamma -1}{\gamma + 1} \left( Ma_1^2 -1\right)}{1 + \frac{2\gamma}{\gamma + 1}\left( Ma_1^2 - 1\right)}}
-\end{equation}
+\end{equation*}
 
 A weak shock occurs at $Ma_1$ close to one. See page 31 for equation \\
 
 \textbf{Rankine Hugoniot (p.32) - Adiabatic Shock (no $Ma$ dependency)}
-
 \begin{equation*}
     \frac{p_2}{p_1} = 1 + \frac{2 \gamma \left( \frac{\rho_2}{\rho_1}-1\right)}{\gamma + 1 - (\gamma -1)\frac{\rho_2}{\rho_1}}
 \end{equation*} 
-
-\subsubsection*{Moving Shock Wave (p.33)}
+\newpage
+\textbf{Moving Shock Wave (p.33)}
 
 Switch to reference frame (from frame fixed with moving shock front into a frame moving with shock)
 \begin{equation*}
@@ -406,16 +370,16 @@ Pressure increase
     \frac{\Delta p}{p_0} = \frac{p_d - p_0}{p_0} = \frac{2 \gamma}{\gamma + 1} \left( Ma_S^2 -1 \right),~~[Ma_1 = \frac{u_1}{a_1} = \frac{u_s}{a_s}=Ma_s]
 \end{equation*}
 
-The ratio (Pressure increase) has an asymptotic limit. For high $Ma_s$, the function becomes limited. $\frac{u_s}{u_d} \rightarrow \frac{\gamma+1}{2}$ (for high pressure differences)
+The ratio (Pressure increase) has an asymptotic limit. For high $Ma_s$, the function becomes limited. $\frac{u_s}{u_d} \rightarrow \frac{\gamma+1}{2}$ (for high pressure differences) \newline
 
-\subsubsection*{Detonations ($Ma_2 >1$) and Deflagrations ($Ma_2 < 1$) (p.36, ZND)}
+\underline{\textbf{Detonations ($Ma_2 >1$) and Deflagrations ($Ma_2 < 1$) (p.36, ZND)}}
 
 \textbf{Assumption: Ignore adiabatic flow, include however heat release}
 
 Rayleigh line: $\frac{p_1}{p_0} = 1 + \frac{\rho_0}{p_0} u_0^2 - \frac{\rho_0}{p_0}\frac{\rho_1}{\rho_0}u_1^2 = 1 + \gamma Ma_0^2 \left( 1 - \frac{\rho_0}{\rho_1}\right)$,
 Rankine Hugeniot with heat: $\frac{p_2}{p_0} = \frac{(\gamma+1)-(\gamma-1)\frac{\rho_0}{\rho_2}+2\gamma \hat{q}}{(\gamma+1)\frac{\rho_0}{\rho_2}-(\gamma-1)}~,~ \hat{q} = \frac{q_{heat}}{c_p T_1}$, This gives us $p_1$ and $p_2$, the pressure of the shockwave before the combustion and downstream after the combustion layer \\
 
-\textbf{Chapman-Jouget Point (p.37)}
+\underline{\textbf{Chapman-Jouget Point (p.37)}}
 
 ...is the intersection where $Ma=1$, so $Ma_2 = 1 = Ma_0 \sqrt{\frac{\rho_0}{\rho_2}} \sqrt{\frac{\rho_0}{\rho_2}}$
 The limiting case for shock cycle (Rayleigh tangent to Hugoniot Line ): 
@@ -425,7 +389,7 @@ The limiting case for shock cycle (Rayleigh tangent to Hugoniot Line ):
 
 Behind the shock, the flow is subsonic $\leftrightarrow$ strong detonation. There is a weak deflagration if the density ratio $\frac{\rho_1}{\rho_2} >> 1$. The reaction front propagates at subsonic speed.  Weak detonation: flow remains supersonic (not explainable through ZND)\\
 
-\textbf{Laval Nozzle (p. 39)}
+\underline{\textbf{Laval Nozzle (p. 39)}}
 
 Varying cross-section:
 
@@ -443,10 +407,8 @@ In order to increase the $Ma_{exit}$, reduce the area ration (tune $A^*$). Diffe
 \textbf{Wave equation for small perturbations}
 Assuming small pertubations around equilibrium state with first order pertubations will result into following differential equation (enthalpy):
 
-\begin{equation*}
-    \frac{\partial p'}{\partial t} - a_0^2 \frac{\partial \rho'}{\partial t} = 0 \Longleftrightarrow p' = a_0^2 \rho'
-\end{equation*}
 \begin{align*}
+    \frac{\partial p'}{\partial t} - a_0^2 \frac{\partial \rho'}{\partial t} &= 0 \Longleftrightarrow p' = a_0^2 \rho' \\
     \frac{\partial \rho'}{\partial t} + \rho_0 \frac{\partial u'}{\partial x} &= 0 ~~ (\text{mass eq.}) \\
     \frac{\partial u'}{\partial t} + \frac{a_0^2}{\rho_0} \frac{\partial \rho'}{\partial x} &= 0 ~~ (\text{momentum eq.})
 \end{align*}
@@ -465,10 +427,48 @@ Here, no small pertubations are assumed, while assuming homentropic flow ($s=con
 
 \begin{itemize}
     \item Boundary Condition: At $x = x_p(t)$, $u(x=x_p,t) = u_p(t)$
-    \item 
+    \item How to solve: Left propagating wave from rest state, intersects $P$ at $u=u_p$. The characterisitic with $\eta = const$ which then can intersect the other characteristic with $\xi = const. $ yields point $Q$
+    \item $x = \left[ a_0 + \frac{\gamma + 1}{2} u_p(\tau)\right](t-\tau) + x_p(\tau)$
 \end{itemize}
 
+\textbf{Simple expansion waves} \\
+In the case for the piston moving to the left, the characteristics are limited by two factors:
+
+\begin{itemize}
+    \item $x=a_0 t$: Initially, at $t=0$, the characteristic is maximum and can only be as steep as $a_0$
+    \item $u_p=-U$: The piston motion can only have a max. velocity at its endpoints ($x_p = -Ut$ and $Ut$)
+    \item This gives an area of solutions, which is called a ``centered fan''
+\end{itemize}
+\begin{align*}
+    Ma &= \frac{|U|}{a_0} \left[ 1- \frac{\gamma -1}{2} \frac{|U|}{a_0} \right]^{-1},
+    \frac{\rho}{\rho_0} = \left[ 1- \frac{\gamma-1}{2} \frac{|U|}{a_0} \right]^{\frac{2}{\gamma-1}} \\
+    \frac{p}{p_0} &= \left[ 1- \frac{\gamma-1}{2} \frac{|U|}{a_0} \right]^{\frac{2 \gamma}{\gamma-1}}
+\end{align*}
+
+\textbf{Simple Compression Waves},
+see p. 54, explained for increasing velocity to the right \\ \\ 
+\textbf{Reflections}
+
+\textbf{Reflection from solid wall}: $G=-F$ if boundary moves with velocity $0$ \\
+
+\textbf{Reflection from free boundary (contact surface), p.56}: The ratio $\alpha$ is the impendance, and is the ratio of both $a$ of two regions \\
+
+\textbf{Reflection from an open end with outflow, p.58}: At an orifice ($a$ = outer, $0$ = stagnation), the characteristics are:
+
+\begin{equation*}
+    G = F - \frac{4}{\gamma-1} a(p_a)
+\end{equation*}
+
+The speed of sound is computed via the isentropic relations:
+
+\begin{equation*}
+    \frac{a_a}{a_0} = \sqrt{\frac{T_a}{T_0}} = \left( \frac{p_a}{p_0} \right)^{\frac{\gamma-1}{2\gamma}}
+\end{equation*}
+
+
 \section{Two-dimensional steady supersonic Flow}
+
+
 
 \section{Method Characteristics for planar homentropic supersonic Flows}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  4 JAN 2022 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  4 JAN 2022 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,104 +949,37 @@ LaTeX Font Info:    Trying to load font information for TS1+bch on input line 70
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 78.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 87.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 100.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 111.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 118.
-
-
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 133.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 144.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 159.
-
-
-Overfull \hbox (14.01248pt too wide) detected at line 175
- $\OML/cmm/m/it/8 ^^Z[] \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@[] \OT1/cmr/m/n/8 + [] [] + \OML/cmm/m/it/8 ^^Zf[]$  
  []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 177.
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 128.
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 187.
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 190.
+Overfull \hbox (14.01248pt too wide) detected at line 166
+ $\OML/cmm/m/it/8 ^^Z[] \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@[] \OT1/cmr/m/n/8 + [] [] + \OML/cmm/m/it/8 ^^Zf[]$ 
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 196.
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 201.
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 207.
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
 
 [1
 Non-PDF special ignored!
@@ -1055,119 +988,99 @@ Non-PDF special ignored!
 <special> ! /landplus90 true store
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 247.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 257.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 270.
-
-
-Overfull \hbox (6.28906pt too wide) detected at line 311
+Overfull \hbox (6.28906pt too wide) detected at line 279
  $[] \OT1/cmr/m/n/8 = [] = [] = [][] = [] = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8333(\OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = 1\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 4)$ 
  []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 327.
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 339.
-
-
-Overfull \hbox (3.03244pt too wide) detected at line 354
+Overfull \hbox (3.03244pt too wide) detected at line 321
 []
  []
 
-[2]
-Overfull \hbox (2.62355pt too wide) detected at line 370
+
+Overfull \hbox (2.62355pt too wide) detected at line 335
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [][] = [][] [][] [][] = [][] \OML/cmm/m/it/8 Ma[] []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 383.
-
-
-Overfull \hbox (9.54233pt too wide) detected at line 399
+[2]
+Overfull \hbox (9.54233pt too wide) detected at line 363
  $\OML/cmm/m/it/8 Ma[] \OT1/cmr/m/n/8 = [] = [] = [][] [] = \OML/cmm/m/it/8 Ma[][] []$ 
  []
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 411.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--417
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Overfull \hbox (7.73718pt too wide) in paragraph at lines 375--376
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
 
  []
 
 
-Overfull \hbox (23.23888pt too wide) detected at line 437
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+Overfull \hbox (23.23888pt too wide) detected at line 401
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--460
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
-[3] [4] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--451
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+[3] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
 Here is how much of TeX's memory you used:
- 19846 strings out of 478994
- 417316 string characters out of 5858183
- 902201 words of memory out of 5000000
- 36953 multiletter control sequences out of 15000+600000
- 424722 words of font info for 76 fonts, out of 8000000 for 9000
+ 19839 strings out of 478994
+ 417098 string characters out of 5858183
+ 897201 words of memory out of 5000000
+ 36947 multiletter control sequences out of 15000+600000
+ 422197 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,11n,116p,10709b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,11n,116p,10709b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (4 pages, 166495 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (3 pages, 168497 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
