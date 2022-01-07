@@ -503,6 +503,21 @@ Supersonic nozzle flow into stagnant environment.
 \end{itemize}
 
 \section{Method Characteristics for planar homentropic supersonic Flows}
+For nonlinear wave propagation in ($x,t$)-space, one can compute flow fields in steady, two-dimensional homentropic flows. With the Crocco theorem, and the assumption of steady, inviscid, isoenergetic, adiabit flow, there is no vorticity. Introducing the velocity potential, we receive equations for the speed of sound. \\
+
+\textbf{Transformation of equations (p.81)}\\
+Mach lines are no longer straight lines over an extended region, but are treated as characterisitic curves on which the Riemann invariants remain constant. The characteristics become dependent on the local Mach angle $\mu = \mu(\nu)$ and the Mach number $Ma$, determined by the Prandtl-Meyer Function. The velocity magnitute is then given by the thermodynamic state ${p, \rho, T}$
+\begin{equation*}
+    F = \nu + \theta = const.~ \text{and}~ G = \nu - \theta = const.
+\end{equation*} 
+\textbf{Initial and Boundary Value Problems (p.85)}
+\begin{itemize}
+    \item Initial Value Problem: A curve C is given, as well as the Riemann Invariants. This gives us both Mach numbers and their flow directions in two points $1$ and $2$. In point $3$, both intersect, and this gives the local $\nu_3$ and $\theta_3$, meaning the local Mach number:
+    \begin{align*}
+        u_3 &= Ma_3 a_3 = Ma_3 a_0 \frac{a_3}{a_0} = Ma_3 a_0 \sqrt{\frac{T_3}{T_0}} \\
+        a_0 &= \sqrt{\gamma R T_0},~~\frac{T_3}{T_0} = \left( 1 + \frac{\gamma-1}{2}Ma_3^2\right)^{-1}
+    \end{align*}
+\end{itemize}
 
 \section{Homentropic Flow around slender Wings}
 
