@@ -134,42 +134,222 @@ Es ist nicht ausschliessbar, dass unser Sonnensystem sich bewegt, und sich linea
 Das \textbf{International Celestial Reference System (ICRS)} ist kinematisch definiert und ist ein raumfestes System. Die Achsenorientierung ist ausgelegt auf sehr weite Objekte im Universum, da diese praktisch kaum eine Eigenbewegung aufweisen. \\
 
 Die Hauptebene des Systems entspricht dem mittleren Erdäquator zur Epoche J2000.0. Diese Ebene wird auch \textbf{Himmelsäquator} genannt. Eine Achse des Systems zeigt dementsprechend zum mittleren Rotationspol $\overline{P}_{N_0}$. Dieser Pol wird \textbf{Conventional Reference Pole} CRP gennant.
+Die Referenzrichtung entspricht der Richtung zum Frühlingspunkt zur Epoche J2000.0.\\
 
-\subsubsection{Internation Celestial Reference Frame}
+Die Festlegung der Epoche ist wichtig, da Äquatorebene, Ekliptik, und damit Frühlingspunkt aufgrund Nutation und Präzession sich langsam verändern.
+Die Epoche J2000.0 entspricht dem 1. Januar 2000, 11:58:55.816 (UTC). Je nachdem, wo der Ursprung gelegt wird, spricht man vom Barycentric Celestial Reference System (BCRS, Sonne) oder Geocentric Celestial Reference System (GCRS, Erde). Anwendungen liegen in der Raumfahrt. Das GCRS kommt meistens zur Anwendung bei Satelitenbahnen.
+Die Umrechnung berücksichtigt auch relatistische Effekte.
+
+\subsubsection{International Celestial Reference Frame}
+Das ICRF benutzt Quasare, BL-Lacertae-Objekte und aktive Galaxienkerne. Die ausgewählten Objekte sind in drei Klassen eingeteilt:
+\begin{itemize}
+    \item 1. Klasse: Defining Group: Kennt man lange
+    \item 2. Klasse: Candidate Group: Bisher nicht lange gekannt oder nicht bisher so lange beobachtet
+    \item 3. Klasse: Nicht geeignet, jedoch immer noch interessant
+\end{itemize}
+
+Das aktuelle ICRF3 nutzt 303 definierte und 4500 Objekte. Die Objekte werden mittels VLBI ausgemessen. Es gibt auch optische Realisierungen, basierend auf dem Hipparcos Sternkatalog (100'000 Sterne aus zur Epoche 1991.25). Mittels Sonden konnte man jedoch auch bereits optische Realisierungen des ICRS verbessern. \\
+
+Die dynamische Realisierung des ICRS ist durch die Ephemeriden von Planeten und des Mondes gegeben. Diese werden durch die Einstein-Infeld-Hoffmann-Gleichungen erzeugt (DGL-System), durch Punktmassen unter gegenseitiger Gravitationsanziehung mit berücksichtigung allgmein-relativistischen Effekten.
 
 \subsection{Erdfeste Bezugssysteme}
+Fest mit der Erde verbunden. Die Positionen sind fest mit der Erdoberfläche verbunden nur zu kleinen zeitlichen Variationen. Durch Tektonik oder Gezeiten verschieben diese sich wenig. Zudem definierte man ein Bezugsellipsoid, welches sich gut an den Erdkörper anschmiegt. Zudem kann ein Bezugsschwerefeld festgelegt werden.
 
 \subsubsection{International Terrestrial Reference System}
 
+Das IERS definierte ITRS ist ein Koordinatensystem mit gleich skalierten Koordinatenachsen. Massenzentrum ist die Erde (inkl. Ozeane und Atmosphäre). Die Z-Achse entspricht der mittleren Rotationsachse der Erde, 
+die X-Achse zeigt zum Greenwich Meridian. Die Summe aller Im Netz liegenden Stationen aufgrund Plattenbewegungen ergibt null (no-net-rotation), dies ist eine Bedingung des Systems. Regularisierte Stationskoordinaten führen dazu, dass Stationskoordinaten des ITRS sich auf eine feste Erdkruste beziehen.
+
 \subsubsection{International Terrestrial Reference Frame}
+
+Basierend auf VLBI, SLR, GPS und DORIS. Die Berechnung der Koordinaten findet zweistufig statt:
+
+\begin{enumerate}
+    \item Einzelne Zeitserien zu technik-spezifischen Langzeiglösungen: Koordinaten, Geschwindigkeiten und Rotationsparameter werden berechnet
+    \item Vier Einzellösungen werden zur endgültigen ITRF Lösung kombiniert.
+\end{enumerate}
+
+Das ITRF2014 bestimmt den Ursprung (Geozentrum) mittels SLR, Der Massstab wird definiert durch SLR und VLBI; und die Orientierung basierend auf dem alten System realisiert. \\
+Die Stationen erhalten Koordinaten, inklusive eine Geschwindigkeit: $\mathbf{x} = \mathbf{x_0} + \mathbf{x}(t-t_0)$. Die Koordinaten sind regularisiert durch konventionelle Korrekturen, um hochfrequente zeitliche Variationen zu eliminieren (Gezeiten und Ozeanauflasten). Der Zusatzterm ist $\sum \Delta \mathbf{x_i}(t)$ \\
+Die Koordinaten neuer Punkte im ITRF werden folgendermassen ausgewertet:
+
+\begin{itemize}
+    \item Direkte Benutzung einiger ITRF-Stationen als Referenzpunkte
+    \item Einüfhrung von IGS Orbit- und Uhrinformationen in eine GNSS-Auswertung (Precise Point Positioning -PPP)
+    \item Einführung und fixieren von einigen ITRF-Referenzstationen in eine GNSS-Auswertung
+    \item Ähnlichkeitstransformationen der gemesssenen Neupunkte in das ITRF mitttels Referenzstationen
+\end{itemize}
+
+Neben kartensischen Koordinaten können aug geographische ellipsoidische Koordinaten miteinbezogen werden. Die Parameter des GRS80-Ellipsoids sind da empfohlen. \\ 
+
+Schwerefelder können genutzt werden um Satelitenbahnen zu modellieren. Das EGM2008 Modell benötigt GRACE (Satelit) Daten, Schweremessungen am Boden und Altimetriedaten
 
 \subsubsection{GNSS-spezifische Referenzsysteme}
 
+GNSS-spezifische Systeme werden oft von broadcast-Orbits genutzt. GPS, GLONASS, GTRF nutzen dieses und stellen diese Daten zu Verfügung. 
+
+\begin{itemize}
+    \item GPS nutzt 12 Fundamentalstationen, es werden in der Realität mehr genutzt. Diese Stationen werden regelmässig vermessen und an das ITRF angeschlossen. Das WGS84 ist auf das ITRF2008 bis zu 10cm konsistent
+    \item GLONASS: Nutzt das russiche System PZ-90, und beruht auf 26 Bodenstationen. Zwischen PZ-90.11 und ITRF2008 gibt es nur eine Translation
+    \item GTRF (GALILEO Terrestrial Reference Frame): nutzt Daten von Referenzstationen mit ausgewählten GPS-Stationen des IGS-Netzes und transformiert in das ITRF. Hierzu gibt es auch Transformationsparameter.
+\end{itemize}
+
 \subsection{Erdrotation}
+Die Transformation vom raumfesten System in das konventionelle erdfeste System ist im Prinzip eine räumliche Rotation, die durch drei Rotationswinkel vollständig beschrieben ist. Diese wird in mehrere Einzelschritte aufgetrennt.
+\subsubsection{Präzession - $\overline{S}_{i_0} \rightarrow \overline{S}_{i}$}
 
-\subsubsection{Präzession}
+Im ersten Schritt wird die Präzessionsbewegung der Erde berücksichtigt. Zur Referenzepoche J2000.0 wird das mittlere Inertialsystem zum \textbf{mittleren Inertialsystem zur Beobachtungsepoche} umgewandelt. Es handelt sich hierbei um die Drehung um drei Winkel um die Achsen 3-2-3.
 
-\subsubsection{Nutation}
+\begin{equation*}
+    \mathbf{\overline{e}}_i = \mathbf{P} \mathbf{\overline{e}}_{i_0} = \mathbf{R_3}(-z_A)\mathbf{R_2}(\theta_A) \mathbf{R_3}(-\zeta_A) \mathbf{\overline{e}}_{i_0}
+\end{equation*}
 
-\subsubsection{Erdrotation}
+Die Winkel werden angenähert durch ein Zeitargument $t$, wobei dieses folgendermassen definiert ist:
+\begin{equation*}
+    t = (t_{obs}-J2000.0) / 36525
+\end{equation*}
 
-\subsubsection{Polbewegung}
+Der Zeitunterschied in Tagen zwischen der Zeit der Observation zum J2000.0 wird normiert und so in Jahrhunderten gerechnet.
+
+\subsubsection{Nutation - $\overline{S}_{i} \rightarrow S_i$}
+
+Nach der Präzession werden kurzperiodeische Nutationsperioden berücksichtigt. Somit wandelt man das System vom mittleren intertialsystem der Beobachtungsepoche zum \textbf{Wahren Inertialsystem der Beobachtungsepoche}.
+Somit wird mittels der mittleren Schiefe der Ekliptik (Rotation um Ekliptik), der Nutation in der Länge (Rotation um Erdachse) der Nutation in der Schiefe (Rotation um Ekliptik) die Transformation durchgeführt. Die Nutationswinkel sind schwieriger zu berechnen (viel Trigonometrie)
+\begin{equation*}
+    \mathbf{e}_i = \mathbf{N} \mathbf{\overline{e}}_{i} = \mathbf{R_1}(-\epsilon_A-\Delta \epsilon)\mathbf{R_3}(-\Delta \psi) \mathbf{R_1}(\epsilon_A) \mathbf{\overline{e}}_{i_0}
+\end{equation*}
+\subsubsection{Erdrotation - $S_i \rightarrow S_e$}
+Durch das Anbringen der Präzession und Nutation wird die dritte Achse angepasst, damit die Rotationsachse der Erde entspricht und somit das \textbf{wahre erdfeste System} erhalten wird.
+\begin{equation*}
+    \mathbf{e}_e = \mathbf{R}_3(\Theta_0) \mathbf{e}_{i} 
+\end{equation*}
+
+Der Rotationswinkel $\Theta_0$ ist GAST (Greenwich apparent siderial time), der wahren Sternzeit von Greenwich. Der Winkel ist der wahre Frühlingspunkt relativ zum Greenwichmeridians.Durch die schwankende Unregelmässigkeit der Tageslänge muss man die Differenz $UT1-UTC$ mitberücksichtigt werden. Die Nutation hat ebenfalls einen Einfluss auf GAST, also muss man diese mitberücksichten.
+
+\subsubsection{Polbewegung - $S_e \rightarrow S'_e$}
+
+Schliesslich muss noch die Polbewegung der Erde (Bewegung der Rotationsachse um Figurenachse) im erdfesten System berücksichtigen werden. 
+\begin{equation*}
+    \mathbf{e}'_e = \mathbf{W} \mathbf{e_e} = \mathbf{R}_2(-x_p) \mathbf{R}_1(-y_p) \mathbf{e}_e
+\end{equation*}
+
+Die Polbewegung ist allerdings unregelmässig. Sie ist nicht periodisch, weshalb man auf tabellierte Werte zurückgreift.UT1-UTC, die Nutationswinkel werden jeweils immer vom IERS gestellt.
 
 \subsubsection{Zusammenfassung Transformation raumfest $\leftrightarrow$ erdfest}
 
+\begin{equation*}
+    \mathbf{e}'_e = \mathbf{WRNP} \overline{\mathbf{e}}_{i_0}
+\end{equation*}
+
+Da es sich um Rotationsmatrizen handelt, welche orthogonal sind, kann die Rücktransformation mittels der Inversen (transponierte Matrizen) gemacht werden. Seit 2003 gibt es neuere Systeme, wo sogenannte intermediäre Pole, zälistische und terrestiale Referenzsysteme definiert worden sind. Diese Methode ist noch nicht sehr weit verbreitet.
+
 \subsection{Schwerefeldbezogene Bezugssysteme}
+
+Geodätische oder astronomische Beobachtungen an oder nahe der Erdofberfläche orientieren sich an der örtlichen Lotlinie. Diese Beobachtungen werden vorzugsweise in lokalen, auf das Schwerefeld bezogenen Referenzsystemen modelliert. Die Orientierung der lokalen Systeme ist durch die Astronomische Breite und Länge gegeben. Die Orientierungsparameter erlauben eine Hin- und Rücktransformation zwischen lokalen und globalen Bezugssystemen.
 
 \subsubsection{Beschreibung der örtlichen Lotlinie}
 
+Die Richtung des Sschwerevektors wird durch die angabe der beiden Winkel der Breite und Länge gegeben ($\Phi$ und $\Lambda$)
+
+\begin{equation*}
+    \mathbf{g} = -|\mathbf{g}|\cdot \mathbb{n} = -|\mathbf{g}| \cdot \begin{pmatrix}
+        \cos \Phi \cos \Lambda \\ \cos \Phi \sin \Lambda \\ \sin \Phi
+    \end{pmatrix}
+\end{equation*}
+
 \subsubsection{Lokale astronomische Systeme}
+
+Der Usrpung lokaler astronomischer System liegt im Beobachtungspunkt $P$. Die Z-Achse ist gegeben durch die Lotrichtung und zeigt zum Zenit. Die x-Achse zeigt in Nord-richtung. Die y-Achse komplettiert ein Linkssystem. Der Zenitwinkel wird vom Zenit ausgemessen. Der Azimut im Uhrzeigersinn von der x-Achse aus.
+
+\begin{equation*}
+    \mathbf{x} = \begin{pmatrix}
+        x \\ y \\ z
+    \end{pmatrix} = s \begin{pmatrix}
+        \cos A \sin z \\ \sin A \sin z \\ \cos z
+    \end{pmatrix}
+\end{equation*}
+
+Die Umrechnung vom lokalen System in ein globales System kann auf zwei verschiedene Arten ablaufen:
+
+\begin{enumerate}
+    \item Geometrisch: \begin{itemize}
+        \item Richtungen der Koordinatenachsen des lokalen Systems werden abgebildet in den Raum des lokalen Systems. Mittels Skalarprodukts werden die Koordinaten in $X$ auf $x$ projiziert. Die Matrix, da orthonormal, kann invertiert werden durch die Transponation, somit ist $M^T$ die Abbildung von Grössen in $x$ nach $X$
+    \end{itemize}
+    \item Rotationen und Spiegelungen: \begin{itemize}
+        \item Durch die Spiegelung der y-Achse (Rechtssystems), druch Drehungen um die y-Achse um den Winkel $90-\Phi$ (Breite) und Drehung um den Winkel $180-\Lambda$ (Länge), ergibt sich durch Matrixmultiplikation $M^T$ 
+    \end{itemize}
+\end{enumerate}
 
 \subsection{Zeitsysteme}
 
 \subsubsection{Sonnenzeit und Sternzeit}
+Die Rotation der Erde stellt ein natürliches Zeitmass da. Hierbei werden zwei periodische Bewegungen in Betracht gezogen:
+\begin{itemize}
+    \item Die tägliche Rotation der Erde um die polare Achse
+    \item Der jährliche Umlauf der Erde um die Sonne
+\end{itemize}
+
+Der Sonnentag wird von aufeinanderfolgenden Höchstständen der Sonna an einem Beobachtungspunkt der Erde abgeleitet. Diese ist jedoch nicht konstant, da:
+\begin{itemize}
+    \item Die Geschwindigkeit im Umlauf um die Sonne sich variiert (2. Kelper Gesetz)
+    \item Die Bahnebene nicht rechtwinklig zur Rotationsachse ist
+\end{itemize}
+
+Die Einführung einer mittleren Sonnenbahn (Universal Time UT) führt zu einem mittleren Sonnentag. Hierfür gibt es folgende Gleichung, welche die Rektaszension der wahren Sonne gegenüber der Rektaszension der mittleren Sonne beschreibt:
+\begin{equation*}
+    EQ_T = -2 e \sin M - 5/4 e^2 \sin 2M + \tan^2 \frac{\epsilon}{2} \sin(2\lambda_EK) - 1/2 \tan^4 \frac{\epsilon}{2} \sin 4\lambda_EK
+\end{equation*}
+
+Die Exzentrizität der Bahnellipse, die Schiefe der Ekliptik, die Mittlere Anomalie der Sonne, sowie die Länge der Sonne in der Ekliptik gemessen vom Frühlingspunkt werden hierzu benötigt. Die Abweichungen der wahren zur mittleren Sonnenzeit beträgt zwischen -14 und 16 Minuten. UT1 wurde eingeführt, um die aktuelle Erdrotation, die mittlere Sonnenbahn und den mittleren Pol zu beschreiben um somit den wahren Winkel der Rotation des globalen terrestrischen Koordinatensystems darzustellen. \\
+
+Die Sternzeit bezieht sich auf den Meridiandurgang des Frühlingspunktes. Im Vergleich zur Sonnenzeit, wo 50 Stationen die Höchststände der Sonne bestimmen, wird hier vom der Winkelunterschied vom Greenwich Meridian zum mittleren, beziehungsweise wahren Frühlingspunkt gemessen. Lokale Sternzeiten sind ebenfalls definiert, womit die Relation zum Greenwich Apparent Siderial Time (GAST) und Greenwich Median Siderial Time berechnet wird:
+\begin{equation*}
+    \Lambda = LAST-GAST = LMST - GMST
+\end{equation*}
  
 \subsubsection{Atomzeit}
+Alteranativ zu den auf der Erdrotation basierenden Zeitskalen, werden die Zeiten durch Atomuhren realisiert. Die internationale Atomzeit ATI basiert auf der SI-Sekunde auf dem rotierenden Geoid. Die Frequenzsstabilitäten über Jahre sind bis zu $10^{-13}$. $TT$ ist die dynamische Terrestrische Zeit und wird durch für die Integration von Satelitenbahne verwendet. $TAI$ wurde mittels 250 Atomuhren auf der Erde bestimmt und der Anfangspunkt wurde auf UT1 im Jahre 1958 festgelegt. Da jedoch UT1 und UTC mit der Zeit sich ändern aufgrund der Rotation der Erde.
 
 \section{Geometrie der Erde}
+Bereits früh wurde erkannt, dass die Erde eine Kugel ist. Durch die Annahmen der Griechen hatte man über die Zeit den Erdradius immer besser annähern können. Zudem wurde beobachtet, dass die Erde keine Kugel, sondern eher ein Rotationsellipsoid ist. Einerseits durch die Abplattung anderer Planeten,
+andererseits durch die veränderungen der Schwerkraft mit der geographischen Breite. 
+
+\begin{equation*}
+    \frac{X^2}{a^2}+\frac{Y^2}{a^2} + \frac{Z^2}{b^2} = \frac{W^2}{a^2} + \frac{Z^2}{b^2}= 1
+\end{equation*}
+
+Durch die Vereinfachung von $W = \sqrt{X^2+Y^2}$, also dem kürzesten Abstand zwischen Z-Achse und Punkt P auf dem Rotationsellipsoiden können neue Gleichungen hergeleitet werden:
+\begin{align*}
+    f &= \frac{a-b}{a},~ \textbf{Abplattung}~f \\
+    \varepsilon &= \sqrt{a^2-b^2},~\textbf{Lineare Exzentrizität}~\varepsilon \\
+    e &= \varepsilon/a \Longleftrightarrow b=a \sqrt{1-e^2},~\textbf{Numerische Exzentrizität}~e \\
+    \frac{b}{a}&=1-f = \sqrt{1-e^2}
+\end{align*}
+Die Erde hat ungefähr eine Abplattung von $f=300$, also beträgt der Unterschied zwischen $a$ und $b$ ungefähr $22~km$. Die Lineare Exzentrizität misst den Abstand der Brennpunkte zum Ursprung. Bei der Erde ist dies ungefähr $522~km$. 
+
+\subsection{Geozentrische kartesische und krummlinige Koordinaten}
+\subsubsection{Einleitung und Umrechnungsmethoden}
+In diesem Abschnitt wird die Umrechnungsmethode von kartesischen in krummlinige Koordinaten (Breite, Länge) angeschaut. Beim Rotationsellipsoid können drei verschiedene Arten von Breiten berechnet werden, die Länge $\lambda$ ist gleich bei allen:
+\begin{itemize}
+    \item Geozentrische Breite $\beta$: Hier wird die Ellipsenbahn verwendet, der Abstand ist abhängig von der Breite $\beta$.
+    \item Reduzierte Breite $\beta'$: Hier wird ein Referenzkreis mit Radius $a$ genommen, wobei ein Referenzpunkt P runterprojiziert werden kann auf Punkt Q, von dem die Koordinaten bestimmt werden können.
+    \item Geodätische Breite $\varphi$: Hier wird die Tangentensteigung der Ellipse bestimmt. Mittels Trigonometrie, Ableitung der Ellipsengleichung von $Z$ nach $W$ nutzt man den Steigungswinkel. Es ergibt sich eine neue Grösse $R_N$, den Querkrümmungsradius im Punkt (ein Kreis, welcher an die Ellipse lokal anschmiegt und auf der Z-Achse liegt).
+\end{itemize}
+
+\subsubsection{Topographie}
+
+\section{Geodätische Raumverfahren}
+
+\subsection{Very Long Baseline Interometry}
+Mit grossen Radioteleksopen (bis $D=100~m$) werden bei VLBI extragalaktische Radioquellen, sog. Quasare beobachtet. Diese Objekte sind so weit entfernt, dass sie keine feststellbaren Bewegungen aufweisen.
+
+\subsection{Satelite and Lunar Laser Ranging}
+
+\subsection{Doppler Orbitography by Radiopositioning Integrated on Satelite (DORIS)}
+
+\subsection{Satelitenaltimetrie}
+
+\section{Das Schwerefeld der Erde}
 
 \end{multicols*}
 \end{document}
