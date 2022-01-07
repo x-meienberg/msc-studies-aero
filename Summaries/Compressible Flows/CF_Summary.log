@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  7 JAN 2022 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  7 JAN 2022 18:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1097,6 +1097,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
+
+ []
+
+
+Overfull \hbox (8.01488pt too wide) detected at line 532
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
 [4] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
 Here is how much of TeX's memory you used:
  19839 strings out of 478994
@@ -1107,7 +1132,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  111i,11n,116p,10709b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (4 pages, 182108 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (4 pages, 187200 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

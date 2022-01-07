@@ -520,6 +520,46 @@ Mach lines are no longer straight lines over an extended region, but are treated
 \end{itemize}
 
 \section{Homentropic Flow around slender Wings}
+Instead of using methods of characteristics, now a new methodoligy is used. It uses also linearisations, which make the problems easier to handle and is valid for supersonic and subsonic flows. \\
+
+\textbf{Initial Considerations}: \\
+A function describes the wing profile with a camber line ($y_c(x)$) and a thickness distribution ($h(x)$), both depending on x. The boundary condition is that the flows are tangential to the contour, and that in the far field the stream velocity is free stream velocity $u_\infty$. \\
+
+To simplify the problems, the coordinates are simplified as follows:
+\begin{align*}
+   & \tilde{x} = \frac{x}{L},~ \tilde{y} = \frac{y}{L},~ \sigma = \frac{c_{max}}{L},~\tau = \frac{h_{max}}{L},~\tilde{h}(\tilde{x}) = \frac{1}{h_{max}} h\left( \frac{x}{L} \right)\\
+   & \frac{y_p}{L} = \sigma\tilde{y}_C(\tilde{x}) \pm \frac{\tau}{2} \tilde{h}(\tilde{x}),~\tilde{y}_C(\tilde{x}) = \frac{1}{c_{max}} y_C \left( \frac{x}{L} \right)
+\end{align*}
+
+Solving the equations for $c_p$ is not trivial, as they are non-linear. The parameters, on which the solution depends on are:
+\begin{itemize}
+    \item Thickness ratio $\tau$
+    \item Camber ratio $\sigma$
+    \item Angle of attack $\alpha$
+    \item Free stream Mach number $Ma_\infty$
+    \item Ratio of specific heats $\gamma$
+\end{itemize}
+\textbf{Linearized Theory} \\
+The equations are simplified, assuming slender profiles ($\tau$, $\sigma$, $\alpha$ all $\ll 1$). This implies $h$ and $y_c$ remain small. Also, we assume small angles: $\alpha \approx \sin \alpha$
+\begin{align*}
+    c_p &= \frac{2}{\gamma Ma_\infty^2} \left\{ \left[ 1 - (\gamma-1)Ma_\infty^2 \tilde{u}_x \right]^{\frac{\gamma-1}{\gamma}}-1 \right\} \\
+    & = -2 \tilde{u}_x(\tilde{x},\tilde{y}) = -2 \frac{\partial\phi}{\partial\tilde{x}}
+\end{align*}
+
+The pressure distribution is evaluated along the body surface, which in the linearised framework is $\tilde{y} = 0$ \\
+
+\underline{\textbf{Linearised subsonic flows ($Ma\infty < 1$)}} \\
+With the so-called \textbf{Prandtl Factor}, one can find a simple Laplace equation in the scaled coordinates ($\tilde{x},m\tilde{y}$):
+\begin{align*}
+    m &= \sqrt{1-Ma_\infty^2} \\
+&\frac{\partial^2 \phi}{\partial \tilde{x}^2} + \frac{\partial^2 \phi}{\partial(m \tilde{y})} = 0
+\end{align*}
+Solutions can be found by superposition of fundamental solutions:
+\begin{itemize}
+    \item Source/Sink of magnitude $Q$ in ($\xi,0$): \\ $\phi(\tilde{x},\tilde{y}) = Q \ln \sqrt{(\tilde{x}-\xi)^2 + m^2\tilde{y}^2}$
+    \item Vortex with circulation $\Gamma$ in ($\xi,0$): \\ $\phi(\tilde{x},\tilde{y}) = \Gamma \arctan \left( \frac{m \tilde{y}}{\tilde{x}-\xi} \right)$
+\end{itemize}
+\underline{\textbf{Symmetric profile w/o angle of attack ($\alpha =0$, $\sigma=0$)}} \\
 
 \section{Homentropic Flow around axisymmetric slender Bodies}
 
