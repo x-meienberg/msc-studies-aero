@@ -560,8 +560,69 @@ Solutions can be found by superposition of fundamental solutions:
     \item Vortex with circulation $\Gamma$ in ($\xi,0$): \\ $\phi(\tilde{x},\tilde{y}) = \Gamma \arctan \left( \frac{m \tilde{y}}{\tilde{x}-\xi} \right)$
 \end{itemize}
 \underline{\textbf{Symmetric profile w/o angle of attack ($\alpha =0$, $\sigma=0$)}} \\
+The source $q$ chosen here is distribution per unit length, which can be defined as 
+\begin{align*}
+    \lim_{\tilde{y} \rightarrow \pm 0} \frac{\partial \phi}{\partial \tilde{y}} &= \pm q(\tilde{x}) = \pm \frac{\tau}{2}\frac{d \tilde{h}(\tilde{x})}{d \tilde{x}} = \pm \frac{\tau}{2} \tilde{h}'(\tilde{x}) \\
+    \tilde{u}_x (\tilde{x},\tilde{y}) &= \frac{\tau}{2 m \pi} \int_0^1 \frac{\tilde{h}'(\xi)(\tilde{x}-\xi)}{(\tilde{x}-\xi)^2 + m^2\tilde{y}^2}d\xi \\
+    \tilde{u}_y (\tilde{x},\tilde{y}) &= \frac{\tau}{2 \pi} \int_0^1 \frac{\tilde{h}'(\xi)m \tilde{y}}{(\tilde{x}-\xi)^2 + m^2\tilde{y}^2}d\xi \\
+    c_p(\tilde{x}) &= -2 \tilde{u}_x (\tilde{x},\pm 0) = \\
+    &= -\frac{\tau}{m\pi} \lim_{\varepsilon \rightarrow 0} \left[ \int_0^{\tilde{x}-\varepsilon} \frac{\tilde{h}'(\xi)}{\tilde{x}-\xi} d\xi + \int_{\tilde{x}+\varepsilon}^{1} \frac{\tilde{h}'(\xi)}{\tilde{x}-\xi} d\xi \right] \\
+\end{align*} In the far field, the specific shape of the profile has no influence on the velocity components in $x$ and $y$. See eq. 10.37 and 10.40 for far-field behaviour.\\
 
+\underline{\textbf{Cambered and flat plate in pitched flow (p.102) ($\tau = 0$, $\sigma \neq 0$, $\alpha \neq 0$)}} \\
+A think plate which is cambered and a circulation term $\gamma$ with a circulation per unit length is chosen here:
+\begin{align*}
+    \gamma(\tilde{x}) = \frac{1}{\sqrt{\tilde{x}(1-\tilde{x})}} \left\{ C_1 - \frac{2}{m\pi}\int_0^1 \left[ \theta_P(\xi)-\alpha \right]\frac{\sqrt{\xi(1-\xi)}}{\tilde{x}-\xi} d\xi \right\}
+\end{align*}
+The so-called \textbf{Betz-Integral} describes this distribution. For flat plates with $\Theta_P = 0$, the equations simplify. The \textbf{Kutta Condition} postulates, that $C_1$ is chosen such that $u_x$ remains finite (at the end of the wing or profile).
+\begin{align*}
+    \gamma(\tilde{x}) &= -\frac{2\alpha}{m}\sqrt{\frac{1-\tilde{x}}{\tilde{x}}}~,~C_1 = -\alpha / m \\
+    \tilde{u}_x(\tilde{x}, \pm 0) &= \pm \frac{\alpha}{m}\sqrt{\frac{1-\tilde{x}}{\tilde{x}}}~,c_p(\tilde{x}, \pm 0) = -2\tilde{u}_x(\tilde{x},\pm 0) = \pm \gamma(\tilde{x})
+\end{align*}
+In the far field, the velocity components are however also depending on $\alpha$. See equations (10.53) \\
+
+\underline{\textbf{Thin plate with camber (p.106)}}: Pure camber problem, $c_p$ only depending on $\sigma$ \\
+
+\underline{\textbf{Linearised superonic flows (p.108)}} \\
+A new scaling parameter is introduced. Instead of the Prandtl Factor, one uses the \textbf{Scaling Parameter} $\lambda$. The equation for the wave equation is now hyperbolic. Similar to the linear, one-dimensional wave equation, a general solution can be defined in the form of two invariants.
+\begin{align*}
+    \lambda &= \sqrt{Ma_\infty^2-1} = \frac{1}{\tan(\mu_\infty)},~\frac{\partial^2 \phi}{\partial \tilde{x}^2} - \frac{\partial^2 \phi}{\partial(\lambda \tilde{y})^2} = 0 \\
+    \phi(\tilde{x},\tilde{y}) &= F(\tilde{x}-\lambda y) + G(\tilde{x}+\lambda \tilde{y}) = F(\xi) + G(\eta)
+\end{align*}
+\underline{\textbf{Symmetric profile w/o angle of attack (p.109)}}
+The solutions are deteremined by the profile slope $\tau \tilde{h}'(\tilde{x}) \approx \theta(\tilde{x})$. Along the surface
+\begin{align*}
+    &\frac{|u|}{u_\infty} \approx 1 + \tilde{u}_x(\tilde{x},0) = 1-\frac{\tau \tilde{h}'(\tilde{x})}{2\sqrt{Ma_\infty^2-1}} = 1 - \frac{\theta(\tilde{x})}{\sqrt{Ma_\infty^2-1}}\\
+    &\frac{d}{d\tilde{x}}\left( \frac{|u|}{u_\infty} \right) = - \frac{\tau}{2\lambda} \tilde{h}''(\tilde{x}) \geq 0
+\end{align*}
+The flow is always accelerated after the shock ($|u| < u_\infty$) and reaches $u_\infty$ at the highest point of the profile ($\tilde{h}' = 0$) and is subsequently again accelerated until the trailing mach line at the end tip.
+\begin{align*}
+    \tilde{u}_x = \mp \frac{\tilde{u}_y}{\sqrt{Ma_\infty^2-1}}~\textbf{(Ackeret), } c_p(\tilde{x}) = \frac{\tau}{\sqrt{Ma_\infty^2-1}}\tilde{h}'(\tilde{x})
+\end{align*}
+As the $c_p$ increases (overpressure) and then decreases (underpressure) due to the change in profile height, appearance of \textbf{wave drag} can be explained.\\
+
+\underline{\textbf{Cambered plate with angle of attack (p.111)}} \\
+With a vanishing thickness $\tau = 0$, following equations can be computed:
+\begin{align*}
+    c_p(\tilde{x}) = -2\tilde{u}_x(\tilde{x}, \pm 0) = \mp \frac{2}{\sqrt{Ma_\infty^2-1}}\left[ \alpha - \theta_P(\tilde{x}) \right]
+\end{align*}
+Images show, that only for an inclination angle $\alpha$, lift can be achieved, independent of a camber with angle $\theta$\\
+
+\underline{\textbf{Lift and drag}} \\
+\begin{align*}
+    &C_L = C_{py} \cos \alpha - C_{px} \sin \alpha \approx C_{py} - \alpha C_{px} \approx C_{py} \\
+    &\approx \int_0^1 \left[c_p(\tilde{x},-0)-c_p(\tilde{x},+0)\right] d\tilde{x} = \frac{F_y}{\frac{\rho_\infty}{2} u_\infty^2 Lb}\\
+    &C_D = C_{py} \sin \alpha + C_{px} \cos \alpha \approx \alpha C_{py} + C_{px} \approx C_{px} \\
+    &\approx \int_0^1 \left[  c_p(\tilde{x},+0)\left( \sigma \tilde{y}'_C + \frac{\tau}{2} \tilde{h}' \right) - c_p(\tilde{x},-0)\left( \sigma\tilde{y}'-\frac{\tau}{2}\tilde{h}' \right)\right] d\tilde{x}
+\end{align*}
+For the problems, following simplifications can be made:
+\begin{itemize}
+    \item Symmetric profile w/o angle of attack: $C_L = 0$, $C_D = \tau\int_0^1 c_p(\tilde{x})\tilde{h}'(\tilde{x}) d\tilde{x}$ 
+    \item Flat plate with angle of attack: $C_L = 2 \int c_p(\tilde{x},-0)d\tilde{x}$. For subsonic, there is no drag (D'Alembert). For supersonic, there is a wave drag.
+    \item Camber problem without pitch and thickness: $C_L$ same as for flat plate with angle of attack, but no Lift total.
+\end{itemize}
 \section{Homentropic Flow around axisymmetric slender Bodies}
+Axisymmetric bodies with radial components are studied here with axial, radia, and azimuthal components.
 
 \section{Similarity Relations}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  7 JAN 2022 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  8 JAN 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,24 +1118,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--550
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-[4] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
+
+Overfull \hbox (21.09877pt too wide) in paragraph at lines 572--574
+[]$[]$ 
+ []
+
+
+Overfull \hbox (11.39308pt too wide) detected at line 576
+[]
+ []
+
+
+Overfull \hbox (10.28093pt too wide) detected at line 581
+[]
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 581--583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+
+Overfull \hbox (4.5075pt too wide) detected at line 597
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
+
+ []
+
+
+Overfull \hbox (8.08392pt too wide) detected at line 617
+[]
+ []
+
+[5] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.aux) ) 
 Here is how much of TeX's memory you used:
  19839 strings out of 478994
  417098 string characters out of 5858183
- 913201 words of memory out of 5000000
+ 913384 words of memory out of 5000000
  36947 multiletter control sequences out of 15000+600000
  422197 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,11n,116p,10709b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (4 pages, 187200 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Compressible Flows/CF_Summary.pdf" (5 pages, 196456 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
