@@ -608,7 +608,7 @@ With a vanishing thickness $\tau = 0$, following equations can be computed:
 \end{align*}
 Images show, that only for an inclination angle $\alpha$, lift can be achieved, independent of a camber with angle $\theta$\\
 
-\underline{\textbf{Lift and drag}} \\
+\underline{\textbf{Lift and drag (p.114)}} \\
 \begin{align*}
     &C_L = C_{py} \cos \alpha - C_{px} \sin \alpha \approx C_{py} - \alpha C_{px} \approx C_{py} \\
     &\approx \int_0^1 \left[c_p(\tilde{x},-0)-c_p(\tilde{x},+0)\right] d\tilde{x} = \frac{F_y}{\frac{\rho_\infty}{2} u_\infty^2 Lb}\\
@@ -622,8 +622,17 @@ For the problems, following simplifications can be made:
     \item Camber problem without pitch and thickness: $C_L$ same as for flat plate with angle of attack, but no Lift total.
 \end{itemize}
 \section{Homentropic Flow around axisymmetric slender Bodies}
-Axisymmetric bodies with radial components are studied here with axial, radia, and azimuthal components.
-
+Axisymmetric bodies with radial components are studied here with axial, radial, and azimuthal (in axisymmetric problems, the azimuthal component is not effecting the flow) components. To simplify the problems, the coordinates are defines as follows:
+\begin{align*}
+    &\Phi(x,r) = u_\infty L\left[ \tilde{x} + \phi(\tilde{x},\tilde{r}) \right]~~,~~ \tilde{x} = \frac{x}{L}~,~ \tilde{r} = \frac{r}{L} \\
+    &u_x = \frac{\partial \Phi}{\partial x}~~,~~u_r = \frac{\partial \Phi }{\partial r}~~,~~\tilde{R}(\tilde{x}) = \frac{R(x)}{L}~~,~~A(x) = \pi R(x)^2 \\
+    &c_p = \frac{p-p_\infty}{\frac{\rho_\infty}{2}u_\infty^2} = -2\tilde{u}_x - \tilde{u}_r^2
+\end{align*}
+\underline{\textbf{Linearised axisymmetric subsonic flow (p.123)}}\\
+\begin{align*}
+    &m^2 = 1 - Ma_\infty^2 \\
+    &\phi(\tilde{x},\tilde{r}) = -\frac{1}{4\pi}\int_{0}^1 \frac{\tilde{A}'(\xi)}{\sqrt{(\tilde{x}-\xi)^2 + m^2 \tilde{r}^2}}d\xi
+\end{align*}
 \section{Similarity Relations}
 
 \section{Steady flows with friction and heat transport}
