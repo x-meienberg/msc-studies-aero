@@ -631,11 +631,104 @@ Axisymmetric bodies with radial components are studied here with axial, radial, 
 \underline{\textbf{Linearised axisymmetric subsonic flow (p.123)}}\\
 \begin{align*}
     &m^2 = 1 - Ma_\infty^2 \\
-    &\phi(\tilde{x},\tilde{r}) = -\frac{1}{4\pi}\int_{0}^1 \frac{\tilde{A}'(\xi)}{\sqrt{(\tilde{x}-\xi)^2 + m^2 \tilde{r}^2}}d\xi
+    &\phi(\tilde{x},\tilde{r}) = -\frac{1}{4\pi}\int_{0}^1 \frac{\tilde{A}'(\xi)}{\sqrt{(\tilde{x}-\xi)^2 + m^2 \tilde{r}^2}}d\xi \\
+    &\tilde{A} = \pi \tilde{R}^2~~,~~\tilde{A}'' = 2 \pi \left[\tilde{R}'^2 + \tilde{R}\tilde{R}''\right] \\
+    &\tilde{u}_x(\tilde{x},\tilde{R}) = \left[ \tilde{R}'^2 + \tilde{R}\tilde{R}'' \right] \ln \left( \frac{m\tilde{R}}{2\sqrt{\tilde{x}(1-\tilde{x})}}\right)~\textbf{Along surface $R$}\\ 
+    & -\frac{1}{4\pi}\int \frac{\tilde{A}''(\xi)-\tilde{A}''(\xi)}{|\xi-\tilde{x}|} d\xi \\
+    &\tilde{u}_r(\tilde{x},\tilde{R}) = \tilde{R}'(\tilde{x}) + \mathcal{O}(\tau^3)+\frac{m^2\tilde{R}}{4\pi}\int \frac{\tilde{A}'(\xi)-\tilde{A}'(x)}{\sqrt{(\tilde{x}-\xi)^2 + m^2\tilde{R}^2}}d\xi \\
+    &c_p \approx -2\left[ \tilde{R}'^2 + \tilde{R}\tilde{R}'' \right] \ln \frac{\sqrt{1-Ma_\infty^2 }\tilde{R}}{2\sqrt{\tilde{x}(1-\tilde{x})}} \\
+    &+\frac{1}{2\pi} \int_0^1 \frac{\tilde{A}''(\xi)-\tilde{A}''(x)}{|\xi-x|} d\xi - \tilde{R}'^2(\tilde{x}) \\
+    &\tilde{u}_x(\tilde{x},\tilde{r}) = -\frac{1}{4\pi}\frac{2\tilde{x}^2-m^2\tilde{r}^2}{\sqrt{\tilde{x}^2+m^2\tilde{r}^2}}\int_0^1\tilde{A}(\xi)d\xi~~\textbf{far field} \\
+    &\tilde{u}_x(0,\tilde{r})=\frac{1}{4\pi m^3\tilde{r}^3}\int_0^1 \tilde{A}(\xi)d\xi \propto \frac{1}{\sqrt[3]{1-Ma_\infty^2}\tilde{r}^3}
 \end{align*}
+The disturbance strength is proportional to the volume of the body in the flow, compared to the planar case. For the flow, one assumes a continous heat/sink flow from the front to the end tip \\
+
+\underline{\textbf{Linearised axisymmetric supersonic flow (p.126)}} \\
+Compared to before, one has hyperbolic differential equations with characterisitics $\tilde{x}\pm \lambda \tilde{r} = const.$
+\begin{align*}
+    &\lambda^2 = Ma_\infty^2-1 > 0 \\
+    &\phi(\tilde{x},\tilde{r}) = \int_{arccosh(\tilde{x}/\lambda\tilde{r})}^0 q (\tilde{x}-\lambda\tilde{r}\cosh z)dz \\
+    &\tilde{u}_x(\tilde{x},\tilde{R}) = \left[ \tilde{R}'^2 + \tilde{R}\tilde{R}'' \right] \ln\left[ \frac{\lambda \tilde{R}(\tilde{x})}{2\tilde{x}}\right]+\frac{1}{2\pi}\int_0^{\tilde{x}} \frac{\tilde{A}''(\tilde{x})-\tilde{A}''(\xi)}{\tilde{x}-\xi} d\xi \\
+    &\tilde{u}_r(\tilde{x},\tilde{R}) = \frac{1}{2\pi}\int_0^{\tilde{x}-\lambda\tilde{R}} \frac{\tilde{A}''(\xi)(\tilde{x}-\xi)}{\sqrt{(\tilde{x}-\xi)^2-\lambda^2\tilde{R}^2}} d\xi \approx \tilde{R}'(\tilde{x}) \\
+    &c_p(\tilde{x}) =\frac{\tilde{A}''(\tilde{x})}{\pi}\ln \frac{\sqrt{Ma_\infty^2-1}\tilde{R}}{2\tilde{x}} - \frac{1}{\pi}\int_0^{\tilde{x}} \frac{\tilde{A}''(\tilde{x})-\tilde{A}''(\xi)}{\tilde{x}-\xi} d\xi - \tilde{R}'^2 \\
+    &c_D = \frac{1}{\pi R_{max}^2} \int_0^1 c_p(\tilde{x})\tilde{A}'(\tilde{x})d\tilde{x}
+\end{align*}
+
 \section{Similarity Relations}
+Check from p. 129-140.
 
 \section{Steady flows with friction and heat transport}
+This section includes now friction into the calculations.\\
+
+\underline{\textbf{Two-dimensional Flows}} \\
+In two dimensional flows, the friction or inviscous flow effects can be seen in the momentum conservation and energy conservation laws, whereas the full stress tensor $\tau_{ij}$ is kept, leading to the Navier-Stokes equations. The viscous dissipation $\Phi$ is then also defined, together with the heat conduction term. \\
+
+\underline{\textbf{Parallel Flows (p.142)}}\\
+In parallel flows, one assumes only a velocity in x-direction ($u(x,y)$) \\
+
+\underline{\textbf{Flow through normal shock}}\\
+A flow before (${u_1,T_1}$)and after (${u_2,T_2}$) the shock is considered. Compared to the shock without thickness, there is now a shock thickness $L$, which is finite. The flow properties are now changing smoothly from the upstream to the downstream values while maintaining local equilibrium. Before and after the shock, the jumb conditions apply. In the shock region with thickness $L$. This demonstrates that the entropy increase is linked to heat conduction and viscous dissipation. \\
+
+\underline{\textbf{Channel and pipe flow with constant cross section}}\\
+The enthalpy equation is integrated. The temperature related term is reduced to a heat flux $\dot{Q}_{12}$. The integral basically becomes an averaging equation for different heat fluxes and friction forces. The forces with regards to the friction forces can also be reduced through the ``Average'' fo the momentum equation. \\
+
+\underline{\textbf{Pipe flow with friction and heat input}} \\
+If heat fluxes through the wall and wall friction are condsidered, the differentialforms of the momentum and enthalpy equations are studied. Furthermore, a fricion coefficient $\lambda = \lambda(Re, \varepsilon/D)$ is introduced.This friction coefficient is only depending on the relative wall roughness $\varepsilon/D$ for turbulent flows with large Reynolds numbers. This yields a general formulation, which can be studied if certain parameters change or have specific values:
+\begin{equation*}
+    (1-Ma^2)\frac{du}{u} = \frac{\lambda}{2}\gamma Ma^2 \frac{dx}{D} + \frac{\gamma-1}{a^2} dq
+\end{equation*}
+\begin{itemize}
+    \item Generally, in subsonic flow ($Ma < 1$), the velocity ($du > 0$) increases because of wall friction and in case of heat input ($dq > 0$) 
+    \item In supersonic flow, the behavious is opposite, and $du < 0$ given a heat input
+    \item If $du = 0$ is to be maintained, then $dq < 0$. It follows with ideal gas equations that the entropy will decrease $ds < 0$
+    \item If the entropy shall remain constant ($ds = 0$), then the density and velocity do not remain constant but change in to isentropic flow: $(1-Ma^2)\frac{du}{u}=\lambda \frac{Ma^2}{2}\frac{dx}{D}$ 
+    \item For an adiabatic wall $dq=0$, the entropy always increases, then the equation becomes: $\left( \frac{1}{Ma^2}-1 \right)\frac{du}{u} = \frac{\lambda}{2}\gamma \frac{dx}{D}$. This means, that for $Ma <1$, the velocity increases, and for $Ma > 1$, the velocity decreases. 
+    \item The differential equation above can be solved by utilising the critical Mach number, where the flow velocity is exactly $Ma^*$. This yields an implicit equation which can give an indication at which propagation distance $x$, respectively $x_{max}$ the flow becomes sonic. In order to receive an explicit solution, a condition where $x=x_1$ and its associated $Ma_1^*$ must be known.
+    \item Based on this, the temperature distribution along $x$ can be computed: $\frac{T(x)}{T^*} = \frac{T_1}{T^*} + \frac{\gamma-1}{2}\left[Ma_1^{*2}-Ma^{*2}\right]$. This shows, that temperatures decrease with $Ma_1^* < 1$, and increase with $Ma_1^* > 1$
+\end{itemize}
+
+\underline{\textbf{Planar Couette Flow}} \\
+In a pipe or planar channel with constant cross-section, there is always a change in flow properties with propagation distance $x$ due to friction. Choosing the appropriate heat removel can maintain velocity and density, but pressure and temperature would have to decrease in the flow direction.\\
+
+A fully developed flow can be reached, though, if energy can be added to the flow in form of mechanical work. Then the flow and thermodynamic properties remain constant along $x$. An example for this is a moving upper wall above a lower, fixed wall. The solution for the temperature distribution as function of local velocity is ($Pr = \mu c_p / k$):
+
+\begin{equation*}
+    \frac{T(u)}{T_\infty} = \frac{T_w}{T_\infty}+ \left[1-\frac{T_W}{T_\infty}\right]\frac{u}{U_\infty} + Pr \frac{\gamma-1}{2}Ma^2_\infty \frac{u}{U_\infty}\left[1-\frac{u}{U_\infty}\right]
+\end{equation*}
+
+In order to comput the velocity distribution, there are two methods: One assumes that the viscosity is depending on temperature, the other one assumes constant viscosity:
+
+\begin{itemize}
+    \item $\mu = \mu(T) = \mu_\infty \frac{T(u)}{T_\infty}$, $\rho \propto \frac{1}{T}$:
+    \begin{itemize}
+        \item $\frac{\tau_w h}{U_\infty \mu_\infty} = \frac{1}{2}\left[ 1 + \frac{T_w}{T_\infty} \right] + \frac{1}{6}Pr \frac{\gamma-1}{2}Ma_\infty^2$
+        \item $c_f = \frac{\tau_w}{\frac{1}{2}\rho_\infty U_\infty^2} = \frac{1}{Re}\left[  1 + \frac{T_w}{T_\infty} + \frac{1}{3}Pr \frac{\gamma-1}{2}Ma_\infty^2 \right]$ 
+    \end{itemize}
+    \item $\mu = \mu_\infty$:
+    \begin{itemize}
+        \item $\frac{u}{U_\infty} = \frac{y}{h}~~,~~ \frac{\tau_w h}{\mu_\infty U_\infty} = 1~~,~~ c_f = \frac{2}{Re}$
+    \end{itemize}
+\end{itemize}
+The heat flows are computed as follows:
+\begin{align*}
+    &q_w (y=0) = -\frac{c_p T_\infty}{Pr U_\infty}\left[ 1 - \frac{T_w}{T_\infty} + Pr \frac{\gamma-1}{2} Ma_\infty^2 \right] \cdot \tau_w \\
+    &q_\infty = k \frac{dT}{dy}\vert_{y=h} = \frac{c_p T_\infty}{Pr U_\infty}\left[ 1 - \frac{T_w}{T_\infty}-Pr \frac{\gamma-1}{2}Ma_\infty^2 \right]\cdot \tau_w \\
+    &q = q_w + q_\infty = - \frac{c_p T_\infty}{Pr U_\infty}\left[ Pr (\gamma-1) Ma_\infty^2  \right]\cdot \tau_w = - U_\infty \tau_w
+\end{align*}
+The signs follow from the positive y-direction to from bottom to top. The last equation shows, that the heat flux must exaclty match the the amount of mechanical power introduced by wall motion ($U_\infty \tau_w$). If both walls were adiabatic, a fully developed flow state could not be maintained. \\
+
+If the lower, fixed wall were adiabatic ($q_w = 0, q = q_\infty$), following relations would hold true:
+\begin{align*}
+    &\frac{T_w}{T_\infty}\vert_{q_w = 0} = \frac{T_r}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2, r = Pr = \frac{T_r-T\infty}{T_0-T_\infty} = Pr \\
+    &\frac{T}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2\left[ 1- \left(  \frac{u}{U_\infty}\right)^2 \right]
+\end{align*}
+\underline{\textbf{Flow in laminar boundary layers}} \\
+The momentum layer thickness scales with $\delta / L \propto 1 / \sqrt{Re}$ and the thermal layer scales with $\delta_T / L\propto 1/\sqrt{Re Pr}$, whereas $Pr$ is close to 1. It is assumed that the pressure along the the layer in $y$ is constant, so $p(x)$. The boundary conditions are the no slip condition, adiabatic and the outer edge of the boundary layer have a specific velocity and temperature $u_{\delta}$, $T_\delta$.
+\begin{equation*}
+    \frac{T}{T_\delta} = 1 + \frac{\gamma-1}{2}Ma_\delta^2\left[ 1- \left( \frac{u}{u_\delta}\right)^2 \right]
+\end{equation*} 
+The recovery temperature is given when $u=0$ at the wall, which is identical to the stagnant temperature of the flow $T_0$.
+
 
 \end{multicols*}
 \end{document}
