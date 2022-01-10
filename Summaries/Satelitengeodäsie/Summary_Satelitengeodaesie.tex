@@ -341,14 +341,40 @@ In diesem Abschnitt wird die Umrechnungsmethode von kartesischen in krummlinige 
 \section{Geodätische Raumverfahren}
 
 \subsection{Very Long Baseline Interometry}
-Mit grossen Radioteleksopen (bis $D=100~m$) werden bei VLBI extragalaktische Radioquellen, sog. Quasare beobachtet. Diese Objekte sind so weit entfernt, dass sie keine feststellbaren Bewegungen aufweisen.
+Mit grossen Radioteleksopen (bis $D=100~m$) werden bei VLBI extragalaktische Radioquellen, sog. Quasare beobachtet. Diese Objekte sind so weit entfernt, dass sie keine feststellbaren Bewegungen aufweisen. Sie sind daher ideal geeignet, um ein raumfestes Referenzsystem zu realisieren. Das Netz von 2 bis 6 VLBI Stationen registrieren innerhalb von Sessionen à 24 Stunden. Von der gleichen Radioquelle werden zwei Frequenzen registriert. Auf extrem genauen Zeitmarken auf Festplatten werden diese registriert und im Bereich von $10^{-14}$. Durch Kreuzkorrelation werden die Signale zur Interferenz gebracht und die Unterschiede in der Ankunftszeit der Signale durch den Time Delay und die zeitlichen Differenzen der Laufzeitunterschiede durch Maximierung der Korrelation ermittelt. 
+\begin{equation*}
+    \Delta \tau = -\frac{1}{c}\mathbf{b}\cdot \mathbf{e}_s
+\end{equation*}
+Durch Messungen vieler Radioquellen ergeben sich die Basisvektoren $\mathbf{b}$ zwischen Stationen und die Richtungen zu den Quellen $\mathbf{e_s}$ bestimmen und die troposphärische Refraktion, sowie instrumentelle Fehler mitbestimmen und reduzieren. Die Genauigkeit liegt hier im Millimeterbereich für Koordinaten bzw. Millimeter/Jahr in der Geschwindigkeit. Die ionosphärische Refraktion wird mittels zwei Frequenzen eliminiert. (2.3 und 8.4 GHz). Die Genauigkeit der Erdrotationsparameter beträgt etwa 0.2 Millibogensekunden bei Polschwankung und 10 $\mu s$ in der Erdrehung (UT1). VLBI ist die einzige Methode, um die Verbindung zum raumfesten Referenzsystem zu realisieren und die Positionen der Radioquellen relativ zueinander zu bestimmen.
 
 \subsection{Satelite and Lunar Laser Ranging}
+Laser Ranging zu künstlichen Erdsateliten oder Mond ist vom Konzept her sehr einfach. Sehr kurze Laserpulse werden zu einem Sateliten geschickt, der mit Retroreflektoren augestattes ist und zur Station zurückschickt. Aus der Messung der Lichtlaufzeit hin und zurück ergibt sich die Distanz zw. Station und Satelit. Neben der Distanz muss in der Beobachtungsleichung nebst der geometrischen Distanz auch Korrekturterme mitberücksichtigt werden.
+\begin{equation*}
+    \Delta t_E^S = \frac{2}{c}\left( \underbrace{\rho_E^s}_{Distanz} + \underbrace{\delta \rho_{atm}}_{Refraktion} + \underbrace{\delta_{rel}}_{Relativitaet} \right) + \underbrace{\frac{1}{c} \delta \rho_{sys}}_{Signalverz.} + \underbrace{\epsilon_E^S}_{Messfehler}
+\end{equation*}
+Eigentlich müsste die rein geometrische Laufzeit des Pulses aus zwei Einzellaufzeiten berechnet werden (hin und zurück). Für einen Sateliten in der Höhe von 20'000 km (GPS, oder GLONASS) beträgt die Lichtlaufzeit rund 0.13 Sekunden. Der quadratische Term aus einer Reihenentwicklung liegt im Fehler bei etwa $10^{-4}m$ Bereich. Für Messungen zum Mond muss die Gleichung erweitert werden. Der Sender und Empfänger müssen im gleichen Koordinatensystem vorliegen (Transformation von Erdfest zu Raumfestes System). \\
+
+Zur Zeit gibt es etwa 40 Sateliten, welche mit SLR verfolgt werden können. Die wichtigsten sind LAGEOS I und II. Diese sind etwa 60 cm gross und etwa bei 6000 km Höhe. Die Distanzmessungen sind etwa 1cm genau. Die Parameter von Satelitenbahnen, Koeffizienten des Erdschwerefeldes, Staionsgeschwindigkeiten und Erdrotationsparameter werden mittels SLR bestimmt. SLR hilft am genauesten, um den Schwerpunkt der Erde zu bestimmen. \\
+
+LLR ist 2cm genau und benötigt starke Laser, um diese wirklich zu messen. Erdrotationsparameter können mittels LLR bestimmt werden (UT1 z.B.), sowie Parameter für die Mondbahn und für Tests in der Relativitätstheorie.
 
 \subsection{Doppler Orbitography by Radiopositioning Integrated on Satelite (DORIS)}
+Bei DORIS handelt es sich um ein Zweifrequenz-Dopplersystem (2.03 GHz und 0.4 GHz). Das vor allem für die Bestimmung von Satelitenbahnen eingesetzt wird. Bei DORIS ist nebst Sendesystem auch ein Empfänger integriert, dessen Bahn man mitverfolgen Bahn man mitverfolgen kann. DORIS kann also einem Sateliten zusätzlich mitgegeben werden. \\
+
+Die Doppler-Beobachtungsdaten werden zentral im Sateliten gesammelt und an das Betriebszentrum übermittelt. DORIS kann auch an entlegene Gebiete aufgestellt werden wo die Übermittlung von Daten z.B. für GPS, ein Problem darstellen würde. \\
+
+Die 50 Stationen des DORIS Systems sind homogen über die Erde verteilt und bilden ein gutes Referenzsystem für die Untersuchung von Plattenbewegungen. Die Genauigkeit liegt hier für Stationskoordinaten 2cm, und 1-2 Millibogensekunden für die Stellung der Erdachse im erdfesten System. Zur Zeit sind 6 Sateliten mit DORIS ausgestattet.
 
 \subsection{Satelitenaltimetrie}
-
+Das Prinzip basiert auf der Laufzeitmessung eines Mikrowellenpulses im Radarfrequenzbereich (14 GHz) vom Sateliten zur Erdoberfläche und zurück. Die Genauigkeit liegt hier bei einigen Zentimetern bis zu einem Meter. 
+\begin{equation*}
+    \rho = c \frac{\Delta t}{2}
+\end{equation*}
+Die Pulslänge beträgt wenige Nanosekunden. Besonders gute Messungen liefert dieses Verfahren wegen den guten Reflexionseigenschaften über Wasseroberflächen. Der Durchmesser des Strahles am Boden wird folgendermassen berechnet:
+\begin{equation*}
+    D = 2 \sqrt{2 \rho c \tau + (c\tau)^2}
+\end{equation*}
+Hier ist $c\tau$ die Pulslänge. Die Fläche die hier abgedeckt wird sind oft einige Kilometer. Somit lässt sich die Distanz zwischen Satelit und Meeresoberläche bestimmen. Nimmt man an, man kenne die Höhe der Meeresoberfläche, wie die die lokale Höhe des Geoids sowie die Abweichung $H$ der Meeresoberfläche vom Geoid, lassen sich für verschiedene Disziplinen die Ozeangebiete in kurzer Zeit flächenhaft vermessen.
 \section{Das Schwerefeld der Erde}
 
 \end{multicols*}
