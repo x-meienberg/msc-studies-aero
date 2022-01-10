@@ -76,7 +76,6 @@ width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
 Compressible flows can still be described through the continuum model and conservation laws. The assumption is also that the thermodynamic state of the fluid is in a local equilibrium. \\
 
 \textbf{Assumptions}
-
 \begin{itemize}
     \item Length scale of flows \emph{large} compared to molecular scales (mean free path $\lambda$)
     \item Length scale of flows \emph{small} compared to the geometric scales (length $L$)
@@ -85,7 +84,6 @@ Compressible flows can still be described through the continuum model and conser
 
 
 \textbf{Description of the ``Continuum'' Flow State}
-
 \begin{itemize}
     \item Three components of flow velocity $\underline{u}(\underline{x},t)$
     \item The fluid density $\rho(\underline{x},t)$
@@ -98,7 +96,6 @@ The required equations are the conservation laws for mass, momentum and energy t
 \section{Thermodynamic Relations}
 
 \textbf{State Variables}
-
 \begin{itemize}
     \item Density: $\rho = \rho(p,T)$
     \item Pressure: $p = p(\rho,T)$
@@ -107,18 +104,14 @@ The required equations are the conservation laws for mass, momentum and energy t
     \item Enthalpy: $h = h(p,T)$
     \item Entropy: $s = s(\rho, T)$
 \end{itemize}
-
 \textbf{Van der Waals Gas}
 \begin{equation*}
     (p+a\rho^2)\left(\frac{1}{\rho}-b\right) = RT
 \end{equation*}
-
-
 \textbf{Incompressible Fluid}
 \begin{equation*}
     \rho = const. \neq \rho(p,T)
 \end{equation*}
-
 \section{Conservation Laws for Continuum Flows}
 \underline{\textbf{Mass Conservation}} \\
 \begin{equation*}
@@ -608,10 +601,10 @@ With a vanishing thickness $\tau = 0$, following equations can be computed:
 \end{align*}
 Images show, that only for an inclination angle $\alpha$, lift can be achieved, independent of a camber with angle $\theta$\\
 
-\underline{\textbf{Lift and drag (p.114)}} \\
+\underline{\textbf{Lift and drag (p.114)}}
 \begin{align*}
     &C_L = C_{py} \cos \alpha - C_{px} \sin \alpha \approx C_{py} - \alpha C_{px} \approx C_{py} \\
-    &\approx \int_0^1 \left[c_p(\tilde{x},-0)-c_p(\tilde{x},+0)\right] d\tilde{x} = \frac{F_y}{\frac{\rho_\infty}{2} u_\infty^2 Lb}\\
+    &\approx \int_0^1 \left[c_p(\tilde{x},-0)-c_p(\tilde{x},+0)\right] d\tilde{x} = \frac{F_y}{\frac{\rho_\infty}{2} u_\infty^2 Lb} \\
     &C_D = C_{py} \sin \alpha + C_{px} \cos \alpha \approx \alpha C_{py} + C_{px} \approx C_{px} \\
     &\approx \int_0^1 \left[  c_p(\tilde{x},+0)\left( \sigma \tilde{y}'_C + \frac{\tau}{2} \tilde{h}' \right) - c_p(\tilde{x},-0)\left( \sigma\tilde{y}'-\frac{\tau}{2}\tilde{h}' \right)\right] d\tilde{x}
 \end{align*}
@@ -653,26 +646,21 @@ Compared to before, one has hyperbolic differential equations with characterisit
     &c_p(\tilde{x}) =\frac{\tilde{A}''(\tilde{x})}{\pi}\ln \frac{\sqrt{Ma_\infty^2-1}\tilde{R}}{2\tilde{x}} - \frac{1}{\pi}\int_0^{\tilde{x}} \frac{\tilde{A}''(\tilde{x})-\tilde{A}''(\xi)}{\tilde{x}-\xi} d\xi - \tilde{R}'^2 \\
     &c_D = \frac{1}{\pi R_{max}^2} \int_0^1 c_p(\tilde{x})\tilde{A}'(\tilde{x})d\tilde{x}
 \end{align*}
-
-\section{Similarity Relations}
-Check from p. 129-140.
-
+\setcounter{section}{12}
 \section{Steady flows with friction and heat transport}
-This section includes now friction into the calculations.\\
-
-\underline{\textbf{Two-dimensional Flows}} \\
+\underline{\textbf{Two-dimensional Flows (p.141)}} \\
 In two dimensional flows, the friction or inviscous flow effects can be seen in the momentum conservation and energy conservation laws, whereas the full stress tensor $\tau_{ij}$ is kept, leading to the Navier-Stokes equations. The viscous dissipation $\Phi$ is then also defined, together with the heat conduction term. \\
 
 \underline{\textbf{Parallel Flows (p.142)}}\\
 In parallel flows, one assumes only a velocity in x-direction ($u(x,y)$) \\
 
-\underline{\textbf{Flow through normal shock}}\\
+\underline{\textbf{Flow through normal shock (p.142)}}\\
 A flow before (${u_1,T_1}$)and after (${u_2,T_2}$) the shock is considered. Compared to the shock without thickness, there is now a shock thickness $L$, which is finite. The flow properties are now changing smoothly from the upstream to the downstream values while maintaining local equilibrium. Before and after the shock, the jumb conditions apply. In the shock region with thickness $L$. This demonstrates that the entropy increase is linked to heat conduction and viscous dissipation. \\
 
-\underline{\textbf{Channel and pipe flow with constant cross section}}\\
+\underline{\textbf{Channel and pipe flow with constant cross section (p.144)}}\\
 The enthalpy equation is integrated. The temperature related term is reduced to a heat flux $\dot{Q}_{12}$. The integral basically becomes an averaging equation for different heat fluxes and friction forces. The forces with regards to the friction forces can also be reduced through the ``Average'' fo the momentum equation. \\
 
-\underline{\textbf{Pipe flow with friction and heat input}} \\
+\underline{\textbf{Pipe flow with friction and heat input (p.145)}} \\
 If heat fluxes through the wall and wall friction are condsidered, the differentialforms of the momentum and enthalpy equations are studied. Furthermore, a fricion coefficient $\lambda = \lambda(Re, \varepsilon/D)$ is introduced.This friction coefficient is only depending on the relative wall roughness $\varepsilon/D$ for turbulent flows with large Reynolds numbers. This yields a general formulation, which can be studied if certain parameters change or have specific values:
 \begin{equation*}
     (1-Ma^2)\frac{du}{u} = \frac{\lambda}{2}\gamma Ma^2 \frac{dx}{D} + \frac{\gamma-1}{a^2} dq
@@ -687,9 +675,8 @@ If heat fluxes through the wall and wall friction are condsidered, the different
     \item Based on this, the temperature distribution along $x$ can be computed: $\frac{T(x)}{T^*} = \frac{T_1}{T^*} + \frac{\gamma-1}{2}\left[Ma_1^{*2}-Ma^{*2}\right]$. This shows, that temperatures decrease with $Ma_1^* < 1$, and increase with $Ma_1^* > 1$
 \end{itemize}
 
-\underline{\textbf{Planar Couette Flow}} \\
+\underline{\textbf{Planar Couette Flow (p.149)}} \\
 In a pipe or planar channel with constant cross-section, there is always a change in flow properties with propagation distance $x$ due to friction. Choosing the appropriate heat removel can maintain velocity and density, but pressure and temperature would have to decrease in the flow direction.\\
-
 A fully developed flow can be reached, though, if energy can be added to the flow in form of mechanical work. Then the flow and thermodynamic properties remain constant along $x$. An example for this is a moving upper wall above a lower, fixed wall. The solution for the temperature distribution as function of local velocity is ($Pr = \mu c_p / k$):
 
 \begin{equation*}
@@ -722,12 +709,32 @@ If the lower, fixed wall were adiabatic ($q_w = 0, q = q_\infty$), following rel
     &\frac{T_w}{T_\infty}\vert_{q_w = 0} = \frac{T_r}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2, r = Pr = \frac{T_r-T\infty}{T_0-T_\infty} = Pr \\
     &\frac{T}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2\left[ 1- \left(  \frac{u}{U_\infty}\right)^2 \right]
 \end{align*}
-\underline{\textbf{Flow in laminar boundary layers}} \\
+\underline{\textbf{Flow in laminar boundary layers (p.154)}} \\
 The momentum layer thickness scales with $\delta / L \propto 1 / \sqrt{Re}$ and the thermal layer scales with $\delta_T / L\propto 1/\sqrt{Re Pr}$, whereas $Pr$ is close to 1. It is assumed that the pressure along the the layer in $y$ is constant, so $p(x)$. The boundary conditions are the no slip condition, adiabatic and the outer edge of the boundary layer have a specific velocity and temperature $u_{\delta}$, $T_\delta$.
 \begin{equation*}
     \frac{T}{T_\delta} = 1 + \frac{\gamma-1}{2}Ma_\delta^2\left[ 1- \left( \frac{u}{u_\delta}\right)^2 \right]
 \end{equation*} 
-The recovery temperature is given when $u=0$ at the wall, which is identical to the stagnant temperature of the flow $T_0$.
+The recovery temperature is given when $u=0$ at the wall, which is identical to the stagnant temperature of the flow $T_0$. \\
+
+\underline{\textbf{Wall conditions (p.156)}}\\
+Along the wall, the differential equations give insights regarding the pressure and velocity profile. For an adiabatic wall, following realtions hold true:
+\begin{align*}
+    &\mu \frac{\partial^2 u}{\partial y^2}\vert_{y=0} = \frac{dp}{dx} \\
+    & \mu \frac{\partial^2 u}{\partial y^2}\vert_{y=0} = - \frac{d \mu}{dT} \frac{\partial T}{\partial y} \frac{\partial u}{\partial y}\vert_{y=0} \\
+    & \tau_w = 0 = \mu \partial u/\partial y |_{y=0} \text{  (State of flow separation)}
+\end{align*}
+The above equations show that the curvature of the velocity profile is determined by the outer flow pressure gradient. The flow separation is determined by the condition given. For flat plates, $dp/dx = 0$, hence the profile curvature is zero at an adiabatic wall. The general equation 2 shows temperature dependent viscosity. \\
+
+In general, one can assume $d\mu / dT > 0$ for gases, and $\partial u / \partial y |_{y=0} > 0$ applies. This means, that if heat is removed (temperature gradient positive), that the curvature of the velocity profile is negative, and the flow accelerates ($dp/dx < 0$). For heating, the flow is decelerated. One can show that the temperature profile has always negative curvature ($\partial^2 T / \partial y^2 < 0$). For $Pr = 1$, the total enthalpy remains constant, $h_0 = h_{0\delta}$.
+
+\underline{\textbf{Flat plate boundary layer (p.159)}}\\
+Here, one differentiates between for $Pr = 1$ and $Pr \neq 1$:
+\begin{itemize}
+    \item $Pr = 1$: $c_f = \frac{\tau_w}{\frac{1}{2}\rho_\infty U_\infty^2}~~,~~c_q = \frac{q_w}{\rho_\infty U_\infty^3} = \frac{T_w-T_r}{T_\infty}\frac{c_f}{2(\gamma-1)Ma_\infty^2}$
+    \item $Pr \neq 1$: Numerical solution, and model temperature with Sutherland formula
+\end{itemize}
+\underline{\textbf{Velocity and temperature profiles in a compressible flat boundary layer (p.161)}}\\
+Calculate according to script
 
 
 \end{multicols*}
