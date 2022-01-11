@@ -336,7 +336,28 @@ In diesem Abschnitt wird die Umrechnungsmethode von kartesischen in krummlinige 
     \item Geodätische Breite $\varphi$: Hier wird die Tangentensteigung der Ellipse bestimmt. Mittels Trigonometrie, Ableitung der Ellipsengleichung von $Z$ nach $W$ nutzt man den Steigungswinkel. Es ergibt sich eine neue Grösse $R_N$, den Querkrümmungsradius im Punkt (ein Kreis, welcher an die Ellipse lokal anschmiegt und auf der Z-Achse liegt).
 \end{itemize}
 
+Die verschiedenen Winkel stehen im Verhältnis:
+\begin{equation*}
+    \tan \varphi = \frac{Z}{W} \frac{b^2}{a^2} \geq \tan \beta' = \frac{Z}{W} \frac{b}{a} \geq \tan \beta = \frac{Z}{W}
+\end{equation*}
+
 \subsubsection{Topographie}
+Bisher wurden Helmert-Projektionen verwendet. Hier wird der Punkt P senkrecht auf die Ellipsenoberfläche projiziert. In der Pizzetti-Projektion wird Punkt $P$ entlang der Lotlinie auf die Ellipsenoberfläche projiziert. Somit ergibt sich eine Parameterdarstellung des Punktes auf die Oberfläche.
+\begin{align*}
+    &\mathbf{n}_Q = \begin{pmatrix}
+        \cos \varphi \cos \lambda \\
+        \cos \varphi \sin \lambda \\
+        \sin \varphi
+    \end{pmatrix} \\
+    &\mathbf{r}_Q = R_N \begin{pmatrix}
+        \cos \varphi \cos \lambda \\
+        \cos \varphi \sin \lambda \\
+        (1-e^2)\sin \varphi
+    \end{pmatrix} \\
+    & \mathbf{r}_Q = \mathbf{r}_Q + h_P \cdot \mathbf{n}_Q
+\end{align*}
+
+Da der Querkrümmungsradius $R_N$ die geodätische Breite $\varphi$ beinhaltet, muss diese Gleichung für $\varphi$ iterativ gelöst werden. Es gibt jedoch Annäherungsmethoden.
 
 \section{Geodätische Raumverfahren}
 
@@ -376,6 +397,93 @@ Die Pulslänge beträgt wenige Nanosekunden. Besonders gute Messungen liefert di
 \end{equation*}
 Hier ist $c\tau$ die Pulslänge. Die Fläche die hier abgedeckt wird sind oft einige Kilometer. Somit lässt sich die Distanz zwischen Satelit und Meeresoberläche bestimmen. Nimmt man an, man kenne die Höhe der Meeresoberfläche, wie die die lokale Höhe des Geoids sowie die Abweichung $H$ der Meeresoberfläche vom Geoid, lassen sich für verschiedene Disziplinen die Ozeangebiete in kurzer Zeit flächenhaft vermessen.
 \section{Das Schwerefeld der Erde}
+Hier werden die Grundlagen der Physikalischen Geodäsie erarbeitet, insbesondere die Grundlagen, welche mit dem Schwerefeld der Erde sich befassen. Hierbei liefert die Potentialtheorie die Grundlagen der Physikalischen Geodäsie. Die meisten geodätischen Messungen beziehen sich auf das Schwerefeld und deren Richtungen (Lotrichtung, lokale Niveaufläche), d.h. viele Messinstrumente werden beispielsweise horizontiert. Andere Messungen wie Nivellelement, Schweremessungen, Trägheitsnavigation und Satelitenbahnen hängen ebenfalls vom Schwerefeld ab.
+\subsection{Newtonsches Gravitationsgesetz}
+\begin{equation*}
+    F = G \frac{m_A m_B}{l^2_{AB}}
+\end{equation*}
+Die Gravitationskraft wird bestimmt durch eine Gravitationskonstante $G$, den zwei punktförmigen, homogenen Massen $A$ und $B$ sowie deren Abstand. Die Graviationskonstante für sich alleine kennt man nur auf 6 Stellen genau. Das Produkt von Gravitationskonstante und Erdmasse kennt man jedoch auf ca. 10 Stellen sehr genau, da man viele künstliche Sateliten hat. \\
+
+Die erste Bestimmung von $G$ wurde mittles einer Torsionswaage bestimmt. Um die Richtung der Gravitationskraft zu bestimmen, wird das Gesetz oft in vektorieller Form bestimmt.
+\begin{equation*}
+    \mathbf{F}_A = -G \frac{m_A m_B}{l^3_{AB}}\cdot \mathbf{l}_{AB} = -G -G \frac{m_A m_B}{|\mathbf{x}_A - \mathbf{x}_B|^3}\cdot (\mathbf{x_A} - \mathbf{x_B})
+\end{equation*}
+Dabei ist $F_A$ die Gravitationskraft, die von Masse $B$ auf $A$ ausgeübt wird. Die Massen sind positiv. Im Vergleich zur elektrischen Coulomb Kraft ist diese sehr ähnlich, wobei jedoch die Ladungen positiv und negativ sein können. \\
+
+Nach dem 3. Newtonschen Gesetz gilt auch , dass die entgegengesetzte Kraft auf $B$ exakt der Kraft von $A$ entspricht. Nach dem 2. Newtonschen Gesetz gilt auch $F_A = m_A \mathbf{\ddot{x}}_A$. Hierbei ist jedoch die Masse als Trägheitsmasse zu verstehen, und im Gegensatz zur schweren Masse $m_A$ einen unteschieldichen Charakter aufweist. Newton postulierte, dass beide Massen identisch sind, aus diesem Grund ergibt sich folgende Gleichung für die Gravitationsbeschleuningung:
+\begin{equation*}
+    \mathbf{a}_A = \ddot{\mathbf{x}}_A = -G \frac{m_B}{|\mathbf{x}_A - \mathbf{x}_B|^3}(\mathbf{x}_A - \mathbf{x}_B) = - G \frac{m_B}{l^3_{AB}}\mathbf{l}_{AB}
+\end{equation*}
+Bei der Gravitationsbeschleuningung handelt es sich um ein Vektorfeld. Somit gilt auch das Überlagerungs, bzw. Superpositionsprinzips - wo mehrere Massen im Raum dieses verändern und auf einen jeweiligen Bezugspunkt $i$ eine Kraft ausübt. \\
+
+Sobald man von der Punktmasse in geschlossene, kontinuierliche Volumen übergeht, dann ergibt sich die Gravitationsbeschleuningung als eine Riemannsche Summe von Massen, beziehungsweise Volumen mittels der Dichte.
+
+\begin{equation*}
+    \mathbf{a}_A = -G \int \int \int_M \frac{\mathbf{l}_{AQ}}{l^3_{AQ}}dm = -G \int \int \int_\Sigma \rho(Q) \frac{\mathbf{l}_{AQ}}{l^3_{AQ}} d\Sigma
+\end{equation*}
+
+Die Gravitationskraft veränderts sich instantan. Die Relativitätstheorie widerspricht dem, jedoch dies genügt unseren Anforderungen.
+\subsection{Gravitationspotential}
+Aufgrund der Annahme, dass das Vektorfeld instantan ist und zeitunabhängig ist, ist das Feld stationär. Zudem kann man das definierte Vektorfeld auch als skalare Funktion beschreiben:
+\begin{equation*}
+    \mathbf{a} = \nabla V(x,y,z)
+\end{equation*}
+Das Gravitationspotential V hat einen Gradienten, welches der Gravitationsbeschleuningung entspricht. Das Gravitationspotential ist nicht eindeutig, sondern bis auf eine Konstante festgelegt. Zudem muss jenes auch im Unendlichen Null sein, gegeben durch den Abstand, welcher in der Unendlichkeit den Term 0 macht. Falls das Koordinatensystem so gewählt
+ist, dass die Masse B als Quelle des Potentials im Urpsrung liegt, dann kann folgende Gleichung verwendet werden:
+\begin{align*}
+    & \mathbf{a} = \ddot{\mathbf{r}} = -\frac{G m}{r^3} \mathbf{r} \\
+    & V(\mathbf{r}) = \frac{Gm}{r}
+\end{align*}
+Das Gravitationspotential ist also so definiert.
+\subsection{Gravitationspotential einer homogenen Kugel}
+\subsubsection{Einführung}
+Nun werden Gravitationspotential homogener Kugeln bestimmt. Dies bedeutet, dass diese Kugeln überall die gleiche Dichte $\rho(Q) = \rho = const.$ aufweisen in einem beliebigen Punkt innerhalb der Kugel.
+\subsubsection{Potential einer Kugel für einen Punk ausserhalb der Kugel}
+Das Potential, welches bei einer Kugelschale $S$ der Dicke $dR$, auf eine Punkt $A$ ausserhalb der Kugel wirkt, wird nun berechnet. Wie bei einer Vollkugel lässt sich durch Transformationnen und Trigonometrie bestimmen, dass die Potentiale ausserhalb von Schalen und Kugeln mit der Distanz $d$ umgekehrt proportional sind zum Abstand, und dass die Massen jeweils einer Schale oder Kugel die Magnitude mitbestimmt.  
+\begin{align*}
+    &V_{S,aussen} = \frac{G M_S}{d} \\
+    &V_{K,aussen} = \frac{G M_K}{d}
+\end{align*}
+\subsubsection{Potential einer Kugel für einen Punkt innerhalb der Kugel}
+Für einen Punkt innerhalb einer Kugelschale erhält man ein konstantes Potential. Da der Gradient bei einer Konstanten verschwindet, übt die Kugelschale auf einen Massenpunkt im Innern keine Kraft aus.
+\begin{equation*}
+    V_{S,innen} = 0
+\end{equation*}
+Für einen Punkt innerhalb einer Vollkugel kann folgendes Modell angenommen werden: Es gibt einer äussere Schale, welche aufgrund der Integrationsgrenzen auch einen Effekt auf das Potential hat.
+\begin{equation*}
+    V_{K,innen} = 2 \pi G \rho \left( R_K^2-\frac{d^2}{3} \right)
+\end{equation*}
+Somit kann via dem Gradienten folgendes gezeigt werden:
+\begin{align*}
+    &\mathbf{a} = \nabla V_{K, aussen}(r) = -\frac{GM_K}{r^3} \mathbf{r} \\
+    &\mathbf{a} = \nabla V_{K,innen}(r) = -\frac{4}{3}\pi G \rho \mathbf{r}
+\end{align*}
+Die Gravitationsbeschleunigung nimmt mit $r^2$ ausserhalb der Kugel ab, und nimmt innerhalb mit $r$ ab.
+\subsection{Laplacegleichung und Poissongleichung}
+Durch die weitere Anwendung des Nabla Operators, erhält man nun beim Potential neue Gleichungen, die erfüllt werden müssen:
+\begin{align*}
+    &\Delta V_{K,aussen}(r) = 0 \\
+    &\Delta V_{K,innen}(r)= - 4\pi G \rho
+\end{align*}
+Für eine beliebige Dichteverteilung müssen die gegebenen Gleichungen erfüllt sein.
+\subsection{Zentrifugalbeschleunigung}
+In einem erdfesten Referenzsystem wirken auf einem ruhenden Körper nebst der Anziehungskraft auch die Flieh- oder Zentrifugalkraft, welche durch die Erdrotation verursacht wird. Die Corioliskraft und Eulerkraft kommen ebenfalls hinzu, falls sich die Rotationsgeschindigkeit oder die Richtung der Rotationsachse sich ändert. Diese Kräfte sind Scheinkräfte, welche nur auftreten weil die Erde nicht ein Inertialsystem ist.
+\begin{align*}
+    &\mathbf{F}_Z = m \mathbf{\omega} \times (\mathbf{r} \times \mathbf{\omega}) = m \omega^2 \mathbf{p} \\
+    & p = |\mathbf{p}| = r \cos \beta \\
+    &\mathbf{a}_Z = \frac{\mathbf{F}_Z}{m} = \omega^2 \mathbf{p} \\
+    &a_z = \omega^2 r \cos \beta, ~a_{z,max} \approx 0.03391 m/s^2
+\end{align*}
+Die Zentrifugalkraft auf einen Massenpunkt $m$ wirkt in Richtung $p$, welcher senkrecht zur Rotationsachse liegt. Für das Potenzial gilt, dass dieses konstant bei $\Delta V_Z = 2 \omega^2$ liegt.
+\subsection{Schwerkraft, Schwerebeschleunigung und Schwerepotential}
+Die Schwerkraft ist also eine Vektorsumme aus Gravitation und Zentrifugalkraft. Auf einen Massepunkt hin lassen sich je die Schwerebeschleunigung und Schwerepotential durch Summation ermittlen. Somit kann auch die Gleichungen in Laplace und Poissongleichung umformulieren und hinzufügen.
+\subsection{Geometrie des Schwerefeldes}
+\subsubsection{Niveauflächen, Äquipotentialflächen}
+\subsubsection{Lotlinien}
+\subsubsection{Astronomische Breite und Länge}
+\subsubsection{Geometrie des Schwerefeldes}
+
+\section{Satelitenbahnen}
 
 \end{multicols*}
 \end{document}
