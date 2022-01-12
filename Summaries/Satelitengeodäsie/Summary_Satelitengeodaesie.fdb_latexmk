@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1641903507 "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex" "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf" "Summary_Satelitengeodaesie" 1641903508
-  "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux" 1641903508 6496 a48c4255ebd93f606573f19663ad3f13 "pdflatex"
-  "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex" 1641903506 38507 ee51762ee7cbe67858a6310d9e9d85a0 ""
+["pdflatex"] 1641992905 "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex" "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf" "Summary_Satelitengeodaesie" 1641992906
+  "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux" 1641992906 8017 93aa56ed9b9d16158617df8f7153c500 "pdflatex"
+  "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex" 1641992904 49118 05855dad07e43826c1acbfc7972d0126 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -17,8 +17,10 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1136768653 1344 8a0be4fe4d376203000810ad4dc81558 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -35,6 +37,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136768653 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136768653 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb" 1136849748 33799 6c8c18c1e1a138641a52c29f0b878445 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb" 1136849748 34869 539b6fed90ef630e9049bc13079bc598 ""
@@ -45,6 +48,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb" 1248133631 30273 87a352d78b6810ae5cfdc68d2fb827b2 ""

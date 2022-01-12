@@ -477,13 +477,136 @@ In einem erdfesten Referenzsystem wirken auf einem ruhenden Körper nebst der An
 Die Zentrifugalkraft auf einen Massenpunkt $m$ wirkt in Richtung $p$, welcher senkrecht zur Rotationsachse liegt. Für das Potenzial gilt, dass dieses konstant bei $\Delta V_Z = 2 \omega^2$ liegt.
 \subsection{Schwerkraft, Schwerebeschleunigung und Schwerepotential}
 Die Schwerkraft ist also eine Vektorsumme aus Gravitation und Zentrifugalkraft. Auf einen Massepunkt hin lassen sich je die Schwerebeschleunigung und Schwerepotential durch Summation ermittlen. Somit kann auch die Gleichungen in Laplace und Poissongleichung umformulieren und hinzufügen.
+\begin{align*}
+    &\mathbf{F}_S = \mathbf{F}_G + \mathbf{F}_Z \\
+    &\mathbf{g} = \mathbf{a}_G + \mathbf{a}_Z \\
+    & W = V_G + V_Z \\
+    &\Delta W_{K, aussen} = 2 \omega^2 \\
+    &\Delta W_{K, innen} = -4 \pi G \rho + 2 \omega^2
+\end{align*}
+
 \subsection{Geometrie des Schwerefeldes}
 \subsubsection{Niveauflächen, Äquipotentialflächen}
+Flächen mit konstantem Schwerepotential $W = W(r) = const.$ werden als Niveauflächen oder Äquipotentialflächen der Schwere bezeichnet. Entlang einer solchen Fläche wird keine Arbeit geleistet. Die Schwerebeschleunigung $g$ besteht aus mehr als nur der Gravitationsbeschleunigung, deshalb kann diese Fläche sich verschiedenartig zusammensetzen.
 \subsubsection{Lotlinien}
+Die zugehörigen Lotlinen sind definiert durch 
+\begin{equation*}
+    \mathbf{g} = \nabla W
+\end{equation*}
+Die Lotlinien stehen senkrecht auf allen Äquipotentialflächen.
 \subsubsection{Astronomische Breite und Länge}
+Die astronomische Breite und Länge eines Punktes $P$ ist gegeben durch die Richtung des lokalen Schwerevektors.
 \subsubsection{Geometrie des Schwerefeldes}
+Das Erdschwerefeld lässt sich au neben der physikalischen Deutung auch rein geometrisch definieren. Die Äquipotentialflächen in jedem Punkt horizontal zu den Lotlinien. Diese lassen sich durch einen Satz bestimmen mittels Konstanten $C$. \\
 
+Ausserhalb der Erde sind diese Flächen unendlich oft differenzierbar.Innerhalb der Massen sind sie stetig und stetig differenzierbar. Erst in der zweiten und dritten Ableitung sind diese nicht stetig differenzierbar. Aus diesem Grund sind solche Flächen glatt und schneiden sich nicht. \\
+
+Im erdnahen sind Niveauflächen konvex, das heisst sie besitzen keine Dellen. Alle ungestörten Wasserflächen sind Teil einer Äquipotentialfläche und eine Wasserwage würde ich an jedem Ort einer Niveaufläche einspielen. \\
+
+Die idealisierte Oberfläche der Weltmeere nennt man Geoid. Dieser ist befreit von Effekten wie Strömungen, Wirbeln, und Wellen - und ist teil einer Äquipotentialfläche. Der Geoid wird als ideale Bezugsfläche verwendet (m. über Meer, Höhen über Normal Null). \\
+
+Natürlich ist es schwierig mit dem Geoid das Bezugsellipsoid zu vergleichen. Messungen z.B. in Indien und Guinea weichen zwischen -100m bis 80m vom idealen Geoid ab. Die Geoidhöhen korrelieren nicht mit der Verteilung der Kontinente. \\
+
+Mit zunehmendem Abstand von der Erde werden die Äquipotentialflächen glatter, deshalb wird auch jenes mit der Zeit immer kugelähnlicher, wenn nur das Gravitationspotential wirken würde. Aufgrund von Zentrifugalspotential und anderen Effekten ist dies leider nicht der Fall. \\
+
+Die Lotlinien durchschneiden in jedem Punkt die Äauipotentialflächen senkrecht. Die Schwerevektoren sind in jedem Punkt tangential zu den Lotlinien. Diese Lotlinien schneiden sich nicht und sind leicht zu den Polen hin gekrümmt.
+\begin{equation*}
+    dW = \mathbf{g} \cdot \mathbf{dx}
+\end{equation*}
+Entlang einem Wegelement $dx$ verändert sich das Schwerepotential nicht, wenn $g$ rechtwinklig dazu steht (Skalarprodukt). Somit ist $dx$ tangential zur Potentialfläche. Zeigt $dx$ in Richtung des Zenits, also nach oben, dann ist
+\begin{equation*}
+    \mathbf{g} \cdot \mathbf{dx} = -g dH = dW,~~ g = -\frac{\partial W}{\partial H}
+\end{equation*}
+Das Schwerepotential $W$ verändert sich mit dem nivellierten Höhenunterschied $dH$. \\
+
+Das Schwerepotential von einem Punkt $Q$ auf der gleichen Äquipotentialfläche liegend mit $P$, kann angenähert durch eine Taylorentwicklung und schlussendlich eine Differentialgleichung zweiter Ordnung, welche zu einem sogenannten Eotvös-Tensor führt. Dieser kann verwendet werden, um allgemein überall die jeweiligen Schwerepotentiale auf Äquipotentialflächen zu bestimmen
+\begin{equation*}
+    W_{gf} = \begin{pmatrix}
+        W_{xx} & W_{xy} & W_{xz} \\
+        W_{yx} & W_{yy} & W_{yz} \\
+        W_{zx} & W_{zy} & W_{zz}
+    \end{pmatrix} = - g \begin{pmatrix}
+        k_1 & t_1 & f_1 \\
+        t_1 & k_2 & f_2 \\
+        f_1 & f_2 & -2 \overline{H} + \frac{4 \pi G \rho - 2 \omega^2}{g}
+    \end{pmatrix}
+\end{equation*}
 \section{Satelitenbahnen}
+\subsection{Das Zweikörperproblem: Die ungestörte Satelitenbahn}
+Eine Bewegungsgleichung für je die kleine Masse $m$ und die grosse Masse $M$ kann basierend auf dem Gravitationsgesetz hergeleitet werden. Die Distanz zwischen beiden Körper lässt sich durch $\mathbf{r} = \mathbf{x}-\mathbf{x}_E$ bestimmen. Diese lässt sich ebenfalls nach der Beschleunigung ableiten und somit folgende Bewegungsgleichungen für Sateliten um einen grossen Körper $M$ im Zentrum des Koordinatensystems bestimmen:
+\begin{equation*}
+    \ddot{r} = \ddot{x}-\ddot{x}_E = -GM \frac{\mathbf{r}}{|r|^3} -  Gm \frac{\mathbf{r}}{|r|^3} = -G(M+m)\frac{\mathbf{r}}{|r|^3}
+\end{equation*}
+Oft gilt $m<< M$, also wird oft nur die Konstante $GM$ genommen. Diese Gleihchung ist eine DGL 2. Ordnung und auch vektoriell, daher sind 6 Integrationskonstanten benötigt. Diese sind einerseits durch die Angabe der Orts- und Geschwindigkeitsvektoren zum Zeitpunkt $t_0$ gegeben, oder durch ein Set von den 6 Keplerschen Elemente der Bahn. Die Grössen können ineinander umgerechnet werden. \\
+
+Die Lösungen der ungestörten Bewegungsgleichung sind Kegelschnitte (Ellipse, Parabel, Hyperbel). Die Keplerschen Elemente sind Integrationskonstanten des ungestörten Zweikörperproblems. Sie sind zeitlich konstant und beschreiben die ungestörte Bahn eindeutig.
+\subsection{Definition der Keplerschen Bahnelemente}
+Die Anfangsbedingunen $r_0$ und $\dot{r}$ beziehen sich im Falle einer Erdumflaufbahn gewöhnlich auf ein Äquatorsystem zu einer bestimmten Epoche $J$. Die Lage des Koordinatensystems wird folgendermassen bestimmt.
+\begin{enumerate}
+    \item Ursprung im Erdmittelpunkt (Massenschwerpunkt)
+    \item Äquator zur Epoche J als Fundamentalebene. Die Koordinatenachse $e_3$ steht hierzu senkrecht
+    \item Koordinatenachse $e_1$ in Richtung des Frühlingspunktes
+    \item $e_2$ ist zu $e_1$ und $e_3$ orthogonal, und bildet ein rechtshändiges System
+\end{enumerate}
+Die sechs Keplerschen Bahnelemente sind dann wie folgt definiert:
+\begin{enumerate}
+    \item Parameter $p$ des Kegelschnittes oder grosse Halbachse $a$ mit $a = p/(1-e^2)$ (Ellipse) oder $a = p/(e^2-1)$ (Hyperbel)
+    \item Numerische Exzentrizität $e$ (Kreis: $e=0$, Ellipse $0 < e < 1$, Parabel $e=1$, Hyperbel $e>1$) 
+    \item Rektaszension des aufsteigenden Knotens $\Omega$ gemessen vom Frühlingspunkt entlang des Äquators zur Schnittlinie zwischen Bahn- und Äquatorebene
+    \item Bahnneigung $i$ gegenüber Äquatorebene
+    \item Der Perigäumsabstand $\omega$ ist der Winkel vom aufsteigenden Knoten der Bahnebene gemessen zum Perigäum
+    \item Perigäumsdurchgangszeit $T_0$: Zeitpunkt, zu dem der erdnächste Punkt durchlaufen wird.
+\end{enumerate}
+Die Elemente $p$ oder $a$ und $e$ beschreiben die Form der Bahn. Die Elemente $\Omega$, $i$ und $\omega$ beschreiben die Lage der Bahn im Raum und $T_0$ enthält dynamische Information, der Zeitpunkt wann der Massepunkt einen bestimmten Punkt der Bahn durchläuft.
+\subsection{Keplersche Bahnelemente $\rightarrow$ Anfangsbedingungen}
+Hier werden bei gegebenen Keplerschen Bahnelementen die Anfangsbedingungen $\mathbf{r}$ und $\mathbf{\dot{r}}$ zum Zeitpunkt $t$.
+\begin{enumerate}
+    \item Zuerst muss die mittlere Bewegung $n$ bestimmt werden, danach die mittlere Anomalie $M(t)$:\\
+     $n = \sqrt{\frac{GM}{a^3}}$, $M(t) = n\cdot(t-T_0)$
+    \item Für Ellipsen und Hyperbeln wird iterativ die Lösung der Keplergleichung berechnet (Gleichungen implizit): \\
+    $E = M + e \sin E$ oder $H=-M +e \sinh H$
+    \item Die wahre Anomalie $v$ lässt sich dadurch bestimmen:\\
+    $\tan \frac{v}{2} = \sqrt{\frac{1+e}{1-e}}\tan \frac{E}{2}$ oder $\tan \frac{v}{2} = \sqrt{\frac{e+1}{e-1}}\tanh \frac{H}{2}$
+    \item Der Radiusvektor $r$ ist definiert als:\\
+    $r = \frac{p}{1+e \cos v}$
+    \item Die Geschwindikeitsvektoren und Ortsvektoren in der Bahnebene sind somit bestimmt. Die Koordinaten müssen via einer 3-1-3 Umdrehung in in das originale Koordinatensystem umgerechnet werden.
+\end{enumerate}
+\subsection{Anfangsbedingunen $\rightarrow$ Keplersche Bahnelemente}
+Sind die Anfangsbedingungen gegeben, dann können die Keplerschen Bahnelemente bestimmt werden. Zunächst ist das ganze Koordinatensystem auf der Äquatorebene.
+\begin{enumerate}
+    \item Aus den beiden Vektoren der Geschwindigkeit und Ort ergibt sich die Grösse $h$, welche sozusagen der massenlose Drehimpuls repräsentiert.
+    \item Aus den trigonometrischen Beziehungen lassen sich die Winkel $\Omega$ und $i$ bestimmen
+    \item Zudem gibt es eine Beziehung zwischen $h$ und p, also ist $p$ bestimmt
+    \item Zudem gelten Beziehungen zwischen dem Ortsvekoren, den Geschwindigkeiten $r$ und $\dot{r}$ mit den Grössen $e$ und $v_0$.
+    \item Aus den gegebenen Grössen $p$ und $e$ lässt sich die Halbachse bestimmen
+    \item Durch eine Rotation um $\Omega$ auf der 3. Achse, sowie einer Rotation auf der ersten um $i$ erhält man nun die Koordinaten in der Bahnebene
+    \item Die Koordinaten des Ortsvektors in der Bahnebene ergibt das Argument der Breite $u_0$. Mittels dem vorherbestimmen $v_0$ ergibt sich nun $\omega$, den Perigäumsabstand
+    \item Schlussendlich müsste die Pärigäumsdurchgangszeit $T_0$ mittels der Keplergleichung herausgerechnet werden
+\end{enumerate}
+\subsection{Gestörte Satelitenbahnen}
+In wirklichkeit bewegen sich Sateliten nicht gemäss der ungestörten Bewegungsgleichung. Es kommen Störfaktoren hinzu, welche zusätliche Beschleunigungsterme hinzufügen. Faktoren welche zur Störung führen wären:
+\begin{itemize}
+    \item Erdschwerefeld (muss mitberücksichtigt werden)
+    \item Abplattung der Erde
+    \item Gravitation Mond
+    \item Gravitation Sonne
+    \item Luftwiderstand (CHAMP, da nahe an Erde)
+    \item Weitere Erdschwerefeldkoeffizienten
+    \item Strahlungsdruck der Sonne
+    \item Y-Bias (GPS-Spezifischer Yaw, also Eigendrehung)
+    \item Feste Erdgezeiten
+    \item Meeresgezeiten
+    \item Erdalbedo (Rückstrahlung Erde)
+    \item relativistische Effekte
+    \item Thermische Emmisionen
+\end{itemize}
+Diese Faktoren fügen sozusagen wirkende Störbeschleunigungen, wobei $q$ Parameter, dynamische Parameter die einzelnen Störbeschreibungen beschreiben und oft nich sehr genau bekannt sind und in der Bahnbestimmung nebst den Anfangsbedingungen mitbestimmt werden müssen.
+\section{Bestimmung des Gravitationsfeldes der Erde mit Satelitenmissionen}
+\subsection{Kugelfunktionsentwicklung des Gravitationsfeldes}
+\subsubsection{Laplace-Operator in Kugelkoordinaten}
+\subsubsection{Lösung der Laplace-Gleichung in Kugelkoordinaten}
+\subsection{Globale Gravitationsmodelle}
+\subsection{Satelitenbasierte Schwerefeldmissionen}
 
 \end{multicols*}
 \end{document}

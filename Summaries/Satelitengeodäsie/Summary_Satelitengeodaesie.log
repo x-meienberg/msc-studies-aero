@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  11 JAN 2022 13:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  12 JAN 2022 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1053,20 +1053,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
-[5] [6] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux) ) 
+[5]
+Underfull \hbox (badness 7832) in paragraph at lines 500--501
+\OT1/bch/m/n/8 schen Deu-tung auch rein geo-me-trisch de-fi-nie-ren. Die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 510--511
+[]\OT1/bch/m/n/8 Mit zu-neh-men-dem Ab-stand von der Er-de wer-den die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+[]\OT1/bch/m/n/8 Die Lot-li-ni-en durch-schnei-den in je-dem Punkt die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+
+ []
+
+
+Overfull \hbox (36.62491pt too wide) detected at line 533
+ $\OML/cmm/m/it/8 W[] \OT1/cmr/m/n/8 = [] = \OMS/cmsy/m/n/8 ^^@\OML/cmm/m/it/8 g []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+\OT1/bch/m/n/8 Ke-gel-schnit-te (El-lip-se, Pa-ra-bel, Hy-per-bel). Die Kep-ler-
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
+\OT1/bch/m/n/8 Diese Fak-to-ren f[]ugen so-zu-sa-gen wir-ken-de
+ []
+
+[8] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux) ) 
 Here is how much of TeX's memory you used:
- 19853 strings out of 478994
- 417671 string characters out of 5858183
+ 19865 strings out of 478994
+ 417801 string characters out of 5858183
  884696 words of memory out of 5000000
- 36960 multiletter control sequences out of 15000+600000
- 424722 words of font info for 76 fonts, out of 8000000 for 9000
+ 36969 multiletter control sequences out of 15000+600000
+ 426606 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,14n,116p,10723b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (6 pages, 184749 bytes).
+ 111i,14n,116p,10723b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (8 pages, 208304 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
