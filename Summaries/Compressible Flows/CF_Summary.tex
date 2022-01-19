@@ -232,13 +232,13 @@ Assumptions:
     \item No friction (inviscid)
     \item No heat source or transport
     \item No flow through mantle
-    \item Perfect gas
+    \item Perfect gas (monoatomic: $f=3$, diatomic: $f=5$)
 \end{itemize}
 \begin{equation*}
-    Ma = \frac{u}{a}
+    Ma = \frac{u}{a}, ~~~~~ h=c_p T = \frac{\gamma}{\gamma-1} \frac{p}{\rho}
 \end{equation*}
 \begin{equation*}
-    a^2 = \gamma R T 
+    a^2 = \gamma R T, ~~~~~ R = c_p - c_v, ~~~~~ \gamma = \frac{c_p}{c_v} = 1 + \frac{R}{c_v} = 1 + \frac{2}{f}
 \end{equation*}
 Stagnation properties, when $u=0$ (Ruhegrösse), subscript 0: 
 \begin{equation*}
@@ -349,7 +349,7 @@ The ratio (Pressure increase) has an asymptotic limit. For high $Ma_s$, the func
 Rayleigh line: $\frac{p_1}{p_0} = 1 + \frac{\rho_0}{p_0} u_0^2 - \frac{\rho_0}{p_0}\frac{\rho_1}{\rho_0}u_1^2 = 1 + \gamma Ma_0^2 \left( 1 - \frac{\rho_0}{\rho_1}\right)$,
 Rankine Hugeniot with heat: $\frac{p_2}{p_0} = \frac{(\gamma+1)-(\gamma-1)\frac{\rho_0}{\rho_2}+2\gamma \hat{q}}{(\gamma+1)\frac{\rho_0}{\rho_2}-(\gamma-1)}~,~ \hat{q} = \frac{q_{heat}}{c_p T_1}$, This gives us $p_1$ and $p_2$, the pressure of the shockwave before the combustion and downstream after the combustion layer \\
 
-\underline{\textbf{Chapman-Jouget Point (p.37)}}
+\underline{\textbf{Chapman-Jouget Point (p.37) Flow behind detonation exactly sonic} }
 
 ...is the intersection where $Ma=1$, so $Ma_2 = 1 = Ma_0 \sqrt{\frac{\rho_0}{\rho_2}} \sqrt{\frac{\rho_0}{\rho_2}}$
 The limiting case for shock cycle (Rayleigh tangent to Hugoniot Line ): 
@@ -364,12 +364,13 @@ Behind the shock, the flow is subsonic $\leftrightarrow$ strong detonation. Ther
 Varying cross-section:
 \begin{align*}
     \frac{p(x)}{p_0} &= \left[ 1 + \frac{\gamma - 1}{2} Ma^2 (x) \right]^{\frac{-\gamma}{\gamma-1}} \\
-    \frac{A^*}{A(x)} &= Ma(x) \left[ \frac{2}{\gamma+1} + \frac{\gamma-1}{\gamma+1}Ma^2(x)\right] \\
+    \frac{A^*}{A(x)} &= Ma(x) \left[ \frac{2}{\gamma+1} + \frac{\gamma-1}{\gamma+1}Ma^2(x)\right]^{\frac{-(\gamma+1)}{2(\gamma+1)}} \\
     u(x) &= Ma(x) a_0 \frac{a(x)}{a_0} = Ma(x) a_0 \sqrt{\frac{T(x)}{T_0}} = \frac{a_0 \cdot Ma(x)}{\sqrt{1 + \frac{\gamma-1}{2}Ma^2(x)}} \\
     u^* &= a^* ~,~ \text{if}~ Ma^* = 1
 \end{align*}
 
-In order to increase the $Ma_{exit}$, reduce the area ration (tune $A^*$). Different flow regimes are shown on p. 41. A variable exit area is in practice not possible
+In order to increase the $Ma_{exit}$, reduce the area ration (tune $A^*$). Different flow regimes are shown on p. 41. A variable exit area is in practice not possible.
+The flow is chocked at $Ma=1$ if supersonic
 
 \section{Unsteady one-dimensional Flows}
 
@@ -377,19 +378,20 @@ In order to increase the $Ma_{exit}$, reduce the area ration (tune $A^*$). Diffe
 Assuming small pertubations around equilibrium state with first order pertubations will result into following differential equation (enthalpy):
 
 \begin{align*}
-    \frac{\partial p'}{\partial t} - a_0^2 \frac{\partial \rho'}{\partial t} &= 0 \Longleftrightarrow p' = a_0^2 \rho' \\
-    \frac{\partial \rho'}{\partial t} + \rho_0 \frac{\partial u'}{\partial x} &= 0 ~~ (\text{mass eq.}) \\
-    \frac{\partial u'}{\partial t} + \frac{a_0^2}{\rho_0} \frac{\partial \rho'}{\partial x} &= 0 ~~ (\text{momentum eq.})
+    \frac{\partial p'}{\partial t} - a_0^2 \frac{\partial \rho'}{\partial t} &= 0 \Longleftrightarrow p' = a_0^2 \rho' ~~~~~ p = p_0 + p'(x,t) \\
+    \frac{\partial \rho'}{\partial t} + \rho_0 \frac{\partial u'}{\partial x} &= 0 ~~ (\text{mass eq.}) ~~~~~ u = u'\\
+    \frac{\partial u'}{\partial t} + \frac{a_0^2}{\rho_0} \frac{\partial \rho'}{\partial x} &= 0 ~~ (\text{momentum eq.}) ~~~~~ \rho = \rho_0 + \rho'(x,t)
 \end{align*}
 
-Through cross-differentiation (elimination of terms), one arrives at the d'Alembert solution:
+Through cross-differentiation (elimination of terms), one arrives at the \textbf{d'Alembert solution}:
 \begin{align*}
     u'(x,t) &= a_0 [F(x-a_0t) + G(x+a_0t)] \\
-    \rho'(x,t) &= \rho_0 [F(x-a_0t) + G(x+a_0t)]
+    \rho'(x,t) &= \rho_0 [F(x-a_0t) - G(x+a_0t)]
 \end{align*}
 Through characteristics one defines left and right propagatiting waves, $F(\eta)$ and $G(\xi)$. The characteristics are in this case straight lines. Initial conditions are at $t=0$, boundary conditions are at $x=b.c.$ \\
 
 \textbf{Method of characteristics for nonlinear wave propagation}
+
 Here, no small pertubations are assumed, while assuming homentropic flow ($s=const.$). The Riemann invariants (characteristics) are not straight anymore, and can be curved. Disturbances are no longer constant, but have a flow dependent value. Given $a$ and $u$ are given along a curve $C$, find where it intersects with two characteristics, which cross at point $Q$. (See p. 48) \\ 
 
 \textbf{Piston Motion in tube (example for unsteady one-dimensional motion)}:
@@ -483,7 +485,7 @@ Use same equations as before. Here, following things must be considered:
         \item $\theta_1-\theta_5 = \theta_4 - \theta_2$
         \item $p_4(Ma_2, \theta_4, p_2) = p_5(Ma_3, \theta_5, p_3)$
     \end{itemize}
-    \item Prismatic wing: First a oblique shock, then fans, then shock due to turning back flow to inflow direction. Even without friction, a drag is introduced
+    \item Prismatic wing: First a oblique shock, then fans, then shock due to turning back flow to inflow direction. Even without friction, a drag is introduced (\textbf{Wave drag})
 \end{itemize}
 \underline{\textbf{Detached Shocks}}
 Normally, the oblique shock occurs for $\theta < \theta_{max}$. For larger angles, the shock detaches and shows a near hyperbolic shape. See p.78 for details when it comes to decreasing $Ma$. \\
@@ -706,7 +708,7 @@ The signs follow from the positive y-direction to from bottom to top. The last e
 
 If the lower, fixed wall were adiabatic ($q_w = 0, q = q_\infty$), following relations would hold true:
 \begin{align*}
-    &\frac{T_w}{T_\infty}\vert_{q_w = 0} = \frac{T_r}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2, r = Pr = \frac{T_r-T\infty}{T_0-T_\infty} = Pr \\
+    &\frac{T_w}{T_\infty}\vert_{q_w = 0} = \frac{T_r}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2, r = Pr = \frac{T_r-T\infty}{T_0-T_\infty} \\
     &\frac{T}{T_\infty} = 1 + Pr \frac{\gamma-1}{2}Ma_\infty^2\left[ 1- \left(  \frac{u}{U_\infty}\right)^2 \right]
 \end{align*}
 \underline{\textbf{Flow in laminar boundary layers (p.154)}} \\

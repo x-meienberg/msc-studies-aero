@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  12 JAN 2022 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  16 JAN 2022 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -111,14 +111,14 @@ Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
 
 
-Package scrartcl Warning: You've used obsolete option `8pt'.
+Package scrartcl Warning: You've used obsolete option `9pt'.
 (scrartcl)                Usage of this option indicates an old document
 (scrartcl)                and changes compatibility level using
-(scrartcl)                `fontsize=8pt,version=first,
+(scrartcl)                `fontsize=9pt,version=first,
 (scrartcl)                enabledeprecatedfontcommands' that may result
 (scrartcl)                in further warnings.
 (scrartcl)                If you don't want this, you should simply
-(scrartcl)                replace option `8pt' by `fontsize=8pt'.
+(scrartcl)                replace option `9pt' by `fontsize=9pt'.
 
 Class scrartcl Info: Switching compatibility level to `first'.
 
@@ -140,9 +140,9 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-Class scrartcl Info: File `size8.clo' used to setup font sizes on input line 2239.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/extsizes/size8.clo
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+Class scrartcl Info: File `size9.clo' used to setup font sizes on input line 2239.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@bcor=\skip49
@@ -159,13 +159,13 @@ Package typearea Info: You've used standard option `landscape'.
 \footheight=\skip53
 
 
-Package typearea Warning: DIV for 8.0pt and used papersize
+Package typearea Warning: DIV for 9.0pt and used papersize
 (typearea)                not defined!
 (typearea)                Using DIV=calc.
 
 DIV calculation for typearea with good linewidth.
 Package typearea Info: Maybe no optimal type area settings!
-(typearea)             The detected line width is about 24%
+(typearea)             The detected line width is about 29%
 (typearea)             smaller than the heuristically estimated maximum
 (typearea)             limit of typographical good line width.
 (typearea)             You could e.g. increase DIV
@@ -182,17 +182,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
 (typearea)              \textwidth      = 211.26173pt
-(typearea)              DIV departure   = 24%
+(typearea)              DIV departure   = 29%
 (typearea)              \evensidemargin = 244.6226pt
 (typearea)              \oddsidemargin  = 244.6226pt
 (typearea)             \paperheight     = 597.50793pt
-(typearea)              \textheight     = 150.5pt
-(typearea)              \topmargin      = 50.982pt
-(typearea)              \headheight     = 11.875pt
-(typearea)              \headsep        = 14.25pt
-(typearea)              \topskip        = 8.0pt
-(typearea)              \footskip       = 33.25pt
-(typearea)              \baselineskip   = 9.5pt
+(typearea)              \textheight     = 151.34996pt
+(typearea)              \topmargin      = 46.99452pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
 (typearea)              on input line 1741.
 )
 \c@part=\count180
@@ -824,29 +824,35 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 
 Package typearea Warning: Bad type area settings!
-(typearea)                The detected line width is about 158%
+(typearea)                The detected line width is about 151%
 (typearea)                larger than the heuristically estimated maximum
 (typearea)                limit of typographical good line width.
 (typearea)                You should e.g. decrease DIV, increase fontsize
 (typearea)                or change papersize.
 
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 20
+(typearea)             DIV  = 45
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
-(typearea)              \textwidth      = 718.28993pt
-(typearea)              DIV departure   = -158%
-(typearea)              \evensidemargin = -8.8915pt
-(typearea)              \oddsidemargin  = -8.8915pt
+(typearea)              \textwidth      = 788.71051pt
+(typearea)              DIV departure   = -151%
+(typearea)              \evensidemargin = -44.10178pt
+(typearea)              \oddsidemargin  = -44.10178pt
 (typearea)             \paperheight     = 597.50793pt
-(typearea)              \textheight     = 511.5pt
-(typearea)              \topmargin      = -68.51959pt
-(typearea)              \headheight     = 11.875pt
-(typearea)              \headsep        = 14.25pt
-(typearea)              \topskip        = 8.0pt
-(typearea)              \footskip       = 33.25pt
-(typearea)              \baselineskip   = 9.5pt
+(typearea)              \textheight     = 567.44984pt
+(typearea)              \topmargin      = -89.1045pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
 (typearea)              on input line 30.
+
+Package typearea Warning: page content and margins higher than paper.
+(typearea)                This may result in page footer out of paper.
+(typearea)                You should decrease DIV, decrease foot height,
+(typearea)                or include footer into type area.
+
 (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux)
 \openout1 = `Summary_Satelitengeodaesie.aux'.
 
@@ -876,19 +882,19 @@ LaTeX Font Info:    ... okay on input line 59.
 * v-part:(T,H,B)=(71.70166pt, 418.25372pt, 107.55255pt)
 * \paperwidth=845.04694pt
 * \paperheight=597.50793pt
-* \textwidth=718.28993pt
-* \textheight=511.5pt
-* \oddsidemargin=-8.8915pt
-* \evensidemargin=-8.8915pt
-* \topmargin=-68.51959pt
-* \headheight=11.875pt
-* \headsep=14.25pt
-* \topskip=8.0pt
-* \footskip=33.25pt
-* \marginparwidth=42.25233pt
+* \textwidth=788.71051pt
+* \textheight=567.44984pt
+* \oddsidemargin=-44.10178pt
+* \evensidemargin=-44.10178pt
+* \topmargin=-89.1045pt
+* \headheight=13.68748pt
+* \headsep=16.42499pt
+* \topskip=9.0pt
+* \footskip=38.32497pt
+* \marginparwidth=18.77881pt
 * \marginparsep=12.8401pt
 * \columnsep=30.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -943,8 +949,8 @@ LaTeX Font Info:    Trying to load font information for TS1+bch on input line 70
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\OT1/bch/m/n/8 Die \OT1/bch/b/n/8 Ki-ne-ma-tik \OT1/bch/m/n/8 ei-nes Mas-sen-punk-tes wird be-schrie-ben
+Underfull \hbox (badness 6268) in paragraph at lines 80--81
+\OT1/bch/m/n/9 Die \OT1/bch/b/n/9 Ki-ne-ma-tik \OT1/bch/m/n/9 ei-nes Mas-sen-punk-tes wird be-schrie-ben
  []
 
 
@@ -960,11 +966,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 136--138
-[]\OT1/bch/m/n/8 Die Hauptebe-ne des Sys-tems ent-spricht dem mitt-le-ren
  []
 
 
@@ -985,12 +986,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
-[]\OT1/bch/m/n/8 Einzelne Zeitse-ri-en zu technik-spezifischen Lang-
+[]\OT1/bch/m/n/9 Einzelne Zeitse-ri-en zu technik-spezifischen Lang-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 168--169
+\OT1/bch/m/n/9 zeigl[]osungen: Ko-or-di-na-ten, Ge-schwin-dig-kei-ten und
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
-[]\OT1/bch/m/n/8 Einf[]uhrung und fi-xie-ren von ei-ni-gen ITRF-
+[]\OT1/bch/m/n/9 Einf[]uhrung und fi-xie-ren von ei-ni-gen ITRF-
  []
 
 
@@ -999,144 +1005,189 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
  []
 
 [2]
-Overfull \hbox (56.68988pt too wide) detected at line 301
- $\OML/cmm/m/it/8 EQ[] \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@\OT1/cmr/m/n/8 2\OML/cmm/m/it/8 e [] M \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 5\OML/cmm/m/it/8 =\OT1/cmr/m/n/8 4\OML/cmm/m/it/8 e[] [] \OT1/cmr/m/n/8 2\OML/cmm/m/it/8 M \OT1/cmr/m/n/8 + [][] [] [](2\OML/cmm/m/it/8 ^^U[]K\OT1/cmr/m/n/8 ) \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 1\OML/cmm/m/it/8 =\OT1/cmr/m/n/8 2 [][] [] [] 4\OML/cmm/m/it/8 ^^U[]K$ 
+Overfull \hbox (54.83585pt too wide) detected at line 301
+ $\OML/cmm/m/it/9 EQ[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 ^^@\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 e [] M \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 e[] [] \OT1/cmr/m/n/9 2\OML/cmm/m/it/9 M \OT1/cmr/m/n/9 + [][] [] [](2\OML/cmm/m/it/9 ^^U[]K\OT1/cmr/m/n/9 ) \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2 [][] [] [] 4\OML/cmm/m/it/9 ^^U[]K$ 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-[3]
-Overfull \hbox (9.55891pt too wide) detected at line 327
+
+Overfull \hbox (9.32228pt too wide) detected at line 327
 []
  []
 
-
-Overfull \hbox (53.61208pt too wide) detected at line 375
- $\OT1/cmr/m/n/8 ^^A\OML/cmm/m/it/8 t[] \OT1/cmr/m/n/8 = [] [] + [] + []$ 
- []
-
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 375--377
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+\OT1/bch/m/n/9 Bei DO-RIS han-delt es sich um ein Zweifrequenz-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
 
  []
 
 [5]
-Underfull \hbox (badness 7832) in paragraph at lines 500--501
-\OT1/bch/m/n/8 schen Deu-tung auch rein geo-me-trisch de-fi-nie-ren. Die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
-
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
+[]\OT1/bch/b/n/10 Schwerkraft, Schwe-re-be-schleu-ni-gung und
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 5667) in paragraph at lines 501--502
+\OT1/bch/m/n/9 schen Deu-tung auch rein geo-me-trisch de-fi-nie-ren. Die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 510--511
-[]\OT1/bch/m/n/8 Mit zu-neh-men-dem Ab-stand von der Er-de wer-den die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
-[]\OT1/bch/m/n/8 Die Lot-li-ni-en durch-schnei-den in je-dem Punkt die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--521
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 
  []
 
 
-Overfull \hbox (36.62491pt too wide) detected at line 533
- $\OML/cmm/m/it/8 W[] \OT1/cmr/m/n/8 = [] = \OMS/cmsy/m/n/8 ^^@\OML/cmm/m/it/8 g []$ 
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+[]\OT1/bch/m/n/9 Die Lot-li-ni-en durch-schnei-den in je-dem Punkt die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-\OT1/bch/m/n/8 Ke-gel-schnit-te (El-lip-se, Pa-ra-bel, Hy-per-bel). Die Kep-ler-
+Overfull \hbox (25.16782pt too wide) detected at line 534
+ $\OML/cmm/m/it/9 W[] \OT1/cmr/m/n/9 = [] = \OMS/cmsy/m/n/9 ^^@\OML/cmm/m/it/9 g []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--542
+
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 543--544
+\OT1/bch/m/n/9 Ke-gel-schnit-te (El-lip-se, Pa-ra-bel, Hy-per-bel). Die Kep-ler-
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
-\OT1/bch/m/n/8 Diese Fak-to-ren f[]ugen so-zu-sa-gen wir-ken-de
+Overfull \hbox (10.61696pt too wide) in paragraph at lines 604--605
+\OT1/bch/m/n/9 Diese Fak-to-ren f[]ugen so-zu-sa-gen wir-ken-de St[]orbeschleunigungen,
  []
 
-[8] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+
+ []
+
+
+Overfull \hbox (7.89911pt too wide) detected at line 627
+ $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [][] [] \OML/cmm/m/it/9 P[] []$ 
+ []
+
+
+Overfull \hbox (27.3097pt too wide) detected at line 631
+ $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [] [][] [] \OML/cmm/m/it/9 P[] []$ 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
+
+ []
+
+[9] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux) ) 
 Here is how much of TeX's memory you used:
- 19865 strings out of 478994
- 417801 string characters out of 5858183
- 884696 words of memory out of 5000000
- 36969 multiletter control sequences out of 15000+600000
- 426606 words of font info for 85 fonts, out of 8000000 for 9000
+ 19877 strings out of 478994
+ 417914 string characters out of 5858183
+ 884791 words of memory out of 5000000
+ 36976 multiletter control sequences out of 15000+600000
+ 428262 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,14n,116p,10723b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (8 pages, 208304 bytes).
+ 111i,16n,116p,10723b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (9 pages, 216564 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

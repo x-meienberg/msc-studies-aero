@@ -1,4 +1,4 @@
-\documentclass[8pt, landscape, fleqn]{scrartcl}
+\documentclass[9pt, landscape, fleqn]{scrartcl}
 \setlength{\parindent}{0pt}
 \usepackage[ngerman]{babel}
 %\usepackage[applemac]{inputenc}
@@ -27,7 +27,7 @@
 \usepackage{color}
 
 \pagestyle{plain}
-\typearea{20}
+\typearea{45}
 \columnsep 30pt
 \columnseprule .4pt
 \setlength{\extrarowheight}{0.9em}
@@ -370,9 +370,10 @@ Durch Messungen vieler Radioquellen ergeben sich die Basisvektoren $\mathbf{b}$ 
 
 \subsection{Satelite and Lunar Laser Ranging}
 Laser Ranging zu künstlichen Erdsateliten oder Mond ist vom Konzept her sehr einfach. Sehr kurze Laserpulse werden zu einem Sateliten geschickt, der mit Retroreflektoren augestattes ist und zur Station zurückschickt. Aus der Messung der Lichtlaufzeit hin und zurück ergibt sich die Distanz zw. Station und Satelit. Neben der Distanz muss in der Beobachtungsleichung nebst der geometrischen Distanz auch Korrekturterme mitberücksichtigt werden.
-\begin{equation*}
-    \Delta t_E^S = \frac{2}{c}\left( \underbrace{\rho_E^s}_{Distanz} + \underbrace{\delta \rho_{atm}}_{Refraktion} + \underbrace{\delta_{rel}}_{Relativitaet} \right) + \underbrace{\frac{1}{c} \delta \rho_{sys}}_{Signalverz.} + \underbrace{\epsilon_E^S}_{Messfehler}
-\end{equation*}
+\begin{align*}
+    \Delta t_E^S &= \frac{2}{c}\left( \underbrace{\rho_E^s}_{Distanz} + \underbrace{\delta \rho_{atm}}_{Refraktion} + \underbrace{\delta_{rel}}_{Relativitaet} \right)  \\
+    &+ \underbrace{\frac{1}{c} \delta \rho_{sys}}_{Signalverz.}+ \underbrace{\epsilon_E^S}_{Messfehler}
+\end{align*}
 Eigentlich müsste die rein geometrische Laufzeit des Pulses aus zwei Einzellaufzeiten berechnet werden (hin und zurück). Für einen Sateliten in der Höhe von 20'000 km (GPS, oder GLONASS) beträgt die Lichtlaufzeit rund 0.13 Sekunden. Der quadratische Term aus einer Reihenentwicklung liegt im Fehler bei etwa $10^{-4}m$ Bereich. Für Messungen zum Mond muss die Gleichung erweitert werden. Der Sender und Empfänger müssen im gleichen Koordinatensystem vorliegen (Transformation von Erdfest zu Raumfestes System). \\
 
 Zur Zeit gibt es etwa 40 Sateliten, welche mit SLR verfolgt werden können. Die wichtigsten sind LAGEOS I und II. Diese sind etwa 60 cm gross und etwa bei 6000 km Höhe. Die Distanzmessungen sind etwa 1cm genau. Die Parameter von Satelitenbahnen, Koeffizienten des Erdschwerefeldes, Staionsgeschwindigkeiten und Erdrotationsparameter werden mittels SLR bestimmt. SLR hilft am genauesten, um den Schwerpunkt der Erde zu bestimmen. \\
@@ -445,9 +446,9 @@ Das Potential, welches bei einer Kugelschale $S$ der Dicke $dR$, auf eine Punkt 
     &V_{K,aussen} = \frac{G M_K}{d}
 \end{align*}
 \subsubsection{Potential einer Kugel für einen Punkt innerhalb der Kugel}
-Für einen Punkt innerhalb einer Kugelschale erhält man ein konstantes Potential. Da der Gradient bei einer Konstanten verschwindet, übt die Kugelschale auf einen Massenpunkt im Innern keine Kraft aus.
+Für einen Punkt innerhalb einer Kugelschale erhält man ein konstantes Potential (unabhängig von $d$). Da der Gradient bei einer Konstanten verschwindet, übt die Kugelschale auf einen Massenpunkt im Innern keine Kraft aus.
 \begin{equation*}
-    V_{S,innen} = 0
+    V_{S,innen} = 4 \pi G \rho R dR = const.
 \end{equation*}
 Für einen Punkt innerhalb einer Vollkugel kann folgendes Modell angenommen werden: Es gibt einer äussere Schale, welche aufgrund der Integrationsgrenzen auch einen Effekt auf das Potential hat.
 \begin{equation*}
@@ -600,14 +601,57 @@ In wirklichkeit bewegen sich Sateliten nicht gemäss der ungestörten Bewegungsg
     \item relativistische Effekte
     \item Thermische Emmisionen
 \end{itemize}
-Diese Faktoren fügen sozusagen wirkende Störbeschleunigungen, wobei $q$ Parameter, dynamische Parameter die einzelnen Störbeschreibungen beschreiben und oft nich sehr genau bekannt sind und in der Bahnbestimmung nebst den Anfangsbedingungen mitbestimmt werden müssen.
+Diese Faktoren fügen sozusagen wirkende Störbeschleunigungen, wobei $q$ Parameter, dynamische Parameter die einzelnen Störbeschreibungen beschreiben und oft nich sehr genau bekannt sind und in der Bahnbestimmung nebst den Anfangsbedingungen mitbestimmt werden müssen. \\
+
+Somit ist die Differenzialgleichung nicht mehr analytisch mehr lösbar, und es müssen numerische Integrationen gemacht werden. Aufgrund der Störkräfte sind Satelitenbahnen nicht mehr rein elliptisch, sondern nur näherungsweise.
 \section{Bestimmung des Gravitationsfeldes der Erde mit Satelitenmissionen}
 \subsection{Kugelfunktionsentwicklung des Gravitationsfeldes}
 \subsubsection{Laplace-Operator in Kugelkoordinaten}
+Der Laplace-Operator in Kugelkoordinaten sieht folgendermassen aus:
+\begin{equation*}
+    \Delta = \frac{\partial^2}{\partial r^2} + \frac{2}{r}\frac{\partial}{\partial r} + \frac{1}{r^2}\frac{\partial^2}{\partial \theta^2} + \frac{\cot \theta}{r^2}\frac{\partial}{\partial \theta} + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2}{\partial \lambda^2}
+\end{equation*}
+Diese hilft später, das Gravitationsfeld in einer anderen Form zu beschreiben.
 \subsubsection{Lösung der Laplace-Gleichung in Kugelkoordinaten}
+Der Laplaceoperator angewandt auf das Gravitationspotential $V$ ergibt Null für Lösungen im Aussenraum. Mittels eines Separationsansatzes macht man das Gravitationspotential zu einem Produkt verschiedenere Funktionen, welche von den einzelnen Koordinatne $r$, $\theta$ und $\lambda$ abhängig sind.
+\begin{equation*}
+    V(r,\theta, \lambda) = f(r) \cdot g(\theta) \cdot h(\lambda)
+\end{equation*}
+Somit entstehen drei separate Differentialgleichungen di mit Standardansätzen gelöst werden können. Für die Funktion $f$ wird angenommen, dass es sich um Potenzreihen handelt:
+\begin{equation*}
+    f(r) = r^n~~, \text{ oder } f(r) = \frac{1}{r^{n+1}}
+\end{equation*}
+Der Ansatz für die Winkel $\theta$ und $\lambda$ sind die Legendrefunktionen und Fourierreihen. Mit den Randbedingungen nach Dirichlet, nämlich dass mit dem Radius im Unendlichen das Potential Null sein muss, sowie bei $r=R$ exakt das Potential eine Funktion von $\theta$ und $\lambda$ sein muss, ergibt sich folgende Gleichung:
+\begin{equation*}
+    V(r,\theta, \lambda) = \sum_{n=0}^{\infty} \left( \frac{R}{r}\right)^{n+1} \sum_{m=0}^{n} P_{nm}\left[ A_{nm} \cos m \lambda + B_{nm} \sin m\lambda \right]
+\end{equation*}
+Zudem lassen sich die Koeffizienten dimensionslos darstellen, sodass folgende Funktion definiert werden kann:
+\begin{equation*}
+    V(r,\theta, \lambda) = \frac{GM}{R}\sum_{n=0}^{\infty} \left( \frac{R}{r}\right)^{n+1} \sum_{m=0}^{n} P_{nm}\left[ C_{nm} \cos m \lambda + S_{nm} \sin m\lambda \right]
+\end{equation*}
+Zudem könnten anstelle der Legendre-Funktionen auch die normalisierten zugeordneten Legendre-Funktionen als Koeffizienten verwendet werden.
 \subsection{Globale Gravitationsmodelle}
-\subsection{Satelitenbasierte Schwerefeldmissionen}
+Heute stehen viele Gravitationsmodelle zur Verfügung. Das EGM2008 ist bis zum Grad und Orrdnung 2159 und entählt zusätzliche Koeffizienten bis zum Grad 2190 und der Ordnung 2159. \\
 
+Die Koeffizienten werden mittels einer Kombination von GRACE Daten ermittelten Schwerefeldes, und mittleren Freiluft-Schwereanomalien basierend auf einem globalen Gitter mit fünf Bogenminuten Maschenweite berechnet.
+\subsection{Satelitenbasierte Schwerefeldmissionen}
+Die Bahn eines Sateliten hängt vom Gravitationsfeld der Erde ab. Umgekehrt kann man anhand der Satelitenbahn Informationen über das Gravitationsfeld gewinnen. Für die Bestimmung des Feldes sind tieffliegende Sateliten am günstigsten, da so der Glättungsfaktor besser bestimmt wird. Ebenso sind Koeffizienten mit höherem Grad und Ordnung tendenziell kleiner. \\
+
+Andererseits muss der höhere Luftwiderstand von tieffliegenden Sateliten ausgeglichen werden. Dies ist möglich, wenn auf eine Prüfmasse im Satelit nur die Gravitation wirkts, aber die Hülle von Oberflächenkräften angegriffen wird. Anhand der wirkenden Kräfte auf der Prüfmasse kann die Antriebsleistung variiert werden. \\
+
+Für die Bestimmung der Satelitenbahn und des Gravitationsfeldes der Erde werden heute in erster Linie drei Beobachtunggrössen benutzt:
+\begin{itemize}
+    \item SST high-low: Beobachtungen von GPS-Empfängern and Board von LEO-Sateliten (160-2000km Bahnhöhe)
+    \item SST low-high: Distanzmessungen zwischen Sateliten mittels Mikrowellen
+    \item Gradiometer-Beobahtung dreier Paare dreidimensionaler Beschleunigungsmesser an Board eines LEo, mit denen der vollständige Gravitations-Gradienttensor gemessen wird.
+\end{itemize}
+SST heisst Satelite-to-Satelite Tracking. Für Sateliten der Beobachtungsgrössen 2 und 3 sind in der Regel auch GPS-Empfänger auf diesen an Board. \\
+
+Bei der Messung des Gradiententensors sind hohe technische Anforderungen gegeben. Die Diagonalelemente des Tensors in der Höhe von einigen 100km müssen im Bereich von $10^{-9} s^{-2}$ liegen. Die Bestimmung der zweiten Ableitung liegt somit im Bereich $10^{-11}$ bis $10^{-13} s^{-2}$. Diese Schweregradiometer dienen bei der Ermittlung der Koeffizienten mit höherem Grad/Ordnung. \\
+
+Der heutige Fokus in der Schwerefeldbestimmung liegt haupstächlich in der zeitlichen Änderung. Somit können Variationen des Schwerefeldes die Differenzen von kurzzeiteigen Lösungen und Langzeit-Modekllen bestimmt werden. Die Änderungen kommen zumeist im Zusammenhang mit Masseverlagerungen im Erdmantel, der Erdoberfläche oder Atmosphäre. Zudem lassen sich säkulare Änderungen, z.B. das Abschmelzen von Eis in Polarregionen und und periodische Variationen (Wassermenge gespeichert auf den Kontinenten) beobachten. \\
+
+Zeitvariable Schwerefeldkoeffizienten sind mit zunehmender Ordnung auch mit Rauschen behaftet und sind weniger signifikant. Somit nimmt man bei monatlichen Modellen Koeffizienten im Bereich $n \approx 60-100$ und $m \approx 45-60$.
 \end{multicols*}
 \end{document}
 
