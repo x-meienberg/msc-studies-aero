@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  16 JAN 2022 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  21 JAN 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,12 +964,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -980,197 +985,202 @@ Non-PDF special ignored!
 <special> ! /landplus90 true store
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-[]\OT1/bch/m/n/9 Einzelne Zeitse-ri-en zu technik-spezifischen Lang-
- []
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
-
-Underfull \hbox (badness 5924) in paragraph at lines 168--169
-\OT1/bch/m/n/9 zeigl[]osungen: Ko-or-di-na-ten, Ge-schwin-dig-kei-ten und
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]\OT1/bch/m/n/9 Einzelne Zeitse-ri-en zu technik-spezifischen Lang-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 179--180
+\OT1/bch/m/n/9 zeigl[]osungen: Ko-or-di-na-ten, Ge-schwin-dig-kei-ten und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 []\OT1/bch/m/n/9 Einf[]uhrung und fi-xie-ren von ei-ni-gen ITRF-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[2]
-Overfull \hbox (54.83585pt too wide) detected at line 301
+[2] [3]
+Overfull \hbox (54.83585pt too wide) detected at line 312
  $\OML/cmm/m/it/9 EQ[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 ^^@\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 e [] M \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 e[] [] \OT1/cmr/m/n/9 2\OML/cmm/m/it/9 M \OT1/cmr/m/n/9 + [][] [] [](2\OML/cmm/m/it/9 ^^U[]K\OT1/cmr/m/n/9 ) \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2 [][] [] [] 4\OML/cmm/m/it/9 ^^U[]K$ 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Overfull \hbox (9.32228pt too wide) detected at line 327
+Overfull \hbox (9.32228pt too wide) detected at line 338
 []
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 \OT1/bch/m/n/9 Bei DO-RIS han-delt es sich um ein Zweifrequenz-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []\OT1/bch/b/n/10 Schwerkraft, Schwe-re-be-schleu-ni-gung und
  []
 
 [6]
-Underfull \hbox (badness 5667) in paragraph at lines 501--502
+Underfull \hbox (badness 5667) in paragraph at lines 512--513
 \OT1/bch/m/n/9 schen Deu-tung auch rein geo-me-trisch de-fi-nie-ren. Die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 []\OT1/bch/m/n/9 Die Lot-li-ni-en durch-schnei-den in je-dem Punkt die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--522
+Underfull \hbox (badness 10000) in paragraph at lines 531--533
 
  []
 
 
-Overfull \hbox (25.16782pt too wide) detected at line 534
+Overfull \hbox (25.16782pt too wide) detected at line 545
  $\OML/cmm/m/it/9 W[] \OT1/cmr/m/n/9 = [] = \OMS/cmsy/m/n/9 ^^@\OML/cmm/m/it/9 g []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--542
+Underfull \hbox (badness 10000) in paragraph at lines 551--553
 
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 543--544
+Underfull \hbox (badness 7451) in paragraph at lines 554--555
 \OT1/bch/m/n/9 Ke-gel-schnit-te (El-lip-se, Pa-ra-bel, Hy-per-bel). Die Kep-ler-
  []
 
 [7]
-Overfull \hbox (10.61696pt too wide) in paragraph at lines 604--605
+Overfull \hbox (10.61696pt too wide) in paragraph at lines 615--616
 \OT1/bch/m/n/9 Diese Fak-to-ren f[]ugen so-zu-sa-gen wir-ken-de St[]orbeschleunigungen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
-
-Overfull \hbox (7.89911pt too wide) detected at line 627
+[8]
+Overfull \hbox (7.89911pt too wide) detected at line 638
  $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [][] [] \OML/cmm/m/it/9 P[] []$ 
  []
 
 
-Overfull \hbox (27.3097pt too wide) detected at line 631
+Overfull \hbox (27.3097pt too wide) detected at line 642
  $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [] [][] [] \OML/cmm/m/it/9 P[] []$ 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--649
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
@@ -1178,16 +1188,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--653
 Here is how much of TeX's memory you used:
  19877 strings out of 478994
  417914 string characters out of 5858183
- 884791 words of memory out of 5000000
+ 884655 words of memory out of 5000000
  36976 multiletter control sequences out of 15000+600000
  428262 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,16n,116p,10723b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (9 pages, 216564 bytes).
+ 111i,16n,116p,10723b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (9 pages, 215691 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

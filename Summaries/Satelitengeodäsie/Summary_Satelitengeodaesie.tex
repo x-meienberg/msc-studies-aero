@@ -82,7 +82,16 @@ Die \textbf{Kinematik} eines Massenpunktes wird beschrieben durch den Ortsvektor
 
 Die Gesamtheit aller Endpunkte der Ortsvektoren nennt man \textbf{Bahnkurve}. Die Funktionen $x_1$,$x_2$,$x_3$ sind die Koordinaten des Massenpunktes im gewählten \textbf{Bezugssystems} $\{O,~e_1,~e_2,~e_3\}$ \\
 
-Anstatt Parameterdarstellung $\underline{x}=\underline{x}(t)$ kann auch die Kurve im vierdimensionalen Raum dargestellt werden ($t =$ 4. Achse). Daraus ergibt sich die \textbf{Weltlinie} $\underline{x}(ct,~x_1,~x_2,~x_3)$
+Anstatt Parameterdarstellung $\underline{x}=\underline{x}(t)$ kann auch die Kurve im vierdimensionalen Raum dargestellt werden ($t =$ 4. Achse). Daraus ergibt sich die \textbf{Weltlinie} $\underline{x}(ct,~x_1,~x_2,~x_3)$ \\
+
+Die Skalen für die Erde mit $R=6378~km$ sind wie folgt:
+
+\begin{itemize}
+    \item $1^\circ = 110~km$ 
+    \item $1'' = 30~m$
+    \item $1 mas = 3~cm$
+    \item $1 \mu as = 0.03~mm$
+\end{itemize}
 
 \subsubsection{Referenzsysteme und Referenzrahmen}
 
@@ -97,12 +106,14 @@ Anstatt Parameterdarstellung $\underline{x}=\underline{x}(t)$ kann auch die Kurv
     \item \textbf{Konventioneller Ref.rahmen}: Konkrete Realisierung durch Punkte wie Stationen, Sterne, Quasare mit Koordinaten
 \end{itemize}
 
+Somit ist ein Rahmen eine Realisierung eines Systems mittels Koordinaten, Referenz- oder Bezugssystemen, sowie einer Datumsdefinition. \\
+
 In der Geodäsie gibt es drei Arten von Bezugssystemen:
 
 \begin{itemize}
     \item \textbf{Raumfeste Systeme}: Inertialsystem (gute Annäherung) $\rightarrow$ zälestisch = celestial
-    \item \textbf{Erdfeste Systeme}: Fest mit Erde verbunden und rotiert mit dieser
-    \item \textbf{Lokale Systeme}: An ein Messinstrument gekoppelt oder orientiert sich an einer Referenzfläche
+    \item \textbf{Erdfeste Systeme}: Fest mit Erde verbunden und rotiert mit dieser (terrestrische Systeme)
+    \item \textbf{Lokale Systeme}: An ein Messinstrument gekoppelt oder orientiert sich an einer Referenzfläche (topozentrische Systeme)
 \end{itemize}
 
 \subsection{Raumfeste Bezugssysteme}
@@ -111,10 +122,10 @@ Inertialsystem, welche keinen Scheinkräften ausgesetzt sind, es gelten allgemei
 
 \begin{itemize}
     \item \textbf{Dynamischer Ansatz}: Trajektorien von Planeten udn Ssystem sind Differentialgleichungssysteme. Die Gleichungen gelten nur in einem Inertialsystem
-    \item \textbf{Kinematischer Ansatz}: Annahme: Universum rotiert nicht (fixe Punkte). Aus diesem Grund ist es ein Inertialsystem. Galaktische Objekte bewegen sich nicht allzu fest
+    \item \textbf{Kinematischer Ansatz}: Annahme: Universum rotiert nicht (fixe Punkte). Aus diesem Grund ist es ein Inertialsystem. Galaktische Objekte, wie z.B. Quasare bewegen sich nicht allzu fest
 \end{itemize}
 
-Es ist nicht ausschliessbar, dass unser Sonnensystem sich bewegt, und sich linear im Raum bewegt. Man nennt dies in diesem Fall ein \textbf{Quasiinertialsystem}
+Es ist nicht ausschliessbar, dass unser Sonnensystem sich bewegt, und sich linear im Raum bewegt (Expansion des Universums). Man nennt dies in diesem Fall ein \textbf{Quasiinertialsystem}
 
 \subsubsection{Grundbegriffe}
 \begin{itemize}
@@ -148,7 +159,7 @@ Das ICRF benutzt Quasare, BL-Lacertae-Objekte und aktive Galaxienkerne. Die ausg
     \item 3. Klasse: Nicht geeignet, jedoch immer noch interessant
 \end{itemize}
 
-Das aktuelle ICRF3 nutzt 303 definierte und 4500 Objekte. Die Objekte werden mittels VLBI ausgemessen. Es gibt auch optische Realisierungen, basierend auf dem Hipparcos Sternkatalog (100'000 Sterne aus zur Epoche 1991.25). Mittels Sonden konnte man jedoch auch bereits optische Realisierungen des ICRS verbessern. \\
+Das aktuelle ICRF3 nutzt 303 definierte und 4500 Objekte (Genauigkeit $30~\mu as = 1~mm$). Die Objekte werden mittels VLBI ausgemessen. Es gibt auch optische Realisierungen, basierend auf dem Hipparcos Sternkatalog (100'000 Sterne aus zur Epoche 1991.25). Mittels Sonden konnte man jedoch auch bereits optische Realisierungen des ICRS verbessern. \\
 
 Die dynamische Realisierung des ICRS ist durch die Ephemeriden von Planeten und des Mondes gegeben. Diese werden durch die Einstein-Infeld-Hoffmann-Gleichungen erzeugt (DGL-System), durch Punktmassen unter gegenseitiger Gravitationsanziehung mit berücksichtigung allgmein-relativistischen Effekten.
 
@@ -198,7 +209,7 @@ GNSS-spezifische Systeme werden oft von broadcast-Orbits genutzt. GPS, GLONASS, 
 Die Transformation vom raumfesten System in das konventionelle erdfeste System ist im Prinzip eine räumliche Rotation, die durch drei Rotationswinkel vollständig beschrieben ist. Diese wird in mehrere Einzelschritte aufgetrennt.
 \subsubsection{Präzession - $\overline{S}_{i_0} \rightarrow \overline{S}_{i}$}
 
-Im ersten Schritt wird die Präzessionsbewegung der Erde berücksichtigt. Zur Referenzepoche J2000.0 wird das mittlere Inertialsystem zum \textbf{mittleren Inertialsystem zur Beobachtungsepoche} umgewandelt. Es handelt sich hierbei um die Drehung um drei Winkel um die Achsen 3-2-3.
+Im ersten Schritt wird die Präzessionsbewegung der Erde berücksichtigt. Diese wird hauptsächlich durch die Gezeitenkräfte von Mond und Sonne verursacht. Aufgrund der Form der Erde, angenähert durch eines abgeplatteten Ellispoids, wird auf die Äquatorwulst ein Drehmoment aufweist. Die Erdachse versucht sich aufzurichten, womit die Präzession entsteht. Zur Referenzepoche J2000.0 wird das mittlere Inertialsystem zum \textbf{mittleren Inertialsystem zur Beobachtungsepoche} umgewandelt. Es handelt sich hierbei um die Drehung um drei Winkel um die Achsen 3-2-3.
 
 \begin{equation*}
     \mathbf{\overline{e}}_i = \mathbf{P} \mathbf{\overline{e}}_{i_0} = \mathbf{R_3}(-z_A)\mathbf{R_2}(\theta_A) \mathbf{R_3}(-\zeta_A) \mathbf{\overline{e}}_{i_0}
@@ -213,7 +224,7 @@ Der Zeitunterschied in Tagen zwischen der Zeit der Observation zum J2000.0 wird 
 
 \subsubsection{Nutation - $\overline{S}_{i} \rightarrow S_i$}
 
-Nach der Präzession werden kurzperiodeische Nutationsperioden berücksichtigt. Somit wandelt man das System vom mittleren intertialsystem der Beobachtungsepoche zum \textbf{Wahren Inertialsystem der Beobachtungsepoche}.
+Nach der Präzession werden kurzperiodeische Nutationsperioden berücksichtigt. Die mit der Präzession eingehende Nickung ist die Nutation, welche mit der Bewegung des Mondes einhergeht (T=18.6 Jahre). Somit wandelt man das System vom mittleren intertialsystem der Beobachtungsepoche zum \textbf{Wahren Inertialsystem der Beobachtungsepoche}.
 Somit wird mittels der mittleren Schiefe der Ekliptik (Rotation um Ekliptik), der Nutation in der Länge (Rotation um Erdachse) der Nutation in der Schiefe (Rotation um Ekliptik) die Transformation durchgeführt. Die Nutationswinkel sind schwieriger zu berechnen (viel Trigonometrie)
 \begin{equation*}
     \mathbf{e}_i = \mathbf{N} \mathbf{\overline{e}}_{i} = \mathbf{R_1}(-\epsilon_A-\Delta \epsilon)\mathbf{R_3}(-\Delta \psi) \mathbf{R_1}(\epsilon_A) \mathbf{\overline{e}}_{i_0}
@@ -224,7 +235,7 @@ Durch das Anbringen der Präzession und Nutation wird die dritte Achse angepasst
     \mathbf{e}_e = \mathbf{R}_3(\Theta_0) \mathbf{e}_{i} 
 \end{equation*}
 
-Der Rotationswinkel $\Theta_0$ ist GAST (Greenwich apparent siderial time), der wahren Sternzeit von Greenwich. Der Winkel ist der wahre Frühlingspunkt relativ zum Greenwichmeridians.Durch die schwankende Unregelmässigkeit der Tageslänge muss man die Differenz $UT1-UTC$ mitberücksichtigt werden. Die Nutation hat ebenfalls einen Einfluss auf GAST, also muss man diese mitberücksichten.
+Der Rotationswinkel $\Theta_0$ ist GAST (Greenwich apparent siderial time), der wahren Sternzeit von Greenwich. GMST (mittlere Sternzeit) berücksichtigt die Nutation nicht. Der Winkel ist der wahre Frühlingspunkt relativ zum Greenwichmeridians. Durch die schwankende Unregelmässigkeit der Tageslänge muss man die Differenz $UT1-UTC$ mitberücksichtigt werden. Die Nutation hat ebenfalls einen Einfluss auf GAST, also muss man diese mitberücksichten. UT1 beschreibt die Rotation der Erde, da es sich hier um die exakte Zeit handelt. Der Sterntag ist 23h56min, die Sonnenzeit exakt 24h. Somit muss diese Korrektur mitberücksichtigt werden.
 
 \subsubsection{Polbewegung - $S_e \rightarrow S'_e$}
 
@@ -233,7 +244,7 @@ Schliesslich muss noch die Polbewegung der Erde (Bewegung der Rotationsachse um 
     \mathbf{e}'_e = \mathbf{W} \mathbf{e_e} = \mathbf{R}_2(-x_p) \mathbf{R}_1(-y_p) \mathbf{e}_e
 \end{equation*}
 
-Die Polbewegung ist allerdings unregelmässig. Sie ist nicht periodisch, weshalb man auf tabellierte Werte zurückgreift.UT1-UTC, die Nutationswinkel werden jeweils immer vom IERS gestellt.
+Die Polbewegung ist allerdings unregelmässig. Sie ist nicht periodisch, weshalb man auf tabellierte Werte zurückgreift. UT1-UTC, die Nutationswinkel werden jeweils immer vom IERS gestellt. Jedoch lässt sich eine allgemeine Schwebung durch die Überlagerung zweier Frequenzen: Der Jahreslänge (360 Tage) und der Chandlerperiode (430 Tage). Die maximale Amplitude ist hierbei 0.3''.
 
 \subsubsection{Zusammenfassung Transformation raumfest $\leftrightarrow$ erdfest}
 
@@ -252,7 +263,7 @@ Geodätische oder astronomische Beobachtungen an oder nahe der Erdofberfläche o
 Die Richtung des Sschwerevektors wird durch die angabe der beiden Winkel der Breite und Länge gegeben ($\Phi$ und $\Lambda$)
 
 \begin{equation*}
-    \mathbf{g} = -|\mathbf{g}|\cdot \mathbb{n} = -|\mathbf{g}| \cdot \begin{pmatrix}
+    \mathbf{g} = -|\mathbf{g}|\cdot \mathbf{n} = -|\mathbf{g}| \cdot \begin{pmatrix}
         \cos \Phi \cos \Lambda \\ \cos \Phi \sin \Lambda \\ \sin \Phi
     \end{pmatrix}
 \end{equation*}
@@ -381,7 +392,7 @@ Zur Zeit gibt es etwa 40 Sateliten, welche mit SLR verfolgt werden können. Die 
 LLR ist 2cm genau und benötigt starke Laser, um diese wirklich zu messen. Erdrotationsparameter können mittels LLR bestimmt werden (UT1 z.B.), sowie Parameter für die Mondbahn und für Tests in der Relativitätstheorie.
 
 \subsection{Doppler Orbitography by Radiopositioning Integrated on Satelite (DORIS)}
-Bei DORIS handelt es sich um ein Zweifrequenz-Dopplersystem (2.03 GHz und 0.4 GHz). Das vor allem für die Bestimmung von Satelitenbahnen eingesetzt wird. Bei DORIS ist nebst Sendesystem auch ein Empfänger integriert, dessen Bahn man mitverfolgen Bahn man mitverfolgen kann. DORIS kann also einem Sateliten zusätzlich mitgegeben werden. \\
+Bei DORIS handelt es sich um ein Zweifrequenz-Dopplersystem (2.03 GHz und 0.4 GHz). Das vor allem für die Bestimmung von Satelitenbahnen eingesetzt wird. Bei DORIS ist nebst Sendesystem auch ein Empfänger integriert, dessen Bahn man mitverfolgen kann. DORIS kann also einem Sateliten zusätzlich mitgegeben werden. \\
 
 Die Doppler-Beobachtungsdaten werden zentral im Sateliten gesammelt und an das Betriebszentrum übermittelt. DORIS kann auch an entlegene Gebiete aufgestellt werden wo die Übermittlung von Daten z.B. für GPS, ein Problem darstellen würde. \\
 

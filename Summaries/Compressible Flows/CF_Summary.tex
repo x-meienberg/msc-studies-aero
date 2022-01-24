@@ -238,7 +238,7 @@ Assumptions:
     Ma = \frac{u}{a}, ~~~~~ h=c_p T = \frac{\gamma}{\gamma-1} \frac{p}{\rho}
 \end{equation*}
 \begin{equation*}
-    a^2 = \gamma R T, ~~~~~ R = c_p - c_v, ~~~~~ \gamma = \frac{c_p}{c_v} = 1 + \frac{R}{c_v} = 1 + \frac{2}{f}
+    a^2 = \gamma R T = \gamma \frac{p}{\rho}, ~~~~~ R = c_p - c_v, ~~~~~ \gamma = \frac{c_p}{c_v} = 1 + \frac{R}{c_v} = 1 + \frac{2}{f}
 \end{equation*}
 Stagnation properties, when $u=0$ (Ruhegrösse), subscript 0: 
 \begin{equation*}
@@ -295,7 +295,7 @@ If $Ma < 1$, then an area increase will result in a velocity reduction. If $Ma >
 $h_{01} = h_{02}$, $T_{01} = T_{02}$, and total enthalpy conserved (however stagnation pressure not constant, $p_{01}\neq p_{02}$):
 \begin{align*}
     &\frac{p_{02}}{p_{01}} = \frac{p_{02}}{p_{2}} \frac{p_2}{p_1} \frac{p_1}{p_{01}} = \frac{p_2}{p_1} \left( \frac{T_{02}}{T_2} \right)^{\frac{\gamma}{\gamma-1}}\left(\frac{T_1}{T_{01}}\right)^{\frac{\gamma}{\gamma-1}} = \\
-    & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{\-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
+    & \left[ 1 + \frac{2 \gamma}{\gamma + 1} (Ma_1^2 -1)\right]^{\frac{-1}{\gamma-1}} \left[1- \frac{2}{\gamma+1} \left( 1-\frac{1}{Ma_1^2}\right)\right]^{\frac{-\gamma}{\gamma-1}} 
 \end{align*}
 As $s$ increases, $u$ decreases. $Ma_2$ is always $<1$, when $Ma_1 \rightarrow \infty$:
 \begin{equation*}
@@ -669,7 +669,7 @@ If heat fluxes through the wall and wall friction are condsidered, the different
 \end{equation*}
 \begin{itemize}
     \item Generally, in subsonic flow ($Ma < 1$), the velocity ($du > 0$) increases because of wall friction and in case of heat input ($dq > 0$) 
-    \item In supersonic flow, the behavious is opposite, and $du < 0$ given a heat input
+    \item In supersonic flow, the behaviour is opposite, and $du < 0$ given a heat input
     \item If $du = 0$ is to be maintained, then $dq < 0$. It follows with ideal gas equations that the entropy will decrease $ds < 0$
     \item If the entropy shall remain constant ($ds = 0$), then the density and velocity do not remain constant but change in to isentropic flow: $(1-Ma^2)\frac{du}{u}=\lambda \frac{Ma^2}{2}\frac{dx}{D}$ 
     \item For an adiabatic wall $dq=0$, the entropy always increases, then the equation becomes: $\left( \frac{1}{Ma^2}-1 \right)\frac{du}{u} = \frac{\lambda}{2}\gamma \frac{dx}{D}$. This means, that for $Ma <1$, the velocity increases, and for $Ma > 1$, the velocity decreases. 
