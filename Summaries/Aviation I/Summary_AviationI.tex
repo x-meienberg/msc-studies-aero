@@ -1,0 +1,286 @@
+\documentclass[9pt, landscape, fleqn]{scrartcl}
+\setlength{\parindent}{0pt}
+\usepackage[ngerman]{babel}
+%\usepackage[applemac]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{geometry}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{charter} %%% Schreibart
+%\renewcommand{\familydefault}{\sfdefault}
+
+
+
+%%%%%%%%%%Paket für Chemische Formeln
+\usepackage{chemformula} 
+\usepackage[version=3]{mhchem}
+%%%%%%%%%%%%%%%%% Farbe
+\usepackage{color}
+
+\pagestyle{plain}
+\typearea{45}
+\columnsep 30pt
+\columnseprule .4pt
+\setlength{\extrarowheight}{0.9em}
+
+\renewcommand{\arraystretch}{0.8}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth1.5pt
+width0.25\columnwidth\vspace*{1.2em}\Large\bfseries\rmfamily}}
+\makeatother
+
+
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\hrule depth0.75pt
+width0.25\columnwidth\vspace*{1.2em}\large\bfseries\rmfamily}}
+\makeatother
+
+\makeatletter
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0mm}%
+{-2\baselineskip}{0.8\baselineskip}%
+{\hrule depth 0.2pt width\columnwidth\vspace*{1.2em}\normalsize\bfseries\rmfamily}}
+\makeatother
+
+\newcommand{\Mx}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\begin{document}
+\part*{\LARGE\textrm{Aviation 1 - Summary $\hfill$ Xeno Meienberg}}
+\begin{multicols*}{3}
+
+\section{Air Transport as part of overall traffic}
+\begin{itemize}
+    \item Air transport: On one hand dismissed as commodity, on the other as as magnet for the population (high interest)
+    \item Economist perspective: Air transport as part of econom. transport system
+    \item Modern economy: Division of labour: Pre-requisite for this is a functioning air transport system
+    \item Air transport is an \textbf{indicator of wealth and poverty}
+    \item \textbf{Globalisation} builds strongly on air transport 
+    \item Strong growth projected (based on CAGR of 3.7\% $\rightarrow$ 7.2 billion in 2035 / double of 2016 )
+\end{itemize}
+
+\underline{\textbf{Air transport vs. Aviation}}
+\begin{itemize}
+    \item \textbf{Air traffic/transport}: All operations used to change location of people, freight and post by air and incorporates all services directly associated with the change of location (flight, catering, airport)
+    \item \textbf{Aviation}: Air transport + in-kind services to produce air transport services (manufacturing of airplanes and traffic control systems)
+\end{itemize}
+
+\underline{\textbf{Systemization of Air Transport}}:
+\begin{itemize}
+    \item Functional specification: Civil/Military
+    \item Transport Object: Passenger/Freight/Post
+    \item Commercial: Public/not public
+    \item Non-commercial (not-public): Factory flights, company (internal), private, state
+    \item Length of leg: Short (2000km), Mid (5000km), Long
+    \item Legal: Inland(domestic), Cross-border (international)
+    \item Aircraft Type (Engine): Turbo-prop, Jet, Piston engine
+    \item Regularity: Regular (scheduled), On demand (chartered)
+    \item Business model: Network / charter / low cost / business jet 
+\end{itemize}
+
+\underline{\textbf{Specialities reg. Supply and Demand}}
+In contrast to other modes of transport, air transport has additional, special characteristics:
+\begin{itemize}
+    \item Governmental framework conditions (regulations, state carriers, cabotage ban (no provision of transport services within a country by a foreign transport company))
+    \item Special Infrastructure/State Controlled (Airports, air traffic control, SLOT)
+    \item Intermodal Transport (dependency, limited ability to network)
+    \item High fixed costs / perishable inventory (up to 80\% fixed costs, production and use of services are combined, external production factor)
+    \item Derived demand by GDP, and income as driver for demand
+    \item Deregulation has increased supply (LCC)
+\end{itemize}
+\underline{\textbf{Performance Metrics for Air Transport}}
+\begin{itemize}
+    \item $PKM = PAX \cdot KM$ (passenger km = pax times km)
+    \item $TKM = Tonne \cdot KM$ (transport/tonne km)
+    \item Supply: $ASK = Available~Seats \cdot KM$ (available seat km)
+    \item Demand: $RPK = Seats~sold~(passengers) \cdot KM$ (revenue passenger km)
+    \item $PKM = 1.852\cdot PM$ (Miles - KM)
+    \item $SLF = RPK / ASK$ (seat load factor in percentage), analogous for CLF (cargo load factor)
+\end{itemize}
+\underline{\textbf{Air transport data - Global (IATA) 2017 - see slide 15}} \\ \\
+\underline{\textbf{Air transport and COVID}}
+\begin{itemize}
+    \item Demand shocks normally do not have long-lasting impacts (previously shocks of RPK minus 5-20\%, but recovery after 6-18 months)
+    \item RPK is depending on regions (high RPK in Asia Pacific, Europe, lower in Africa)
+    \item Different markets recover at different paces (depending on vaccine availability, large markets, GDP and leisure markets)
+    \item High uncertainty for prediction: 2036-2037 - uncertainties include: COVID development, Business travels, Global economy, Global security, Climate attitude
+\end{itemize}
+\underline{\textbf{Air transport in Europe}}
+\begin{itemize}
+    \item Overall increase in SLF, PKM
+    \item Seasonality: Summer season 50\% more flights
+    \item EU traffic mainly stays in EU
+    \item Largest traffic is LDN Heathrow (77m / year) in terms of PAX, Paris in terms of post/freight
+    \item Most of non-EU traffic goes to non-EU Europe (36.4\%), North America (19.8\%) or Near East (13.3\%)
+    \item Strongest Airport pairs: Paris-Tolouse, Madrid-Barcelona, largest growth: Palma de Mallorca
+    \item Nearly all domestic flights, as carriers work in a hub model
+    \item PKM modal split within Europe: Air has 9-10\% share, passenger cars 70\%, Buses and Coaches 8\%, Railways 7\%.
+    \item Share of business model within Air transport: 50\% traditional scheduled, 32\% LCC, 7 \% business aviation, 3\% Charter (diminishing due to LCC) 
+\end{itemize}
+\underline{\textbf{Air transport in Switzerland}}
+\begin{itemize}
+    \item Traffic volume in comparison to GDP: Even though share of modes is low, air transport is 17x of Swiss GDP
+    \item Lines and charters: stable at 450'000 movements (starts and landings) per year
+    \item Increase of PAX by 5\% over time due to high SLF and larger aircrafts
+    \item Freight and post stable
+    \item 34\% of movements in CH are transfers (percentage of ingoing=outgoing transfer)
+    \item Nr of Aircrafts were stable over the years (commercial), private however decreasing (80\% of aircrafts in CH for sports purposes)
+    \item In CH: 5.6\% of GDP, 33.5 bn CHF value and 190'000 employees 
+\end{itemize}
+\underline{\textbf{Emissions}}
+\begin{itemize}
+    \item Number of flights probably grow by 42\% from 2017 until 2040
+    \item Aviation around 3.6\% of EU28 greenhouse emmissions, 13.4\% of transport
+    \item Environmental Efficiancy will increase, average fuel burn per passenger by then expected to be -12\% and noise reduction by -24\%
+    \item CO2 Reduction by 21\% and NOX by 16\%
+    \item How are these addressed: Technology and Design, Biofuels and Synthetic Fuels, Air Traffic Management, Market based measures
+\end{itemize}
+\underline{\textbf{Conversions}}
+\begin{itemize}
+    \item Nautical Mile: 1 NM = 1.852 KM 
+    \item Statute Mile: 1 SM = 1.602 km
+    \item Feet: M x 3.281 = FT 
+    \item Knot: 1 KT = 1 NM/H = 1.852 KM/H
+\end{itemize}
+\section{Aircraft Operations}
+\section{Aircraft Aerodynamics}
+\begin{itemize}
+    \item Lift: Aerodyn. Force perpendicular to the flight vector
+    \item Drag: Aeordyn. Force in opposite direction to flight vector
+\end{itemize}
+\begin{itemize}
+    \item Standard condition: $H = 2000 m$ and $\rho = 1~kg/m^3$
+\end{itemize}
+\underline{\textbf{Fuel consumption}}
+\begin{equation*}
+    Fuel~burn~per~distance \approx \frac{SFC}{M_\infty} \frac{Weight}{Lift/Drag}
+\end{equation*}
+$M_\infty$ affected by aerodynamics and Engine, Lift and Drag by Aerodynamics, SFC by engine \\ \\
+Equilibrum of forces: Drag=Thrust (minimse thrust), Lift = Weight (mandatory). Design goal Lift $\gg$ Drag \\ \\ Flight Performance: How far: $c_L/c_D$, How long: $c_L^3 / c_D^2$ \\ \\
+\underline{\textbf{Forces}}
+\begin{align*}
+    F_D = c_D \frac{1}{2}\rho_\infty V_\infty^2 A~~/~~F_L = c_L \frac{1}{2}\rho_\infty V_\infty^2 A = mg = L
+\end{align*}
+The fuel consumption depends on the drag ``Area'': $c_D A$ \\ \\
+\underline{\textbf{Eq. of motion}}
+\begin{align*}
+    &T cos\alpha - D - mg sin\varphi = 0 \\
+    &L + T sin\alpha - mg cos \varphi = 0 \\
+    &\Theta = Attitude = \alpha + \varphi = AoA + flight/climb~angle  
+\end{align*}
+\underline{\textbf{Why does a wing generate lift}}: The wing diverts a mass of air downwards. For this the wing acts with a force to the fluid. In return the air generates a force of the same magnitude to the wing (actio = reactio). \\ \\
+\underline{\textbf{Induced Drag (Drag due to Lift)}}
+\begin{align*}
+    D_i &= \frac{2}{\rho V^2 \pi}\left(\frac{L}{b}\right)^2~~,~~F^* = \pi/4 b^2 (Prandtl) \\
+    c_{D_i} &= \frac{1}{\pi}c_L^2 \frac{F}{b^2} = \frac{c_L^2}{\pi \Lambda} \\
+    b &= Wing~Span, F=Wing~Area, \Lambda = Aspect~Ratio
+\end{align*}
+\begin{itemize}
+    \item Induced drag ($D_i$) depends on ratio of lift and wing span 
+    \item The coefficent of induced drag ($c_{D_i}$) depends on the aspect ratio 
+    \item A slim wing with high aspect ratio produces less induced drag than a compact wing with small aspect ratio
+    \item Induced Drag stems from the principle of linear momentum. No friction is included. The induced drag is an additional contribution to total drag 
+    \item In general however, for non elliptical lift distribution, an Oswald-Factor $e$ must be considered $c_{D_{i,true}} = c_{D_{i}} / e$ 
+\end{itemize}
+\underline{\textbf{Tip Vortices}}
+\begin{itemize}
+    \item Consider Oswald factor $e$
+    \item Heavy Aircraft $\rightarrow$ Strong tip vortex $\rightarrow$ High Separation Distance / Time 
+\end{itemize}
+
+\underline{\textbf{Drag}}
+Total Drag = Induced Drag + Parasite Drag 
+\begin{itemize}
+    \item Parasite Drag is depending on the Reynolds, Mach number and some velocity regimes
+    \item Influence of Reynolds number: Laminar, turbulent flow and separation. Separation mainly due to pressure drag, turbulent and laminar flow due to friction drag (small contribution)
+    \item Target of small drag: No separation, turbulent downstream and large range laminar flow
+    \item Incluence of Mach Number: At airspeed M $\geq$ 0.7, the flow is no longer incompressible. Additional drag occurs
+    \item Lift and drag depend on the angle of attack. The polar diagram describes the dependence of the lift and drag coefficients on the angle of attack $\alpha$
+    \item Following components can lead to drag: skin friction drag, induced drag, profile drag, form drag, compressibility drag, interference drag, base drag, trim drag
+\end{itemize}
+\underline{\textbf{Flight Performance and characteristics}}
+\begin{itemize}
+    \item Atmosphere: Aerodynamic Forces depend on the air density. The engine power (thrust) depends on the ambient pressure and temperature
+    \item Steady thrust: $tan \varphi = \frac{T cos \alpha - D}{T sin \alpha + L}$
+    \item Without thrust: $tan \varphi = \frac{-D}{L} = \frac{-c_D}{c_L} = \frac{height}{distance} $ flight path angle points downwards
+    \item $\varphi$ is a measure for the aerodynamic quality of an airplane (how far it can travel from a given altitude)
+\end{itemize}
+\underline{\textbf{Drag at steady horizontal flight}}
+\begin{align*}
+    &L = mg = c_L \frac{\rho}{2} V^2 F \\
+    &V = \sqrt{\frac{2mg}{\rho F c_L}} \\
+    &c_L = \frac{2mg}{\rho V^2 F} \\
+    &D = D_{parasite} + D_{ind} = c_{D,para} \cdot \frac{\rho}{2}V^2 F + \frac{\rho}{2} V^2 F \frac{c_L^2}{\pi \Lambda e} \\
+    &= \frac{\rho}{2} V^2 F (c_{D,para} + c_{D,ind}) = K_1 V^2 + K_2 \frac{1}{V^2}
+\end{align*}
+The function $D(V)$ intersects with the function of Thrust $T(V)$ twice due to its shape. There are two optimal points with velocities $V_1$ and $V_2$, where there is no excess thrust or drag ($T=D$). However the stall speed is determined as follows with the maximal Lift coefficient from the polar diagram:
+\begin{equation*}
+    V_{stall} = \sqrt{\frac{2mg}{\rho F c_{L,max}}}~~~(c_{L,max} = c_{a,max} ~from~diagram)
+\end{equation*}
+\begin{itemize}
+    \item The maximum speed (ideally $V_2$ is determined from the maximum Thrust ($V_max, horiz$))
+    \item The minimum speed is the stall speed $V_{stall} > V_1$
+    \item The speed range is between minimum and maximum speed
+\end{itemize}
+\underline{\textbf{Stability control}}
+\begin{itemize}
+    \item Steady flight condition $\rightarrow$ Disturbance $\rightarrow$ Answer of airplane $\rightarrow$ Flight path
+    \item Example: Horizontal flight, then Pilot command: elevator deflection or gust comes, then pitching moment, then determine if stable/unstable/indifferent
+    \item $alpha$, $\Delta \alpha > 0$, $-\Delta c_m$, $\frac{dc_M}{d\alpha} > 0$ (positive criterion)
+    \item Lilienthal: Positive long. stability, Wright: Negative long. stability
+    \item Dassault Falcon: stable, Neuron (delta wing): instable, Raffale: indifferent/neutral
+\end{itemize}
+\underline{\textbf{Development trends}} \\ \\
+Good airplane
+\begin{itemize}
+    \item High lift to drag ratio (low drag)
+    \item High ratio of payload to weight (low empty weight)
+    \item High engine efficiency (high ratio of engine diameter to shaft power for propeller) + high compressor, combustor and turbine efficiency
+\end{itemize}
+Highest efficiency drivers
+\begin{itemize}
+    \item Engine: -15\% (high combustion efficiency, geared fan)
+    \item Energy: -5 \% (no bleed air, more electric aircraft)
+    \item Aerodynamics: -10 \% (Wing tip, engine integration, empennage config, Detail improvement)
+    \item Structure: -5\% (Detail improvment, composites, new alloys, new joining technologies)
+    \item Air traffic management
+    \item New configurations revolutions vs. tube-wing evolution (curent)
+    \item Electric/hybrid aircraft - new design freedom
+\end{itemize}
+\section{Manufacturing and Maintenance}
+\underline{\textbf{Abbreviations}}:
+\begin{itemize}
+    \item A/C: Aircraft
+    \item AMP: Aircraft Maintenance Program
+    \item CAMO: Continuing Airworthiness Management Organisation
+    \item CRS: Certificate of Release to Service
+    \item DOA: Design Organisation Approval
+    \item EASA: European Aviation Safety Agency
+    \item ETOPS: Extended Range Twin Operations
+    \item FAA: Federal Aviation Agency
+    \item FC: Flight Cycles
+    \item FH: Flight Hours
+    \item IFE: In-flight entertainment
+    \item MEL: Minimum Equipment List 
+    \item MOE: Maintenance Organisation Equipment
+    \item MSN: Manufacturer Serial Number 
+    \item PFC: Pre Flight Check
+    \item POA: Production Organistion Approval 
+    \item STC: Supplemental Type-Certificate 
+    \item TC: Type Certificate 
+    \item XWB: Extra Wide Body
+\end{itemize}
+\end{multicols*}
+\end{document}
+

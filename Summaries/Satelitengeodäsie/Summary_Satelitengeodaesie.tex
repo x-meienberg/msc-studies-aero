@@ -102,7 +102,7 @@ Die Skalen für die Erde mit $R=6378~km$ sind wie folgt:
     \item \textbf{Koordinatenrahmen}: Wahl des Systems (Koordinatensystem) + Datumsdefinition $\rightarrow$ Koordinatenlisten für Referenzpunkte
     \item \textbf{Referenzrahmen oder Bezugsrahmen}: Realisierung des Koordinatensystems + Datumsdefinition
     \item \textbf{Referenzsystem}: Konzept eines idealen Referenzsystems basierend auf abstrakten Prinzipen (Mathematik)
-    \item \textbf{Konventionelles Ref.system}: Mathematik reicht nicht aus, da Faktoren wie Gezeiten, Lovesche Zahlen (Erdrigidität) berücksichtigt werden müssen
+    \item \textbf{Konventionelles Ref.system}: Mathematik reicht nicht aus, da Faktoren wie Gezeiten, Lovesche Zahlen (Erdrigidität) berücksichtigt werden müssen. Physikalische Modelle sind gegeben.
     \item \textbf{Konventioneller Ref.rahmen}: Konkrete Realisierung durch Punkte wie Stationen, Sterne, Quasare mit Koordinaten
 \end{itemize}
 
@@ -159,7 +159,7 @@ Das ICRF benutzt Quasare, BL-Lacertae-Objekte und aktive Galaxienkerne. Die ausg
     \item 3. Klasse: Nicht geeignet, jedoch immer noch interessant
 \end{itemize}
 
-Das aktuelle ICRF3 nutzt 303 definierte und 4500 Objekte (Genauigkeit $30~\mu as = 1~mm$). Die Objekte werden mittels VLBI ausgemessen. Es gibt auch optische Realisierungen, basierend auf dem Hipparcos Sternkatalog (100'000 Sterne aus zur Epoche 1991.25). Mittels Sonden konnte man jedoch auch bereits optische Realisierungen des ICRS verbessern. \\
+Das aktuelle ICRF3 nutzt 303 definierte und 4500 Objekte (Genauigkeit $30~\mu as = 1~mm$, Achsenstabilität $10~\mu as$). Die Objekte werden mittels VLBI ausgemessen. Es gibt auch optische Realisierungen, basierend auf dem Hipparcos Sternkatalog (100'000 Sterne aus zur Epoche 1991.25). Mittels Sonden konnte man jedoch auch bereits optische Realisierungen des ICRS verbessern. Die Rekaszension und Deklination Genauigkeit liegt hier bei 0.77 mas bzw. 0.64 mas. Der Nachfolger wurde im Jahr 2013 mit GAIA gemacht, welche eine Genauigkeit von $10 \mu as $ aufweist und 40-fach Genauer ist.\\
 
 Die dynamische Realisierung des ICRS ist durch die Ephemeriden von Planeten und des Mondes gegeben. Diese werden durch die Einstein-Infeld-Hoffmann-Gleichungen erzeugt (DGL-System), durch Punktmassen unter gegenseitiger Gravitationsanziehung mit berücksichtigung allgmein-relativistischen Effekten.
 
@@ -186,12 +186,12 @@ Die Koordinaten neuer Punkte im ITRF werden folgendermassen ausgewertet:
 
 \begin{itemize}
     \item Direkte Benutzung einiger ITRF-Stationen als Referenzpunkte
-    \item Einüfhrung von IGS Orbit- und Uhrinformationen in eine GNSS-Auswertung (Precise Point Positioning -PPP)
+    \item Einführung von IGS Orbit- und Uhrinformationen in eine GNSS-Auswertung (Precise Point Positioning -PPP)
     \item Einführung und fixieren von einigen ITRF-Referenzstationen in eine GNSS-Auswertung
     \item Ähnlichkeitstransformationen der gemesssenen Neupunkte in das ITRF mitttels Referenzstationen
 \end{itemize}
 
-Neben kartensischen Koordinaten können aug geographische ellipsoidische Koordinaten miteinbezogen werden. Die Parameter des GRS80-Ellipsoids sind da empfohlen. \\ 
+Neben kartensischen Koordinaten können auch geographische ellipsoidische Koordinaten miteinbezogen werden. Die Parameter des GRS80-Ellipsoids sind da empfohlen. \\ 
 
 Schwerefelder können genutzt werden um Satelitenbahnen zu modellieren. Das EGM2008 Modell benötigt GRACE (Satelit) Daten, Schweremessungen am Boden und Altimetriedaten
 
@@ -209,7 +209,7 @@ GNSS-spezifische Systeme werden oft von broadcast-Orbits genutzt. GPS, GLONASS, 
 Die Transformation vom raumfesten System in das konventionelle erdfeste System ist im Prinzip eine räumliche Rotation, die durch drei Rotationswinkel vollständig beschrieben ist. Diese wird in mehrere Einzelschritte aufgetrennt.
 \subsubsection{Präzession - $\overline{S}_{i_0} \rightarrow \overline{S}_{i}$}
 
-Im ersten Schritt wird die Präzessionsbewegung der Erde berücksichtigt. Diese wird hauptsächlich durch die Gezeitenkräfte von Mond und Sonne verursacht. Aufgrund der Form der Erde, angenähert durch eines abgeplatteten Ellispoids, wird auf die Äquatorwulst ein Drehmoment aufweist. Die Erdachse versucht sich aufzurichten, womit die Präzession entsteht. Zur Referenzepoche J2000.0 wird das mittlere Inertialsystem zum \textbf{mittleren Inertialsystem zur Beobachtungsepoche} umgewandelt. Es handelt sich hierbei um die Drehung um drei Winkel um die Achsen 3-2-3.
+Im ersten Schritt wird die Präzessionsbewegung der Erde berücksichtigt. Diese wird hauptsächlich durch die Gezeitenkräfte von Mond und Sonne verursacht. Aufgrund der Form der Erde, angenähert durch eines abgeplatteten Ellispoids, wird auf die Äquatorwulst ein Drehmoment aufweist. Die Erdachse versucht sich aufzurichten, womit die Präzession entsteht. Zur Referenzepoche J2000.0 wird das mittlere Inertialsystem zum \textbf{mittleren Inertialsystem zur Beobachtungsepoche} umgewandelt. Es handelt sich hierbei um die Drehung um drei Winkel um die Achsen 3-2-3. Die Präzessionsperiode ist 28400 Jahre. Die Magnitude der Präzession liegt bei $50''$ pro Jahr (1.5km)
 
 \begin{equation*}
     \mathbf{\overline{e}}_i = \mathbf{P} \mathbf{\overline{e}}_{i_0} = \mathbf{R_3}(-z_A)\mathbf{R_2}(\theta_A) \mathbf{R_3}(-\zeta_A) \mathbf{\overline{e}}_{i_0}
@@ -225,7 +225,7 @@ Der Zeitunterschied in Tagen zwischen der Zeit der Observation zum J2000.0 wird 
 \subsubsection{Nutation - $\overline{S}_{i} \rightarrow S_i$}
 
 Nach der Präzession werden kurzperiodeische Nutationsperioden berücksichtigt. Die mit der Präzession eingehende Nickung ist die Nutation, welche mit der Bewegung des Mondes einhergeht (T=18.6 Jahre). Somit wandelt man das System vom mittleren intertialsystem der Beobachtungsepoche zum \textbf{Wahren Inertialsystem der Beobachtungsepoche}.
-Somit wird mittels der mittleren Schiefe der Ekliptik (Rotation um Ekliptik), der Nutation in der Länge (Rotation um Erdachse) der Nutation in der Schiefe (Rotation um Ekliptik) die Transformation durchgeführt. Die Nutationswinkel sind schwieriger zu berechnen (viel Trigonometrie)
+Somit wird mittels der mittleren Schiefe der Ekliptik (Rotation um Ekliptik), der Nutation in der Länge (Rotation um Erdachse) der Nutation in der Schiefe (Rotation um Ekliptik) die Transformation durchgeführt. Die Nutationswinkel sind schwieriger zu berechnen (viel Trigonometrie). Vom Konzept her wird die mittlere Äquatorebene zuerst in die Ekliptik verschoben, danach durch zwei Rotationen korrigiert in die wahre Äquatorebene. Die Magnitude der Nutation liegt bei $9.2''$ (300met)
 \begin{equation*}
     \mathbf{e}_i = \mathbf{N} \mathbf{\overline{e}}_{i} = \mathbf{R_1}(-\epsilon_A-\Delta \epsilon)\mathbf{R_3}(-\Delta \psi) \mathbf{R_1}(\epsilon_A) \mathbf{\overline{e}}_{i_0}
 \end{equation*}
@@ -234,6 +234,11 @@ Durch das Anbringen der Präzession und Nutation wird die dritte Achse angepasst
 \begin{equation*}
     \mathbf{e}_e = \mathbf{R}_3(\Theta_0) \mathbf{e}_{i} 
 \end{equation*}
+
+\begin{align*}
+    \Theta_0 = GAST &= GMST + \Delta \psi \cos \epsilon_A + 0.00264'' \sin \Omega + \\ 
+    &+ 0.000063'' sin(2\Omega)
+\end{align*}
 
 Der Rotationswinkel $\Theta_0$ ist GAST (Greenwich apparent siderial time), der wahren Sternzeit von Greenwich. GMST (mittlere Sternzeit) berücksichtigt die Nutation nicht. Der Winkel ist der wahre Frühlingspunkt relativ zum Greenwichmeridians. Durch die schwankende Unregelmässigkeit der Tageslänge muss man die Differenz $UT1-UTC$ mitberücksichtigt werden. Die Nutation hat ebenfalls einen Einfluss auf GAST, also muss man diese mitberücksichten. UT1 beschreibt die Rotation der Erde, da es sich hier um die exakte Zeit handelt. Der Sterntag ist 23h56min, die Sonnenzeit exakt 24h. Somit muss diese Korrektur mitberücksichtigt werden.
 
@@ -244,7 +249,7 @@ Schliesslich muss noch die Polbewegung der Erde (Bewegung der Rotationsachse um 
     \mathbf{e}'_e = \mathbf{W} \mathbf{e_e} = \mathbf{R}_2(-x_p) \mathbf{R}_1(-y_p) \mathbf{e}_e
 \end{equation*}
 
-Die Polbewegung ist allerdings unregelmässig. Sie ist nicht periodisch, weshalb man auf tabellierte Werte zurückgreift. UT1-UTC, die Nutationswinkel werden jeweils immer vom IERS gestellt. Jedoch lässt sich eine allgemeine Schwebung durch die Überlagerung zweier Frequenzen: Der Jahreslänge (360 Tage) und der Chandlerperiode (430 Tage). Die maximale Amplitude ist hierbei 0.3''.
+Die Polbewegung ist allerdings unregelmässig. Sie ist nicht periodisch, weshalb man auf tabellierte Werte zurückgreift. UT1-UTC, die Nutationswinkel werden jeweils immer vom IERS gestellt. Jedoch lässt sich eine allgemeine Schwebung durch die Überlagerung zweier Frequenzen: Der Jahreslänge (360 Tage) und der Chandlerperiode (430 Tage). Die maximale Amplitude ist hierbei 0.3'' (10m)
 
 \subsubsection{Zusammenfassung Transformation raumfest $\leftrightarrow$ erdfest}
 
@@ -284,7 +289,7 @@ Die Umrechnung vom lokalen System in ein globales System kann auf zwei verschied
 
 \begin{enumerate}
     \item Geometrisch: \begin{itemize}
-        \item Richtungen der Koordinatenachsen des lokalen Systems werden abgebildet in den Raum des lokalen Systems. Mittels Skalarprodukts werden die Koordinaten in $X$ auf $x$ projiziert. Die Matrix, da orthonormal, kann invertiert werden durch die Transponation, somit ist $M^T$ die Abbildung von Grössen in $x$ nach $X$
+        \item Richtungen der Koordinatenachsen des lokalen Systems werden abgebildet in den Raum des globalen Systems. Mittels Skalarprodukts werden die Koordinaten in $X$ auf $x$ projiziert. Die Matrix, da orthonormal, kann invertiert werden durch die Transponation, somit ist $M^T$ die Abbildung von Grössen in $x$ nach $X$
     \end{itemize}
     \item Rotationen und Spiegelungen: \begin{itemize}
         \item Durch die Spiegelung der y-Achse (Rechtssystems), druch Drehungen um die y-Achse um den Winkel $90-\Phi$ (Breite) und Drehung um den Winkel $180-\Lambda$ (Länge), ergibt sich durch Matrixmultiplikation $M^T$ 
@@ -513,7 +518,7 @@ Das Erdschwerefeld lässt sich au neben der physikalischen Deutung auch rein geo
 
 Ausserhalb der Erde sind diese Flächen unendlich oft differenzierbar.Innerhalb der Massen sind sie stetig und stetig differenzierbar. Erst in der zweiten und dritten Ableitung sind diese nicht stetig differenzierbar. Aus diesem Grund sind solche Flächen glatt und schneiden sich nicht. \\
 
-Im erdnahen sind Niveauflächen konvex, das heisst sie besitzen keine Dellen. Alle ungestörten Wasserflächen sind Teil einer Äquipotentialfläche und eine Wasserwage würde ich an jedem Ort einer Niveaufläche einspielen. \\
+Im erdnahen sind Niveauflächen konvex, das heisst sie besitzen keine Dellen. Alle ungestörten Wasserflächen sind Teil einer Äquipotentialfläche und eine Wasserwaage würde ich an jedem Ort einer Niveaufläche einspielen. \\
 
 Die idealisierte Oberfläche der Weltmeere nennt man Geoid. Dieser ist befreit von Effekten wie Strömungen, Wirbeln, und Wellen - und ist teil einer Äquipotentialfläche. Der Geoid wird als ideale Bezugsfläche verwendet (m. über Meer, Höhen über Normal Null). \\
 
@@ -521,7 +526,7 @@ Natürlich ist es schwierig mit dem Geoid das Bezugsellipsoid zu vergleichen. Me
 
 Mit zunehmendem Abstand von der Erde werden die Äquipotentialflächen glatter, deshalb wird auch jenes mit der Zeit immer kugelähnlicher, wenn nur das Gravitationspotential wirken würde. Aufgrund von Zentrifugalspotential und anderen Effekten ist dies leider nicht der Fall. \\
 
-Die Lotlinien durchschneiden in jedem Punkt die Äauipotentialflächen senkrecht. Die Schwerevektoren sind in jedem Punkt tangential zu den Lotlinien. Diese Lotlinien schneiden sich nicht und sind leicht zu den Polen hin gekrümmt.
+Die Lotlinien durchschneiden in jedem Punkt die Äquipotentialflächen senkrecht. Die Schwerevektoren sind in jedem Punkt tangential zu den Lotlinien. Diese Lotlinien schneiden sich nicht und sind leicht zu den Polen hin gekrümmt.
 \begin{equation*}
     dW = \mathbf{g} \cdot \mathbf{dx}
 \end{equation*}
@@ -652,9 +657,9 @@ Andererseits muss der höhere Luftwiderstand von tieffliegenden Sateliten ausgeg
 
 Für die Bestimmung der Satelitenbahn und des Gravitationsfeldes der Erde werden heute in erster Linie drei Beobachtunggrössen benutzt:
 \begin{itemize}
-    \item SST high-low: Beobachtungen von GPS-Empfängern and Board von LEO-Sateliten (160-2000km Bahnhöhe)
-    \item SST low-high: Distanzmessungen zwischen Sateliten mittels Mikrowellen
-    \item Gradiometer-Beobahtung dreier Paare dreidimensionaler Beschleunigungsmesser an Board eines LEo, mit denen der vollständige Gravitations-Gradienttensor gemessen wird.
+    \item (CHAMP) SST high-low: Beobachtungen von GPS-Empfängern and Board von LEO-Sateliten (160-2000km Bahnhöhe)
+    \item (GRACE) SST low-high: Distanzmessungen zwischen Sateliten mittels Mikrowellen
+    \item (GOCE): Gradiometer-Beobahtung dreier Paare dreidimensionaler Beschleunigungsmesser an Board eines LEo, mit denen der vollständige Gravitations-Gradienttensor gemessen wird.
 \end{itemize}
 SST heisst Satelite-to-Satelite Tracking. Für Sateliten der Beobachtungsgrössen 2 und 3 sind in der Regel auch GPS-Empfänger auf diesen an Board. \\
 
@@ -662,7 +667,7 @@ Bei der Messung des Gradiententensors sind hohe technische Anforderungen gegeben
 
 Der heutige Fokus in der Schwerefeldbestimmung liegt haupstächlich in der zeitlichen Änderung. Somit können Variationen des Schwerefeldes die Differenzen von kurzzeiteigen Lösungen und Langzeit-Modekllen bestimmt werden. Die Änderungen kommen zumeist im Zusammenhang mit Masseverlagerungen im Erdmantel, der Erdoberfläche oder Atmosphäre. Zudem lassen sich säkulare Änderungen, z.B. das Abschmelzen von Eis in Polarregionen und und periodische Variationen (Wassermenge gespeichert auf den Kontinenten) beobachten. \\
 
-Zeitvariable Schwerefeldkoeffizienten sind mit zunehmender Ordnung auch mit Rauschen behaftet und sind weniger signifikant. Somit nimmt man bei monatlichen Modellen Koeffizienten im Bereich $n \approx 60-100$ und $m \approx 45-60$.
+Zeitvariable Schwerefeldkoeffizienten sind mit zunehmender Ordnung auch mit Rauschen behaftet und sind weniger signifikant. Somit nimmt man bei monatlichen Modellen Koeffizienten im Bereich $n \approx 60-100$ und $m \approx 45-60$. 
 \end{multicols*}
 \end{document}
 

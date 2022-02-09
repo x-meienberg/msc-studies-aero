@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  30 JAN 2022 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  9 FEB 2022 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex
-(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.tex
+**"/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_AviationI.tex"
+(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_AviationI.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
@@ -853,8 +853,8 @@ Package typearea Warning: page content and margins higher than paper.
 (typearea)                You should decrease DIV, decrease foot height,
 (typearea)                or include footer into type area.
 
-(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux)
-\openout1 = `Summary_Satelitengeodaesie.aux'.
+(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_AviationI.aux)
+\openout1 = `Summary_AviationI.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -945,37 +945,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 70.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 65.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-Underfull \hbox (badness 6268) in paragraph at lines 80--81
-\OT1/bch/m/n/9 Die \OT1/bch/b/n/9 Ki-ne-ma-tik \OT1/bch/m/n/9 ei-nes Mas-sen-punk-tes wird be-schrie-ben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\OT1/bch/m/n/9 Strongest Air-port pairs: Paris-Tolouse, Madrid-
  []
 
 [1
@@ -985,219 +965,49 @@ Non-PDF special ignored!
 <special> ! /landplus90 true store
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-[]\OT1/bch/m/n/9 Einzelne Zeitse-ri-en zu technik-spezifischen Lang-
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 179--180
-\OT1/bch/m/n/9 zeigl[]osungen: Ko-or-di-na-ten, Ge-schwin-dig-kei-ten und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-[]\OT1/bch/m/n/9 Einf[]uhrung und fi-xie-ren von ei-ni-gen ITRF-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-[2] [3]
-Overfull \hbox (54.83585pt too wide) detected at line 317
- $\OML/cmm/m/it/9 EQ[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 ^^@\OT1/cmr/m/n/9 2\OML/cmm/m/it/9 e [] M \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 4\OML/cmm/m/it/9 e[] [] \OT1/cmr/m/n/9 2\OML/cmm/m/it/9 M \OT1/cmr/m/n/9 + [][] [] [](2\OML/cmm/m/it/9 ^^U[]K\OT1/cmr/m/n/9 ) \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 1\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2 [][] [] [] 4\OML/cmm/m/it/9 ^^U[]K$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 
-Overfull \hbox (9.32228pt too wide) detected at line 343
-[]
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-\OT1/bch/m/n/9 Bei DO-RIS han-delt es sich um ein Zweifrequenz-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 421--423
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 433--435
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
-[]\OT1/bch/b/n/10 Schwerkraft, Schwe-re-be-schleu-ni-gung und
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 517--518
-\OT1/bch/m/n/9 schen Deu-tung auch rein geo-me-trisch de-fi-nie-ren. Die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
-[]\OT1/bch/m/n/9 Die Lot-li-ni-en durch-schnei-den in je-dem Punkt die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--538
-
- []
-
-
-Overfull \hbox (25.16782pt too wide) detected at line 550
- $\OML/cmm/m/it/9 W[] \OT1/cmr/m/n/9 = [] = \OMS/cmsy/m/n/9 ^^@\OML/cmm/m/it/9 g []$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
-
- []
-
-[7]
-Underfull \hbox (badness 7451) in paragraph at lines 559--560
-\OT1/bch/m/n/9 Ke-gel-schnit-te (El-lip-se, Pa-ra-bel, Hy-per-bel). Die Kep-ler-
- []
-
-
-Overfull \hbox (10.61696pt too wide) in paragraph at lines 620--621
-\OT1/bch/m/n/9 Diese Fak-to-ren f[]ugen so-zu-sa-gen wir-ken-de St[]orbeschleunigungen,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
-
- []
-
-[8]
-Overfull \hbox (7.89911pt too wide) detected at line 643
- $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [][] [] \OML/cmm/m/it/9 P[] []$ 
- []
-
-
-Overfull \hbox (27.3097pt too wide) detected at line 647
- $\OML/cmm/m/it/9 V\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 r; ^^R; ^^U\OT1/cmr/m/n/9 ) = [] [] [][] [] \OML/cmm/m/it/9 P[] []$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
-
- []
-
-[9] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.aux) ) 
+[2] [3] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_AviationI.aux) ) 
 Here is how much of TeX's memory you used:
- 19877 strings out of 478994
- 417914 string characters out of 5858183
- 885801 words of memory out of 5000000
- 36976 multiletter control sequences out of 15000+600000
- 428262 words of font info for 92 fonts, out of 8000000 for 9000
+ 19841 strings out of 478994
+ 417100 string characters out of 5858183
+ 887267 words of memory out of 5000000
+ 36947 multiletter control sequences out of 15000+600000
+ 420418 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,16n,116p,10723b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Satelitengeodäsie/Summary_Satelitengeodaesie.pdf (9 pages, 216409 bytes).
+ 111i,9n,116p,10708b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_AviationI.pdf" (3 pages, 124448 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
