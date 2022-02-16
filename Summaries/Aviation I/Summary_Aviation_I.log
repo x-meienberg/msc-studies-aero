@@ -1,0 +1,1433 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  16 FEB 2022 13:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_Aviation_I.tex"
+(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_Aviation_I.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/03/17 v3.33 KOMA-Script package (file load hooks)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/03/17 v3.33 KOMA-Script package (using LaTeX hooks)
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/03/17 v3.33 KOMA-Script package (logo)
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+Skipping: [2021/05/01] Usage of raw option list on input line 252.
+Applying: [0000/00/00] compatibility for LaTeX before 2021/05/01 on input line 337.
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2021/03/17 v3.33 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box47
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 135.
+
+
+Package scrartcl Warning: You've used obsolete option `9pt'.
+(scrartcl)                Usage of this option indicates an old document
+(scrartcl)                and changes compatibility level using
+(scrartcl)                `fontsize=9pt,version=first,
+(scrartcl)                enabledeprecatedfontcommands' that may result
+(scrartcl)                in further warnings.
+(scrartcl)                If you don't want this, you should simply
+(scrartcl)                replace option `9pt' by `fontsize=9pt'.
+
+Class scrartcl Info: Switching compatibility level to `first'.
+
+Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrartcl)              Note, that this option was already depreacted when
+(scrartcl)              it has been defined. Support for old font commands
+(scrartcl)              has been removed from KOMA-Script more than one
+(scrartcl)              decade ago. It is not recommended to use them any
+(scrartcl)              longer. Therefore usage of this class option also
+(scrartcl)              is not recommended.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip48
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+Class scrartcl Info: File `size9.clo' used to setup font sizes on input line 2239.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count179
+Package typearea Info: You've used standard option `landscape'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=landscape'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=landscape' there
+(typearea)             instead of `landscape', too.
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+
+
+Package typearea Warning: DIV for 9.0pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=calc.
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: Maybe no optimal type area settings!
+(typearea)             The detected line width is about 29%
+(typearea)             smaller than the heuristically estimated maximum
+(typearea)             limit of typographical good line width.
+(typearea)             You could e.g. increase DIV
+(typearea)             or change the papersize.
+
+Package typearea Warning: Very low DIV value!
+(typearea)                DIV values less than 6 result in textwidth/-height
+(typearea)                smaller than total marginwidth/-height.
+(typearea)                You should e.g. increase DIV, increase fontsize or
+(typearea)                change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 4
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 845.04694pt
+(typearea)              \textwidth      = 211.26173pt
+(typearea)              DIV departure   = 29%
+(typearea)              \evensidemargin = 244.6226pt
+(typearea)              \oddsidemargin  = 244.6226pt
+(typearea)             \paperheight     = 597.50793pt
+(typearea)              \textheight     = 151.34996pt
+(typearea)              \topmargin      = 46.99452pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
+(typearea)              on input line 1741.
+)
+\c@part=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\scr@dte@section@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4846.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4846.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4854.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4864.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4864.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4874.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4874.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4885.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4885.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4895.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4895.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box48
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6127.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count186
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6139.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count187
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 6290.
+Class scrartcl Info: Redefining `\numberline' on input line 6303.
+\bibindent=\dimen138
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count188
+\U@D=\dimen139
+\l@babelnohyphens=\language87
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count189
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+\mult@box=\box49
+\multicol@leftmargin=\dimen148
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen153
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count268
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen157
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box95
+\strutbox@=\box96
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip16
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks20
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks21
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks22
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box97
+\extrarowheight=\dimen169
+\NC@list=\toks24
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box98
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen182
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen183
+\calc@Bdimen=\dimen184
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip73
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count288
+\l_MT_multwidth_dim=\dimen185
+\origjot=\skip74
+\l_MT_shortvdotswithinadjustabove_dim=\dimen186
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen187
+\l_MT_above_intertext_sep=\dimen188
+\l_MT_below_intertext_sep=\dimen189
+\l_MT_above_shortintertext_sep=\dimen190
+\l_MT_below_shortintertext_sep=\dimen191
+\xmathstrut@box=\box99
+\xmathstrut@dim=\dimen192
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box100
+\UL@hyphenbox=\box101
+\UL@skip=\skip75
+\UL@hook=\toks25
+\UL@height=\dimen193
+\UL@pe=\count289
+\UL@pixel=\dimen194
+\ULC@box=\box102
+Package: ulem 2019/11/18
+\ULdepth=\dimen195
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/charter.sty
+Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/chemformula/chemformula.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen196
+\pgfutil@tempdimb=\dimen197
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box103
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen198
+\pgf@y=\dimen199
+\pgf@xa=\dimen256
+\pgf@ya=\dimen257
+\pgf@xb=\dimen258
+\pgf@yb=\dimen259
+\pgf@xc=\dimen260
+\pgf@yc=\dimen261
+\pgf@xd=\dimen262
+\pgf@yd=\dimen263
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count290
+\c@pgf@countb=\count291
+\c@pgf@countc=\count292
+\c@pgf@countd=\count293
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count294
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen264
+\pgfmath@count=\count297
+\pgfmath@box=\box104
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count298
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen265
+\pgf@picmaxx=\dimen266
+\pgf@picminy=\dimen267
+\pgf@picmaxy=\dimen268
+\pgf@pathminx=\dimen269
+\pgf@pathmaxx=\dimen270
+\pgf@pathminy=\dimen271
+\pgf@pathmaxy=\dimen272
+\pgf@xx=\dimen273
+\pgf@xy=\dimen274
+\pgf@yx=\dimen275
+\pgf@yy=\dimen276
+\pgf@zx=\dimen277
+\pgf@zy=\dimen278
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen279
+\pgf@path@lasty=\dimen280
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen281
+\pgf@shorten@start@additional=\dimen282
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box105
+\pgf@hbox=\box106
+\pgf@layerbox@main=\box107
+\pgf@picture@serial@count=\count299
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen283
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen284
+\pgf@pt@y=\dimen285
+\pgf@pt@temp=\dimen286
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen287
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count300
+\pgf@shadingcount=\count301
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box108
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box109
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count302
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikz@lastmovetox=\dimen298
+\tikz@lastmovetoy=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count303
+\tikznumberofchildren=\count304
+\tikznumberofcurrentchild=\count305
+\tikz@fig@count=\count306
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count307
+\pgfmatrixcurrentcolumn=\count308
+\pgf@matrix@numberofcolumns=\count309
+)
+\tikz@expandcount=\count310
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box114
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2021-03-12 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen302
+\l__xtemplate_tmp_int=\count312
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip76
+)
+Package: xfrac 2021-03-12 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box115
+\l__xfrac_tmp_box=\box116
+\l__xfrac_denominator_bot_sep_dim=\dimen303
+\l__xfrac_numerator_bot_sep_dim=\dimen304
+\l__xfrac_numerator_top_sep_dim=\dimen305
+\l__xfrac_slash_left_sep_dim=\dimen306
+\l__xfrac_slash_right_sep_dim=\dimen307
+\l__xfrac_slash_left_muskip=\muskip18
+\l__xfrac_slash_right_muskip=\muskip19
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip77
+\L@UnitsRaiseTextstyle=\skip78
+\L@UnitsRaiseScriptstyle=\skip79
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen308
+\pgfarrowlength=\dimen309
+\pgfarrowwidth=\dimen310
+\pgfarrowlinewidth=\dimen311
+)
+Package: chemformula 2020/12/22 v4.16 typeset chemical compounds and reactions (CN)
+\l__chemformula_tmpa_dim=\dimen312
+\l__chemformula_tmpb_dim=\dimen313
+\l__chemformula_tmpc_dim=\dimen314
+\l__chemformula_tmpa_int=\count313
+\l__chemformula_tmpb_int=\count314
+\l__chemformula_tmpc_int=\count315
+\l__chemformula_tmpa_box=\box117
+\l__chemformula_tmpb_box=\box118
+\l__chemformula_arrow_length_dim=\dimen315
+\l__chemformula_arrow_label_height_dim=\dimen316
+\l__chemformula_arrow_label_offset_dim=\dimen317
+\l__chemformula_arrow_minimum_length_dim=\dimen318
+\l__chemformula_arrow_shortage_dim=\dimen319
+\l__chemformula_arrow_offset_dim=\dimen320
+\l__chemformula_arrow_yshift_dim=\dimen321
+\l__chemformula_radical_radius_dim=\dimen322
+\l__chemformula_radical_hshift_dim=\dimen323
+\l__chemformula_radical_vshift_dim=\dimen324
+\l__chemformula_radical_space_dim=\dimen325
+\l__chemformula_arrow_head_dim=\dimen326
+\l__chemformula_name_dim=\dimen327
+\l__chemformula_adduct_space_dim=\dimen328
+\l__chemformula_charge_shift_dim=\dimen329
+\l__chemformula_subscript_shift_dim=\dimen330
+\l__chemformula_superscript_shift_dim=\dimen331
+\l__chemformula_subscript_dim=\dimen332
+\l__chemformula_superscript_dim=\dimen333
+\l__chemformula_bond_dim=\dimen334
+\l__chemformula_bond_space_dim=\dimen335
+\l__chemformula_elspec_pair_distance_dim=\dimen336
+\l__chemformula_elspec_pair_line_length_dim=\dimen337
+\l__chemformula_elspec_pair_width_dim=\dimen338
+\l__chemformula_kroegervink_positive_radius_dim=\dimen339
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen340
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen341
+\l__chemformula_kroegervink_positive_space_dim=\dimen342
+\l__chemformula_stoich_space_skip=\skip80
+\l__chemformula_math_space_skip=\skip81
+\l__chemformula_additions_symbol_space_skip=\skip82
+\l__chemformula_count_tokens_int=\count316
+\g__chemformula_lewis_int=\count317
+\l__chemformula_arrow_arg_i_box=\box119
+\l__chemformula_arrow_arg_ii_box=\box120
+\l__chemformula_superscript_box=\box121
+\l__chemformula_subscript_box=\box122
+\l__chemformula_plus_space_skip=\skip83
+\l__chemformula_minus_space_skip=\skip84
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count318
+\g__chemgreek_tmpa_int=\count319
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count320
+\__mhchem_arrow_extPgfLength_skip=\skip85
+\mhchem@minispace@tmp=\skip86
+\mhchem@minibackspace@tmp=\skip87
+\mhchem@bondwidth=\skip88
+\mhchem@bondheight=\skip89
+\mhchem@smallbondwidth@tmpA=\skip90
+\mhchem@smallbondwidth@tmpB=\skip91
+\mhchem@smallbondwidth=\skip92
+\mhchem@bondtmp@minussidebearingleft=\skip93
+\mhchem@bondtmp@minussidebearingright=\skip94
+\l__mhchem_option_version_int=\count321
+\mhchem@option@minusmathsidebearingleft=\dimen343
+\mhchem@option@minusmathsidebearingright=\dimen344
+\mhchem@option@minustextsidebearingleft=\dimen345
+\mhchem@option@minustextsidebearingright=\dimen346
+)
+LaTeX Font Info:    Trying to load font information for OT1+bch on input line 30.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 151%
+(typearea)                larger than the heuristically estimated maximum
+(typearea)                limit of typographical good line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 45
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 845.04694pt
+(typearea)              \textwidth      = 788.71051pt
+(typearea)              DIV departure   = -151%
+(typearea)              \evensidemargin = -44.10178pt
+(typearea)              \oddsidemargin  = -44.10178pt
+(typearea)             \paperheight     = 597.50793pt
+(typearea)              \textheight     = 567.44984pt
+(typearea)              \topmargin      = -89.1045pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
+(typearea)              on input line 30.
+
+Package typearea Warning: page content and margins higher than paper.
+(typearea)                This may result in page footer out of paper.
+(typearea)                You should decrease DIV, decrease foot height,
+(typearea)                or include footer into type area.
+
+(/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_Aviation_I.aux)
+\openout1 = `Summary_Aviation_I.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(126.75833pt, 591.53027pt, 126.75833pt)
+* v-part:(T,H,B)=(71.70166pt, 418.25372pt, 107.55255pt)
+* \paperwidth=845.04694pt
+* \paperheight=597.50793pt
+* \textwidth=788.71051pt
+* \textheight=567.44984pt
+* \oddsidemargin=-44.10178pt
+* \evensidemargin=-44.10178pt
+* \topmargin=-89.1045pt
+* \headheight=13.68748pt
+* \headsep=16.42499pt
+* \topskip=9.0pt
+* \footskip=38.32497pt
+* \marginparwidth=18.77881pt
+* \marginparsep=12.8401pt
+* \columnsep=30.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count322
+\scratchdimen=\dimen347
+\scratchbox=\box123
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen348
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks39
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+
+Package chemgreek Info: Activating mapping `default' on line 59.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 60.
+
+LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 60.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 60.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 65.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\OT1/bch/m/n/9 Strongest Air-port pairs: Paris-Tolouse, Madrid-
+ []
+
+[1
+Non-PDF special ignored!
+<special> papersize=845.04694pt,597.50793pt
+Non-PDF special ignored!
+<special> ! /landplus90 true store
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Images/Weights.png, id=14, 1417.295pt x 803.0pt>
+File: Images/Weights.png Graphic file (type png)
+<use Images/Weights.png>
+Package pdftex.def Info: Images/Weights.png  used on input line 157.
+(pdftex.def)             Requested size: 256.0748pt x 145.08513pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 157--158
+ [] 
+ []
+
+[2 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Weights.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+[]\OT1/bch/m/n/9 ETOPS: Ex-ten-ded Twin Ope-ra-ti-ons (A330):
+ []
+
+<Images/Weight_and_Fuel.png, id=20, 1598.97375pt x 1088.065pt>
+File: Images/Weight_and_Fuel.png Graphic file (type png)
+<use Images/Weight_and_Fuel.png>
+Package pdftex.def Info: Images/Weight_and_Fuel.png  used on input line 238.
+(pdftex.def)             Requested size: 256.0748pt x 174.24338pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 238--239
+ [] 
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 247--248
+[]\OT1/bch/m/n/9 CMD: Walk around, air-craft ac-cep-tan-ce (Air-craft
+ []
+
+[3 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Weight_and_Fuel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+[]\OT1/bch/m/n/9 Over FL 100: Speed de-ter-mi-ned by air-li-
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+[]\OT1/bch/m/n/9 Category 3A: 50ft/200m. Re-qui-re-
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
+
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
+
+ []
+
+
+Overfull \hbox (8.97005pt too wide) in paragraph at lines 526--527
+$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
+[]\OT1/bch/m/n/9 19 in CH, Pi-la-tus, Bu-cher, Lan-tal, RUAG Int.
+ []
+
+[8] [9]
+<Images/Planning of Aircraft Maintenance.png, id=49, 678.535pt x 419.5675pt>
+File: Images/Planning of Aircraft Maintenance.png Graphic file (type png)
+<use Images/Planning of Aircraft Maintenance.png>
+Package pdftex.def Info: Images/Planning of Aircraft Maintenance.png  used on input line 674.
+(pdftex.def)             Requested size: 256.0748pt x 158.34254pt.
+<Images/Performance of Maintenance.png, id=50, 659.46375pt x 420.57124pt>
+File: Images/Performance of Maintenance.png Graphic file (type png)
+<use Images/Performance of Maintenance.png>
+Package pdftex.def Info: Images/Performance of Maintenance.png  used on input line 675.
+(pdftex.def)             Requested size: 256.0748pt x 163.31621pt.
+<Images/Maintenance Rating.png, id=51, 1612.0225pt x 1220.56pt>
+File: Images/Maintenance Rating.png Graphic file (type png)
+<use Images/Maintenance Rating.png>
+Package pdftex.def Info: Images/Maintenance Rating.png  used on input line 676.
+(pdftex.def)             Requested size: 256.0748pt x 193.87814pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 674--677
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 674--677
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 674--677
+ [] 
+ []
+
+[10 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Planning of Aircraft Maintenance.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Performance of Maintenance.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Maintenance Rating.png>]
+<Images/Tasks of the air force.png, id=58, 963.6pt x 561.09625pt>
+File: Images/Tasks of the air force.png Graphic file (type png)
+<use Images/Tasks of the air force.png>
+Package pdftex.def Info: Images/Tasks of the air force.png  used on input line 689.
+(pdftex.def)             Requested size: 256.0748pt x 149.10931pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 689--690
+ [] 
+ []
+
+<Images/Capabilities of the Swiss Air Force.png, id=59, 1318.9275pt x 858.20625pt>
+File: Images/Capabilities of the Swiss Air Force.png Graphic file (type png)
+<use Images/Capabilities of the Swiss Air Force.png>
+Package pdftex.def Info: Images/Capabilities of the Swiss Air Force.png  used on input line 693.
+(pdftex.def)             Requested size: 256.0748pt x 166.62276pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 693--694
+ [] 
+ []
+
+<Images/Decision_Making_CH_Army.png, id=60, 687.56876pt x 433.62pt>
+File: Images/Decision_Making_CH_Army.png Graphic file (type png)
+<use Images/Decision_Making_CH_Army.png>
+Package pdftex.def Info: Images/Decision_Making_CH_Army.png  used on input line 746.
+(pdftex.def)             Requested size: 256.0748pt x 161.49553pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 746--747
+ [] 
+ []
+
+[11 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Tasks of the air force.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Capabilities of the Swiss Air Force.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Decision_Making_CH_Army.png>]
+<Images/End_of_Life.png, id=67, 824.07875pt x 494.84875pt>
+File: Images/End_of_Life.png Graphic file (type png)
+<use Images/End_of_Life.png>
+Package pdftex.def Info: Images/End_of_Life.png  used on input line 783.
+(pdftex.def)             Requested size: 256.0748pt x 153.77151pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 783--784
+ [] 
+ []
+
+<Images/Helicopters.png, id=68, 1255.69125pt x 907.39pt>
+File: Images/Helicopters.png Graphic file (type png)
+<use Images/Helicopters.png>
+Package pdftex.def Info: Images/Helicopters.png  used on input line 820.
+(pdftex.def)             Requested size: 256.0748pt x 185.03311pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 820--821
+ [] 
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 833--834
+[]\OT1/bch/m/n/9 Changes of con-fi-gu-ra-ti-ons: 30min (sling load) -
+ []
+
+[12 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/End_of_Life.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Helicopters.png>] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 866--869
+
+ []
+
+<Images/Ratings.png, id=78, 997.7275pt x 642.4pt>
+File: Images/Ratings.png Graphic file (type png)
+<use Images/Ratings.png>
+Package pdftex.def Info: Images/Ratings.png  used on input line 890.
+(pdftex.def)             Requested size: 256.0748pt x 164.87337pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 890--891
+ [] 
+ []
+
+
+Overfull \hbox (48.57896pt too wide) in paragraph at lines 927--928
+$[]$ 
+ []
+
+<Images/Airspace controlled-uncontrolled.png, id=79, 771.88374pt x 655.44875pt>
+File: Images/Airspace controlled-uncontrolled.png Graphic file (type png)
+<use Images/Airspace controlled-uncontrolled.png>
+Package pdftex.def Info: Images/Airspace controlled-uncontrolled.png  used on input line 958.
+(pdftex.def)             Requested size: 256.0748pt x 217.4489pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 958--959
+ [] 
+ []
+
+[14 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Ratings.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 960--962
+
+ []
+
+<Images/Semicircle_Rule.png, id=84, 860.21375pt x 492.84125pt>
+File: Images/Semicircle_Rule.png Graphic file (type png)
+<use Images/Semicircle_Rule.png>
+Package pdftex.def Info: Images/Semicircle_Rule.png  used on input line 982.
+(pdftex.def)             Requested size: 227.62204pt x 130.40677pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1017
+
+ []
+
+[15 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Airspace controlled-uncontrolled.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Semicircle_Rule.png>] [16]
+<Images/Global_Business_Jet_Deliveries.png, id=93, 1251.67625pt x 710.655pt>
+File: Images/Global_Business_Jet_Deliveries.png Graphic file (type png)
+<use Images/Global_Business_Jet_Deliveries.png>
+Package pdftex.def Info: Images/Global_Business_Jet_Deliveries.png  used on input line 1090.
+(pdftex.def)             Requested size: 261.76526pt x 148.613pt.
+
+Overfull \hbox (18.86176pt too wide) in paragraph at lines 1090--1091
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
+[]\OT1/bch/m/n/9 Corporate (200-600 FH an-nu-al-ly): Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1134
+
+ []
+
+<Images/Winners_and_Losers.png, id=94, 760.8425pt x 384.43625pt>
+File: Images/Winners_and_Losers.png Graphic file (type png)
+<use Images/Winners_and_Losers.png>
+Package pdftex.def Info: Images/Winners_and_Losers.png  used on input line 1173.
+(pdftex.def)             Requested size: 256.0748pt x 129.3926pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 1173--1174
+ [] 
+ []
+
+[17 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Global_Business_Jet_Deliveries.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Winners_and_Losers.png>] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1369
+
+ []
+
+[19] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1529
+[]\OT1/bch/m/n/9 Waves at the hub (Pax and the-re-fo-re
+ []
+
+[22]
+<Images/Value Creation - Pros and Cons.png, id=116, 753.81625pt x 410.53375pt>
+File: Images/Value Creation - Pros and Cons.png Graphic file (type png)
+<use Images/Value Creation - Pros and Cons.png>
+Package pdftex.def Info: Images/Value Creation - Pros and Cons.png  used on input line 1678.
+(pdftex.def)             Requested size: 256.0748pt x 139.45433pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 1678--1679
+ [] 
+ []
+
+[23 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Value Creation - Pros and Cons.png>] [24] [25]
+<Images/Systemisation-Aircraft-Function.png, id=128, 1480.53125pt x 957.5775pt>
+File: Images/Systemisation-Aircraft-Function.png Graphic file (type png)
+<use Images/Systemisation-Aircraft-Function.png>
+Package pdftex.def Info: Images/Systemisation-Aircraft-Function.png  used on input line 1912.
+(pdftex.def)             Requested size: 256.0748pt x 165.62064pt.
+<Images/Systemisation-Aircraft-System.png, id=129, 1388.18625pt x 908.39375pt>
+File: Images/Systemisation-Aircraft-System.png Graphic file (type png)
+<use Images/Systemisation-Aircraft-System.png>
+Package pdftex.def Info: Images/Systemisation-Aircraft-System.png  used on input line 1913.
+(pdftex.def)             Requested size: 256.0748pt x 167.56508pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 1912--1914
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 1912--1914
+ [] 
+ []
+
+[26 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Systemisation-Aircraft-Function.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Systemisation-Aircraft-System.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1998--2001
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2067
+[]\OT1/bch/m/n/9 Traffic pat-tern (sche-du-led/charter/general avia-ti-
+ []
+
+
+Overfull \hbox (7.48944pt too wide) in paragraph at lines 2067--2068
+[]\OT1/bch/m/n/9 Destinations (Schengen/non-Schengen, EU/International) 
+ []
+
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 2289--2290
+[]\OT1/bch/m/n/9 Cargo: Truck loa-ding/unloading, Sto-ra-ge,
+ []
+
+[30] [31]
+<Images/Airport Concepts.png, id=151, 924.45375pt x 1053.9375pt>
+File: Images/Airport Concepts.png Graphic file (type png)
+<use Images/Airport Concepts.png>
+Package pdftex.def Info: Images/Airport Concepts.png  used on input line 2556.
+(pdftex.def)             Requested size: 256.0748pt x 291.93237pt.
+<Images/Designations.png, id=152, 1556.81625pt x 979.66pt>
+File: Images/Designations.png Graphic file (type png)
+<use Images/Designations.png>
+Package pdftex.def Info: Images/Designations.png  used on input line 2557.
+(pdftex.def)             Requested size: 256.0748pt x 161.14363pt.
+<Images/Designations2.png, id=153, 1527.7075pt x 976.64874pt>
+File: Images/Designations2.png Graphic file (type png)
+<use Images/Designations2.png>
+Package pdftex.def Info: Images/Designations2.png  used on input line 2558.
+(pdftex.def)             Requested size: 256.0748pt x 163.70331pt.
+<Images/Lists_of_Designations.png, id=154, 1663.21375pt x 1090.0725pt>
+File: Images/Lists_of_Designations.png Graphic file (type png)
+<use Images/Lists_of_Designations.png>
+Package pdftex.def Info: Images/Lists_of_Designations.png  used on input line 2559.
+(pdftex.def)             Requested size: 284.52756pt x 186.47418pt.
+<Images/Localisation_of_Designations.png, id=155, 1328.965pt x 822.07124pt>
+File: Images/Localisation_of_Designations.png Graphic file (type png)
+<use Images/Localisation_of_Designations.png>
+Package pdftex.def Info: Images/Localisation_of_Designations.png  used on input line 2560.
+(pdftex.def)             Requested size: 256.0748pt x 158.40286pt.
+<Images/Tailwind.png, id=156, 874.26625pt x 981.6675pt>
+File: Images/Tailwind.png Graphic file (type png)
+<use Images/Tailwind.png>
+Package pdftex.def Info: Images/Tailwind.png  used on input line 2561.
+(pdftex.def)             Requested size: 426.79134pt x 479.2238pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+
+Overfull \hbox (41.62405pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+
+Overfull \hbox (183.88783pt too wide) in paragraph at lines 2556--2562
+ [] 
+ []
+
+[32 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Airport Concepts.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Designations.png>] [33 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Designations2.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Lists_of_Designations.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Localisation_of_Designations.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Tailwind.png>]
+<Images/Challenges_1.png, id=169, 1693.32625pt x 941.5175pt>
+File: Images/Challenges_1.png Graphic file (type png)
+<use Images/Challenges_1.png>
+Package pdftex.def Info: Images/Challenges_1.png  used on input line 2679.
+(pdftex.def)             Requested size: 256.0748pt x 142.37083pt.
+<Images/Challenges_2.png, id=170, 1692.3225pt x 790.955pt>
+File: Images/Challenges_2.png Graphic file (type png)
+<use Images/Challenges_2.png>
+Package pdftex.def Info: Images/Challenges_2.png  used on input line 2680.
+(pdftex.def)             Requested size: 256.0748pt x 119.67606pt.
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2679--2681
+ [] 
+ []
+
+
+Overfull \hbox (13.1713pt too wide) in paragraph at lines 2679--2681
+ [] 
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2697
+
+ []
+
+[35 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Challenges_1.png> </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Challenges_2.png>]
+<Images/Security Equipment.png, id=179, 1055.945pt x 569.12625pt>
+File: Images/Security Equipment.png Graphic file (type png)
+<use Images/Security Equipment.png>
+Package pdftex.def Info: Images/Security Equipment.png  used on input line 2793.
+(pdftex.def)             Requested size: 227.62204pt x 122.68106pt.
+ [36 </Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Images/Security Equipment.png>] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_Aviation_I.aux) ) 
+Here is how much of TeX's memory you used:
+ 20019 strings out of 478994
+ 422762 string characters out of 5858183
+ 887287 words of memory out of 5000000
+ 37096 multiletter control sequences out of 15000+600000
+ 420418 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 111i,9n,116p,10709b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aviation I/Summary_Aviation_I.pdf" (36 pages, 13762041 bytes).
+PDF statistics:
+ 219 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+
