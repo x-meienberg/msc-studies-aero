@@ -2,8 +2,8 @@ PWD /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Summary_ATRATS.tex
-OUTPUT Summary_ATRATS.log
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.tex
+OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -799,10 +799,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1bch.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
-INPUT ./Summary_ATRATS.aux
-INPUT Summary_ATRATS.aux
-INPUT Summary_ATRATS.aux
-OUTPUT Summary_ATRATS.aux
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
+OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -871,17 +871,17 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT ./Images/Farmer_I.png
-INPUT ./Images/Farmer_I.png
-INPUT Images/Farmer_I.png
-INPUT ./Images/Farmer_I.png
-OUTPUT Summary_ATRATS.pdf
-INPUT ./Images/Farmer_I.png
-INPUT ./Images/Farmer_II.png
-INPUT ./Images/Farmer_II.png
-INPUT Images/Farmer_II.png
-INPUT ./Images/Farmer_II.png
-INPUT ./Images/Farmer_II.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_I.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_I.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_I.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_I.png
+OUTPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.pdf
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_I.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_II.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_II.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_II.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_II.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Farmer_II.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
@@ -894,16 +894,16 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
-INPUT ./Images/Hazard_Function.png
-INPUT ./Images/Hazard_Function.png
-INPUT Images/Hazard_Function.png
-INPUT ./Images/Hazard_Function.png
-INPUT ./Images/Hazard_Function.png
-INPUT ./Images/Exponential_Distribution.png
-INPUT ./Images/Exponential_Distribution.png
-INPUT Images/Exponential_Distribution.png
-INPUT ./Images/Exponential_Distribution.png
-INPUT ./Images/Exponential_Distribution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Hazard_Function.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Exponential_Distribution.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
@@ -912,67 +912,67 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
-INPUT ./Images/Inverse-Transform.png
-INPUT ./Images/Inverse-Transform.png
-INPUT Images/Inverse-Transform.png
-INPUT ./Images/Inverse-Transform.png
-INPUT ./Images/Inverse-Transform.png
-INPUT ./Images/Sampling_Discrete.png
-INPUT ./Images/Sampling_Discrete.png
-INPUT Images/Sampling_Discrete.png
-INPUT ./Images/Sampling_Discrete.png
-INPUT ./Images/Sampling_Discrete.png
-INPUT ./Images/RandomWalk.png
-INPUT ./Images/RandomWalk.png
-INPUT Images/RandomWalk.png
-INPUT ./Images/RandomWalk.png
-INPUT ./Images/RandomWalk.png
-INPUT ./Images/Reliability Estimation.png
-INPUT ./Images/Reliability Estimation.png
-INPUT Images/Reliability Estimation.png
-INPUT ./Images/Reliability Estimation.png
-INPUT ./Images/Reliability Estimation.png
-INPUT ./Images/Unavailability Estimation.png
-INPUT ./Images/Unavailability Estimation.png
-INPUT Images/Unavailability Estimation.png
-INPUT ./Images/Unavailability Estimation.png
-INPUT ./Images/Unavailability Estimation.png
-INPUT ./Images/TimeAndTypeOfTransition.png
-INPUT ./Images/TimeAndTypeOfTransition.png
-INPUT Images/TimeAndTypeOfTransition.png
-INPUT ./Images/TimeAndTypeOfTransition.png
-INPUT ./Images/TimeAndTypeOfTransition.png
-INPUT ./Images/SampledInterpolationNonInvertible.png
-INPUT ./Images/SampledInterpolationNonInvertible.png
-INPUT Images/SampledInterpolationNonInvertible.png
-INPUT ./Images/SampledInterpolationNonInvertible.png
-INPUT ./Images/SampledInterpolationNonInvertible.png
-INPUT ./Images/BiasedSampling.png
-INPUT ./Images/BiasedSampling.png
-INPUT Images/BiasedSampling.png
-INPUT ./Images/BiasedSampling.png
-INPUT ./Images/BiasedSampling.png
-INPUT ./Images/TransportEquationSystem.png
-INPUT ./Images/TransportEquationSystem.png
-INPUT Images/TransportEquationSystem.png
-INPUT ./Images/TransportEquationSystem.png
-INPUT ./Images/TransportEquationSystem.png
-INPUT ./Images/TransportEquationExampleConvolution.png
-INPUT ./Images/TransportEquationExampleConvolution.png
-INPUT Images/TransportEquationExampleConvolution.png
-INPUT ./Images/TransportEquationExampleConvolution.png
-INPUT ./Images/TransportEquationExampleConvolution.png
-INPUT ./Images/ConvergenceOfPsi.png
-INPUT ./Images/ConvergenceOfPsi.png
-INPUT Images/ConvergenceOfPsi.png
-INPUT ./Images/ConvergenceOfPsi.png
-INPUT ./Images/ConvergenceOfPsi.png
-INPUT ./Images/SystemAvailabilityReliability.png
-INPUT ./Images/SystemAvailabilityReliability.png
-INPUT Images/SystemAvailabilityReliability.png
-INPUT ./Images/SystemAvailabilityReliability.png
-INPUT ./Images/SystemAvailabilityReliability.png
-INPUT Summary_ATRATS.aux
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Inverse-Transform.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Inverse-Transform.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Inverse-Transform.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Inverse-Transform.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Inverse-Transform.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Sampling_Discrete.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Sampling_Discrete.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Sampling_Discrete.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Sampling_Discrete.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Sampling_Discrete.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/RandomWalk.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/RandomWalk.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/RandomWalk.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/RandomWalk.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/RandomWalk.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Reliability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Reliability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Reliability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Reliability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Reliability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Unavailability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Unavailability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Unavailability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Unavailability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/Unavailability Estimation.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TimeAndTypeOfTransition.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TimeAndTypeOfTransition.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TimeAndTypeOfTransition.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TimeAndTypeOfTransition.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TimeAndTypeOfTransition.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SampledInterpolationNonInvertible.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SampledInterpolationNonInvertible.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SampledInterpolationNonInvertible.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SampledInterpolationNonInvertible.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SampledInterpolationNonInvertible.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/BiasedSampling.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/BiasedSampling.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/BiasedSampling.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/BiasedSampling.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/BiasedSampling.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationSystem.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationSystem.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationSystem.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationSystem.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationSystem.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationExampleConvolution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationExampleConvolution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationExampleConvolution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationExampleConvolution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/TransportEquationExampleConvolution.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/ConvergenceOfPsi.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/ConvergenceOfPsi.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/ConvergenceOfPsi.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/ConvergenceOfPsi.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/ConvergenceOfPsi.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SystemAvailabilityReliability.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SystemAvailabilityReliability.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SystemAvailabilityReliability.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SystemAvailabilityReliability.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Images/SystemAvailabilityReliability.png
+INPUT /Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/ATRATS/Summary_ATRATS.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
