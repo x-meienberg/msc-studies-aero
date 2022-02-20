@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.12)  12 DEC 2021 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.27)  17 FEB 2022 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -111,14 +111,14 @@ Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
 
 
-Package scrartcl Warning: You've used obsolete option `8pt'.
+Package scrartcl Warning: You've used obsolete option `9pt'.
 (scrartcl)                Usage of this option indicates an old document
 (scrartcl)                and changes compatibility level using
-(scrartcl)                `fontsize=8pt,version=first,
+(scrartcl)                `fontsize=9pt,version=first,
 (scrartcl)                enabledeprecatedfontcommands' that may result
 (scrartcl)                in further warnings.
 (scrartcl)                If you don't want this, you should simply
-(scrartcl)                replace option `8pt' by `fontsize=8pt'.
+(scrartcl)                replace option `9pt' by `fontsize=9pt'.
 
 Class scrartcl Info: Switching compatibility level to `first'.
 
@@ -140,9 +140,9 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-Class scrartcl Info: File `size8.clo' used to setup font sizes on input line 2239.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/extsizes/size8.clo
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+Class scrartcl Info: File `size9.clo' used to setup font sizes on input line 2239.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@bcor=\skip49
@@ -159,13 +159,13 @@ Package typearea Info: You've used standard option `landscape'.
 \footheight=\skip53
 
 
-Package typearea Warning: DIV for 8.0pt and used papersize
+Package typearea Warning: DIV for 9.0pt and used papersize
 (typearea)                not defined!
 (typearea)                Using DIV=calc.
 
 DIV calculation for typearea with good linewidth.
 Package typearea Info: Maybe no optimal type area settings!
-(typearea)             The detected line width is about 24%
+(typearea)             The detected line width is about 29%
 (typearea)             smaller than the heuristically estimated maximum
 (typearea)             limit of typographical good line width.
 (typearea)             You could e.g. increase DIV
@@ -182,17 +182,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
 (typearea)              \textwidth      = 211.26173pt
-(typearea)              DIV departure   = 24%
+(typearea)              DIV departure   = 29%
 (typearea)              \evensidemargin = 244.6226pt
 (typearea)              \oddsidemargin  = 244.6226pt
 (typearea)             \paperheight     = 597.50793pt
-(typearea)              \textheight     = 150.5pt
-(typearea)              \topmargin      = 50.982pt
-(typearea)              \headheight     = 11.875pt
-(typearea)              \headsep        = 14.25pt
-(typearea)              \topskip        = 8.0pt
-(typearea)              \footskip       = 33.25pt
-(typearea)              \baselineskip   = 9.5pt
+(typearea)              \textheight     = 151.34996pt
+(typearea)              \topmargin      = 46.99452pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
 (typearea)              on input line 1741.
 )
 \c@part=\count180
@@ -824,7 +824,7 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 
 Package typearea Warning: Bad type area settings!
-(typearea)                The detected line width is about 158%
+(typearea)                The detected line width is about 128%
 (typearea)                larger than the heuristically estimated maximum
 (typearea)                limit of typographical good line width.
 (typearea)                You should e.g. decrease DIV, increase fontsize
@@ -835,17 +835,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
 (typearea)              \textwidth      = 718.28993pt
-(typearea)              DIV departure   = -158%
+(typearea)              DIV departure   = -128%
 (typearea)              \evensidemargin = -8.8915pt
 (typearea)              \oddsidemargin  = -8.8915pt
 (typearea)             \paperheight     = 597.50793pt
-(typearea)              \textheight     = 511.5pt
-(typearea)              \topmargin      = -68.51959pt
-(typearea)              \headheight     = 11.875pt
-(typearea)              \headsep        = 14.25pt
-(typearea)              \topskip        = 8.0pt
-(typearea)              \footskip       = 33.25pt
-(typearea)              \baselineskip   = 9.5pt
+(typearea)              \textheight     = 512.69986pt
+(typearea)              \topmargin      = -72.50706pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32497pt
+(typearea)              \baselineskip   = 10.95pt
 (typearea)              on input line 30.
 (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aircraft Structures/Summary_Aircraft_Stuctures.aux)
 \openout1 = `Summary_Aircraft_Stuctures.aux'.
@@ -877,18 +877,18 @@ LaTeX Font Info:    ... okay on input line 59.
 * \paperwidth=845.04694pt
 * \paperheight=597.50793pt
 * \textwidth=718.28993pt
-* \textheight=511.5pt
+* \textheight=512.69986pt
 * \oddsidemargin=-8.8915pt
 * \evensidemargin=-8.8915pt
-* \topmargin=-68.51959pt
-* \headheight=11.875pt
-* \headsep=14.25pt
-* \topskip=8.0pt
-* \footskip=33.25pt
+* \topmargin=-72.50706pt
+* \headheight=13.68748pt
+* \headsep=16.42499pt
+* \topskip=9.0pt
+* \footskip=38.32497pt
 * \marginparwidth=42.25233pt
 * \marginparsep=12.8401pt
 * \columnsep=30.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -946,15 +946,15 @@ Non-PDF special ignored!
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aircraft Structures/Summary_Aircraft_Stuctures.aux) ) 
 Here is how much of TeX's memory you used:
- 19792 strings out of 478994
- 416668 string characters out of 5858183
- 853219 words of memory out of 5000000
- 36911 multiletter control sequences out of 15000+600000
- 415762 words of font info for 59 fonts, out of 8000000 for 9000
+ 19794 strings out of 478994
+ 416685 string characters out of 5858183
+ 853274 words of memory out of 5000000
+ 36912 multiletter control sequences out of 15000+600000
+ 416067 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,7n,116p,10726b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb>
-Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aircraft Structures/Summary_Aircraft_Stuctures.pdf" (1 page, 12070 bytes).
+Output written on "/Users/xeno/Documents/GitHub/msc-studies-aero/Summaries/Aircraft Structures/Summary_Aircraft_Stuctures.pdf" (1 page, 12075 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
